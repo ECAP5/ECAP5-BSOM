@@ -12,7 +12,9 @@
   </p>
 </div>
 
-## License
+## Licenses
 
-Distributed under the GPL-3.0 license. See `LICENSE.txt` for more information.
+- Software and configuration files are distributed under the GPL-3.0 license.
+- Hardware is distributed under the CERN-OHL-S license.
 
+See licence files for more information.
