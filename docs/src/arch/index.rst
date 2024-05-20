@@ -1,6 +1,9 @@
 Architecture Document
 =====================
 
+.. image:: ../assets/overview.svg
+   :align: center
+
 .. container:: custom-title
 
    Table of Contents

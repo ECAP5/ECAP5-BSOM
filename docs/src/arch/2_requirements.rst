@@ -29,7 +29,7 @@ Multiple volatile memories are included on the board with different technologies
 
    The board shall include a 32M x 16bits 512Mb DDR2 Synchronous DRAM with reference IS43DR16320E.
 
-.. todo:: Add DDR3 is enough pins
+.. todo:: Add DDR3 if enough pins
 
 Flash
 ^^^^^
@@ -65,10 +65,7 @@ Miscellaneous
 Interfaces
 ----------
 
-- 9-20V Power
-- 1x JTAG
-- 4x 2.5Gb/s SERDES (General purpose)
-- 
+.. todo:: 4x 2.5Gb/s SERDES (General purpose)
 
 .. requirement:: F_CONNECTOR_01
 
@@ -110,7 +107,7 @@ Power
 
 .. requirement:: F_POWER_01
 
-   The board shall include DC-DC converters converting the 12V input voltage to the appropriate voltages required by the board's components.
+   The board shall include DC-DC converters converting the 9-20V input voltage to the appropriate voltages required by the board's components.
 
 Mechanical
 ----------
