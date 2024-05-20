@@ -4,14 +4,17 @@ Introduction
 Purpose
 -------
 
-
-Intended Audience and Use
--------------------------
-
+This documents aims at defining the functional requirements for ECAP5-BSOM as well as the design constraints derived from them.
 
 Product Scope
 -------------
 
+ECAP5-BSOM is a System-On-Module board which shall provide ECAP5 with a general-purpose FPGA platform with integrated memory, flash storage and high-speed interfaces.
+
+Intended Use
+-------------------------
+
+ECAP5-BSOM is targetted at ECAP5 
 
 Conventions
 -----------
@@ -40,6 +43,7 @@ This document details requirements with the following format :
 with requirement IDs having the following format :
 
   * ``F_*``: Functional requirements
+  * ``D_*``: Design requirements
 
 Definitions and Abbreviations
 -----------------------------

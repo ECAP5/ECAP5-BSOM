@@ -34,3 +34,9 @@ License
    :hidden:
 
    arch/index
+
+.. toctree::
+   :maxdepth: 5
+   :hidden:
+
+   pinout
