@@ -42,7 +42,7 @@ Flash
 
 .. requirement:: U_FLASH_02
 
-   The board shall include a 16GB eMMC flash memory with reference KLMAG1JETD-B041.
+   The board shall include a 8GB eMMC flash memory with reference THGBMJG6C1LBAIL.
 
 Miscellaneous
 ^^^^^^^^^^^^^
