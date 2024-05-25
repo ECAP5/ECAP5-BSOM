@@ -42,23 +42,28 @@ This document details requirements with the following format :
 
 with requirement IDs having the following format :
 
-  * ``F_*``: Functional requirements
+  * ``U_*``: User requirements
   * ``D_*``: Design requirements
 
 Definitions and Abbreviations
 -----------------------------
+
+.. _reftable:
 
 References
 ----------
 
 .. list-table::
   :header-rows: 1
-  :widths: 25 10 65
+  :widths: 10 20 15 55
+  :width: 100%
   
-  * - Date
+  * - Reference
+    - Date
     - Version
     - Title
 
-  * - 
-    -
-    -
+  * - DS1
+    - March 27, 2018
+    - Revision F
+    - W25Q128JV 3V 128M-Bit Serial Flash Memory with Dual/Quad SPI

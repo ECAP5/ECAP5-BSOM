@@ -13,9 +13,10 @@ if(Sphinx_FOUND)
       "${CMAKE_CURRENT_LIST_DIR}/src/index.rst"
       "${CMAKE_CURRENT_LIST_DIR}/src/arch/index.rst"
       "${CMAKE_CURRENT_LIST_DIR}/src/arch/1_introduction.rst"
-      "${CMAKE_CURRENT_LIST_DIR}/src/arch/2_requirements.rst"
-      "${CMAKE_CURRENT_LIST_DIR}/src/arch/3_overview.rst"
-      "${CMAKE_CURRENT_LIST_DIR}/src/arch/4_design.rst"
+      "${CMAKE_CURRENT_LIST_DIR}/src/arch/2_user_needs.rst"
+      "${CMAKE_CURRENT_LIST_DIR}/src/arch/3_requirements.rst"
+      "${CMAKE_CURRENT_LIST_DIR}/src/arch/4_overview.rst"
+      "${CMAKE_CURRENT_LIST_DIR}/src/arch/5_design.rst"
     )
 else()
   message(WARNING "No Sphinx found. Documentation target not available.")
