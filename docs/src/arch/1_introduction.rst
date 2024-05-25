@@ -67,3 +67,10 @@ References
     - March 27, 2018
     - Revision F
     - W25Q128JV 3V 128M-Bit Serial Flash Memory with Dual/Quad SPI
+
+  * - DS2
+    - March 27, 2018
+    - Revision F
+    - W25Q128JV 3V 128M-Bit Serial Flash Memory with Dual/Quad SPI
+
+  * - DS3

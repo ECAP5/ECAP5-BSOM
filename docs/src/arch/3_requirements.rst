@@ -115,6 +115,14 @@ Interface
 SRAM
 ----
 
+.. requirement:: D_SRAM_01
+   :rationale: This corresponds to an 5% precision arround 3.3V.
+   :derivedfrom: U_FLASH_02
+
+   The VDD supply voltage shall be within 3.135V and 3.465V with a current capacity of 50mA.
+
+.. todo:: SI shall be performed on these signals
+
 SDRAM
 -----
 

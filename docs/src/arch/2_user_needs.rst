@@ -19,11 +19,11 @@ Multiple volatile memories are included on the board with different technologies
 
 .. requirement:: U_MEMORY_01
 
-   The board shall include a 256k x 16bits Asynchronous SRAM with reference IS61WV25616BLL up to -8 speed grade.
+   The board shall include a 256k x 16bits Asynchronous SRAM with reference IS42S16160J up to -6 speed grade.
 
 .. requirement:: U_MEMORY_02
 
-   The board shall include a 8M x 32bits 256Mb Synchronous DRAM with reference IS42S32800J up to -6 speed grade.
+   The board shall include a 16M x 16bits 256Mb Synchronous DRAM with reference IS42S16160J up to -6 speed grade.
 
 .. requirement:: U_MEMORY_03
    :rationale: The -5B speed grade corresponds to DDR2-400B standard.
