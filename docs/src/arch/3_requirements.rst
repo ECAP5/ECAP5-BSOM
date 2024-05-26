@@ -110,24 +110,100 @@ Interface
 
    The following signals shall be length matched : DAT0-DAT7, CMD and CLK.
 
-.. todo:: Simulate the Signal integrity with and without the termination resistors.
-
 SRAM
 ----
 
+The following requirements are extracted from the datasheet of IS61WV25616BLL [:ref:`DS3 <reftable>`].
+
 .. requirement:: D_SRAM_01
    :rationale: This corresponds to an 5% precision arround 3.3V.
-   :derivedfrom: U_FLASH_02
+   :derivedfrom: U_MEMORY_01
 
    The VDD supply voltage shall be within 3.135V and 3.465V with a current capacity of 50mA.
 
-.. todo:: SI shall be performed on these signals
+.. requirement:: D_SRAM_02
+   :derivedfrom: U_MEMORY_01
+
+   The following pins shall not exceed VDD+0.3V : Address, Data and Control pins.
+
+.. requirement:: D_SRAM_03
+   :derivedfrom: U_MEMORY_01
+
+   The following pins shall not be lower than -0.3V : Address, Data and Control pins.
 
 SDRAM
 -----
 
+The following requirements are extracted from the datasheet of IS42S16160J [:ref:`DS4 <reftable>`].
+
+.. requirement:: D_SDRAM_01
+   :rationale: This corresponds to an 10% precision arround 3.3V.
+   :derivedfrom: U_MEMORY_02
+
+   The VDD and VCCQ supply voltage shall be within 3.0V and 3.6V with a current capacity of 140mA.
+
+.. requirement:: D_SDRAM_02
+   :derivedfrom: U_MEMORY_02
+
+   The following pins shall not exceed VDD+0.3V : Address, Data and Control pins.
+
+.. requirement:: D_SDRAM_03
+   :derivedfrom: U_MEMORY_02
+
+   The following pins shall not be lower than -0.3V : Address, Data and Control pins.
+
 DDR2
 ----
+
+The following requirements are extracted from the datasheet of IS43DR16320E [:ref:`DS5 <reftable>`].
+
+.. requirement:: D_DDR2_01
+   :rationale: This corresponds to an 5% precision arround 1.8V.
+   :derivedfrom: U_MEMORY_02
+
+   The VDD, VDDL and VDDQ supply voltages shall be within 1.7V and 1.9V with a current capacity of .
+
+.. requirement:: D_DDR2_02
+   :derivedfrom: U_MEMORY_02
+
+   The VDD voltage ramp time shall not be greater than 200ms from when VDD ramps from 300mV to VDD min.
+
+.. requirement:: D_DDR2_03
+   :derivedfrom: U_MEMORY_02
+
+   During the VDD voltage ramp, VDD and VDDQ shall not be futher apart than 300mV.
+
+.. requirement:: D_DDR2_04
+   :rationale: This corresponds to an 2% precision arround 0.5*VDDQ.
+   :derivedfrom: U_MEMORY_02
+
+   The VREF voltage shall be within 0.882V and 0.918V.
+
+.. requirement:: D_DDR2_05
+   :derivedfrom: U_MEMORY_02
+
+   Peak to peak AC noise on VREF shall not exceed ±2% of VREF(dc).
+
+.. requirement:: D_DDR2_06
+   :rationale: VTT of the transmitting device must track VREF of the receiving device.
+   :derivedfrom: U_MEMORY_02
+
+   The VTT voltage shall be within VREF - 0.04 and VREF + 0.04.
+
+.. requirement:: D_DDR2_07
+   :derivedfrom: U_MEMORY_02
+
+   The peak amplitude for the overshoot and undershoot area of the following pins shall be lower than 0.5V : Address, Control, Clock, Data, Strobe and Mask.
+
+.. requirement:: D_DDR2_08
+   :derivedfrom: U_MEMORY_02
+
+   The amplitude area above VDD and below VSS of the following pins shall be lower than 1.33 V-ns : Address and Control.
+
+.. requirement:: D_DDR2_09
+   :derivedfrom: U_MEMORY_02
+
+   The amplitude area above VDD and below VSS of the following pins shall be lower than 0.38 V-ns : Clock, Data, Strobe and Mask.
 
 FPGA
 ----

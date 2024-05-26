@@ -19,7 +19,7 @@ Multiple volatile memories are included on the board with different technologies
 
 .. requirement:: U_MEMORY_01
 
-   The board shall include a 256k x 16bits Asynchronous SRAM with reference IS42S16160J up to -6 speed grade.
+   The board shall include a 256k x 16bits Asynchronous SRAM with reference IS61WV25616BLL up to -6 speed grade.
 
 .. requirement:: U_MEMORY_02
 

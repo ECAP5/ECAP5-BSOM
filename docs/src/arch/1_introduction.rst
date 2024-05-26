@@ -69,8 +69,21 @@ References
     - W25Q128JV 3V 128M-Bit Serial Flash Memory with Dual/Quad SPI
 
   * - DS2
-    - March 27, 2018
-    - Revision F
-    - W25Q128JV 3V 128M-Bit Serial Flash Memory with Dual/Quad SPI
+    - October 1, 2019
+    - Revision 2.0
+    - THGBMJG6C1LBAIL e-MMC Module
 
   * - DS3
+    - July 20, 2022
+    - Revision H2
+    - IS61WV25616BLL 256K x 16 High Speed Asynchronous CMOS Static RAM 
+
+  * - DS4
+    - September 16, 2020
+    - Revision C4
+    - IS42S16160J 16Meg x16 256Mb Synchronous DRAM
+
+  * - DS5
+    - December 11, 2017
+    - Revision B
+    - IS43DR16320E 32Mx16 DDR2 DRAM
