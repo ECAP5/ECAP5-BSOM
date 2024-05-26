@@ -1,6 +1,9 @@
 Design
 ======
 
+Pinout
+------
+
 Power
 -----
 

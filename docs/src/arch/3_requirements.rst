@@ -1,6 +1,112 @@
 Requirements
 ============
 
+FPGA
+----
+
+.. todo:: Add current capacities for FPGA supply voltages
+
+Supply Voltages
+^^^^^^^^^^^^^^^
+
+.. requirement:: D_FPGA_01
+   :rationale: This corresponds to a 5% precision around 1.1V.
+   :derivedfrom: U_FPGA_01
+
+   The VCC supply voltage shall be within 1.045V and 1.155V.
+
+
+.. requirement:: D_FPGA_02
+   :rationale: This corresponds to a 5% precision around 2.5V.
+   :derivedfrom: U_FPGA_01
+
+   The VCCAUX supply voltage shall be within 2.375V and 2.625V.
+
+.. requirement:: D_FPGA_02
+   :derivedfrom: U_FPGA_01
+
+   The VCCAUX supply voltage ramp shall not exceed 30mV/us during power-up.
+
+.. todo:: IO Supply voltages are defined when pinout complete
+
+.. requirement:: D_FPGA_01
+   :derivedfrom: U_FPGA_01
+
+   VCCIO[1:7] supply voltages shall be between 1.14V and 3.465V.
+
+.. note:: VCCIO[1:7] supply voltages are defined in the design section based on the FPGA pinout.
+
+.. todo:: Junction temperature
+
+.. requirement:: D_FPGA_03
+   :derivedfrom: U_FPGA_01
+
+   The VCCA SerDes supply voltage shall be within 1.045V and 1.155V. A linear regulator shall be used to generate this supply voltage to provide a quiet and isolated supply.
+
+.. requirement:: D_FPGA_03
+   :derivedfrom: U_FPGA_01
+
+   The VCCAUXA SerDes supply voltage shall be within 2.374V and 2.625V. This supply shall be generated independantly from VCCAUX.
+
+.. requirement:: D_FPGA_03
+   :derivedfrom: U_FPGA_01
+
+   The VCCHTX SerDes supply voltage shall be within 1.045V and 1.155V.
+
+.. todo:: Analyze the SerDes datasheet for details on the supply voltages
+
+.. requirement:: D_FPGA_01
+   :derivedfrom: U_FPGA_01
+
+   Power supply ramp rate for all supplies shall not exceed 10V/ms.
+
+.. requirement:: D_FPGA_01
+   :derivedfrom: U_FPGA_01
+
+   The following power-up sequence of supply voltages shall be implemented : VCCIO*, VCCAUX, VCC.
+
+.. note:: The current requirement for the FPGA supply voltages is not defined in the FPGA datasheet. A power estimation is performed in the design section to provide upper current bounds.
+
+.. todo:: Add SerDes supply voltages to the power-up sequence
+
+Configuration
+^^^^^^^^^^^^^
+
+As the FPGA sysCONFIG configuration is MSPI, only requirements targetting this configuration method are outlined.
+
+.. requirement:: D_FPGA_01
+   :derivedfrom: U_FPGA_01
+
+   4.7kohms pull-up resistors shall be placed between the following signals and VCCIO8: TDI, TMS, TDO.
+
+.. requirement:: D_FPGA_01
+   :derivedfrom: U_FPGA_01
+
+   A 4.7kohms pull-down resistor shall be placed between TCK and GND.
+
+.. requirement:: D_FPGA_01
+   :derivedfrom: U_FPGA_01
+
+   4.7kohms pull-up resistors shall be placed between the following signals and VCCIO8: PROGRAMN and INITN.
+
+.. requirement:: D_FPGA_01
+   :derivedfrom: U_FPGA_01
+
+   A 10kohms pull-up resistor shall be placed between CSSPIN and VCCIO8.
+
+.. requirement:: D_FPGA_01
+   :derivedfrom: U_FPGA_01
+
+   A 1kohms pull-up resistor shall be placed between MCLK and VCCIO8.
+
+.. requirement:: D_FPGA_01
+   :derivedfrom: U_FPGA_01
+
+   10kohms pull-up resistors shall be placed between CFG[2:0] and VCCIO8 when the configuration bit shall be 1. CFG[2:0] shall be directly connected to GND otherwise.
+
+SerDes
+^^^^^^
+
 Flash
 -----
 
@@ -36,8 +142,8 @@ eMMC
 
 The following requirements are extracted from the datasheet of THGBMJG6C1LBAIL [:ref:`DS2 <reftable>`].
 
-Supply
-^^^^^^
+Supply Voltages
+^^^^^^^^^^^^^^^
 
 .. requirement:: D_EMMC_01
    :rationale: This corresponds to an 8% precision arround 1.8V.
@@ -205,5 +311,3 @@ The following requirements are extracted from the datasheet of IS43DR16320E [:re
 
    The amplitude area above VDD and below VSS of the following pins shall be lower than 0.38 V-ns : Clock, Data, Strobe and Mask.
 
-FPGA
-----
