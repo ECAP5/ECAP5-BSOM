@@ -7,6 +7,12 @@ Pinout
 Power
 -----
 
+FPGA Power Estimation
+^^^^^^^^^^^^^^^^^^^^^
+
+Point-Of-Load Supply
+^^^^^^^^^^^^^^^^^^^^
+
 The following table outlines the voltage requirements of the specified components :
 
 .. flat-table:: Component Supply Voltage Requirements
