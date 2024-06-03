@@ -8,7 +8,7 @@ if(Sphinx_FOUND)
       "${CMAKE_CURRENT_LIST_DIR}/src/_ext/requirement.py"
       "${CMAKE_CURRENT_LIST_DIR}/src/_static/css/custom.css"
       "${CMAKE_CURRENT_LIST_DIR}/src/assets/logo.svg"
-      "${CMAKE_CURRENT_LIST_DIR}/src/assets/io-pinout.csv"
+      "${CMAKE_CURRENT_LIST_DIR}/src/assets/flash-pinout.csv"
       "${CMAKE_CURRENT_LIST_DIR}/src/assets/overview.svg"
       "${CMAKE_CURRENT_LIST_DIR}/src/index.rst"
       "${CMAKE_CURRENT_LIST_DIR}/src/arch/index.rst"

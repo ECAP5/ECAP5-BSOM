@@ -4,6 +4,14 @@ Design
 Pinout
 ------
 
+The following table outlines the FPGA interface signals and their pinout constraints :
+
+.. csv-table:: Flash interface signals
+   :header-rows: 1
+   :width: 100%
+   :file: ../assets/flash-pinout.csv
+   :delim: ;
+
 Power
 -----
 
