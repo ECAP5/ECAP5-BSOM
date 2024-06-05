@@ -103,13 +103,13 @@ Interfaces
    * - JTAG_TMS
      - I
      - JTAG test mode select input
-   * - SE[0-131]
+   * - SE[0-130]
      - I/O
      - Single-Ended general purpose input/output
-   * - RS[0-65][P/N]
+   * - RS[0-64][P/N]
      - I
      - General purpose input differencial pair
-   * - RTS[0-65][P/N]
+   * - RTS[0-64][P/N]
      - I/O
      - General purpose input/output differencial pair
    * - HSRX_D[0-1]C[0-1][P/N]
@@ -118,7 +118,7 @@ Interfaces
    * - HSTX_D[0-1]C[0-1][P/N]
      - O
      - High-Speed SerDes output differencial pair
-   * - HS_REFCLK[P/N]
+   * - HS_REFCLK[0-1][P/N]
      - I
      - High-Speed SerDes reference clock differencial pair
    * - RESET_I
