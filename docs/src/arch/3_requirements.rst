@@ -68,8 +68,6 @@ Operating Conditions
 
 .. note:: The current requirement for the FPGA supply voltages is not defined in the FPGA datasheet. A power estimation is performed in the design section to provide upper current bounds.
 
-.. todo:: Add SerDes supply voltages to the power-up sequence
-
 .. requirement:: D_FPGA_12
    :derivedfrom: U_FPGA_01
 
@@ -147,6 +145,33 @@ This requirement implies that the FPGA must not start its configuration before 2
    The time between VCC reaching 2.0V and the first write instruction shall be at least 5ms.
 
 This requirement is only provided as information as write operations are only performed by the board designer while the board is already up and running.
+
+Oscillator
+----------
+
+The following requirements are extracted from the datasheet of XLH335030.000000I [:ref:`DS6 <reftable>`].
+
+Supply Voltage
+^^^^^^^^^^^^^^
+
+.. requirement:: D_OSC_01
+   :rationale: This corresponds to an 5% precision arround 3.3V.
+   :derivedfrom: U_OSC_01
+
+   The VDD supply voltage shall be within 3.135V and 3.465V with a current capacity of 35mA.
+
+.. requirement:: D_OSC_02
+   :derivedfrom: U_OSC_01
+
+   A 0.01uF bypass capacitor shall be placed between VDD and GND.
+
+Enable
+^^^^^^
+
+.. requirement:: D_OSC_03
+   :derivedfrom: U_OSC_01
+
+   The E/D pin shall be pulled high to VDD with a 10kohms resistor.
 
 eMMC
 ----

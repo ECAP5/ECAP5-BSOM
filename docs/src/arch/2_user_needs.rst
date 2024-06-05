@@ -12,6 +12,13 @@ FPGA
 
    The board shall include a Lattice ECP5 FPGA with reference LFE5UM-85F-*BG756C.
 
+Clock
+^^^^^
+
+.. requirement:: U_OSC_01
+
+   A 30 MHz reference oscillator shall be connected to one of the FPGA's global clock inputs, with reference XLH335030.000000I.
+
 Memory
 ^^^^^^
 
@@ -42,7 +49,7 @@ Flash
 
 .. requirement:: U_FLASH_02
 
-   The board shall include a 8GB eMMC flash memory with reference THGBMJG6C1LBAIL.
+   The board shall include a 8GB eMMC flash memory with reference THGBMJG6C1LBAIL with High Speed DDR and HS200 support.
 
 Miscellaneous
 ^^^^^^^^^^^^^
@@ -72,11 +79,9 @@ Interfaces
 
    The board shall expose its various interfaces using a DDR4 SO-DIMM 260pin edge-card connector with the mapping specified in the following table.
 
-.. csv-table:: SO-DIMM IO Connector Pinout
-  :header-rows: 1
-  :file: ../assets/io-pinout.csv
-  :delim: ;
-  :width: 100%
+.. image:: ../assets/io-pinout.svg
+   :align: center
+   :width: 50%
 
 .. list-table:: SO-DIMM IO Connector Signal Description
    :header-rows: 1
@@ -98,10 +103,33 @@ Interfaces
    * - JTAG_TMS
      - I
      - JTAG test mode select input
-
+   * - SE[0-131]
+     - I/O
+     - Single-Ended general purpose input/output
+   * - RS[0-65][P/N]
+     - I
+     - General purpose input differencial pair
+   * - RTS[0-65][P/N]
+     - I/O
+     - General purpose input/output differencial pair
+   * - HSRX_D[0-1]C[0-1][P/N]
+     - I
+     - High-Speed SerDes input differencial pair
+   * - HSTX_D[0-1]C[0-1][P/N]
+     - O
+     - High-Speed SerDes output differencial pair
+   * - HS_REFCLK[P/N]
+     - I
+     - High-Speed SerDes reference clock differencial pair
+   * - RESET_I
+     - I
+     - Reset input
    * - VIN9_20
      - 
      - Main power input 9~20V
+   * - GND
+     - 
+     - 
 
 Power
 -----

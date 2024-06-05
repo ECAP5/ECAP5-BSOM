@@ -87,3 +87,8 @@ References
     - December 11, 2017
     - Revision B
     - IS43DR16320E 32Mx16 DDR2 DRAM
+
+  * - DS6
+    - January 19, 2021
+    - N/A
+    - XL Family of Low Phase Noise Quartz-based PLL Oscillators

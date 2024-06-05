@@ -1,7 +1,7 @@
-Signal Name;I/O;Alternate function;Voltage Standards;Differential Pair;DDR;Other Constraints
-CLK;I;;LVCMOS33;;;
-CS;I;;LVCMOS33;;;
-DI(IO0);I/O;Yes;LVCMOS33;;;
-DO(IO1);I/O;Yes;LVCMOS33;;;
-WP(IO2);I/O;Yes;LVCMOS33;;;
-/HOLD/RESET(IO3);I/O;Yes;LVCMOS33;;;
+Signal Name;I/O;Alternate function;Voltage Standards;Differential Pair;DQS Group;Prefered FPGA pin
+CLK;O;;LVCMOS33;;;MCLK/CCLK
+CS;O;;LVCMOS33;;;CSSPIN
+DI(IO0);I/O;Yes;LVCMOS33;;;MOSI/IO0
+DO(IO1);I/O;Yes;LVCMOS33;;;MISO/IO1
+WP(IO2);I/O;Yes;LVCMOS33;;;IO2
+/HOLD/RESET(IO3);I/O;Yes;LVCMOS33;;;IO3

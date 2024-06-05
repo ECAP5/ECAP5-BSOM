@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-05-25T13:27:20.209Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="VygaIMUp1gNxQ8kjStMb" version="24.4.0" type="device">
+<mxfile host="Electron" modified="2024-06-05T15:18:29.750Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.13 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="Dc4OV9aVXqCWR1WChrMu" version="24.4.13" type="device">
   <diagram name="Page-1" id="21LJ0gZ5e5K4S2NHIoU-">
-    <mxGraphModel dx="234" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="486" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,10 +48,10 @@
           <mxGeometry x="200" y="440" width="420" height="40" as="geometry" />
         </mxCell>
         <mxCell id="02pqybeWiWPThvZksubF-6" value="&lt;b&gt;Power&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="290" width="80" height="60" as="geometry" />
+          <mxGeometry x="530" y="350" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="02pqybeWiWPThvZksubF-7" value="&lt;b&gt;Flash&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;caret-color: rgb(64, 64, 64); color: rgb(64, 64, 64); font-family: Lato, proxima-nova, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; text-align: start; background-color: rgb(252, 252, 252);&quot;&gt;&lt;i style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;W25Q128JVPIM&lt;/font&gt;&lt;/i&gt;&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="200" width="90" height="60" as="geometry" />
+          <mxGeometry x="530" y="170" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="02pqybeWiWPThvZksubF-8" value="&lt;b&gt;SRAM&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;caret-color: rgb(64, 64, 64); color: rgb(64, 64, 64); font-family: Lato, proxima-nova, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; text-align: start; background-color: rgb(252, 252, 252);&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;i&gt;IS61WV25616BLL&lt;/i&gt;&lt;/font&gt;&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="180" width="97" height="60" as="geometry" />
@@ -89,6 +89,12 @@
           <mxGeometry x="500" y="120" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="02pqybeWiWPThvZksubF-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.908;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;endSize=4;startSize=4;" parent="1" source="02pqybeWiWPThvZksubF-24" target="02pqybeWiWPThvZksubF-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22N01wnhzNHEkFDxU2PA-1" value="&lt;b&gt;Oscillator&lt;/b&gt;&lt;div&gt;&lt;i style=&quot;background-color: initial; font-size: 8px;&quot;&gt;&lt;span style=&quot;background-color: rgb(252, 252, 252); color: rgb(64, 64, 64); font-family: Lato, proxima-nova, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; text-align: start; caret-color: rgb(64, 64, 64);&quot;&gt;XLH335030.000000I&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="270" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="22N01wnhzNHEkFDxU2PA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.011;entryY=0.583;entryDx=0;entryDy=0;entryPerimeter=0;endSize=4;startSize=4;" edge="1" parent="1" source="22N01wnhzNHEkFDxU2PA-1" target="02pqybeWiWPThvZksubF-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
