@@ -136,7 +136,7 @@ Power
 
 .. requirement:: U_POWER_01
 
-   The board shall include DC-DC converters converting the 9-20V input voltage to the appropriate voltages required by the board's components.
+   The board shall include DC-DC converters converting the 9-15V input voltage to the appropriate voltages required by the board's components.
 
 Mechanical
 ----------

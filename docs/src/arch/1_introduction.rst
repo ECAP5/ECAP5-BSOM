@@ -92,3 +92,8 @@ References
     - January 19, 2021
     - N/A
     - XL Family of Low Phase Noise Quartz-based PLL Oscillators
+
+  * - AN1
+    - May, 2023
+    - 1.4
+    - FPGA-TN-02210 Power Consumption and Management for ECP5 and ECP5-5G Devices
