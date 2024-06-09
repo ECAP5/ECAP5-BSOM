@@ -73,8 +73,6 @@ Miscellaneous
 Interfaces
 ----------
 
-.. todo:: 4x 2.5Gb/s SERDES (General purpose)
-
 .. requirement:: U_CONNECTOR_01
 
    The board shall expose its various interfaces using a DDR4 SO-DIMM 260pin edge-card connector with the mapping specified in the following table.

@@ -216,3 +216,17 @@ The following diagram outlines the Point-Of-Load architecture of the board :
    :align: center
 
 .. note:: The 9-15V input shall support up to 10W of power.
+
+.. flat-table:: DC-DC converters
+   :header-rows: 1
+   :width: 100%
+
+   * - Component
+     - Vin
+     - Vout
+     - Current capacity
+  
+   * - TPS564247
+     - 3-16V
+     - 0.6-7V
+     - 4A
