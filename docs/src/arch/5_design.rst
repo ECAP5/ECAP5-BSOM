@@ -226,7 +226,15 @@ The following diagram outlines the Point-Of-Load architecture of the board :
      - Vout
      - Current capacity
   
-   * - TPS564247
-     - 3-16V
-     - 0.6-7V
+   * - ST1S41PUR
+     - 4-18V
+     - 0.8-18V
      - 4A
+   * - L6981NDR
+     - 3.5-38V
+     - 0.85V-38V
+     - 1.5A
+   * - TLV73311PQDRVRQ1
+     - 1.4-5.5V
+     - 1.1V
+     - 300mA
