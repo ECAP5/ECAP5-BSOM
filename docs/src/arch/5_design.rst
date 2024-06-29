@@ -355,6 +355,47 @@ Component Selection
 1.1V SerDes
 ```````````
 
+.. flat-table:: Characteristics Requirements
+   :stub-columns: 1
+   :width: 100%
+
+   * - IC
+     - TLV73311PQDRVRQ1
+   * - Topology
+     - LDO Post-Regulation
+   * - Input Voltage
+     - 3.3V
+   * - Output Voltage
+     - 1.1V ±1%
+
+.. image:: ../assets/ldo-1V1.svg
+   :width: 90%
+   :align: center
+
+.. flat-table:: Component Selection
+   :header-rows: 1
+   :width: 100%
+  
+   * - Type
+     - Ref
+     - Value
+     - Description
+
+   * - IC
+     - 
+     - TLV73311PQDRVRQ1
+     - 
+   
+   * - Capacitor
+     - Cin
+     - 1uF
+     - 
+
+   * - Capacitor
+     - Cout
+     - 1uF
+     - 
+
 2.5V
 ````
 
@@ -386,7 +427,7 @@ Component Selection
 
    * - IC
      - 
-     - LN6981NDR
+     - L6981NDR
      - L6981NDR - SO 8 - STMicroelectronics
    
    * - Capacitor
@@ -481,5 +522,245 @@ Component Selection
 3.3V
 ````
 
+.. flat-table:: Characteristics Requirements
+   :stub-columns: 1
+   :width: 100%
+
+   * - IC
+     - L6981NDR
+   * - Topology
+     - Buck
+   * - Input Voltage
+     - 9-15V
+   * - Output Voltage
+     - 3.3V (2% ripple) - 1A max
+
+.. image:: ../assets/buck-3V3.png
+   :width: 90%
+   :align: center
+
+.. flat-table:: Component Selection
+   :header-rows: 1
+   :width: 100%
+  
+   * - Type
+     - Ref
+     - Value
+     - Description
+
+   * - IC
+     - 
+     - L6981NDR
+     - L6981NDR - SO 8 - STMicroelectronics
+   
+   * - Capacitor
+     - Cin
+     - 10uF
+     - 25 V - 10% - muRata - GRM31CR61E106KA12L
+
+   * - Capacitor
+     - Cout
+     - 47uF
+     - 6.3 V - 20% - AVX - 12106D476MAT2A
+
+   * - Inductor
+     - L
+     - 27uH
+     - 8.9 A - Coilcraft - SER2211-273MED
+
+   * - Resistor
+     - Rh
+     - 237kOhms
+     - 1% tolerance
+
+   * - Resistor
+     - Rl
+     - 82kOhms
+     - 1% tolerance
+
+   * - Capacitor
+     - Cvcc
+     - 1uF
+     - 
+
+   * - Capacitor
+     - Cru
+     - 18pF
+     - 
+
+   * - Capacitor
+     - Cboot
+     - 100nF
+     - 
+
+   * - Capacitor
+     - CinA
+     - 1uF
+     - 
+
+.. flat-table:: Simulation Results
+   :header-rows: 1
+   :stub-columns: 1
+   :width: 100%
+
+   * - 
+     - Value
+     - Constraint
+  
+   * - Vout
+     - 3.31V
+     - ±1% 
+   * - Ripple
+     - 5mv - 0.15%
+     - <2%
+   * - IL ripple
+     - 243mA - 24.3% of 1A
+     - <300mA
+   * - Fws
+     - 400kHz
+     - 
+   * - Ton
+     - 569.08ns
+     - >= 85ns
+   * - Vin ripple
+     - 0.82%
+     - 
+   * - Bandwidth
+     - 47.24kHz
+     - 
+   * - Phase Margin
+     - 54.8°
+     - >= 45°
+   * - IC Tj
+     - 40.9°C
+     - < 150°C
+   * - ΔTj
+     - 15.9°C
+     - 
+
+.. image:: ../assets/buck-3V3-eff.png
+   :width: 90%
+   :align: center
+
 1.8V
 ````
+
+.. flat-table:: Characteristics Requirements
+   :stub-columns: 1
+   :width: 100%
+
+   * - IC
+     - L6981NDR
+   * - Topology
+     - Buck
+   * - Input Voltage
+     - 9-15V
+   * - Output Voltage
+     - 1.8V (2% ripple) - 1A max
+
+.. image:: ../assets/buck-1V8.png
+   :width: 90%
+   :align: center
+
+.. flat-table:: Component Selection
+   :header-rows: 1
+   :width: 100%
+  
+   * - Type
+     - Ref
+     - Value
+     - Description
+
+   * - IC
+     - 
+     - L6981NDR
+     - L6981NDR - SO 8 - STMicroelectronics
+   
+   * - Capacitor
+     - Cin
+     - 10uF
+     - 25 V - 10% - muRata - GRM31CR61E106KA12L
+
+   * - Capacitor
+     - Cout
+     - 100uF
+     - 6.3 V - 20% - muRata - GRM32ER60J107ME20L
+
+   * - Inductor
+     - L
+     - 22uH
+     - 9.5 A - Würth Elektronik - 74436412200
+
+   * - Resistor
+     - Rh
+     - 91kOhms
+     - 1% tolerance
+
+   * - Resistor
+     - Rl
+     - 82kOhms
+     - 1% tolerance
+
+   * - Capacitor
+     - Cvcc
+     - 1uF
+     - 
+
+   * - Capacitor
+     - Cru
+     - 62pF
+     - 
+
+   * - Capacitor
+     - Cboot
+     - 100nF
+     - 
+
+   * - Capacitor
+     - CinA
+     - 1uF
+     - 
+
+.. flat-table:: Simulation Results
+   :header-rows: 1
+   :stub-columns: 1
+   :width: 100%
+
+   * - 
+     - Value
+     - Constraint
+  
+   * - Vout
+     - 1.79V
+     - ±1% 
+   * - Ripple
+     - 2mv - 0.09%
+     - <2%
+   * - IL ripple
+     - 187mA - 18.67% of 1A
+     - <300mA
+   * - Fws
+     - 400kHz
+     - 
+   * - Ton
+     - 314.74ns
+     - >= 85ns
+   * - Vin ripple
+     - 0.54%
+     - 
+   * - Bandwidth
+     - 36.17kHz
+     - 
+   * - Phase Margin
+     - 53.58°
+     - >= 45°
+   * - IC Tj
+     - 40.4°C
+     - < 150°C
+   * - ΔTj
+     - 15.4°C
+     - 
+
+.. image:: ../assets/buck-3V3-eff.png
+   :width: 90%
+   :align: center
