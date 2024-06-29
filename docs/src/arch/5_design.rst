@@ -226,7 +226,7 @@ The following diagram outlines the Point-Of-Load architecture of the board :
      - Vout
      - Current capacity
   
-   * - ST1S41PUR
+   * - ST1S41PHR
      - 4-18V
      - 0.8-18V
      - 4A
@@ -289,7 +289,7 @@ Component Selection
    * - Inductor
      - L
      - 2.2uH
-     - 6.8 A - Würth Elektronik - 7440660022
+     - 10.1 A - Panasonic - ETQP3M2R2KVP
 
    * - Resistor
      - Rh
@@ -319,19 +319,19 @@ Component Selection
      - 1.1V
      - ±1% 
    * - Ripple
-     - 10mv - 0.94%
+     - 11mv - 0.96%
      - <2%
    * - IL ripple
-     - 680mA - 17.01% of 4A
+     - 702mA - 17.54% of 4A
      - <1.2A
    * - Fws
      - 850kHz
      - 
    * - Ton
-     - 111.57ns
+     - 115.47ns
      - >= 90ns
    * - Vin ripple
-     - 0.97%
+     - 1.01%
      - 
    * - Bandwidth
      - 118.98kHz
@@ -340,10 +340,10 @@ Component Selection
      - 60.96°
      - >= 45°
    * - IC Tj
-     - 113.6°C
+     - 113.7°C
      - < 125°C
    * - ΔTj
-     - 88.6°C
+     - 88.7°C
      - 
 
 .. image:: ../assets/buck-1V1-eff.png
@@ -437,13 +437,13 @@ Component Selection
 
    * - Capacitor
      - Cout
-     - 68uF
-     - 6.3 V - 20% - TDK - C3225X5R0J686M
+     - 100uF
+     - 6.3 V - 20% - muRata - GRM32ER60J107ME20L
 
    * - Inductor
      - L
-     - 24uH
-     - 3.25 A - Würth Elektronik - 7447798241
+     - 22uH
+     - 8.8 A - Panasonic - ETQP5M220YFC
 
    * - Resistor
      - Rh
@@ -491,22 +491,22 @@ Component Selection
      - 2mv - 0.07%
      - <2%
    * - IL ripple
-     - 225mA - 22.49% of 1A
+     - 246mA - 24.61% of 1A
      - <300mA
    * - Fws
      - 400kHz
      - 
    * - Ton
-     - 438.46ns
+     - 440.13ns
      - >= 85ns
    * - Vin ripple
      - 0.69%
      - 
    * - Bandwidth
-     - 40.96kHz
+     - 34.6kHz
      - 
    * - Phase Margin
-     - 54.48°
+     - 63.47°
      - >= 45°
    * - IC Tj
      - 40.6°C
@@ -566,7 +566,7 @@ Component Selection
    * - Inductor
      - L
      - 27uH
-     - 8.9 A - Coilcraft - SER2211-273MED
+     - 3.8 A - Würth Elektronik - 744770127
 
    * - Resistor
      - Rh
@@ -614,22 +614,22 @@ Component Selection
      - 5mv - 0.15%
      - <2%
    * - IL ripple
-     - 243mA - 24.3% of 1A
+     - 244mA - 24.45% of 1A
      - <300mA
    * - Fws
      - 400kHz
      - 
    * - Ton
-     - 569.08ns
+     - 573.80ns
      - >= 85ns
    * - Vin ripple
-     - 0.82%
+     - 0.83%
      - 
    * - Bandwidth
-     - 47.24kHz
+     - 47.31kHz
      - 
    * - Phase Margin
-     - 54.8°
+     - 54.84°
      - >= 45°
    * - IC Tj
      - 40.9°C
@@ -689,7 +689,7 @@ Component Selection
    * - Inductor
      - L
      - 22uH
-     - 9.5 A - Würth Elektronik - 74436412200
+     - 8.8 A - Panasonic - ETQP5M220YFC
 
    * - Resistor
      - Rh
@@ -737,22 +737,22 @@ Component Selection
      - 2mv - 0.09%
      - <2%
    * - IL ripple
-     - 187mA - 18.67% of 1A
+     - 190mA - 19.04% of 1A
      - <300mA
    * - Fws
      - 400kHz
      - 
    * - Ton
-     - 314.74ns
+     - 322.05ns
      - >= 85ns
    * - Vin ripple
-     - 0.54%
+     - 0.55%
      - 
    * - Bandwidth
-     - 36.17kHz
+     - 36.23kHz
      - 
    * - Phase Margin
-     - 53.58°
+     - 53.66°
      - >= 45°
    * - IC Tj
      - 40.4°C
