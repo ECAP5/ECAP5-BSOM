@@ -25,6 +25,8 @@ if(Sphinx_FOUND)
       "${CMAKE_CURRENT_LIST_DIR}/src/assets/pol.svg"
       "${CMAKE_CURRENT_LIST_DIR}/src/assets/buck-1V1.png"
       "${CMAKE_CURRENT_LIST_DIR}/src/assets/buck-1V1-eff.png"
+      "${CMAKE_CURRENT_LIST_DIR}/src/assets/buck-2V5.png"
+      "${CMAKE_CURRENT_LIST_DIR}/src/assets/buck-2V5-eff.png"
       "${CMAKE_CURRENT_LIST_DIR}/src/index.rst"
       "${CMAKE_CURRENT_LIST_DIR}/src/arch/index.rst"
       "${CMAKE_CURRENT_LIST_DIR}/src/arch/1_introduction.rst"

@@ -358,6 +358,126 @@ Component Selection
 2.5V
 ````
 
+.. flat-table:: Characteristics Requirements
+   :stub-columns: 1
+   :width: 100%
+
+   * - IC
+     - L6981NDR
+   * - Topology
+     - Buck
+   * - Input Voltage
+     - 9-15V
+   * - Output Voltage
+     - 2.5V (2% ripple) - 1A max
+
+.. image:: ../assets/buck-2V5.png
+   :width: 90%
+   :align: center
+
+.. flat-table:: Component Selection
+   :header-rows: 1
+   :width: 100%
+  
+   * - Type
+     - Ref
+     - Value
+     - Description
+
+   * - IC
+     - 
+     - LN6981NDR
+     - L6981NDR - SO 8 - STMicroelectronics
+   
+   * - Capacitor
+     - Cin
+     - 10uF
+     - 25 V - 10% - muRata - GRM31CR61E106KA12L
+
+   * - Capacitor
+     - Cout
+     - 68uF
+     - 6.3 V - 20% - TDK - C3225X5R0J686M
+
+   * - Inductor
+     - L
+     - 24uH
+     - 3.25 A - Würth Elektronik - 7447798241
+
+   * - Resistor
+     - Rh
+     - 160kOhms
+     - 1% tolerance
+
+   * - Resistor
+     - Rl
+     - 82.5kOhms
+     - 1% tolerance
+
+   * - Capacitor
+     - Cvcc
+     - 1uF
+     - 
+
+   * - Capacitor
+     - Cru
+     - 30pF
+     - 
+
+   * - Capacitor
+     - Cboot
+     - 100nF
+     - 
+
+   * - Capacitor
+     - CinA
+     - 1uF
+     - 
+
+.. flat-table:: Simulation Results
+   :header-rows: 1
+   :stub-columns: 1
+   :width: 100%
+
+   * - 
+     - Value
+     - Constraint
+  
+   * - Vout
+     - 2.5V
+     - ±1% 
+   * - Ripple
+     - 2mv - 0.07%
+     - <2%
+   * - IL ripple
+     - 225mA - 22.49% of 1A
+     - <300mA
+   * - Fws
+     - 400kHz
+     - 
+   * - Ton
+     - 438.46ns
+     - >= 85ns
+   * - Vin ripple
+     - 0.69%
+     - 
+   * - Bandwidth
+     - 40.96kHz
+     - 
+   * - Phase Margin
+     - 54.48°
+     - >= 45°
+   * - IC Tj
+     - 40.6°C
+     - < 150°C
+   * - ΔTj
+     - 15.6°C
+     - 
+
+.. image:: ../assets/buck-2V5-eff.png
+   :width: 90%
+   :align: center
+
 3.3V
 ````
 
