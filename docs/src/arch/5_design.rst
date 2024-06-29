@@ -101,8 +101,8 @@ In order to perform a rough FPGA power estimation, the following assumptions wer
 
 |
 
-Point-Of-Load Supply
-^^^^^^^^^^^^^^^^^^^^
+Part Selection
+^^^^^^^^^^^^^^
 
 The following table outlines the voltage requirements of the specified components :
 
@@ -238,3 +238,128 @@ The following diagram outlines the Point-Of-Load architecture of the board :
      - 1.4-5.5V
      - 1.1V
      - 300mA
+
+Component Selection
+^^^^^^^^^^^^^^^^^^^
+
+1.1V Core
+`````````
+
+.. flat-table:: Characteristics Requirements
+   :stub-columns: 1
+   :width: 100%
+
+   * - IC
+     - ST1S41PHR
+   * - Topology
+     - Buck
+   * - Input Voltage
+     - 9-15V
+   * - Output Voltage
+     - 1.1V (2% ripple) - 4A max
+
+.. image:: ../assets/buck-1V1.png
+   :width: 90%
+   :align: center
+
+.. flat-table:: Component Selection
+   :header-rows: 1
+   :width: 100%
+  
+   * - Type
+     - Ref
+     - Value
+     - Description
+
+   * - IC
+     - 
+     - ST1S41PHR
+     - ST1S41PHR - Power SO 8 - STMicroelectronics
+   
+   * - Capacitor
+     - Cin
+     - 10uF
+     - 25 V - 10% - muRata - GRM31CR61E106KA12L
+
+   * - Capacitor
+     - Cout
+     - 47uF
+     - 6.3 V - 20% - AVX - 12106D476MAT2A
+
+   * - Inductor
+     - L
+     - 2.2uH
+     - 6.8 A - Würth Elektronik - 7440660022
+
+   * - Resistor
+     - Rh
+     - 8.2kOhms
+     - 1% tolerance
+
+   * - Resistor
+     - Rl
+     - 22kOhms
+     - 1% tolerance
+
+   * - Capacitor
+     - Cin_A
+     - 1uF
+     - 
+
+.. flat-table:: Simulation Results
+   :header-rows: 1
+   :stub-columns: 1
+   :width: 100%
+
+   * - 
+     - Value
+     - Constraint
+  
+   * - Vout
+     - 1.1V
+     - ±1% 
+   * - Ripple
+     - 10mv - 0.94%
+     - <2%
+   * - IL ripple
+     - 680mA - 17.01% of 4A
+     - <1.2A
+   * - Fws
+     - 850kHz
+     - 
+   * - Ton
+     - 111.57ns
+     - >= 90ns
+   * - Vin ripple
+     - 0.97%
+     - 
+   * - Bandwidth
+     - 118.98kHz
+     - < 141.68kHz
+   * - Phase Margin
+     - 60.96°
+     - >= 45°
+   * - IC Tj
+     - 113.6°C
+     - < 125°C
+   * - ΔTj
+     - 88.6°C
+     - 
+
+.. image:: ../assets/buck-1V1-eff.png
+   :width: 90%
+   :align: center
+
+.. note:: The converter's efficiency is rather low at the operating limit of 15Vin - 4A but is acceptable in most behaviors. Proper power dissipation shall be put in place to handle the 2.5W of dissipated power at the operating limit.
+
+1.1V SerDes
+```````````
+
+2.5V
+````
+
+3.3V
+````
+
+1.8V
+````
