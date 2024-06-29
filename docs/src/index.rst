@@ -28,3 +28,9 @@ License
 
     You should have received a copy of the GNU General Public License
     along with ECAP5-BSOM.  If not, see <http://www.gnu.org/licenses/>.
+
+.. toctree:: 
+   :maxdepth: 5
+   :hidden:
+
+   arch/index
