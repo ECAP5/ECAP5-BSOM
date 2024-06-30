@@ -236,7 +236,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "ECAP5-BSOM"
+    ]
   },
   "meta": {
     "filename": "ecap5-bsom.kicad_pro",
@@ -386,6 +388,10 @@
     [
       "c5fd18a3-9aa0-4151-b6e0-94da3d606686",
       "Root"
+    ],
+    [
+      "75c84b0f-c428-4bdf-a9d0-2de4281daa69",
+      "Power"
     ]
   ],
   "text_variables": {
