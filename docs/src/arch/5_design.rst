@@ -766,3 +766,8 @@ Component Selection
 .. image:: ../assets/buck-3V3-eff.png
    :width: 90%
    :align: center
+
+Power Sequencing
+^^^^^^^^^^^^^^^^
+
+Sequencer IC : ADM1085AKSZ
