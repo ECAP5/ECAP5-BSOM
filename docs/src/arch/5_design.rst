@@ -69,6 +69,8 @@ In order to perform a rough FPGA power estimation, the following assumptions wer
 - SDRAM Address/DQ IOs
 - DDR2 Address/DQ IOs
 
+.. note:: The initial package used for the power estimation is the 756-pin BGA. The device is however unavailable so the 554-pin package is used instead. The power estimation is still valid as the difference will provide a power supply margin.
+
 .. note:: I/O utilization isn't precisely modelled as the IO power consumption is low. Margins will be taken to prevent any supply issues.
 
 .. image:: ../assets/power-logic.png
@@ -116,7 +118,7 @@ The following table outlines the voltage requirements of the specified component
      - Max Current
      - Description
    
-   * - :rspan:`7` LFE5UM-85F-*BG756C
+   * - :rspan:`7` LFE5UM-85F-*BG554C
      - VCC
      - 1.1V ±5%
      - 3A
@@ -154,10 +156,10 @@ The following table outlines the voltage requirements of the specified component
      - 3.3V ±5%
      - 50mA
      - Supply Voltage
-   * - :rspan:`1` IS42S32800J
+   * - :rspan:`1` IS42S16160J
      - VDD
      - 3.3V ±10%
-     - 190mA
+     - 140mA
      - Supply Voltage
    * - VDDQ
      - 3.3V ±10%
@@ -181,14 +183,14 @@ The following table outlines the voltage requirements of the specified component
      - 3.3V ±10%
      - 25mA
      - Supply Voltage
-   * - :rspan:`1` KLMAG1JETD-B041
+   * - :rspan:`1` THGBMJG6C1LBAIL
      - VDD
      - 1.8V ±8%
-     - 180mA
+     - 220mA
      - Controller Supply Voltage
    * - VDDF
      - 3.3V ±10%
-     - 50mA
+     - 140mA
      - Memory Supply Voltage
 
 The following table outlines the supply voltage requirement per voltage :

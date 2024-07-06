@@ -8,16 +8,16 @@ FPGA
 ^^^^
 
 .. requirement:: U_FPGA_01
-   :rationale: 85k LUTs with 2.5Gb/s transceivers with 365 I/Os. The speed grade of the part is not specified.
+   :rationale: 85k LUTs with 2.5Gb/s transceivers with 259 I/Os. The speed grade of the part is not specified.
 
-   The board shall include a Lattice ECP5 FPGA with reference LFE5UM-85F-*BG756C.
+   The board shall include a Lattice ECP5 FPGA with reference LFE5UM-85F-*BG554C.
 
 Clock
 ^^^^^
 
 .. requirement:: U_OSC_01
 
-   A 30 MHz reference oscillator shall be connected to one of the FPGA's global clock inputs, with reference XLH335030.000000I.
+   A 24 MHz reference oscillator shall be connected to one of the FPGA's global clock inputs, with reference ASDM1-24.000MHZ-LC-T .
 
 Memory
 ^^^^^^

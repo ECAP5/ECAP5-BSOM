@@ -149,16 +149,15 @@ This requirement is only provided as information as write operations are only pe
 Oscillator
 ----------
 
-The following requirements are extracted from the datasheet of XLH335030.000000I [:ref:`DS6 <reftable>`].
+The following requirements are extracted from the datasheet of ASDM1-24.000MHZ-LC-T [:ref:`DS6 <reftable>`].
 
 Supply Voltage
 ^^^^^^^^^^^^^^
 
 .. requirement:: D_OSC_01
-   :rationale: This corresponds to an 5% precision arround 3.3V.
    :derivedfrom: U_OSC_01
 
-   The VDD supply voltage shall be within 3.135V and 3.465V with a current capacity of 35mA.
+   The VDD supply voltage shall be within 3.0V and 3.6V with a current capacity of 15mA.
 
 .. requirement:: D_OSC_02
    :derivedfrom: U_OSC_01
@@ -171,7 +170,7 @@ Enable
 .. requirement:: D_OSC_03
    :derivedfrom: U_OSC_01
 
-   The E/D pin shall be pulled high to VDD with a 10kohms resistor.
+   The STANDBY pin shall be pulled high to VDD with a 10kohms resistor.
 
 eMMC
 ----
