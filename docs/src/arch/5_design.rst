@@ -58,44 +58,18 @@ FPGA Power Estimation
 
 In order to perform a rough FPGA power estimation, the following assumptions were taken :
 
+- LFE5U-85F-8BG756C reference
 - 200MHz internal frequency
 - 25% Activity Factor (as stated in :ref:`AN1 <reftable>`)
 - 70% logic utilization
 - 100% BRAM utilization
-- 4 RX/TX SerDes channels at 3.125Gbps with TXPLL enabled
 - 64 LVDS input differential pairs
 - eMMC IOs
 - SRAM Address/Data IOs
 - SDRAM Address/DQ IOs
 - DDR2 Address/DQ IOs
 
-.. note:: The initial package used for the power estimation is the 756-pin BGA. The device is however unavailable so the 554-pin package is used instead. The power estimation is still valid as the difference will provide a power supply margin.
-
 .. note:: I/O utilization isn't precisely modelled as the IO power consumption is low. Margins will be taken to prevent any supply issues.
-
-.. image:: ../assets/power-logic.png
-   :width: 100%
-   :align: center
-
-|
-
-.. image:: ../assets/power-bram.png
-   :width: 100%
-   :align: center
-
-|
-
-.. image:: ../assets/power-io.png
-   :width: 100%
-   :align: center
-
-|
-
-.. image:: ../assets/power-serdes.png
-   :width: 100%
-   :align: center
-
-|
 
 .. image:: ../assets/power-summary.png
    :width: 100%
@@ -118,15 +92,11 @@ The following table outlines the voltage requirements of the specified component
      - Max Current
      - Description
    
-   * - :rspan:`7` LFE5UM-85F-*BG554C
+   * - :rspan:`3` LFE5U-85F-*BG756C
      - VCC
      - 1.1V ±5%
      - 3A
      - Core Supply Voltage
-   * - VCCA
-     - 1.1V ±5%
-     - 300mA
-     - Analog Supply Voltage
    * - VCCAUX
      - 2.5V ±5%
      - 200mA
@@ -139,18 +109,6 @@ The following table outlines the voltage requirements of the specified component
      - 3.3V ±10%
      - 100mA
      - sysIO bank Supply Voltage
-   * - VCCHRX
-     - 1.1V ±5%
-     - 50mA
-     - SerDes RX Termination
-   * - VCCHTX
-     - 1.1V ±5%
-     - 10mA
-     - SerDes TX Termination
-   * - VCCAUXA
-     - 2.5V ±5%
-     - 20mA
-     - SerDes Auxilary Supply Voltage
    * - IS61W25616BLL
      - VDD
      - 3.3V ±5%
@@ -210,36 +168,6 @@ The following table outlines the supply voltage requirement per voltage :
      - 1A
    * - 1.8V ±5%
      - 500mA
-
-The following diagram outlines the Point-Of-Load architecture of the board :
-
-.. image:: ../assets/pol.svg
-   :width: 45%
-   :align: center
-
-.. note:: The 9-15V input shall support up to 10W of power.
-
-.. flat-table:: DC-DC converters
-   :header-rows: 1
-   :width: 100%
-
-   * - Component
-     - Vin
-     - Vout
-     - Current capacity
-  
-   * - ST1S41PHR
-     - 4-18V
-     - 0.8-18V
-     - 4A
-   * - L6981NDR
-     - 3.5-38V
-     - 0.85V-38V
-     - 1.5A
-   * - TLV73311PQDRVRQ1
-     - 1.4-5.5V
-     - 1.1V
-     - 300mA
 
 Component Selection
 ^^^^^^^^^^^^^^^^^^^
@@ -353,50 +281,6 @@ Component Selection
    :align: center
 
 .. note:: The converter's efficiency is rather low at the operating limit of 15Vin - 4A but is acceptable in most behaviors. Proper power dissipation shall be put in place to handle the 2.5W of dissipated power at the operating limit.
-
-1.1V SerDes
-```````````
-
-.. flat-table:: Characteristics Requirements
-   :stub-columns: 1
-   :width: 100%
-
-   * - IC
-     - TLV73311PQDRVRQ1
-   * - Topology
-     - LDO Post-Regulation
-   * - Input Voltage
-     - 3.3V
-   * - Output Voltage
-     - 1.1V ±1%
-
-.. image:: ../assets/ldo-1V1.svg
-   :width: 90%
-   :align: center
-
-.. flat-table:: Component Selection
-   :header-rows: 1
-   :width: 100%
-  
-   * - Type
-     - Ref
-     - Value
-     - Description
-
-   * - IC
-     - 
-     - TLV73311PQDRVRQ1
-     - 
-   
-   * - Capacitor
-     - Cin
-     - 1uF
-     - 
-
-   * - Capacitor
-     - Cout
-     - 1uF
-     - 
 
 2.5V
 ````

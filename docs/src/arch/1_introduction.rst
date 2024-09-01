@@ -48,6 +48,8 @@ with requirement IDs having the following format :
 Definitions and Abbreviations
 -----------------------------
 
+.. todo:: Update the ref table
+
 .. _reftable:
 
 References

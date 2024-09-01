@@ -36,26 +36,6 @@ Operating Conditions
 
 .. note:: Specific VCCIO[0:8] supply voltages are defined in the design section based on the FPGA pinout.
 
-.. requirement:: D_FPGA_06
-   :derivedfrom: U_FPGA_01
-
-   The VCCA SerDes supply voltage shall be within 1.045V and 1.155V. A linear regulator shall be used to generate this supply voltage to provide a quiet and isolated supply.
-
-.. requirement:: D_FPGA_07
-   :derivedfrom: U_FPGA_01
-
-   The VCCAUXA SerDes supply voltage shall be within 2.374V and 2.625V. This supply can be tied to VCCAUX.
-
-.. requirement:: D_FPGA_08
-   :derivedfrom: U_FPGA_01
-
-   The VCCHTX SerDes supply voltage shall be within 1.045V and 1.155V. This supply shall be tied to the linear regulator output of VCCA through a filtering circuit.
-
-.. requirement:: D_FPGA_09
-   :derivedfrom: U_FPGA_01
-
-   The VCCHRX SerDes supply voltage shall be within 1.045V and 1.155V. This supply shall be tied to the linear regulator output of VCCA through a filtering circuit.
-
 .. requirement:: D_FPGA_10
    :derivedfrom: U_FPGA_01
 
@@ -64,7 +44,7 @@ Operating Conditions
 .. requirement:: D_FPGA_11
    :derivedfrom: U_FPGA_01
 
-   The following power-up sequence of supply voltages shall be implemented : VCCIO*, VCC/VCCA/VCCH*, VCCAUX/VCCAUXA.
+   The following power-up sequence of supply voltages shall be implemented : VCCIO*, VCC, VCCAUX.
 
 .. note:: The current requirement for the FPGA supply voltages is not defined in the FPGA datasheet. A power estimation is performed in the design section to provide upper current bounds.
 
@@ -108,14 +88,6 @@ As the FPGA sysCONFIG configuration is MSPI, only requirements targetting this c
 
    10kohms pull-up resistors shall be placed between CFG[2:0] and VCCIO8 when the configuration bit shall be 1. CFG[2:0] shall be directly connected to GND otherwise.
 
-SerDes
-^^^^^^
-
-.. requirement:: D_FPGA_19
-   :derivedfrom: U_FPGA_01
-
-   SerDes signals shall be impedance matched to 50ohms.
-
 Flash
 -----
 
@@ -149,7 +121,7 @@ This requirement is only provided as information as write operations are only pe
 Oscillator
 ----------
 
-The following requirements are extracted from the datasheet of ASDM1-24.000MHZ-LC-T [:ref:`DS6 <reftable>`].
+The following requirements are extracted from the datasheet of XLH736030.000000I [:ref:`DS6 <reftable>`].
 
 Supply Voltage
 ^^^^^^^^^^^^^^
@@ -157,25 +129,17 @@ Supply Voltage
 .. requirement:: D_OSC_01
    :derivedfrom: U_OSC_01
 
-   The VDD supply voltage shall be within 3.0V and 3.6V with a current capacity of 15mA.
+   The VDD supply voltage shall be within 3.135V and 3.465V with a current capacity of 35mA.
 
 .. requirement:: D_OSC_02
    :derivedfrom: U_OSC_01
 
    A 0.01uF bypass capacitor shall be placed between VDD and GND.
 
-Enable
-^^^^^^
-
-.. requirement:: D_OSC_03
-   :derivedfrom: U_OSC_01
-
-   The STANDBY pin shall be pulled high to VDD with a 10kohms resistor.
-
 eMMC
 ----
 
-The following requirements are extracted from the datasheet of THGBMJG6C1LBAIL [:ref:`DS2 <reftable>`].
+The following requirements are extracted from the datasheet of THGBMUG6C1LBAIL [:ref:`DS2 <reftable>`].
 
 Supply Voltages
 ^^^^^^^^^^^^^^^

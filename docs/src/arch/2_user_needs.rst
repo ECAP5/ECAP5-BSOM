@@ -8,16 +8,17 @@ FPGA
 ^^^^
 
 .. requirement:: U_FPGA_01
-   :rationale: 85k LUTs with 2.5Gb/s transceivers with 259 I/Os. The speed grade of the part is not specified.
+   :rationale: 85k LUTs with 365 I/Os. The speed grade of the part is not specified.
 
-   The board shall include a Lattice ECP5 FPGA with reference LFE5UM-85F-*BG554C.
+   The board shall include a Lattice ECP5 FPGA with reference LFE5U-85F-*BG756C.
 
 Clock
 ^^^^^
 
 .. requirement:: U_OSC_01
+   :rationale: 30MHz LVCMOS, Enable/Disable on pin 1, 7.0x5.0mm package, 3.3VDC±5% supply, ±25ppm precision, -40 to +85°C temperature range.
 
-   A 24 MHz reference oscillator shall be connected to one of the FPGA's global clock inputs, with reference ASDM1-24.000MHZ-LC-T .
+   A 30 MHz reference oscillator shall be connected to one of the FPGA's global clock inputs, with reference XLH736030.000000I.
 
 Memory
 ^^^^^^
@@ -49,7 +50,7 @@ Flash
 
 .. requirement:: U_FLASH_02
 
-   The board shall include a 8GB eMMC flash memory with reference THGBMJG6C1LBAIL with High Speed DDR and HS200 support.
+   The board shall include a 8GB eMMC flash memory with reference THGBMUG6C1LBAIL with High Speed DDR and HS200 support.
 
 Miscellaneous
 ^^^^^^^^^^^^^
@@ -110,24 +111,20 @@ Interfaces
    * - RTS[0-64][P/N]
      - I/O
      - General purpose input/output differencial pair
-   * - HSRX_D[0-1]C[0-1][P/N]
-     - I
-     - High-Speed SerDes input differencial pair
-   * - HSTX_D[0-1]C[0-1][P/N]
-     - O
-     - High-Speed SerDes output differencial pair
-   * - HS_REFCLK[0-1][P/N]
-     - I
-     - High-Speed SerDes reference clock differencial pair
    * - RESET_I
      - I
      - Reset input
    * - VIN9_20
      - 
      - Main power input 9~20V
+   * - unused
+     - 
+     - 
    * - GND
      - 
      - 
+
+.. note:: Unused pins are left unconnected but reserved on the connector for future use.
 
 Power
 -----
