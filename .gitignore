@@ -20,7 +20,9 @@ src/_autosave-*
 src/*.tmp
 src/*-save.pro
 src/*-save.kicad_pcb
+src/#auto_saved_files#
 src/fp-info-cache
+src/*.lck
 
 # Netlist files (exported from Eeschema)
 src/*.net

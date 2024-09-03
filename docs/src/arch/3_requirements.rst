@@ -44,7 +44,7 @@ Operating Conditions
 .. requirement:: D_FPGA_11
    :derivedfrom: U_FPGA_01
 
-   The following power-up sequence of supply voltages shall be implemented : VCCIO*, VCC, VCCAUX.
+   The following power-up sequence of supply voltages shall be implemented : VCCIO*, VCCAUX, VCC.
 
 .. note:: The current requirement for the FPGA supply voltages is not defined in the FPGA datasheet. A power estimation is performed in the design section to provide upper current bounds.
 

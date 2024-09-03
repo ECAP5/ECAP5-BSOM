@@ -1,7 +1,7 @@
 Design
 ======
 
-Pinout
+FPGA Pinout
 ------
 
 The following table outlines the FPGA interface signals and their pinout constraints.
@@ -654,4 +654,69 @@ Component Selection
 Power Sequencing
 ^^^^^^^^^^^^^^^^
 
-Sequencer IC : ADM1085AKSZ
+Timing requirements
+```````````````````
+
+.. flat-table:: Power-up timings
+   :header-rows: 1
+   :stub-columns: 2
+   :width: 100%
+
+   * - IC
+     - Voltage
+     - Max ramp rate
+     - Max start time
+   * - ST1S41PHR
+     - 1.1V
+     - 1.1mV/us
+     - 1ms
+   * - L6981NDR
+     - 1.8V
+     - 1.8mV/us
+     - 1.6ms
+   * - L6981NDR
+     - 2.5V
+     - 2.5mV/us
+     - 1.6ms
+   * - L6981NDR
+     - 3.3V
+     - 3.3mV/us
+     - 1.6ms
+
+Sequence
+````````
+
+The power supply sequencing is performed with at least a 2ms delay.
+
+.. flat-table:: Power sequencer IC
+   :stub-columns: 1
+   :width: 100%
+
+   * - IC
+     - LM3880
+   * - Sequence Number
+     - 1 (1-2-3 / 3-2-1)
+   * - Timing Designator
+     - AA (10ms)
+   * - Ordering reference
+     - LM3880MF*-1AA
+
+The power sequencing IC is powered by the generated 3.3V as shown in the following diagram :
+
+.. image:: ../assets/power-sequencing.svg
+   :width: 70%
+   :align: center
+
+|
+
+The following formula is used to compute the value of :math:`C_{\text{en}}` which applies a delay to the start of the sequence:
+
+.. math::
+
+   t_{\text{enable_delay}} = \frac{1.25V * C_{\text{en}}}{7 \mu A}
+
+:math:`t_{\text{enable_delay}}` must greater than the start time of the 3.3V regulation (ie. 1.6ms), therefore :
+
+.. math::
+
+  C_{\text{en}} = 56nF \implies t_{\text{enable_delay}} = 10ms
