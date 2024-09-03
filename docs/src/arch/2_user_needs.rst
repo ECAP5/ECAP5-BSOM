@@ -105,10 +105,10 @@ Interfaces
    * - SE[0-130]
      - I/O
      - Single-Ended general purpose input/output
-   * - RS[0-64][P/N]
+   * - RD[0-64][P/N]
      - I
      - General purpose input differencial pair
-   * - RTS[0-64][P/N]
+   * - RTD[0-64][P/N]
      - I/O
      - General purpose input/output differencial pair
    * - RESET_I
