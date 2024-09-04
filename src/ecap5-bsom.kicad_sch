@@ -14,7 +14,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 203.2 53.34)
+		(at 226.06 27.94)
 		(size 35.56 26.67)
 		(fields_autoplaced yes)
 		(stroke
@@ -24,9 +24,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "18f7336f-a690-48df-b715-4238d1ad6e95")
-		(property "Sheetname" "IO connector"
-			(at 203.2 52.6284 0)
+		(uuid "08c61aea-7b27-4464-b8b1-f0f4accab9b3")
+		(property "Sheetname" "IO connector 2"
+			(at 226.06 27.2284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,8 +34,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "io-connector.kicad_sch"
-			(at 203.2 80.5946 0)
+		(property "Sheetfile" "io-connector-2.kicad_sch"
+			(at 226.06 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46,7 +46,45 @@
 		(instances
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
-					(page "3")
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 182.88 27.94)
+		(size 35.56 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "18f7336f-a690-48df-b715-4238d1ad6e95")
+		(property "Sheetname" "IO connector 1"
+			(at 182.88 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io-connector-1.kicad_sch"
+			(at 182.88 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
+					(page "4")
 				)
 			)
 		)
@@ -85,6 +123,82 @@
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 63.5)
+		(size 35.56 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "85646519-859a-4d8b-a298-a9b20ae53a70")
+		(property "Sheetname" "FPGA Config"
+			(at 33.02 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga-config.kicad_sch"
+			(at 33.02 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 27.94)
+		(size 35.56 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "93025bf8-f1b9-4669-843e-f0f0cbaf67cc")
+		(property "Sheetname" "FPGA Power"
+			(at 33.02 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga-power.kicad_sch"
+			(at 33.02 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
+					(page "3")
 				)
 			)
 		)
