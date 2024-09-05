@@ -5051,7 +5051,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 0)
+			(at 1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5059,7 +5059,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 0)
+			(at 1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5077,7 +5077,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10726,7 +10726,7 @@
 		)
 		(symbol "LFE5U-85F-*BG756*_2_0"
 			(pin power_in line
-				(at 26.67 5.08 270)
+				(at 30.48 5.08 270)
 				(length 2.54)
 				(name "VCCIO0[4]"
 					(effects
@@ -10744,7 +10744,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -2.54 0)
+				(at -3.81 -63.5 0)
 				(length 2.54)
 				(name "PT31B"
 					(effects
@@ -10762,7 +10762,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -15.24 180)
+				(at 35.56 -12.7 180)
 				(length 2.54)
 				(name "PT38B"
 					(effects
@@ -10780,7 +10780,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -71.12 0)
+				(at 35.56 -22.86 180)
 				(length 2.54)
 				(name "PT42B"
 					(effects
@@ -10798,7 +10798,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -60.96 180)
+				(at 35.56 -38.1 180)
 				(length 2.54)
 				(name "PT49B"
 					(effects
@@ -10816,7 +10816,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -45.72 180)
+				(at 35.56 -48.26 180)
 				(length 2.54)
 				(name "PT54B"
 					(effects
@@ -10834,7 +10834,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -76.2 0)
+				(at 35.56 -63.5 180)
 				(length 2.54)
 				(name "PT60B/GR_PCLK0_0"
 					(effects
@@ -10852,7 +10852,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -33.02 180)
+				(at 35.56 -66.04 180)
 				(length 2.54)
 				(name "PT63A/PCLKT0_1"
 					(effects
@@ -10870,7 +10870,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -66.04 0)
+				(at -3.81 -5.08 0)
 				(length 2.54)
 				(name "PT6A"
 					(effects
@@ -10888,7 +10888,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -60.96 0)
+				(at -3.81 -7.62 0)
 				(length 2.54)
 				(name "PT6B"
 					(effects
@@ -10906,7 +10906,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -58.42 0)
+				(at -3.81 -10.16 0)
 				(length 2.54)
 				(name "PT9A"
 					(effects
@@ -10924,7 +10924,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -53.34 0)
+				(at -3.81 -12.7 0)
 				(length 2.54)
 				(name "PT9B"
 					(effects
@@ -10942,7 +10942,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -55.88 180)
+				(at -3.81 -22.86 0)
 				(length 2.54)
 				(name "PT13B"
 					(effects
@@ -10960,7 +10960,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -43.18 180)
+				(at -3.81 -38.1 0)
 				(length 2.54)
 				(name "PT20B"
 					(effects
@@ -10978,7 +10978,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -20.32 0)
+				(at -3.81 -48.26 0)
 				(length 2.54)
 				(name "PT24B"
 					(effects
@@ -10996,7 +10996,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -7.62 0)
+				(at -3.81 -60.96 0)
 				(length 2.54)
 				(name "PT31A"
 					(effects
@@ -11014,7 +11014,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -20.32 180)
+				(at 35.56 -10.16 180)
 				(length 2.54)
 				(name "PT38A"
 					(effects
@@ -11032,7 +11032,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -66.04 180)
+				(at 35.56 -35.56 180)
 				(length 2.54)
 				(name "PT49A"
 					(effects
@@ -11050,7 +11050,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -38.1 180)
+				(at 35.56 -60.96 180)
 				(length 2.54)
 				(name "PT60A/GR_PCLK0_1"
 					(effects
@@ -11068,7 +11068,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -27.94 180)
+				(at 35.56 -68.58 180)
 				(length 2.54)
 				(name "PT63B/PCLKC0_1"
 					(effects
@@ -11086,7 +11086,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -68.58 0)
+				(at -3.81 0 0)
 				(length 2.54)
 				(name "PT4A/ULC_GPLL1T_IN"
 					(effects
@@ -11104,7 +11104,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -63.5 0)
+				(at -3.81 -2.54 0)
 				(length 2.54)
 				(name "PT4B/ULC_GPLL1C_IN"
 					(effects
@@ -11122,7 +11122,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -48.26 0)
+				(at -3.81 -20.32 0)
 				(length 2.54)
 				(name "PT13A"
 					(effects
@@ -11140,7 +11140,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -48.26 180)
+				(at -3.81 -35.56 0)
 				(length 2.54)
 				(name "PT20A"
 					(effects
@@ -11158,7 +11158,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -25.4 180)
+				(at -3.81 -58.42 0)
 				(length 2.54)
 				(name "PT29B"
 					(effects
@@ -11176,7 +11176,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -17.78 180)
+				(at -3.81 -73.66 0)
 				(length 2.54)
 				(name "PT36B"
 					(effects
@@ -11194,7 +11194,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -10.16 180)
+				(at 35.56 -20.32 180)
 				(length 2.54)
 				(name "PT42A"
 					(effects
@@ -11212,7 +11212,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -68.58 180)
+				(at 35.56 -33.02 180)
 				(length 2.54)
 				(name "PT47B"
 					(effects
@@ -11230,25 +11230,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -43.18 0)
-				(length 2.54)
-				(name "PT51B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 31.75 -50.8 180)
+				(at 35.56 -45.72 180)
 				(length 2.54)
 				(name "PT54A"
 					(effects
@@ -11266,7 +11248,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -35.56 180)
+				(at 35.56 -58.42 180)
 				(length 2.54)
 				(name "PT58B"
 					(effects
@@ -11284,7 +11266,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -30.48 180)
+				(at 35.56 -71.12 180)
 				(length 2.54)
 				(name "PT65A/PCLKT0_0"
 					(effects
@@ -11302,7 +11284,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -63.5 180)
+				(at -3.81 -17.78 0)
 				(length 2.54)
 				(name "PT11B"
 					(effects
@@ -11320,7 +11302,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -33.02 0)
+				(at -3.81 -33.02 0)
 				(length 2.54)
 				(name "PT18B"
 					(effects
@@ -11338,7 +11320,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -25.4 0)
+				(at -3.81 -45.72 0)
 				(length 2.54)
 				(name "PT24A"
 					(effects
@@ -11356,7 +11338,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -15.24 0)
+				(at -3.81 -55.88 0)
 				(length 2.54)
 				(name "PT29A"
 					(effects
@@ -11374,7 +11356,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -22.86 180)
+				(at -3.81 -71.12 0)
 				(length 2.54)
 				(name "PT36A"
 					(effects
@@ -11392,7 +11374,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -73.66 0)
+				(at 35.56 -17.78 180)
 				(length 2.54)
 				(name "PT40B"
 					(effects
@@ -11410,7 +11392,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -73.66 180)
+				(at 35.56 -30.48 180)
 				(length 2.54)
 				(name "PT47A"
 					(effects
@@ -11428,7 +11410,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -58.42 180)
+				(at 35.56 -43.18 180)
 				(length 2.54)
 				(name "PT51B"
 					(effects
@@ -11446,7 +11428,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -40.64 180)
+				(at 35.56 -55.88 180)
 				(length 2.54)
 				(name "PT58A"
 					(effects
@@ -11464,7 +11446,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -10.16 0)
+				(at 35.56 -73.66 180)
 				(length 2.54)
 				(name "PT65B/PCLKC0_0"
 					(effects
@@ -11482,7 +11464,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -55.88 0)
+				(at -3.81 -15.24 0)
 				(length 2.54)
 				(name "PT11A"
 					(effects
@@ -11500,7 +11482,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -38.1 0)
+				(at -3.81 -30.48 0)
 				(length 2.54)
 				(name "PT18A"
 					(effects
@@ -11518,7 +11500,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -22.86 0)
+				(at -3.81 -43.18 0)
 				(length 2.54)
 				(name "PT22B"
 					(effects
@@ -11536,7 +11518,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -12.7 0)
+				(at -3.81 -53.34 0)
 				(length 2.54)
 				(name "PT27B"
 					(effects
@@ -11554,7 +11536,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 0 0)
+				(at -3.81 -68.58 0)
 				(length 2.54)
 				(name "PT33B"
 					(effects
@@ -11572,7 +11554,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -71.12 180)
+				(at 35.56 -27.94 180)
 				(length 2.54)
 				(name "PT45B"
 					(effects
@@ -11590,7 +11572,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -30.48 0)
+				(at 35.56 -53.34 180)
 				(length 2.54)
 				(name "PT56B"
 					(effects
@@ -11608,7 +11590,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -53.34 180)
+				(at -3.81 -27.94 0)
 				(length 2.54)
 				(name "PT15B"
 					(effects
@@ -11626,7 +11608,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -17.78 0)
+				(at -3.81 -50.8 0)
 				(length 2.54)
 				(name "PT27A"
 					(effects
@@ -11644,7 +11626,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -5.08 0)
+				(at -3.81 -66.04 0)
 				(length 2.54)
 				(name "PT33A"
 					(effects
@@ -11662,7 +11644,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -12.7 180)
+				(at 35.56 -15.24 180)
 				(length 2.54)
 				(name "PT40A"
 					(effects
@@ -11680,7 +11662,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -76.2 180)
+				(at 35.56 -25.4 180)
 				(length 2.54)
 				(name "PT45A"
 					(effects
@@ -11698,7 +11680,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -50.8 0)
+				(at 35.56 -40.64 180)
 				(length 2.54)
 				(name "PT51A"
 					(effects
@@ -11716,7 +11698,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -40.64 0)
+				(at 35.56 -50.8 180)
 				(length 2.54)
 				(name "PT56A"
 					(effects
@@ -11734,25 +11716,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -35.56 0)
-				(length 2.54)
-				(name "PT56A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "F16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -5.08 -45.72 0)
+				(at -3.81 -25.4 0)
 				(length 2.54)
 				(name "PT15A"
 					(effects
@@ -11770,7 +11734,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -27.94 0)
+				(at -3.81 -40.64 0)
 				(length 2.54)
 				(name "PT22A"
 					(effects
@@ -11788,7 +11752,7 @@
 				)
 			)
 			(pin power_in line
-				(at 26.67 5.08 270)
+				(at 30.48 5.08 270)
 				(length 2.54) hide
 				(name "VCCIO0"
 					(effects
@@ -11806,7 +11770,7 @@
 				)
 			)
 			(pin power_in line
-				(at 26.67 5.08 270)
+				(at 30.48 5.08 270)
 				(length 2.54) hide
 				(name "VCCIO0"
 					(effects
@@ -11824,7 +11788,7 @@
 				)
 			)
 			(pin power_in line
-				(at 26.67 5.08 270)
+				(at 30.48 5.08 270)
 				(length 2.54) hide
 				(name "VCCIO0"
 					(effects
@@ -11842,7 +11806,7 @@
 				)
 			)
 			(pin power_in line
-				(at 26.67 5.08 270)
+				(at 30.48 5.08 270)
 				(length 2.54) hide
 				(name "VCCIO0"
 					(effects
@@ -11862,8 +11826,8 @@
 		)
 		(symbol "LFE5U-85F-*BG756*_2_1"
 			(rectangle
-				(start -2.54 2.54)
-				(end 29.21 -78.74)
+				(start -1.27 2.54)
+				(end 33.02 -76.2)
 				(stroke
 					(width 0)
 					(type default)
@@ -11875,9 +11839,9 @@
 		)
 		(symbol "LFE5U-85F-*BG756*_3_0"
 			(pin power_in line
-				(at 50.8 16.51 180)
+				(at 30.48 5.08 270)
 				(length 2.54)
-				(name "VCCIO1"
+				(name "VCCIO1[4]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11893,7 +11857,871 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 16.51 180)
+				(at -3.81 -5.08 0)
+				(length 2.54)
+				(name "PT71A/PCLKT1_0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -15.24 0)
+				(length 2.54)
+				(name "PT76A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -30.48 0)
+				(length 2.54)
+				(name "PT83A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -40.64 0)
+				(length 2.54)
+				(name "PT87A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -55.88 0)
+				(length 2.54)
+				(name "PT94A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -71.12 0)
+				(length 2.54)
+				(name "PT101A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -35.56 180)
+				(length 2.54)
+				(name "PT105A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -50.8 180)
+				(length 2.54)
+				(name "PT112A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -60.96 180)
+				(length 2.54)
+				(name "PT116A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -63.5 180)
+				(length 2.54)
+				(name "PT116B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -66.04 180)
+				(length 2.54)
+				(name "PT119A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -68.58 180)
+				(length 2.54)
+				(name "PT119B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -17.78 0)
+				(length 2.54)
+				(name "PT76B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -43.18 0)
+				(length 2.54)
+				(name "PT87B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -58.42 0)
+				(length 2.54)
+				(name "PT94B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -38.1 180)
+				(length 2.54)
+				(name "PT105B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -53.34 180)
+				(length 2.54)
+				(name "PT112B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -71.12 180)
+				(length 2.54)
+				(name "PT121A/URC_GPLL1T_IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -73.66 180)
+				(length 2.54)
+				(name "PT121B/URC_GPLL1C_IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -7.62 0)
+				(length 2.54)
+				(name "PT71B/PCLKC1_0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -20.32 0)
+				(length 2.54)
+				(name "PT78A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -33.02 0)
+				(length 2.54)
+				(name "PT83B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -45.72 0)
+				(length 2.54)
+				(name "PT89A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -60.96 0)
+				(length 2.54)
+				(name "PT96A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -73.66 0)
+				(length 2.54)
+				(name "PT101B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -40.64 180)
+				(length 2.54)
+				(name "PT107A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -55.88 180)
+				(length 2.54)
+				(name "PT114A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -10.16 0)
+				(length 2.54)
+				(name "PT74A/GR_PCLK1_0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -22.86 0)
+				(length 2.54)
+				(name "PT78B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -35.56 0)
+				(length 2.54)
+				(name "PT85A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -48.26 0)
+				(length 2.54)
+				(name "PT89B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -63.5 0)
+				(length 2.54)
+				(name "PT96B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -30.48 180)
+				(length 2.54)
+				(name "PT103A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -43.18 180)
+				(length 2.54)
+				(name "PT107B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -58.42 180)
+				(length 2.54)
+				(name "PT114B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "PT69A/PCLKT1_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -25.4 0)
+				(length 2.54)
+				(name "PT80A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -50.8 0)
+				(length 2.54)
+				(name "PT92A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -66.04 0)
+				(length 2.54)
+				(name "PT98A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -45.72 180)
+				(length 2.54)
+				(name "PT110A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -2.54 0)
+				(length 2.54)
+				(name "PT69B/PCLKC1_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -12.7 0)
+				(length 2.54)
+				(name "PT74B/GR_PCLK1_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -27.94 0)
+				(length 2.54)
+				(name "PT80B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -38.1 0)
+				(length 2.54)
+				(name "PT85B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -53.34 0)
+				(length 2.54)
+				(name "PT92B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -68.58 0)
+				(length 2.54)
+				(name "PT98B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -33.02 180)
+				(length 2.54)
+				(name "PT103B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -48.26 180)
+				(length 2.54)
+				(name "PT110B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 30.48 5.08 270)
 				(length 2.54) hide
 				(name "VCCIO1"
 					(effects
@@ -11911,7 +12739,7 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 16.51 180)
+				(at 30.48 5.08 270)
 				(length 2.54) hide
 				(name "VCCIO1"
 					(effects
@@ -11929,7 +12757,7 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 16.51 180)
+				(at 30.48 5.08 270)
 				(length 2.54) hide
 				(name "VCCIO1"
 					(effects
@@ -11947,7 +12775,7 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 16.51 180)
+				(at 30.48 5.08 270)
 				(length 2.54) hide
 				(name "VCCIO1"
 					(effects
@@ -11965,11 +12793,24 @@
 				)
 			)
 		)
+		(symbol "LFE5U-85F-*BG756*_3_1"
+			(rectangle
+				(start -1.27 2.54)
+				(end 33.02 -76.2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
 		(symbol "LFE5U-85F-*BG756*_4_0"
 			(pin power_in line
-				(at 50.8 13.97 180)
+				(at 30.48 5.08 270)
 				(length 2.54)
-				(name "VCCIO2"
+				(name "VCCIO2[4]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11985,7 +12826,763 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 13.97 180)
+				(at -3.81 -20.32 0)
+				(length 2.54)
+				(name "PR17A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "PR11A/URC_GPLL0T_IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -5.08 0)
+				(length 2.54)
+				(name "PR11C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -7.62 0)
+				(length 2.54)
+				(name "PR11D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -22.86 0)
+				(length 2.54)
+				(name "PR17B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -35.56 0)
+				(length 2.54)
+				(name "PR20C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -2.54 0)
+				(length 2.54)
+				(name "PR11B/URC_GPLL0C_IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -10.16 0)
+				(length 2.54)
+				(name "PR14A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -25.4 0)
+				(length 2.54)
+				(name "PR17C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -27.94 0)
+				(length 2.54)
+				(name "PR17D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -38.1 0)
+				(length 2.54)
+				(name "PR20D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -12.7 0)
+				(length 2.54)
+				(name "PR14B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -33.02 0)
+				(length 2.54)
+				(name "PR20B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -43.18 0)
+				(length 2.54)
+				(name "PR23B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -17.78 0)
+				(length 2.54)
+				(name "PR14D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -15.24 0)
+				(length 2.54)
+				(name "PR14C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -30.48 0)
+				(length 2.54)
+				(name "PR20A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -40.64 0)
+				(length 2.54)
+				(name "PR23A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -45.72 0)
+				(length 2.54)
+				(name "PR23C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -35.56 180)
+				(length 2.54)
+				(name "PR35A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -38.1 180)
+				(length 2.54)
+				(name "PR35B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -53.34 0)
+				(length 2.54)
+				(name "PR26B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -50.8 0)
+				(length 2.54)
+				(name "PR26A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -48.26 0)
+				(length 2.54)
+				(name "PR23D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -40.64 180)
+				(length 2.54)
+				(name "PR35C/VREF1_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -43.18 180)
+				(length 2.54)
+				(name "PR35D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -30.48 180)
+				(length 2.54)
+				(name "PR32C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -55.88 0)
+				(length 2.54)
+				(name "PR26C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -63.5 0)
+				(length 2.54)
+				(name "PR29B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -48.26 180)
+				(length 2.54)
+				(name "PR38B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -45.72 180)
+				(length 2.54)
+				(name "PR38A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -50.8 180)
+				(length 2.54)
+				(name "PR38C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -33.02 180)
+				(length 2.54)
+				(name "PR32D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -58.42 0)
+				(length 2.54)
+				(name "PR26D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -60.96 0)
+				(length 2.54)
+				(name "PR29A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -66.04 0)
+				(length 2.54)
+				(name "PR29C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -60.96 180)
+				(length 2.54)
+				(name "PR41C/GR_PCLK2_0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -63.5 180)
+				(length 2.54)
+				(name "PR41D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -53.34 180)
+				(length 2.54)
+				(name "PR38D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -73.66 0)
+				(length 2.54)
+				(name "PR32B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -71.12 0)
+				(length 2.54)
+				(name "PR32A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -68.58 0)
+				(length 2.54)
+				(name "PR29D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 30.48 5.08 270)
 				(length 2.54) hide
 				(name "VCCIO2"
 					(effects
@@ -12003,7 +13600,79 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 13.97 180)
+				(at 35.56 -68.58 180)
+				(length 2.54)
+				(name "PR44B/PCLKC2_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -66.04 180)
+				(length 2.54)
+				(name "PR44A/PCLKT2_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -58.42 180)
+				(length 2.54)
+				(name "PR41B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -55.88 180)
+				(length 2.54)
+				(name "PR41A/GR_PCLK2_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 30.48 5.08 270)
 				(length 2.54) hide
 				(name "VCCIO2"
 					(effects
@@ -12021,7 +13690,43 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 13.97 180)
+				(at 35.56 -73.66 180)
+				(length 2.54)
+				(name "PR44D/PCLKC2_0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -71.12 180)
+				(length 2.54)
+				(name "PR44C/PCLKT2_0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 30.48 5.08 270)
 				(length 2.54) hide
 				(name "VCCIO2"
 					(effects
@@ -12039,7 +13744,7 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 13.97 180)
+				(at 30.48 5.08 270)
 				(length 2.54) hide
 				(name "VCCIO2"
 					(effects
@@ -12057,11 +13762,24 @@
 				)
 			)
 		)
+		(symbol "LFE5U-85F-*BG756*_4_1"
+			(rectangle
+				(start -1.27 2.54)
+				(end 33.02 -76.2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
 		(symbol "LFE5U-85F-*BG756*_5_0"
 			(pin power_in line
-				(at 50.8 11.43 180)
+				(at 30.48 5.08 270)
 				(length 2.54)
-				(name "VCCIO3"
+				(name "VCCIO3[4]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12077,7 +13795,7 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 11.43 180)
+				(at 30.48 5.08 270)
 				(length 2.54) hide
 				(name "VCCIO3"
 					(effects
@@ -12095,7 +13813,763 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 11.43 180)
+				(at 35.56 -20.32 180)
+				(length 2.54)
+				(name "PR74C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AB26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -27.94 180)
+				(length 2.54)
+				(name "PR77B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AB27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -25.4 180)
+				(length 2.54)
+				(name "PR77A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AB28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -48.26 180)
+				(length 2.54)
+				(name "PR83B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AB29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -45.72 180)
+				(length 2.54)
+				(name "PR83A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AB30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -68.58 180)
+				(length 2.54)
+				(name "PR89B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AB32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -76.2 180)
+				(length 2.54)
+				(name "PR92A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AB32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -30.48 180)
+				(length 2.54)
+				(name "PR77C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AC26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -22.86 180)
+				(length 2.54)
+				(name "PR74D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AC27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -50.8 180)
+				(length 2.54)
+				(name "PR83C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AC28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -66.04 180)
+				(length 2.54)
+				(name "PR89A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AC30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -71.12 180)
+				(length 2.54)
+				(name "PR89C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AC31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -78.74 180)
+				(length 2.54)
+				(name "PR92B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AC32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -33.02 180)
+				(length 2.54)
+				(name "PR77D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AD26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -35.56 180)
+				(length 2.54)
+				(name "PR80A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AD27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -53.34 180)
+				(length 2.54)
+				(name "PR83D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AD29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -60.96 180)
+				(length 2.54)
+				(name "PR86C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AD30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -81.28 180)
+				(length 2.54)
+				(name "PR92C/LRC_GPLL0T_IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AD32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -38.1 180)
+				(length 2.54)
+				(name "PR80B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AE27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -40.64 180)
+				(length 2.54)
+				(name "PR80C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AE28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -43.18 180)
+				(length 2.54)
+				(name "PR80D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AE29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -63.5 180)
+				(length 2.54)
+				(name "PR86D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AE30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -73.66 180)
+				(length 2.54)
+				(name "PR89D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AE31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -83.82 180)
+				(length 2.54)
+				(name "PR92D/LRC_GPLL0C_IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AE32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -50.8 0)
+				(length 2.54)
+				(name "PR62A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "PR47A/PCLKT3_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -2.54 0)
+				(length 2.54)
+				(name "PR47B/PCLKC3_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -43.18 0)
+				(length 2.54)
+				(name "PR59B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -40.64 0)
+				(length 2.54)
+				(name "PR59A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -53.34 0)
+				(length 2.54)
+				(name "PR62B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -5.08 0)
+				(length 2.54)
+				(name "PR47C/PCLKT3_0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -10.16 0)
+				(length 2.54)
+				(name "PR50A/GR_PCLK3_0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -20.32 0)
+				(length 2.54)
+				(name "PR53A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -45.72 0)
+				(length 2.54)
+				(name "PR59C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -60.96 0)
+				(length 2.54)
+				(name "PR65A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -7.62 0)
+				(length 2.54)
+				(name "PR47D/PCLKC3_0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -12.7 0)
+				(length 2.54)
+				(name "PR50B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -22.86 0)
+				(length 2.54)
+				(name "PR53B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -25.4 0)
+				(length 2.54)
+				(name "PR53C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -48.26 0)
+				(length 2.54)
+				(name "PR59D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -63.5 0)
+				(length 2.54)
+				(name "PR65B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -71.12 0)
+				(length 2.54)
+				(name "PR68A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 30.48 5.08 270)
 				(length 2.54) hide
 				(name "VCCIO3"
 					(effects
@@ -12113,7 +14587,133 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 11.43 180)
+				(at -3.81 -17.78 0)
+				(length 2.54)
+				(name "PR50D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "U26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -15.24 0)
+				(length 2.54)
+				(name "PR50C/GR_PCLK3_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "U27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -27.94 0)
+				(length 2.54)
+				(name "PR53D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "U28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -30.48 0)
+				(length 2.54)
+				(name "PR56A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "U29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -58.42 0)
+				(length 2.54)
+				(name "PR62D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "U30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -55.88 0)
+				(length 2.54)
+				(name "PR62C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "U31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -73.66 0)
+				(length 2.54)
+				(name "PR68B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "U32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 30.48 5.08 270)
 				(length 2.54) hide
 				(name "VCCIO3"
 					(effects
@@ -12131,7 +14731,79 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 11.43 180)
+				(at -3.81 -38.1 0)
+				(length 2.54)
+				(name "PR56D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "V26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -35.56 0)
+				(length 2.54)
+				(name "PR56C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "V27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -33.02 0)
+				(length 2.54)
+				(name "PR56B/VREF1_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "V29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -76.2 0)
+				(length 2.54)
+				(name "PR68C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "V32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 30.48 5.08 270)
 				(length 2.54) hide
 				(name "VCCIO3"
 					(effects
@@ -12148,12 +14820,223 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 35.56 -12.7 180)
+				(length 2.54)
+				(name "PR71D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "W28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -17.78 180)
+				(length 2.54)
+				(name "PR74B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "W29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -66.04 0)
+				(length 2.54)
+				(name "PR65C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "W30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -55.88 180)
+				(length 2.54)
+				(name "PR86A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "W31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -78.74 0)
+				(length 2.54)
+				(name "PR68D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "W32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -81.28 0)
+				(length 2.54)
+				(name "PR71A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "Y26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -83.82 0)
+				(length 2.54)
+				(name "PR71B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "Y27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -10.16 180)
+				(length 2.54)
+				(name "PR71C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "Y28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -15.24 180)
+				(length 2.54)
+				(name "PR74A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "Y29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -68.58 0)
+				(length 2.54)
+				(name "PR65D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "Y30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -58.42 180)
+				(length 2.54)
+				(name "PR86B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "Y32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LFE5U-85F-*BG756*_5_1"
+			(rectangle
+				(start -1.27 2.54)
+				(end 33.02 -86.36)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 		)
 		(symbol "LFE5U-85F-*BG756*_6_0"
 			(pin power_in line
-				(at 50.8 8.89 180)
+				(at 30.48 5.08 270)
 				(length 2.54)
-				(name "VCCIO4"
+				(name "VCCIO4[2]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12169,7 +15052,7 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 8.89 180)
+				(at 30.48 5.08 270)
 				(length 2.54) hide
 				(name "VCCIO4"
 					(effects
@@ -12187,7 +15070,7 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 8.89 180)
+				(at 30.48 5.08 270)
 				(length 2.54) hide
 				(name "VCCIO4"
 					(effects
@@ -12202,6 +15085,19 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "LFE5U-85F-*BG756*_6_1"
+			(rectangle
+				(start -1.27 2.54)
+				(end 33.02 -76.2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
