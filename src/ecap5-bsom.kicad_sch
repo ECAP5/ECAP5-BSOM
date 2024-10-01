@@ -128,6 +128,44 @@
 		)
 	)
 	(sheet
+		(at 119.38 63.5)
+		(size 35.56 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "40c82d33-3c4c-4002-b55b-c2310061e88c")
+		(property "Sheetname" "FPGA Bank 8"
+			(at 119.38 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga-bank8.kicad_sch"
+			(at 119.38 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 76.2 63.5)
 		(size 35.56 26.67)
 		(fields_autoplaced yes)
@@ -242,6 +280,44 @@
 		)
 	)
 	(sheet
+		(at 76.2 134.62)
+		(size 35.56 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8c72e7ba-7251-4d95-a6d9-2c2cf05ba805")
+		(property "Sheetname" "FPGA Bank 6"
+			(at 76.2 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga-bank6.kicad_sch"
+			(at 76.2 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 33.02 27.94)
 		(size 35.56 26.67)
 		(fields_autoplaced yes)
@@ -318,6 +394,44 @@
 		)
 	)
 	(sheet
+		(at 76.2 99.06)
+		(size 35.56 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b5e3f625-a4e1-4e60-ab00-b923dffaad5d")
+		(property "Sheetname" "FPGA Bank 4"
+			(at 76.2 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga-bank4.kicad_sch"
+			(at 76.2 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 33.02 134.62)
 		(size 35.56 26.67)
 		(fields_autoplaced yes)
@@ -351,6 +465,44 @@
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
 					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 27.94)
+		(size 35.56 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f793dcc1-cabe-437e-b569-244703e3fbac")
+		(property "Sheetname" "FPGA Bank 7"
+			(at 119.38 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga-bank7.kicad_sch"
+			(at 119.38 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
+					(page "13")
 				)
 			)
 		)
