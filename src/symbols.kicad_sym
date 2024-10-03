@@ -17851,7 +17851,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -33.02 0)
+				(at -3.81 -43.18 0)
 				(length 2.54)
 				(name "INITN"
 					(effects
@@ -17869,7 +17869,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -5.08 0)
+				(at -3.81 -2.54 0)
 				(length 2.54)
 				(name "PB4B/D6/IO6"
 					(effects
@@ -17887,7 +17887,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -25.4 0)
+				(at -3.81 -22.86 0)
 				(length 2.54)
 				(name "PB13B/CS1N"
 					(effects
@@ -17905,7 +17905,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -38.1 0)
+				(at -3.81 -48.26 0)
 				(length 2.54)
 				(name "PROGRAMN"
 					(effects
@@ -17923,7 +17923,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -2.54 0)
+				(at -3.81 -5.08 0)
 				(length 2.54)
 				(name "PB6A/D5/MISO2/IO5"
 					(effects
@@ -17941,7 +17941,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -12.7 0)
+				(at -3.81 -15.24 0)
 				(length 2.54)
 				(name "PB11A/D1/MISO/IO1"
 					(effects
@@ -17959,7 +17959,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -22.86 0)
+				(at -3.81 -25.4 0)
 				(length 2.54)
 				(name "PB15A/HOLDN/DI/BUSY/CSSPIN/CEN"
 					(effects
@@ -17977,7 +17977,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -40.64 0)
+				(at -3.81 -45.72 0)
 				(length 2.54)
 				(name "DONE"
 					(effects
@@ -18049,7 +18049,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -45.72 0)
+				(at -3.81 -35.56 0)
 				(length 2.54)
 				(name "CFG_2"
 					(effects
@@ -18103,7 +18103,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -43.18 0)
+				(at -3.81 -38.1 0)
 				(length 2.54)
 				(name "CFG_1"
 					(effects
@@ -18121,7 +18121,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -15.24 0)
+				(at -3.81 -12.7 0)
 				(length 2.54)
 				(name "PB9B/D2/IO2"
 					(effects
@@ -18139,7 +18139,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -35.56 0)
+				(at -3.81 -33.02 0)
 				(length 2.54)
 				(name "CCLK/MCLK/SCK"
 					(effects
@@ -18157,7 +18157,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -48.26 0)
+				(at -3.81 -40.64 0)
 				(length 2.54)
 				(name "CFG_0"
 					(effects
@@ -18862,6 +18862,226 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "W25Q128JVPIM"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -10.16 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "W25Q128JVPIM"
+			(at 0.254 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 6.985 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/949/w25q128jv_dtr_revc_03272018_plus-1489858.pdf"
+			(at 0 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3V 128M-BIT SERIAL FLASH MEMORY WITH DUAL/QUAD SPI & QPI & DTR"
+			(at 0 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "38 V, 1.5 A synchronous step-down converter with 20 μA quiescent curre"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "W25Q128JVPIM_0_1"
+			(rectangle
+				(start -10.16 7.62)
+				(end 5.08 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "W25Q128JVPIM_1_1"
+			(pin input line
+				(at -12.7 2.54 0)
+				(length 2.54)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 -2.54 0)
+				(length 2.54)
+				(name "DO/IO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 -5.08 0)
+				(length 2.54)
+				(name "~{WP}/IO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 -12.7 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 0 0)
+				(length 2.54)
+				(name "DI/IO0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 5.08 0)
+				(length 2.54)
+				(name "CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 -7.62 0)
+				(length 2.54)
+				(name "~{HOLD}/IO3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 10.16 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)

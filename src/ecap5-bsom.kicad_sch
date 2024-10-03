@@ -13,8 +13,38 @@
 		(comment 3 "${Part Number}")
 	)
 	(lib_symbols)
+	(bus
+		(pts
+			(xy 228.6 64.77) (xy 233.68 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52c23ce8-4461-4d2d-9651-f32608564241")
+	)
+	(bus
+		(pts
+			(xy 233.68 33.02) (xy 228.6 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "791ef490-f48f-4ac5-9a5c-e2ae825574bf")
+	)
+	(bus
+		(pts
+			(xy 228.6 33.02) (xy 228.6 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa282b6e-a2e7-497f-b7b9-1fd53a917804")
+	)
 	(sheet
-		(at 226.06 27.94)
+		(at 233.68 59.69)
 		(size 35.56 26.67)
 		(fields_autoplaced yes)
 		(stroke
@@ -26,7 +56,7 @@
 		)
 		(uuid "08c61aea-7b27-4464-b8b1-f0f4accab9b3")
 		(property "Sheetname" "IO connector 2"
-			(at 226.06 27.2284 0)
+			(at 233.68 58.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35,13 +65,23 @@
 			)
 		)
 		(property "Sheetfile" "io-connector-2.kicad_sch"
-			(at 226.06 55.1946 0)
+			(at 233.68 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "${IO}" bidirectional
+			(at 233.68 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ddde46cf-3add-4641-aa09-d1394701b6a5")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -52,7 +92,7 @@
 		)
 	)
 	(sheet
-		(at 182.88 27.94)
+		(at 233.68 27.94)
 		(size 35.56 26.67)
 		(fields_autoplaced yes)
 		(stroke
@@ -64,7 +104,7 @@
 		)
 		(uuid "18f7336f-a690-48df-b715-4238d1ad6e95")
 		(property "Sheetname" "IO connector 1"
-			(at 182.88 27.2284 0)
+			(at 233.68 27.2284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,13 +113,23 @@
 			)
 		)
 		(property "Sheetfile" "io-connector-1.kicad_sch"
-			(at 182.88 55.1946 0)
+			(at 233.68 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "${IO}" bidirectional
+			(at 233.68 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4911673e-385c-4e31-a1d3-6bba130ff914")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -204,7 +254,7 @@
 		)
 	)
 	(sheet
-		(at 203.2 95.25)
+		(at 233.68 96.52)
 		(size 35.56 26.67)
 		(fields_autoplaced yes)
 		(stroke
@@ -216,7 +266,7 @@
 		)
 		(uuid "75c84b0f-c428-4bdf-a9d0-2de4281daa69")
 		(property "Sheetname" "Power"
-			(at 203.2 94.5384 0)
+			(at 233.68 95.8084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -225,7 +275,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 203.2 122.5046 0)
+			(at 233.68 123.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)

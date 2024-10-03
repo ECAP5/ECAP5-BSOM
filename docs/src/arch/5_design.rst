@@ -1,55 +1,6 @@
 Design
 ======
 
-FPGA Pinout
-------
-
-The following table outlines the FPGA interface signals and their pinout constraints.
-
-.. note:: The I/O column is from the FPGA's perspective to ease the creation of design constraints files.
-
-.. csv-table:: Oscillator interface signals
-   :header-rows: 1
-   :width: 100%
-   :file: ../assets/osc-pinout.csv
-   :delim: ;
-
-.. csv-table:: Flash interface signals
-   :header-rows: 1
-   :width: 100%
-   :file: ../assets/flash-pinout.csv
-   :delim: ;
-
-.. csv-table:: eMMC interface signals
-   :header-rows: 1
-   :width: 100%
-   :file: ../assets/emmc-pinout.csv
-   :delim: ;
-
-.. csv-table:: SRAM interface signals
-   :header-rows: 1
-   :width: 100%
-   :file: ../assets/sram-pinout.csv
-   :delim: ;
-
-.. csv-table:: SDRAM interface signals
-   :header-rows: 1
-   :width: 100%
-   :file: ../assets/sdram-pinout.csv
-   :delim: ;
-
-.. csv-table:: DDR2 interface signals
-   :header-rows: 1
-   :width: 100%
-   :file: ../assets/ddr2-pinout.csv
-   :delim: ;
-
-.. csv-table:: IO connector interface signals
-   :header-rows: 1
-   :width: 100%
-   :file: ../assets/io-pinout.csv
-   :delim: ;
-
 Power
 -----
 
@@ -720,3 +671,59 @@ The following formula is used to compute the value of :math:`C_{\text{en}}` whic
 .. math::
 
   C_{\text{en}} = 56nF \implies t_{\text{enable_delay}} = 10ms
+
+Configuration
+-------------
+
+The sysCONFIG pins are configured with CFGMDN[2:0] = 010 (ie. MSPI). 4.7k pull-up or -down resistors are used.
+
+Pull-up resistors are placed on the SPI bus.
+
+FPGA Pinout
+------
+
+The following table outlines the FPGA interface signals and their pinout constraints.
+
+.. note:: The I/O column is from the FPGA's perspective to ease the creation of design constraints files.
+
+.. csv-table:: Oscillator interface signals
+   :header-rows: 1
+   :width: 100%
+   :file: ../assets/osc-pinout.csv
+   :delim: ;
+
+.. csv-table:: Flash interface signals
+   :header-rows: 1
+   :width: 100%
+   :file: ../assets/flash-pinout.csv
+   :delim: ;
+
+.. csv-table:: eMMC interface signals
+   :header-rows: 1
+   :width: 100%
+   :file: ../assets/emmc-pinout.csv
+   :delim: ;
+
+.. csv-table:: SRAM interface signals
+   :header-rows: 1
+   :width: 100%
+   :file: ../assets/sram-pinout.csv
+   :delim: ;
+
+.. csv-table:: SDRAM interface signals
+   :header-rows: 1
+   :width: 100%
+   :file: ../assets/sdram-pinout.csv
+   :delim: ;
+
+.. csv-table:: DDR2 interface signals
+   :header-rows: 1
+   :width: 100%
+   :file: ../assets/ddr2-pinout.csv
+   :delim: ;
+
+.. csv-table:: IO connector interface signals
+   :header-rows: 1
+   :width: 100%
+   :file: ../assets/io-pinout.csv
+   :delim: ;
