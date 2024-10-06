@@ -675,12 +675,45 @@ The following formula is used to compute the value of :math:`C_{\text{en}}` whic
 Configuration
 -------------
 
-The sysCONFIG pins are configured with CFGMDN[2:0] = 010 (ie. MSPI). 4.7k pull-up or -down resistors are used.
+CFGMDN[2:0]
+^^^^^^^^^^^
 
-Pull-up resistors are placed on the SPI bus.
+.. requirement:: D_CONF_01
+   :rationale: The sysCONFIG pins are configured as Master SPI.
+
+   The CFGMDN[2:0] pins shall be configured as 010 using 4.7k pull-up or pull-down resistors.
+
+IO[3:0]
+^^^^^^^
+
+.. requirement:: D_CONF_02
+
+   10k pull-up resistors shall be used on sysCONFIG IO[3:0] pins.
+   
+.. requirement:: D_CONF_03
+
+   A 1k pull-up resistor shall be used on sysCONFIG CLK pin.
+
+PROGRAMN
+^^^^^^^^
+
+.. requirement:: D_CONF_04
+
+   A 100nF capacitor shall be placed between PROGRAMN and GND.
+
+INITN
+^^^^^
+
+The INITN is used to drive a status LED.
+
+.. todo:: Add an led driver
+
+DONE
+^^^^
+
 
 FPGA Pinout
-------
+-----------
 
 The following table outlines the FPGA interface signals and their pinout constraints.
 

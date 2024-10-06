@@ -216,6 +216,74 @@
 		)
 	)
 	(sheet
+		(at 119.38 99.06)
+		(size 35.56 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "492906df-f838-4d8b-b74b-2c5ce24fa298")
+		(property "Sheetname" "SRAM"
+			(at 119.38 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sram.kicad_sch"
+			(at 119.38 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CTRL{LBN UBN WEN OEN CEN}" input
+			(at 119.38 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b3beaf73-5631-4883-953a-3086aaaf48d5")
+		)
+		(pin "ADDR.A[0..17]" input
+			(at 119.38 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "117d0b8e-ce55-422d-83fb-943f57a78ddd")
+		)
+		(pin "DATA.IO[0..15]" input
+			(at 119.38 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8fc057f9-6857-4474-b8a9-8909cc88d7d9")
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 76.2 63.5)
 		(size 35.56 26.67)
 		(fields_autoplaced yes)
