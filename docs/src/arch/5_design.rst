@@ -701,16 +701,14 @@ PROGRAMN
 
    A 100nF capacitor shall be placed between PROGRAMN and GND.
 
-INITN
-^^^^^
+INITN and DONE
+^^^^^^^^^^^^^^
 
-The INITN is used to drive a status LED.
+INITN is open-drain.
 
-.. todo:: Add an led driver
-
-DONE
-^^^^
-
+.. image:: ../assets/conf-status.png
+   :width: 40%
+   :align: center
 
 FPGA Pinout
 -----------

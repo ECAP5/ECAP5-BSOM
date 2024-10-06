@@ -28,6 +28,7 @@ if(Sphinx_FOUND)
       "${CMAKE_CURRENT_LIST_DIR}/src/assets/buck-1V8-eff.png"
       "${CMAKE_CURRENT_LIST_DIR}/src/assets/ldo-1V1.svg"
       "${CMAKE_CURRENT_LIST_DIR}/src/assets/power-sequencing.svg"
+      "${CMAKE_CURRENT_LIST_DIR}/src/assets/conf-status.png"
       "${CMAKE_CURRENT_LIST_DIR}/src/index.rst"
       "${CMAKE_CURRENT_LIST_DIR}/src/arch/index.rst"
       "${CMAKE_CURRENT_LIST_DIR}/src/arch/1_introduction.rst"
