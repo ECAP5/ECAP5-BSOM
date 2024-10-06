@@ -284,6 +284,44 @@
 		)
 	)
 	(sheet
+		(at 119.38 134.62)
+		(size 35.56 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5eb51a9c-d950-4bb7-8ecf-1741d6933e12")
+		(property "Sheetname" "DDR RAM"
+			(at 119.38 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ddr.kicad_sch"
+			(at 119.38 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 76.2 63.5)
 		(size 35.56 26.67)
 		(fields_autoplaced yes)

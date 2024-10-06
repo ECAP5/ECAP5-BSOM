@@ -1,0 +1,1398 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ba80c8e4-e47f-476d-a44f-46a4f08ba45d")
+	(paper "A4")
+	(title_block
+		(title "${Project Designation}")
+		(date "2024-06-30")
+		(rev "${Revision}")
+		(comment 1 "${Project Title}")
+		(comment 2 "SRAM")
+		(comment 3 "${Part Number}")
+	)
+	(lib_symbols
+		(symbol "ECAP5-BSOM:IS42S16160J-*BL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IS42S16160J-*BL"
+				(at 3.048 30.226 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -59.055 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.fr/datasheet/2/198/42_45S83200J_16160J-462626.pdf"
+				(at 0 -43.18 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "16Meg x16 256Mb SYNCHRONOUS DRAM"
+				(at 0 -40.64 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "16Meg x16 256Mb SYNCHRONOUS DRAM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IS42S16160J-*BL_0_0"
+				(pin input line
+					(at 1.27 31.75 270)
+					(length 2.54)
+					(name "VDDQ[4]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 31.75 270)
+					(length 2.54)
+					(name "VDD[4]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -31.75 90)
+					(length 2.54)
+					(name "VSSQ[4]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 -31.75 90)
+					(length 2.54)
+					(name "VSS[3]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 31.75 270)
+					(length 2.54) hide
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 -31.75 90)
+					(length 2.54) hide
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -16.51 180)
+					(length 2.54)
+					(name "DQ15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -31.75 90)
+					(length 2.54) hide
+					(name "VSSQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 31.75 270)
+					(length 2.54) hide
+					(name "VDDQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 21.59 180)
+					(length 2.54)
+					(name "DQ0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 31.75 270)
+					(length 2.54) hide
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -13.97 180)
+					(length 2.54)
+					(name "DQ14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -11.43 180)
+					(length 2.54)
+					(name "DQ13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 31.75 270)
+					(length 2.54) hide
+					(name "VDDQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -31.75 90)
+					(length 2.54) hide
+					(name "VSSQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 16.51 180)
+					(length 2.54)
+					(name "DQ2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 19.05 180)
+					(length 2.54)
+					(name "DQ1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -8.89 180)
+					(length 2.54)
+					(name "DQ12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -6.35 180)
+					(length 2.54)
+					(name "DQ11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -31.75 90)
+					(length 2.54) hide
+					(name "VSSQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 31.75 270)
+					(length 2.54) hide
+					(name "VDDQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 11.43 180)
+					(length 2.54)
+					(name "DQ4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 13.97 180)
+					(length 2.54)
+					(name "DQ3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "DQ10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "DQ9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 31.75 270)
+					(length 2.54) hide
+					(name "VDDQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -31.75 90)
+					(length 2.54) hide
+					(name "VSSQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 6.35 180)
+					(length 2.54)
+					(name "DQ6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 8.89 180)
+					(length 2.54)
+					(name "DQ5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 1.27 180)
+					(length 2.54)
+					(name "DQ8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 -31.75 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 -31.75 90)
+					(length 2.54) hide
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 31.75 270)
+					(length 2.54) hide
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -20.32 180)
+					(length 2.54)
+					(name "DQML"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 3.81 180)
+					(length 2.54)
+					(name "DQ7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -22.86 180)
+					(length 2.54)
+					(name "DQMH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "F1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -13.97 0)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "F2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -16.51 0)
+					(length 2.54)
+					(name "CKE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "F3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -24.13 0)
+					(length 2.54)
+					(name "~{CAS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "F7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -21.59 0)
+					(length 2.54)
+					(name "~{RAS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "F8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -26.67 0)
+					(length 2.54)
+					(name "~{WE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "F9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -3.81 0)
+					(length 2.54)
+					(name "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -1.27 0)
+					(length 2.54)
+					(name "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 3.81 0)
+					(length 2.54)
+					(name "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -6.35 0)
+					(length 2.54)
+					(name "BA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -8.89 0)
+					(length 2.54)
+					(name "BA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -19.05 0)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 6.35 0)
+					(length 2.54)
+					(name "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 8.89 0)
+					(length 2.54)
+					(name "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 11.43 0)
+					(length 2.54)
+					(name "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 26.67 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 24.13 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 1.27 0)
+					(length 2.54)
+					(name "A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 -31.75 90)
+					(length 2.54) hide
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 13.97 0)
+					(length 2.54)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 16.51 0)
+					(length 2.54)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 19.05 0)
+					(length 2.54)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 21.59 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 31.75 270)
+					(length 2.54) hide
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "IS42S16160J-*BL_0_1"
+				(rectangle
+					(start -10.16 29.21)
+					(end 10.16 -29.21)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ECAP5-BSOM:IS42S16160J-*BL")
+		(at 154.94 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "172c71df-4a73-4cd5-b7bc-5bac024d834f")
+		(property "Reference" "U11"
+			(at 158.4041 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IS42S16160J-*BL"
+			(at 158.4041 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.885 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/198/42_45S83200J_16160J-462626.pdf"
+			(at 154.94 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16Meg x16 256Mb SYNCHRONOUS DRAM"
+			(at 154.94 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "J3"
+			(uuid "9da33d5d-18eb-407a-a846-9014f5c2d69c")
+		)
+		(pin "J7"
+			(uuid "a4d17cec-c39e-48f4-845b-f92f895008b7")
+		)
+		(pin "F3"
+			(uuid "956165fe-1af8-46c6-876f-0753079e65c4")
+		)
+		(pin "F7"
+			(uuid "2800bfac-b6d8-4b63-88c9-e5c55e08b127")
+		)
+		(pin "C7"
+			(uuid "41b73e02-9f89-4187-bbde-c2e9258cf826")
+		)
+		(pin "G3"
+			(uuid "5daf19db-449a-4bb2-bcce-0969e3c402fd")
+		)
+		(pin "G7"
+			(uuid "734b84c6-8326-4aa4-8edc-03deb5be5693")
+		)
+		(pin "J1"
+			(uuid "15d19efa-2267-4403-8c7a-8d84e8e6ced8")
+		)
+		(pin "J2"
+			(uuid "67efaad0-3e77-423c-80a5-c8f4f98c6ed0")
+		)
+		(pin "H1"
+			(uuid "7716e661-5da4-48d1-95e7-334fd85cebba")
+		)
+		(pin "H2"
+			(uuid "5426a033-68bb-4ad7-bf07-cb419f875122")
+		)
+		(pin "J8"
+			(uuid "ec09fa42-c83f-4ebc-82b6-1c57cb9023e9")
+		)
+		(pin "J9"
+			(uuid "0771fcaa-596a-4cc3-b289-78b6e03d819c")
+		)
+		(pin "E9"
+			(uuid "fd1cb0de-37e4-4139-8930-f1dbcb00ca20")
+		)
+		(pin "D8"
+			(uuid "283f0a79-197c-4faa-beda-a10e8da83225")
+		)
+		(pin "G8"
+			(uuid "9fa40f1c-03a8-4b33-a1cb-25e9f99631a0")
+		)
+		(pin "G9"
+			(uuid "4515b16e-ddbe-46c6-af1f-276dfaf9af62")
+		)
+		(pin "C9"
+			(uuid "40ae51e0-5399-474d-9d10-fd940476d506")
+		)
+		(pin "F1"
+			(uuid "dad72880-7fe6-43a9-bd3d-f8560d87a279")
+		)
+		(pin "F2"
+			(uuid "79ee98a5-97e0-46ad-b2fc-bc9b8ee021e1")
+		)
+		(pin "G1"
+			(uuid "311a995f-ffcf-4cec-bc0c-9df6601160ab")
+		)
+		(pin "G2"
+			(uuid "92f60f83-b108-4832-9b81-1209779570c1")
+		)
+		(pin "H8"
+			(uuid "ee5a75e5-2cd5-44b2-a47a-7c1ef81c4354")
+		)
+		(pin "H9"
+			(uuid "04da8fad-00a7-4297-91e0-c0c57a6f59e3")
+		)
+		(pin "E7"
+			(uuid "34cd6ff0-788c-4751-9665-06c5296e6d2f")
+		)
+		(pin ""
+			(uuid "52d1f46c-0994-4457-8a66-b92bc6dcf1a8")
+		)
+		(pin ""
+			(uuid "1febf729-48d7-4a6e-a141-b96f81f3d08d")
+		)
+		(pin "D3"
+			(uuid "df223385-1a23-4ee0-80a7-fcc6d8298f00")
+		)
+		(pin "D4"
+			(uuid "32c6c929-2d3f-4bf4-8d2c-4ac2b5b886ae")
+		)
+		(pin "D2"
+			(uuid "5798739b-3993-40e2-bcc1-7dd0127fe474")
+		)
+		(pin ""
+			(uuid "ffe71350-f69d-4103-aeb4-b4128d34aa7c")
+		)
+		(pin "C1"
+			(uuid "d1aace50-d2d7-4760-b7e5-82eb9eb33ab5")
+		)
+		(pin "C3"
+			(uuid "057b534c-c8af-4510-bf41-5886a7d5b7d6")
+		)
+		(pin "C2"
+			(uuid "650fb6d6-0a80-40b8-98c1-91cb76a54cde")
+		)
+		(pin "B9"
+			(uuid "99c66269-c9af-4fda-aa8f-a710af739e64")
+		)
+		(pin "1"
+			(uuid "5458a6f8-5afd-4636-84ae-27fdb2efe862")
+		)
+		(pin ""
+			(uuid "920c482f-35f7-4971-8cbd-bc89542e6f80")
+		)
+		(pin "B8"
+			(uuid "366aa9b3-6d5e-4694-8da3-f92dbc5d9810")
+		)
+		(pin "E8"
+			(uuid "671dfcf3-c9d5-4872-b07c-8c3c190fb61d")
+		)
+		(pin "A8"
+			(uuid "2e754401-b5e5-4f95-bf0f-8c9754c58296")
+		)
+		(pin "D9"
+			(uuid "002474cb-91cf-4540-8836-2e839f19d27b")
+		)
+		(pin "D1"
+			(uuid "a68cb2eb-7b6d-48d5-987a-12f66891e4a9")
+		)
+		(pin "B3"
+			(uuid "5eaa8c4f-6763-4ac8-8c6f-46b3bdf85798")
+		)
+		(pin "F8"
+			(uuid "91f16611-1452-4c77-a7d1-9f294cb78f61")
+		)
+		(pin "F9"
+			(uuid "bea7cfda-936b-4b93-aab4-77216a14a2e0")
+		)
+		(pin "E3"
+			(uuid "d1f83896-4a0a-454b-a08f-91621e9d1ac5")
+		)
+		(pin "B7"
+			(uuid "9c05a423-fd93-4064-be61-65980fdf56bb")
+		)
+		(pin "A2"
+			(uuid "43079ac4-d62d-4e22-bdd8-5439f2757b5e")
+		)
+		(pin "A7"
+			(uuid "75d7e5d2-4019-43c3-bc62-563ba6c24227")
+		)
+		(pin "A9"
+			(uuid "4ba404ac-a0da-4597-8aaa-4ebc77694b94")
+		)
+		(pin "A3"
+			(uuid "3316999b-75a5-441c-b3de-7f9933f3bb4b")
+		)
+		(pin "E1"
+			(uuid "1e671bd0-4025-4ad0-8fae-2d8d2fd7845a")
+		)
+		(pin "B2"
+			(uuid "0a1243cf-1b0d-4ec2-9dfd-5bcf45dd95e9")
+		)
+		(pin "B1"
+			(uuid "fc2788d2-1e52-4d77-8b28-8cd38c5be48f")
+		)
+		(pin "C8"
+			(uuid "60e80e12-0479-4a87-81a6-dfe325bfa6de")
+		)
+		(pin "H3"
+			(uuid "aa5d5552-66da-4cbe-a32f-009a262f5ab9")
+		)
+		(pin "H7"
+			(uuid "1db041d2-cc0c-4f68-82aa-da4e2e4c0394")
+		)
+		(pin "E2"
+			(uuid "7e54107e-dd8e-4081-87bf-991683e52b5e")
+		)
+		(pin "A1"
+			(uuid "953827e8-e8ab-417b-a80f-081ee7cfbdd1")
+		)
+		(instances
+			(project ""
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686/5eb51a9c-d950-4bb7-8ecf-1741d6933e12"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
