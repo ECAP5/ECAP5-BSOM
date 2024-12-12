@@ -36,9 +36,7 @@ Multiple volatile memories are included on the board with different technologies
 .. requirement:: U_MEMORY_03
    :rationale: The -5B speed grade corresponds to DDR2-400B standard.
 
-   The board shall include a 32M x 16bits 512Mb DDR2 Synchronous DRAM with reference IS43DR16320E up to -5B speed grade.
-
-.. todo:: Add DDR3 if enough pins
+   The board shall include a 64M x 8bits 512Mb DDR2 Synchronous DRAM with reference IS43DR86400E up to -5B speed grade.
 
 Flash
 ^^^^^

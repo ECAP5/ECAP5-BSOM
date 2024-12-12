@@ -8249,7 +8249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "209e4145-8856-4e65-9bd9-4445823a8ebc")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR?"
 			(at 229.87 85.09 0)
 			(effects
 				(font
@@ -8295,6 +8295,14 @@
 		)
 		(pin "1"
 			(uuid "4f556ec5-a8c9-455e-a764-3f6c651b2b64")
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686/93025bf8-f1b9-4669-843e-f0f0cbaf67cc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8586,7 +8594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37bbb90c-a789-4923-a057-74b8e4f17a51")
-		(property "Reference" "U5"
+		(property "Reference" "U?"
 			(at 187.96 77.47 0)
 			(effects
 				(font
@@ -9673,6 +9681,14 @@
 		(pin "AA13"
 			(uuid "4e2ba2c2-6039-450e-a3e5-88891346dd3e")
 		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686/93025bf8-f1b9-4669-843e-f0f0cbaf67cc"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -10244,7 +10260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88c46ffe-6220-44b0-b762-59eb692342b5")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR?"
 			(at 187.96 111.76 0)
 			(effects
 				(font
@@ -10290,6 +10306,14 @@
 		)
 		(pin "1"
 			(uuid "d1a23d59-1f7f-413e-9344-ac0afaf27bae")
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686/93025bf8-f1b9-4669-843e-f0f0cbaf67cc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10368,7 +10392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5210b04-51d4-4e67-a0a8-1c2b4cac82ef")
-		(property "Reference" "C59"
+		(property "Reference" "C?"
 			(at 154.94 86.3662 0)
 			(effects
 				(font
@@ -10418,6 +10442,14 @@
 		)
 		(pin "1"
 			(uuid "2299673c-b5b1-4406-8ff4-0cbcafa05b47")
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686/93025bf8-f1b9-4669-843e-f0f0cbaf67cc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10920,7 +10952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e89196c3-e094-4beb-9992-98992f6862d2")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR?"
 			(at 55.88 85.09 0)
 			(effects
 				(font
@@ -10966,6 +10998,14 @@
 		)
 		(pin "1"
 			(uuid "71286f86-6288-4e56-b536-2d0d5d9d947b")
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686/93025bf8-f1b9-4669-843e-f0f0cbaf67cc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol

@@ -260,7 +260,7 @@ The following requirements are extracted from the datasheet of IS42S16160J [:ref
 DDR2
 ----
 
-The following requirements are extracted from the datasheet of IS43DR16320E [:ref:`DS5 <reftable>`].
+The following requirements are extracted from the datasheet of IS43DR86400E [:ref:`DS5 <reftable>`].
 
 .. requirement:: D_DDR2_01
    :rationale: This corresponds to an 5% precision arround 1.8V.
