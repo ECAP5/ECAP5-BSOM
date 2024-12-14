@@ -1360,6 +1360,12 @@
 		)
 	)
 	(junction
+		(at 186.69 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "591ccc93-210f-40b6-a330-c01121978652")
+	)
+	(junction
 		(at 176.53 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1370,12 +1376,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9023d3f2-0050-4d6a-bf37-5c5368d8e359")
-	)
-	(junction
-		(at 152.4 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "abf39865-bf25-4cee-b1d9-20042b7b6579")
 	)
 	(bus_entry
 		(at 128.27 100.33)
@@ -1868,6 +1868,16 @@
 		)
 		(uuid "22c90c8f-d31a-4af7-a68e-95171335c3a8")
 	)
+	(wire
+		(pts
+			(xy 176.53 48.26) (xy 166.37 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2686f136-26ba-43f1-9a96-8ebbb9c0ed28")
+	)
 	(bus
 		(pts
 			(xy 128.27 72.39) (xy 128.27 69.85)
@@ -2198,16 +2208,6 @@
 		)
 		(uuid "8e218433-4b67-4c20-b0e6-4692662d51ac")
 	)
-	(wire
-		(pts
-			(xy 166.37 48.26) (xy 176.53 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e656a5a-5473-49cf-876d-672a0d6be11a")
-	)
 	(bus
 		(pts
 			(xy 123.19 120.65) (xy 123.19 123.19)
@@ -2390,7 +2390,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 45.72) (xy 152.4 48.26)
+			(xy 186.69 45.72) (xy 186.69 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3178,7 +3178,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb1dc06b-d477-4f91-9136-a127e2dbda2c")
+			(uuid "3ed904e2-6d77-47a3-9b21-75676b60a100")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -3245,10 +3245,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3f811301-009b-4d42-a4c4-3aef9c4f2055")
+			(uuid "7d33bccc-6d97-484f-a86f-4b6f4d553162")
 		)
 		(pin "2"
-			(uuid "e859edce-2dd8-47ed-96aa-6cdb8ca804e1")
+			(uuid "b55c0ae6-53aa-4378-b57c-4ebba206adef")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -3315,10 +3315,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c70c99c8-9f67-47fd-9ad9-c2197c87f3fe")
+			(uuid "709338d9-f055-4b38-ba4f-678f133516de")
 		)
 		(pin "2"
-			(uuid "9261d513-e114-4db5-b9f2-7ffe9fa0274d")
+			(uuid "3592e634-9136-4970-876a-a30e9ee0020c")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -3384,7 +3384,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "88d6ddca-3bd5-445a-94bb-71a5b3bb50c6")
+			(uuid "88f67ca3-7ff9-4a8d-8f32-75c75a782894")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -3451,10 +3451,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "03c65fb5-8dba-46bd-a331-a14ca5a76196")
+			(uuid "d76803ab-84da-4078-96bd-99258b6ad00e")
 		)
 		(pin "2"
-			(uuid "92ef8058-4e33-42f8-ba10-b06c300afd07")
+			(uuid "c074b318-1df4-4739-980f-eba498e533e6")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -3467,7 +3467,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 152.4 45.72 0)
+		(at 186.69 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3476,7 +3476,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7503911-511a-4a78-bedc-7277098d70c5")
 		(property "Reference" "#PWR?"
-			(at 152.4 49.53 0)
+			(at 186.69 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3485,7 +3485,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 152.4 40.64 0)
+			(at 186.69 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3493,7 +3493,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 45.72 0)
+			(at 186.69 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3502,7 +3502,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 45.72 0)
+			(at 186.69 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3511,7 +3511,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 152.4 45.72 0)
+			(at 186.69 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3520,7 +3520,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ab5c9a73-a2ee-4c43-b889-30d4a4a562f2")
+			(uuid "0301fa7f-1f63-438d-9435-c7e088163fb4")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -3588,157 +3588,157 @@
 			)
 		)
 		(pin "D6"
-			(uuid "930adc11-5710-4555-a911-0d033bc4535b")
+			(uuid "48ecac9f-c5c7-4ea0-ad77-6480c63903a3")
 		)
 		(pin "A2"
-			(uuid "871eeca2-f9a2-483a-a3d1-a3734ba6f7be")
+			(uuid "42abd4ac-810d-42a9-81da-295bb001591a")
 		)
 		(pin "F1"
-			(uuid "412c9364-33b8-4361-9863-a9c40a31a5ad")
+			(uuid "381aa2e0-4ca5-478c-89eb-a5b36e6758bd")
 		)
 		(pin "E1"
-			(uuid "2899cafe-88c4-43da-a831-39fce2f841ce")
+			(uuid "9cbbee72-fa52-4f79-bdbc-48a9ce6b4fef")
 		)
 		(pin "A6"
-			(uuid "15216f08-bbbb-4f4b-95fb-1051f84c05ee")
+			(uuid "85cd9c77-1b89-4f23-8f40-23e7bd8ee807")
 		)
 		(pin "E2"
-			(uuid "bb07840a-f39f-40f5-95f4-dc7cbf803e5a")
+			(uuid "043318c7-299b-46e0-81d7-8e91933f0e84")
 		)
 		(pin "B1"
-			(uuid "5e1115ae-3fee-424b-9b28-bca4bdd265c6")
+			(uuid "ff54fcee-971d-4343-bdf5-31500e8d72cb")
 		)
 		(pin "A5"
-			(uuid "849ba33b-1c92-408f-9f84-7c8fe42a8ed9")
+			(uuid "d9054f3c-13af-4b15-9dc6-bf8feae74c86")
 		)
 		(pin "A3"
-			(uuid "dd3f055f-a228-4f5d-b6e3-36ceca0b0bf5")
+			(uuid "a5281d2e-9644-4e9b-9c3a-da3f9d5a38ac")
 		)
 		(pin "B3"
-			(uuid "89ab6d87-4629-4caa-b3a9-2c2e3747c719")
+			(uuid "54bf8372-dd1e-40fe-a747-51775081189b")
 		)
 		(pin "C5"
-			(uuid "74a76412-321c-43ef-b639-60db71587199")
+			(uuid "0e0fb7a5-26c4-44a6-9065-5d9ec08d66ab")
 		)
 		(pin "A4"
-			(uuid "425958cf-a844-4cab-9577-bcfec926b08b")
+			(uuid "5b6541dd-0f66-4010-b700-68c977379d7b")
 		)
 		(pin "B2"
-			(uuid "7efe0747-447d-4365-a6ea-d05518d87790")
+			(uuid "af308649-9557-4682-940b-bb93c4775afc")
 		)
 		(pin "H1"
-			(uuid "63431134-9389-4c8a-bbce-a199d9bb2b3e")
+			(uuid "c2788f9a-4021-4044-88f0-82f72c90f349")
 		)
 		(pin "F2"
-			(uuid "03f3fb6f-ee51-4ac1-b2dc-76c02b0fe845")
+			(uuid "6d6fbb53-e20d-4af5-98db-6bf1e3293315")
 		)
 		(pin "G2"
-			(uuid "67400289-a5f5-4e17-ad63-a9fdf8177864")
+			(uuid "905ab0cd-cb0f-4d0d-bc48-734db5a0c71a")
 		)
 		(pin "C4"
-			(uuid "5e3097ba-04a8-48bd-b892-c9e3c92e0f30")
+			(uuid "0a0b86bf-aad4-4329-9c73-2affe10d8b7d")
 		)
 		(pin "G5"
-			(uuid "111ab6ac-625a-4378-9a68-befe028b5bd7")
+			(uuid "1f8d63a3-dabb-44f5-a225-2b097a012634")
 		)
 		(pin ""
-			(uuid "2b02c319-2060-424c-9b62-6c0eddaa720c")
+			(uuid "665b22e9-6240-4f35-a2cf-3061377d55b5")
 		)
 		(pin "C1"
-			(uuid "e7051dd3-ee8b-449e-84f6-0a51613ad2b9")
+			(uuid "ce6d81d2-f3a8-4706-9c04-4eea49f3ec8a")
 		)
 		(pin ""
-			(uuid "4790ee9d-c413-437d-a678-4de299dbef55")
+			(uuid "cbc5dc50-6441-4df8-b5b0-e0f1d2834736")
 		)
 		(pin "F5"
-			(uuid "08c32cbc-51c1-423b-8382-24c84b5ff955")
+			(uuid "1ab40def-7edd-4dfd-838b-aaeb3635bda3")
 		)
 		(pin ""
-			(uuid "ffb2123e-fd85-4e12-b160-4f30746a323d")
+			(uuid "c16fd445-aab2-462c-bdd8-752fd2b00d01")
 		)
 		(pin "D3"
-			(uuid "680873c0-98ad-4a15-9771-4cf84efabed9")
+			(uuid "dddafe49-df83-4b13-8ab7-160436f43b03")
 		)
 		(pin "A1"
-			(uuid "ab2d0f6f-2438-4363-adb2-d49fcaf23958")
+			(uuid "791d3e74-1ae8-4b91-8d6c-e464c35901ca")
 		)
 		(pin "G6"
-			(uuid "78e25b9a-e4ae-4fd8-9f32-77165838e34e")
+			(uuid "7b2659c0-b7b1-4f76-b90a-b06c605d4bc9")
 		)
 		(pin "D2"
-			(uuid "4e0f9ad8-2055-479d-a693-03e8d33a92d2")
+			(uuid "ad0b602e-4f6b-4e01-97cc-66c38524982e")
 		)
 		(pin "F4"
-			(uuid "77bd81cf-0e76-489f-856f-c226d4a35bd7")
+			(uuid "21c3a9bf-87c4-4754-8eb2-4e8378bf0d4b")
 		)
 		(pin "H3"
-			(uuid "336397bf-b79d-472d-a9e9-09dd8507ccec")
+			(uuid "86be2a1b-95a7-421b-abbe-3bdbbf69011c")
 		)
 		(pin "H2"
-			(uuid "75a7eff0-8d62-4708-bdf6-5ddeaeb57ac2")
+			(uuid "0bbb0da0-f412-48fc-a722-b1c8957c21fb")
 		)
 		(pin "D5"
-			(uuid "0077ec6e-5acd-4930-9ab9-a4408816c2f1")
+			(uuid "99cb0e2e-1e06-4516-af05-3cfedefb27e2")
 		)
 		(pin "D4"
-			(uuid "3b4f63d5-00b7-455f-bce9-c5f716eed49d")
+			(uuid "30384845-90ab-49ce-aa65-0263e8ec9873")
 		)
 		(pin "G1"
-			(uuid "34881848-792f-42bf-9d23-75a7e9598c13")
+			(uuid "f2d79963-c0a4-483e-9db4-a8b8b3cd06fe")
 		)
 		(pin "E3"
-			(uuid "607e3fab-426a-4ead-9f5e-a637be572500")
+			(uuid "c4c4e857-2ac7-41c5-ba04-937bb9c742ae")
 		)
 		(pin "F6"
-			(uuid "16afb285-2c7a-49cd-a485-83e06937406c")
+			(uuid "fd785b56-f851-4dcd-a93b-7e1d5662e386")
 		)
 		(pin "E6"
-			(uuid "df48804b-c2c3-43c9-bd2a-350a8ed8c5f3")
+			(uuid "cc311ec3-6c72-46f8-b2ad-f2bdc78c5fc6")
 		)
 		(pin "E4"
-			(uuid "c80f5109-3005-4ad6-9860-6586e13e9a59")
+			(uuid "b2ef258f-02c3-4a59-8eef-8a3eb0d42df6")
 		)
 		(pin "E5"
-			(uuid "05b91bee-f8cd-4217-a395-ac75f6b6742b")
+			(uuid "49d7f7fc-8ab4-41fa-af31-24830e7a2856")
 		)
 		(pin "C2"
-			(uuid "1dc72d0e-d567-45c5-be03-19fb5e261b50")
+			(uuid "2ede11b3-cad8-48fa-bf1b-036cf771c492")
 		)
 		(pin "C3"
-			(uuid "9c6594ad-7c4f-4356-8681-3a4e7f396a74")
+			(uuid "347dfecc-eed4-4b3c-8edc-5f8cf5fe36f3")
 		)
 		(pin "G3"
-			(uuid "aa29fe95-32a1-4edd-9957-8b6b6f5ca4ad")
+			(uuid "9d70d5d9-6e46-44c3-88e0-32aaefb561cd")
 		)
 		(pin "B4"
-			(uuid "153691fb-be42-49cc-a7c4-7fe217cfac32")
+			(uuid "71c73c16-89b1-47df-bfb0-2e25d3053ac0")
 		)
 		(pin "H4"
-			(uuid "57a9c98f-c86d-42e0-a6d0-b6eb822a427f")
+			(uuid "6ae647b8-b8a8-4978-b6d8-e48ad98f2972")
 		)
 		(pin "D1"
-			(uuid "827dbdb7-82e9-4cf0-b2ab-ae0af10fd4bf")
+			(uuid "f9ee94b4-a31e-4d4f-a49f-405fc5eac3e7")
 		)
 		(pin "F3"
-			(uuid "50c3ce9a-6863-4cb6-a6e8-a199fad86526")
+			(uuid "b4c83bd8-f190-49a2-9e0c-5f6d9881edd3")
 		)
 		(pin "B5"
-			(uuid "9b935436-d0a3-491e-8483-14216ebf381b")
+			(uuid "1f63bb6a-fbdc-470b-8ffa-6fbf5d9576c0")
 		)
 		(pin "C6"
-			(uuid "bfba67bf-c5bf-4a4d-96d0-ea2d65f7366f")
+			(uuid "48a6d317-effd-49d4-8538-b7085296e57e")
 		)
 		(pin "B6"
-			(uuid "50adaa4a-e2bb-4c48-aebd-7a199fbfeef3")
+			(uuid "f59fbae7-d5f2-4c84-a8b6-34fd90873fbd")
 		)
 		(pin "H6"
-			(uuid "b4404873-f32f-4050-8533-b553acc088ce")
+			(uuid "1f821e3b-7094-43cd-adb8-9f6786a65963")
 		)
 		(pin "H1"
-			(uuid "8e4daf71-2167-4c1d-9a08-23bdbd9dc33c")
+			(uuid "70032e46-5b8e-473d-9956-de578f0d5053")
 		)
 		(pin "G4"
-			(uuid "12068e52-2ebc-4a57-aefb-7fa074afc911")
+			(uuid "4fd156e3-c64c-4b24-9ffd-9b54c45e67eb")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -3804,7 +3804,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "52a1e87a-5410-45de-bafd-27bef3af14cc")
+			(uuid "b1bdc887-b8f6-45d8-b4eb-b9090054b5e7")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -3870,7 +3870,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1d62acf6-92ee-46fb-9cdd-f705b7910d19")
+			(uuid "b45c1aee-ea7b-417c-8861-1c76e1836f01")
 		)
 		(instances
 			(project "ecap5-bsom"

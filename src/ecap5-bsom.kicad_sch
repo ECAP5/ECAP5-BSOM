@@ -124,7 +124,7 @@
 		(instances
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
-					(page "5")
+					(page "20")
 				)
 			)
 		)
@@ -172,7 +172,7 @@
 		(instances
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
-					(page "4")
+					(page "19")
 				)
 			)
 		)
@@ -292,6 +292,44 @@
 		)
 	)
 	(sheet
+		(at 33.02 113.03)
+		(size 35.56 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8d5e6f54-b0a0-44ab-a9a3-d267ce1e7cb8")
+		(property "Sheetname" "eMMC"
+			(at 33.02 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "emmc.kicad_sch"
+			(at 33.02 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 33.02 27.94)
 		(size 35.56 26.67)
 		(fields_autoplaced yes)
@@ -362,7 +400,7 @@
 		(instances
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
-					(page "7")
+					(page "4")
 				)
 			)
 		)
