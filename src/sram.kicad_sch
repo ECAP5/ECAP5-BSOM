@@ -1828,16 +1828,6 @@
 		)
 		(uuid "12353190-0a73-4b31-8e19-62244e397902")
 	)
-	(bus
-		(pts
-			(xy 118.11 66.04) (xy 118.11 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13cde317-027d-417c-b975-13dedd0cc4ca")
-	)
 	(wire
 		(pts
 			(xy 130.81 95.25) (xy 142.24 95.25)
@@ -1910,7 +1900,7 @@
 	)
 	(bus
 		(pts
-			(xy 123.19 60.96) (xy 123.19 113.03)
+			(xy 123.19 109.22) (xy 123.19 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2067,16 +2057,6 @@
 			(type default)
 		)
 		(uuid "518a2ff3-362d-4363-8d3c-609e21e873d5")
-	)
-	(bus
-		(pts
-			(xy 118.11 143.51) (xy 176.53 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "559ed542-00d9-4528-beb1-2a8c391927de")
 	)
 	(wire
 		(pts
@@ -2290,17 +2270,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 143.51) (xy 176.53 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9aa4baf6-ac4f-406f-b713-c1b198f50772")
-	)
-	(bus
-		(pts
-			(xy 113.03 55.88) (xy 128.27 55.88)
+			(xy 124.46 58.42) (xy 128.27 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2460,7 +2430,7 @@
 	)
 	(bus
 		(pts
-			(xy 128.27 55.88) (xy 128.27 64.77)
+			(xy 128.27 58.42) (xy 128.27 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2507,16 +2477,6 @@
 			(type default)
 		)
 		(uuid "d693c938-5a7e-4d08-8b9d-0273740e2ea6")
-	)
-	(bus
-		(pts
-			(xy 113.03 66.04) (xy 118.11 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7fb2d20-4fac-4240-99ff-158d594cd50c")
 	)
 	(wire
 		(pts
@@ -2630,7 +2590,17 @@
 	)
 	(bus
 		(pts
-			(xy 113.03 60.96) (xy 123.19 60.96)
+			(xy 176.53 121.92) (xy 176.53 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4db6fd5-d0d6-40c9-aa99-8bf6629cc3db")
+	)
+	(bus
+		(pts
+			(xy 119.38 109.22) (xy 123.19 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2647,6 +2617,16 @@
 			(type default)
 		)
 		(uuid "f830498a-87ca-4f15-bbee-e2238c1ae8eb")
+	)
+	(bus
+		(pts
+			(xy 176.53 121.92) (xy 181.61 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa6a0e15-709f-48b6-aff3-7a9b8a2be496")
 	)
 	(wire
 		(pts
@@ -3109,7 +3089,7 @@
 	)
 	(hierarchical_label "{SRAM_ADDR}"
 		(shape input)
-		(at 113.03 55.88 180)
+		(at 124.46 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3121,19 +3101,19 @@
 	)
 	(hierarchical_label "{SRAM_DATA}"
 		(shape input)
-		(at 113.03 66.04 180)
+		(at 181.61 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "a3b9ac89-263c-48ab-924c-6c04142c8c31")
 	)
 	(hierarchical_label "{SRAM_CTRL}"
 		(shape input)
-		(at 113.03 60.96 180)
+		(at 119.38 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font

@@ -207,36 +207,6 @@
 				(justify left top)
 			)
 		)
-		(pin "CTRL{LBN UBN WEN OEN CEN}" input
-			(at 33.02 81.28 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b3beaf73-5631-4883-953a-3086aaaf48d5")
-		)
-		(pin "ADDR.A[0..17]" input
-			(at 33.02 83.82 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "117d0b8e-ce55-422d-83fb-943f57a78ddd")
-		)
-		(pin "DATA.IO[0..15]" input
-			(at 33.02 86.36 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8fc057f9-6857-4474-b8a9-8909cc88d7d9")
-		)
 		(instances
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
