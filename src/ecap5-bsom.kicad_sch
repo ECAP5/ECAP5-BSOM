@@ -15,37 +15,137 @@
 	(lib_symbols)
 	(bus
 		(pts
-			(xy 228.6 64.77) (xy 233.68 64.77)
+			(xy 100.33 92.71) (xy 124.46 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "52c23ce8-4461-4d2d-9651-f32608564241")
+		(uuid "2ed57852-4776-4c8c-9e3b-b435b1ab6694")
 	)
 	(bus
 		(pts
-			(xy 233.68 33.02) (xy 228.6 33.02)
+			(xy 100.33 105.41) (xy 124.46 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "791ef490-f48f-4ac5-9a5c-e2ae825574bf")
+		(uuid "3cb34076-3bad-4041-a917-c809b1b42bf0")
 	)
 	(bus
 		(pts
-			(xy 228.6 33.02) (xy 228.6 64.77)
+			(xy 184.15 99.06) (xy 198.12 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa282b6e-a2e7-497f-b7b9-1fd53a917804")
+		(uuid "425fc6da-9506-4642-96ce-d7e0a622668a")
+	)
+	(bus
+		(pts
+			(xy 100.33 68.58) (xy 124.46 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "600e80f3-5f4e-43d5-9835-0705a0b35b7f")
+	)
+	(bus
+		(pts
+			(xy 100.33 109.22) (xy 124.46 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76e26c0d-6b7f-45ab-8ed2-ff8bc2d78f9a")
+	)
+	(bus
+		(pts
+			(xy 100.33 88.9) (xy 124.46 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc0f150-3777-4ee5-a115-338f71b452c5")
+	)
+	(bus
+		(pts
+			(xy 100.33 85.09) (xy 124.46 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a053f13e-08ad-46ee-9674-ce4ed7e7e9b4")
+	)
+	(bus
+		(pts
+			(xy 100.33 129.54) (xy 124.46 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad11ca43-e4b4-4c11-909c-0726896564b9")
+	)
+	(bus
+		(pts
+			(xy 152.4 48.26) (xy 152.4 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca1ecfd5-3f1f-4baa-b6d2-3f592019233a")
+	)
+	(bus
+		(pts
+			(xy 100.33 64.77) (xy 124.46 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbac2892-ff21-4eb2-b39c-fa6f711ae9b4")
+	)
+	(bus
+		(pts
+			(xy 100.33 72.39) (xy 124.46 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee067b2-e20d-49cf-8492-20426a2a59f6")
+	)
+	(bus
+		(pts
+			(xy 100.33 125.73) (xy 124.46 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8eca8b3-07b8-4e3b-8fe4-3fcfa52453f2")
+	)
+	(bus
+		(pts
+			(xy 100.33 113.03) (xy 124.46 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f34cea50-b949-4bf9-937b-160da9fce3ed")
 	)
 	(sheet
-		(at 114.3 77.47)
-		(size 35.56 26.67)
+		(at 71.12 101.6)
+		(size 29.21 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -56,7 +156,7 @@
 		)
 		(uuid "0481f44a-3ae5-4dda-99d2-682482abdf58")
 		(property "Sheetname" "DDR2"
-			(at 114.3 76.7584 0)
+			(at 71.12 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,26 +165,56 @@
 			)
 		)
 		(property "Sheetfile" "ddr2.kicad_sch"
-			(at 114.3 104.7246 0)
+			(at 71.12 117.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
+		)
+		(pin "{DDR2_ADDR}" input
+			(at 100.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bb502268-57f7-45b7-be3d-74eb916dfd43")
+		)
+		(pin "{DDR2_CTRL}" input
+			(at 100.33 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "80679a00-7691-4d08-be5f-b2f1fcf6b6bb")
+		)
+		(pin "{DDR2_DATA}" input
+			(at 100.33 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ade7f5f2-9607-4be1-8018-19151e2557d1")
 		)
 		(instances
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
-					(page "17")
+					(page "14")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 233.68 59.69)
-		(size 35.56 26.67)
-		(fields_autoplaced yes)
+		(at 146.05 33.02)
+		(size 12.7 15.24)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -92,9 +222,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "08c61aea-7b27-4464-b8b1-f0f4accab9b3")
-		(property "Sheetname" "IO connector 2"
-			(at 233.68 58.9784 0)
+		(uuid "1a74cf8f-5090-41f4-a289-4dc02847730a")
+		(property "Sheetname" "Flash"
+			(at 145.8464 32.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -102,36 +232,37 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "io-connector-2.kicad_sch"
-			(at 233.68 86.9446 0)
+		(property "Sheetfile" "flash.kicad_sch"
+			(at 159.3346 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
-		(pin "${IO}" bidirectional
-			(at 233.68 64.77 180)
+		(pin "{FLASH}" input
+			(at 152.4 48.26 270)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ddde46cf-3add-4641-aa09-d1394701b6a5")
+			(uuid "f31fa502-c0ec-450c-87b3-31ce14c60229")
 		)
 		(instances
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
-					(page "20")
+					(page "11")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 233.68 27.94)
-		(size 35.56 26.67)
+		(at 198.12 60.96)
+		(size 16.51 72.39)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -140,9 +271,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "18f7336f-a690-48df-b715-4238d1ad6e95")
-		(property "Sheetname" "IO connector 1"
-			(at 233.68 27.2284 0)
+		(uuid "25311f3d-42bc-4bc6-b069-9a914cc16127")
+		(property "Sheetname" "IO connector"
+			(at 198.12 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -150,100 +281,25 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "io-connector-1.kicad_sch"
-			(at 233.68 55.1946 0)
+		(property "Sheetfile" "io-connector.kicad_sch"
+			(at 198.12 133.9346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
-		(pin "${IO}" bidirectional
-			(at 233.68 33.02 180)
+		(pin "{IO}" bidirectional
+			(at 198.12 99.06 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4911673e-385c-4e31-a1d3-6bba130ff914")
-		)
-		(instances
-			(project "ecap5-bsom"
-				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
-					(page "19")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 33.02 77.47)
-		(size 35.56 26.67)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "492906df-f838-4d8b-b74b-2c5ce24fa298")
-		(property "Sheetname" "SRAM"
-			(at 33.02 76.7584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "sram.kicad_sch"
-			(at 33.02 104.7246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "ecap5-bsom"
-				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
-					(page "15")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 73.66 77.47)
-		(size 35.56 26.67)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "5eb51a9c-d950-4bb7-8ecf-1741d6933e12")
-		(property "Sheetname" "SDRAM"
-			(at 73.66 76.7584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "sdram.kicad_sch"
-			(at 73.66 104.7246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
+			(uuid "e8d507ee-33ba-4caa-b35e-416d9c03246d")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -254,8 +310,146 @@
 		)
 	)
 	(sheet
-		(at 233.68 96.52)
-		(size 35.56 26.67)
+		(at 71.12 60.96)
+		(size 29.21 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "492906df-f838-4d8b-b74b-2c5ce24fa298")
+		(property "Sheetname" "SRAM"
+			(at 71.12 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sram.kicad_sch"
+			(at 71.12 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "{SRAM_CTRL}" input
+			(at 100.33 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "06feeccc-f819-4be5-82df-7b068e6121f6")
+		)
+		(pin "{SRAM_DATA}" input
+			(at 100.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0a9427fa-652f-47f9-807b-1a6436f8ea4a")
+		)
+		(pin "{SRAM_ADDR}" input
+			(at 100.33 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "151336ca-adc0-4799-9323-18ca34b86f88")
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 81.28)
+		(size 29.21 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5eb51a9c-d950-4bb7-8ecf-1741d6933e12")
+		(property "Sheetname" "SDRAM"
+			(at 71.12 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sdram.kicad_sch"
+			(at 71.12 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "{SDRAM_ADDR}" input
+			(at 100.33 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7f32c152-9159-4308-b7e2-1ea95ed752b3")
+		)
+		(pin "{SDRAM_CTRL}" input
+			(at 100.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0c42e999-4f5f-4180-ae9d-c7c10d851247")
+		)
+		(pin "{SDRAM_DATA}" input
+			(at 100.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6e636246-79b4-4458-8d9f-64b08e855bb1")
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 77.47 33.02)
+		(size 15.24 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -266,7 +460,7 @@
 		)
 		(uuid "75c84b0f-c428-4bdf-a9d0-2de4281daa69")
 		(property "Sheetname" "Power"
-			(at 233.68 95.8084 0)
+			(at 77.47 32.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -275,12 +469,13 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 233.68 123.7746 0)
+			(at 77.47 48.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -292,8 +487,8 @@
 		)
 	)
 	(sheet
-		(at 33.02 113.03)
-		(size 35.56 26.67)
+		(at 71.12 121.92)
+		(size 29.21 11.43)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -304,7 +499,7 @@
 		)
 		(uuid "8d5e6f54-b0a0-44ab-a9a3-d267ce1e7cb8")
 		(property "Sheetname" "eMMC"
-			(at 33.02 112.3184 0)
+			(at 71.12 121.2084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -313,25 +508,46 @@
 			)
 		)
 		(property "Sheetfile" "emmc.kicad_sch"
-			(at 33.02 140.2846 0)
+			(at 71.12 133.9346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
+		)
+		(pin "{EMMC_DATA}" input
+			(at 100.33 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "344b586a-2549-409c-a2eb-426b641b8027")
+		)
+		(pin "{EMMC_CTRL}" input
+			(at 100.33 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b1326ff4-8f22-4772-829b-1ae9558d517e")
 		)
 		(instances
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
-					(page "18")
+					(page "15")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 33.02 27.94)
-		(size 35.56 26.67)
+		(at 124.46 60.96)
+		(size 59.69 72.39)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -340,9 +556,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "93025bf8-f1b9-4669-843e-f0f0cbaf67cc")
-		(property "Sheetname" "FPGA Power"
-			(at 33.02 27.2284 0)
+		(uuid "9ec64d27-698a-408d-bb9c-7e381193a80d")
+		(property "Sheetname" "FPGA"
+			(at 124.46 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -350,57 +566,150 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "fpga-power.kicad_sch"
-			(at 33.02 55.1946 0)
+		(property "Sheetfile" "fpga.kicad_sch"
+			(at 124.46 133.9346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
+		)
+		(pin "{DDR2_ADDR}" input
+			(at 124.46 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cf2e5cfa-ea53-4ae6-8eb3-424e61747c8e")
+		)
+		(pin "{SDRAM_DATA}" input
+			(at 124.46 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "22f8d230-2a9e-4248-bf04-5e71210f53b1")
+		)
+		(pin "{SDRAM_ADDR}" input
+			(at 124.46 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d05f22cc-b289-4e0b-8dc7-9449eca800f4")
+		)
+		(pin "{SDRAM_CTRL}" input
+			(at 124.46 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2d80b51a-4aaf-4ab0-9c93-9f4143b86d3e")
+		)
+		(pin "{DDR2_CTRL}" input
+			(at 124.46 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b8ed1815-01bf-4ea7-a94c-68fdeef00647")
+		)
+		(pin "{DDR2_DATA}" input
+			(at 124.46 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bcaeda60-8a87-4107-bde0-167996979a00")
+		)
+		(pin "{EMMC_DATA}" input
+			(at 124.46 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "da42eeb6-8eeb-429d-937c-3a41018355f0")
+		)
+		(pin "{EMMC_CTRL}" input
+			(at 124.46 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "28cc4cc1-6b76-4d1f-a26a-37f5fdb73dd9")
+		)
+		(pin "{SRAM_CTRL}" input
+			(at 124.46 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e26f0539-5648-4030-8c98-bbbf1f1b94ce")
+		)
+		(pin "{SRAM_ADDR}" input
+			(at 124.46 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5ba02e09-7c7e-4c90-bb64-a5538212c160")
+		)
+		(pin "{SRAM_DATA}" input
+			(at 124.46 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "92db3ca7-202d-4ae3-8450-c63b5e497da7")
+		)
+		(pin "{IO}" input
+			(at 184.15 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5c01bc94-0d0e-406a-9094-4938f25b557a")
+		)
+		(pin "FLASH" input
+			(at 152.4 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1dd7c206-a938-4576-b6e9-bdac44601a5d")
 		)
 		(instances
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 73.66 27.94)
-		(size 35.56 26.67)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a6f58a60-b543-4e9a-a623-c4e17a89347d")
-		(property "Sheetname" "FPGA Config"
-			(at 73.66 27.2284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "fpga-config.kicad_sch"
-			(at 73.66 55.1946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "ecap5-bsom"
-				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
-					(page "4")
 				)
 			)
 		)
