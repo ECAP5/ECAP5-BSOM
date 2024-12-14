@@ -7179,6 +7179,16 @@
 		)
 		(uuid "0f8b9b17-cc6b-4315-a444-25e8af02d5cf")
 	)
+	(bus
+		(pts
+			(xy 60.96 121.92) (xy 229.87 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13df9387-f102-4bcd-8352-9c4ea38cb0c0")
+	)
 	(wire
 		(pts
 			(xy 187.96 45.72) (xy 187.96 53.34)
@@ -7311,7 +7321,7 @@
 	)
 	(bus
 		(pts
-			(xy 204.47 100.33) (xy 209.55 100.33)
+			(xy 205.74 100.33) (xy 210.82 100.33)
 		)
 		(stroke
 			(width 0)
@@ -7428,6 +7438,16 @@
 			(type default)
 		)
 		(uuid "5a7bea9a-21a7-4a93-ac47-2f51c4b958e8")
+	)
+	(bus
+		(pts
+			(xy 229.87 121.92) (xy 229.87 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d68c048-fa8a-4dc5-bf86-8d3bd8088ec8")
 	)
 	(bus
 		(pts
@@ -7701,7 +7721,7 @@
 	)
 	(bus
 		(pts
-			(xy 204.47 102.87) (xy 209.55 102.87)
+			(xy 205.74 102.87) (xy 210.82 102.87)
 		)
 		(stroke
 			(width 0)
@@ -7879,6 +7899,16 @@
 		)
 		(uuid "bb323a42-8c12-4649-8847-8d70fa66911a")
 	)
+	(bus
+		(pts
+			(xy 54.61 80.01) (xy 60.96 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc00b442-46be-499e-a459-a7aa18828903")
+	)
 	(wire
 		(pts
 			(xy 106.68 45.72) (xy 106.68 46.99)
@@ -7931,7 +7961,7 @@
 	)
 	(bus
 		(pts
-			(xy 204.47 143.51) (xy 209.55 143.51)
+			(xy 205.74 142.24) (xy 210.82 142.24)
 		)
 		(stroke
 			(width 0)
@@ -8119,6 +8149,16 @@
 		)
 		(uuid "e1638072-5ab8-4ed7-9ede-d3396807fd19")
 	)
+	(bus
+		(pts
+			(xy 60.96 80.01) (xy 60.96 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e41a383e-bda6-4a14-9bc4-c14006f8a19a")
+	)
 	(wire
 		(pts
 			(xy 124.46 45.72) (xy 124.46 46.99)
@@ -8131,7 +8171,7 @@
 	)
 	(bus
 		(pts
-			(xy 204.47 105.41) (xy 209.55 105.41)
+			(xy 205.74 105.41) (xy 210.82 105.41)
 		)
 		(stroke
 			(width 0)
@@ -8231,7 +8271,7 @@
 	)
 	(hierarchical_label "{FLASH}"
 		(shape input)
-		(at 204.47 143.51 180)
+		(at 205.74 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8291,7 +8331,7 @@
 	)
 	(hierarchical_label "{SRAM_ADDR}"
 		(shape input)
-		(at 204.47 100.33 180)
+		(at 205.74 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8303,7 +8343,7 @@
 	)
 	(hierarchical_label "{SRAM_DATA}"
 		(shape input)
-		(at 204.47 102.87 180)
+		(at 205.74 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8315,7 +8355,7 @@
 	)
 	(hierarchical_label "{SRAM_CTRL}"
 		(shape input)
-		(at 204.47 105.41 180)
+		(at 205.74 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8339,7 +8379,7 @@
 	)
 	(hierarchical_label "{IO}"
 		(shape input)
-		(at 40.64 90.17 180)
+		(at 54.61 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11502,7 +11542,7 @@
 		)
 	)
 	(sheet
-		(at 209.55 130.81)
+		(at 210.82 130.81)
 		(size 22.86 22.86)
 		(fields_autoplaced yes)
 		(stroke
@@ -11514,7 +11554,7 @@
 		)
 		(uuid "18091020-63fe-404a-865e-37face667a8c")
 		(property "Sheetname" "FPGA Bank 8"
-			(at 209.55 130.0984 0)
+			(at 210.82 130.0984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11523,7 +11563,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga-bank8.kicad_sch"
-			(at 209.55 154.2546 0)
+			(at 210.82 154.2546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11533,7 +11573,7 @@
 			)
 		)
 		(pin "{FLASH}" input
-			(at 209.55 143.51 180)
+			(at 210.82 142.24 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11543,12 +11583,12 @@
 			(uuid "13a44a44-3436-49e9-bf3d-4fd11dca3fef")
 		)
 		(pin "{IO}" input
-			(at 209.55 135.89 180)
+			(at 229.87 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "59dfc7e3-d4ba-4b44-8bae-659e4ce19bec")
 		)
@@ -11561,7 +11601,7 @@
 		)
 	)
 	(sheet
-		(at 118.11 91.44)
+		(at 116.84 91.44)
 		(size 22.86 22.86)
 		(fields_autoplaced yes)
 		(stroke
@@ -11573,7 +11613,7 @@
 		)
 		(uuid "1c46737e-d838-4a0b-8b09-075a583d5a60")
 		(property "Sheetname" "FPGA Bank 1"
-			(at 118.11 90.7284 0)
+			(at 116.84 90.7284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11582,7 +11622,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga-bank1.kicad_sch"
-			(at 118.11 114.8846 0)
+			(at 116.84 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11669,7 +11709,7 @@
 		)
 	)
 	(sheet
-		(at 118.11 130.81)
+		(at 116.84 130.81)
 		(size 22.86 22.86)
 		(fields_autoplaced yes)
 		(stroke
@@ -11681,7 +11721,7 @@
 		)
 		(uuid "95fcda06-cda0-4eca-ae7c-fe055bbdf4e0")
 		(property "Sheetname" "FPGA Bank 6"
-			(at 118.11 130.0984 0)
+			(at 116.84 130.0984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11690,7 +11730,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga-bank6.kicad_sch"
-			(at 118.11 154.2546 0)
+			(at 116.84 154.2546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11797,7 +11837,7 @@
 		)
 	)
 	(sheet
-		(at 72.39 91.44)
+		(at 69.85 91.44)
 		(size 22.86 22.86)
 		(fields_autoplaced yes)
 		(stroke
@@ -11809,7 +11849,7 @@
 		)
 		(uuid "a27a4945-d3aa-4752-b726-05ef96a067ff")
 		(property "Sheetname" "FPGA Bank 0"
-			(at 72.39 90.7284 0)
+			(at 69.85 90.7284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11818,7 +11858,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga-bank0.kicad_sch"
-			(at 72.39 114.8846 0)
+			(at 69.85 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11836,7 +11876,7 @@
 		)
 	)
 	(sheet
-		(at 72.39 130.81)
+		(at 69.85 130.81)
 		(size 22.86 22.86)
 		(fields_autoplaced yes)
 		(stroke
@@ -11848,7 +11888,7 @@
 		)
 		(uuid "ce582390-3a89-4130-936e-5664e8586325")
 		(property "Sheetname" "FPGA Bank 4"
-			(at 72.39 130.0984 0)
+			(at 69.85 130.0984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11857,7 +11897,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga-bank4.kicad_sch"
-			(at 72.39 154.2546 0)
+			(at 69.85 154.2546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11875,7 +11915,7 @@
 		)
 	)
 	(sheet
-		(at 209.55 92.71)
+		(at 210.82 92.71)
 		(size 22.86 22.86)
 		(fields_autoplaced yes)
 		(stroke
@@ -11887,7 +11927,7 @@
 		)
 		(uuid "e7804405-4074-46d1-8e70-4bdd7658402b")
 		(property "Sheetname" "FPGA Bank 3"
-			(at 209.55 91.9984 0)
+			(at 210.82 91.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11896,7 +11936,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga-bank3.kicad_sch"
-			(at 209.55 116.1546 0)
+			(at 210.82 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11906,7 +11946,7 @@
 			)
 		)
 		(pin "{SRAM_CTRL}" input
-			(at 209.55 105.41 180)
+			(at 210.82 105.41 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11916,7 +11956,7 @@
 			(uuid "4203371a-fbdc-4eb8-a68d-a6b7c3247faf")
 		)
 		(pin "{SRAM_DATA}" input
-			(at 209.55 102.87 180)
+			(at 210.82 102.87 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11926,7 +11966,7 @@
 			(uuid "f02b0556-d38f-4944-9417-df3aa1a9786d")
 		)
 		(pin "{SRAM_ADDR}" input
-			(at 209.55 100.33 180)
+			(at 210.82 100.33 180)
 			(effects
 				(font
 					(size 1.27 1.27)
