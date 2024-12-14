@@ -2886,29 +2886,29 @@
 		)
 		(uuid "ffcb031b-0a0e-40c2-9565-96e0e71fb8e4")
 	)
-	(label "DATA.DQ15"
-		(at 162.56 114.3 0)
+	(label "DQ15"
+		(at 171.45 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0e402ede-a8d7-45ed-a3ca-fd1e735b7886")
 	)
-	(label "DATA.DQ4"
-		(at 162.56 86.36 0)
+	(label "DQ4"
+		(at 171.45 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "1007cd96-7fed-4cd4-836a-d49f2f156ac0")
 	)
-	(label "ADDR.A0"
+	(label "A0"
 		(at 125.73 71.12 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2919,29 +2919,29 @@
 		)
 		(uuid "11db1b41-218e-47b2-a07a-60611273a93b")
 	)
-	(label "DATA.DQ12"
-		(at 162.56 106.68 0)
+	(label "DQ12"
+		(at 171.45 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "129cdbb8-64c1-4ce0-ab13-6ac7212be6be")
 	)
-	(label "DATA.DQ9"
-		(at 162.56 99.06 0)
+	(label "DQ9"
+		(at 171.45 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "19082be4-cc02-454d-9d26-38a12d6c7589")
 	)
-	(label "ADDR.A4"
+	(label "A4"
 		(at 125.73 81.28 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2952,7 +2952,7 @@
 		)
 		(uuid "1a1b9ff9-81ce-4fd2-9c74-9ff83410cda1")
 	)
-	(label "ADDR.A10"
+	(label "A10"
 		(at 125.73 96.52 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2963,8 +2963,8 @@
 		)
 		(uuid "284f14b7-1291-4c72-9704-4dba0d510c14")
 	)
-	(label "CTRL.UBN"
-		(at 125.73 116.84 0)
+	(label "UBN"
+		(at 121.92 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2974,7 +2974,7 @@
 		)
 		(uuid "32d8c31e-bf11-4fe2-ac56-c8ee3b0e63b8")
 	)
-	(label "ADDR.A9"
+	(label "A9"
 		(at 125.73 93.98 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2985,7 +2985,7 @@
 		)
 		(uuid "475f1eb4-8fa7-4bf9-8a90-e74876791062")
 	)
-	(label "ADDR.A8"
+	(label "A8"
 		(at 125.73 91.44 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2996,18 +2996,18 @@
 		)
 		(uuid "5342670e-fd60-42be-b8a3-f5d885a5466f")
 	)
-	(label "DATA.DQ1"
-		(at 162.56 78.74 0)
+	(label "DQ1"
+		(at 171.45 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "60f56e5b-7a13-4f5e-98b7-7568e5a028de")
 	)
-	(label "ADDR.BA0"
+	(label "BA0"
 		(at 125.73 104.14 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3018,19 +3018,19 @@
 		)
 		(uuid "62004e2f-a418-4b7e-bf5c-4b468f810055")
 	)
-	(label "DATA.DQ11"
-		(at 162.56 104.14 0)
+	(label "DQ11"
+		(at 171.45 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "64408fbf-c08e-406d-a03b-ecddf3d40667")
 	)
-	(label "CTRL.CEN"
-		(at 125.73 124.46 0)
+	(label "CEN"
+		(at 121.92 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3040,7 +3040,7 @@
 		)
 		(uuid "6661557c-93cf-4387-82e9-d56b0fa0bc79")
 	)
-	(label "ADDR.A11"
+	(label "A11"
 		(at 125.73 99.06 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3051,18 +3051,18 @@
 		)
 		(uuid "67cb0748-3c79-44f0-b98a-fe3cb6d79d28")
 	)
-	(label "DATA.DQ13"
-		(at 162.56 109.22 0)
+	(label "DQ13"
+		(at 171.45 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6a7354a7-1527-4591-81f6-0dc83e9ead65")
 	)
-	(label "ADDR.A1"
+	(label "A1"
 		(at 125.73 73.66 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3073,7 +3073,7 @@
 		)
 		(uuid "6b785df6-b1f7-4ffd-ba98-eb4d060150db")
 	)
-	(label "ADDR.A5"
+	(label "A5"
 		(at 125.73 83.82 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3084,18 +3084,18 @@
 		)
 		(uuid "6eb3dfd5-5918-4e36-a9ff-12edb08995d5")
 	)
-	(label "DATA.DQ10"
-		(at 162.56 101.6 0)
+	(label "DQ10"
+		(at 171.45 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "70b4ae00-dea6-4224-9e4f-93e414319061")
 	)
-	(label "ADDR.A3"
+	(label "A3"
 		(at 125.73 78.74 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3106,7 +3106,7 @@
 		)
 		(uuid "774133f7-ae4e-4cf9-abec-412a32f7031a")
 	)
-	(label "ADDR.A2"
+	(label "A2"
 		(at 125.73 76.2 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3117,8 +3117,8 @@
 		)
 		(uuid "7f69baa9-033a-44d9-8fcc-8fb8d8c209d9")
 	)
-	(label "CTRL.WEN"
-		(at 125.73 119.38 0)
+	(label "WEN"
+		(at 121.92 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3128,19 +3128,19 @@
 		)
 		(uuid "8bc55f42-87db-4530-b083-58c1f70f2c65")
 	)
-	(label "DATA.DQ14"
-		(at 162.56 111.76 0)
+	(label "DQ14"
+		(at 171.45 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "94ffa61c-c04f-4c1f-97ff-7df1689d5315")
 	)
-	(label "CTRL.OEN"
-		(at 125.73 121.92 0)
+	(label "OEN"
+		(at 121.92 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3150,7 +3150,7 @@
 		)
 		(uuid "9e00b64c-b227-4f43-8f8e-fed3546be52b")
 	)
-	(label "ADDR.BA1"
+	(label "BA1"
 		(at 125.73 106.68 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3161,40 +3161,40 @@
 		)
 		(uuid "a05a6cee-dd3d-475c-b378-6844e9bb19bd")
 	)
-	(label "DATA.DQ0"
-		(at 162.56 76.2 0)
+	(label "DQ0"
+		(at 171.45 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c172135e-cd1f-4a44-bff7-e24619a74f36")
 	)
-	(label "DATA.DQ6"
-		(at 162.56 91.44 0)
+	(label "DQ6"
+		(at 171.45 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c2907a43-ccac-44ea-8bcd-cbc4d937529a")
 	)
-	(label "DATA.DQ3"
-		(at 162.56 83.82 0)
+	(label "DQ3"
+		(at 171.45 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c720310b-cb20-48f3-b7a9-d159299e2fb3")
 	)
-	(label "ADDR.A7"
+	(label "A7"
 		(at 125.73 88.9 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3205,18 +3205,18 @@
 		)
 		(uuid "c76b7265-8a7b-4d04-b473-8442799547e8")
 	)
-	(label "DATA.DQ5"
-		(at 162.56 88.9 0)
+	(label "DQ5"
+		(at 171.45 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "eeaeddb8-cd47-4e3c-a2ab-c5a731f56c90")
 	)
-	(label "ADDR.A12"
+	(label "A12"
 		(at 125.73 101.6 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3227,40 +3227,40 @@
 		)
 		(uuid "f15c8250-8acc-463f-8124-a68790f96b25")
 	)
-	(label "DATA.DQ7"
-		(at 162.56 93.98 0)
+	(label "DQ7"
+		(at 171.45 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f30bdc22-8c38-412d-82fd-3f4780c42dd6")
 	)
-	(label "DATA.DQ8"
-		(at 162.56 96.52 0)
+	(label "DQ8"
+		(at 171.45 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f46d51b5-bf3b-4498-bcc3-98ea8c6e59d7")
 	)
-	(label "DATA.DQ2"
-		(at 162.56 81.28 0)
+	(label "DQ2"
+		(at 171.45 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f773d43f-497e-4852-aacc-b6264946808d")
 	)
-	(label "ADDR.A6"
+	(label "A6"
 		(at 125.73 86.36 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3271,7 +3271,7 @@
 		)
 		(uuid "f7d97a4b-3eb0-4c33-aff4-42b73c5c3e7a")
 	)
-	(hierarchical_label "DATA.DQ[0..15]"
+	(hierarchical_label "DQ[0..15]"
 		(shape input)
 		(at 107.95 67.31 180)
 		(fields_autoplaced yes)
@@ -3295,7 +3295,7 @@
 		)
 		(uuid "6297f9ee-593c-4929-913e-5a8f5f01b23f")
 	)
-	(hierarchical_label "ADDR.A[0..17]"
+	(hierarchical_label "A[0..17]"
 		(shape input)
 		(at 107.95 59.69 180)
 		(fields_autoplaced yes)
