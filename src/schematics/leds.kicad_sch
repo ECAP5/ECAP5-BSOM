@@ -9,7 +9,7 @@
 		(date "2024-06-30")
 		(rev "${Revision}")
 		(comment 1 "${Project Title}")
-		(comment 2 "SRAM")
+		(comment 2 "LEDS")
 		(comment 3 "${Part Number}")
 	)
 	(lib_symbols
@@ -833,6 +833,9 @@
 				)
 			)
 		)
+	)
+	(bus_alias "LEDS"
+		(members "LED0" "LED1")
 	)
 	(bus_entry
 		(at 138.43 101.6)

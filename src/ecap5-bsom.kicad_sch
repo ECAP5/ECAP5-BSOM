@@ -15,6 +15,16 @@
 	(lib_symbols)
 	(bus
 		(pts
+			(xy 100.33 109.22) (xy 124.46 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b51c8ac-9144-4d48-af04-e4054c87e21a")
+	)
+	(bus
+		(pts
 			(xy 153.67 133.35) (xy 153.67 146.05)
 		)
 		(stroke
@@ -25,13 +35,13 @@
 	)
 	(bus
 		(pts
-			(xy 100.33 92.71) (xy 124.46 92.71)
+			(xy 100.33 68.58) (xy 124.46 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ed57852-4776-4c8c-9e3b-b435b1ab6694")
+		(uuid "2dce3944-ef98-4f5a-9131-15019746fa17")
 	)
 	(wire
 		(pts
@@ -45,16 +55,6 @@
 	)
 	(bus
 		(pts
-			(xy 100.33 105.41) (xy 124.46 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cb34076-3bad-4041-a917-c809b1b42bf0")
-	)
-	(bus
-		(pts
 			(xy 184.15 99.06) (xy 198.12 99.06)
 		)
 		(stroke
@@ -65,23 +65,13 @@
 	)
 	(bus
 		(pts
-			(xy 100.33 68.58) (xy 124.46 68.58)
+			(xy 100.33 128.27) (xy 124.46 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "600e80f3-5f4e-43d5-9835-0705a0b35b7f")
-	)
-	(bus
-		(pts
-			(xy 100.33 109.22) (xy 124.46 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76e26c0d-6b7f-45ab-8ed2-ff8bc2d78f9a")
+		(uuid "4ff10aba-55aa-4acb-a79e-a8601330982b")
 	)
 	(bus
 		(pts
@@ -91,27 +81,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8dc0f150-3777-4ee5-a115-338f71b452c5")
-	)
-	(bus
-		(pts
-			(xy 100.33 85.09) (xy 124.46 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a053f13e-08ad-46ee-9674-ce4ed7e7e9b4")
-	)
-	(bus
-		(pts
-			(xy 100.33 129.54) (xy 124.46 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad11ca43-e4b4-4c11-909c-0726896564b9")
+		(uuid "6e6ff776-97ab-4f02-9401-208b28203c18")
 	)
 	(bus
 		(pts
@@ -122,46 +92,6 @@
 			(type default)
 		)
 		(uuid "ca1ecfd5-3f1f-4baa-b6d2-3f592019233a")
-	)
-	(bus
-		(pts
-			(xy 100.33 64.77) (xy 124.46 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbac2892-ff21-4eb2-b39c-fa6f711ae9b4")
-	)
-	(bus
-		(pts
-			(xy 100.33 72.39) (xy 124.46 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dee067b2-e20d-49cf-8492-20426a2a59f6")
-	)
-	(bus
-		(pts
-			(xy 100.33 125.73) (xy 124.46 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8eca8b3-07b8-4e3b-8fe4-3fcfa52453f2")
-	)
-	(bus
-		(pts
-			(xy 100.33 113.03) (xy 124.46 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f34cea50-b949-4bf9-937b-160da9fce3ed")
 	)
 	(sheet
 		(at 71.12 101.6)
@@ -194,27 +124,7 @@
 				(hide yes)
 			)
 		)
-		(pin "{DDR2_ADDR}" input
-			(at 100.33 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "bb502268-57f7-45b7-be3d-74eb916dfd43")
-		)
-		(pin "{DDR2_CTRL}" input
-			(at 100.33 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "80679a00-7691-4d08-be5f-b2f1fcf6b6bb")
-		)
-		(pin "{DDR2_DATA}" input
+		(pin "{DDR2}" input
 			(at 100.33 109.22 0)
 			(effects
 				(font
@@ -222,7 +132,7 @@
 				)
 				(justify right)
 			)
-			(uuid "ade7f5f2-9607-4be1-8018-19151e2557d1")
+			(uuid "a3a01444-c936-4094-90d7-3ccb99417000")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -360,17 +270,7 @@
 				(hide yes)
 			)
 		)
-		(pin "{SRAM_CTRL}" input
-			(at 100.33 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "06feeccc-f819-4be5-82df-7b068e6121f6")
-		)
-		(pin "{SRAM_DATA}" input
+		(pin "{SRAM}" input
 			(at 100.33 68.58 0)
 			(effects
 				(font
@@ -378,17 +278,7 @@
 				)
 				(justify right)
 			)
-			(uuid "0a9427fa-652f-47f9-807b-1a6436f8ea4a")
-		)
-		(pin "{SRAM_ADDR}" input
-			(at 100.33 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "151336ca-adc0-4799-9323-18ca34b86f88")
+			(uuid "8626a39a-fe78-4056-806c-f3ad70178a11")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -429,27 +319,7 @@
 				(hide yes)
 			)
 		)
-		(pin "{SDRAM_ADDR}" input
-			(at 100.33 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "7f32c152-9159-4308-b7e2-1ea95ed752b3")
-		)
-		(pin "{SDRAM_CTRL}" input
-			(at 100.33 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "0c42e999-4f5f-4180-ae9d-c7c10d851247")
-		)
-		(pin "{SDRAM_DATA}" input
+		(pin "{SDRAM}" input
 			(at 100.33 88.9 0)
 			(effects
 				(font
@@ -457,7 +327,7 @@
 				)
 				(justify right)
 			)
-			(uuid "6e636246-79b4-4458-8d9f-64b08e855bb1")
+			(uuid "4866d321-0861-419f-92ea-720d2a3a8b8f")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -556,7 +426,7 @@
 	)
 	(sheet
 		(at 71.12 121.92)
-		(size 29.21 11.43)
+		(size 29.21 12.7)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -576,7 +446,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/emmc.kicad_sch"
-			(at 71.12 133.9346 0)
+			(at 71.12 135.2046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -585,25 +455,15 @@
 				(hide yes)
 			)
 		)
-		(pin "{EMMC_DATA}" input
-			(at 100.33 125.73 0)
+		(pin "{EMMC}" input
+			(at 100.33 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "344b586a-2549-409c-a2eb-426b641b8027")
-		)
-		(pin "{EMMC_CTRL}" input
-			(at 100.33 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b1326ff4-8f22-4772-829b-1ae9558d517e")
+			(uuid "99a63e4d-d96a-49f9-89cf-cb5d558aeab2")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -644,17 +504,7 @@
 				(hide yes)
 			)
 		)
-		(pin "{DDR2_ADDR}" input
-			(at 124.46 105.41 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "cf2e5cfa-ea53-4ae6-8eb3-424e61747c8e")
-		)
-		(pin "{SDRAM_DATA}" input
+		(pin "{SDRAM}" input
 			(at 124.46 88.9 180)
 			(effects
 				(font
@@ -664,37 +514,7 @@
 			)
 			(uuid "22f8d230-2a9e-4248-bf04-5e71210f53b1")
 		)
-		(pin "{SDRAM_ADDR}" input
-			(at 124.46 85.09 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d05f22cc-b289-4e0b-8dc7-9449eca800f4")
-		)
-		(pin "{SDRAM_CTRL}" input
-			(at 124.46 92.71 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2d80b51a-4aaf-4ab0-9c93-9f4143b86d3e")
-		)
-		(pin "{DDR2_CTRL}" input
-			(at 124.46 113.03 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b8ed1815-01bf-4ea7-a94c-68fdeef00647")
-		)
-		(pin "{DDR2_DATA}" input
+		(pin "{DDR2}" input
 			(at 124.46 109.22 180)
 			(effects
 				(font
@@ -704,18 +524,8 @@
 			)
 			(uuid "bcaeda60-8a87-4107-bde0-167996979a00")
 		)
-		(pin "{EMMC_DATA}" input
-			(at 124.46 125.73 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "da42eeb6-8eeb-429d-937c-3a41018355f0")
-		)
-		(pin "{EMMC_CTRL}" input
-			(at 124.46 129.54 180)
+		(pin "{EMMC}" input
+			(at 124.46 128.27 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -724,17 +534,7 @@
 			)
 			(uuid "28cc4cc1-6b76-4d1f-a26a-37f5fdb73dd9")
 		)
-		(pin "{SRAM_CTRL}" input
-			(at 124.46 72.39 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e26f0539-5648-4030-8c98-bbbf1f1b94ce")
-		)
-		(pin "{SRAM_ADDR}" input
+		(pin "{SRAM}" input
 			(at 124.46 68.58 180)
 			(effects
 				(font
@@ -743,16 +543,6 @@
 				(justify left)
 			)
 			(uuid "5ba02e09-7c7e-4c90-bb64-a5538212c160")
-		)
-		(pin "{SRAM_DATA}" input
-			(at 124.46 64.77 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "92db3ca7-202d-4ae3-8450-c63b5e497da7")
 		)
 		(pin "{IO}" input
 			(at 184.15 99.06 0)

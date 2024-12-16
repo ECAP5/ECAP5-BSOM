@@ -9,7 +9,7 @@
 		(date "2024-06-30")
 		(rev "${Revision}")
 		(comment 1 "${Project Title}")
-		(comment 2 "FPGA POWER")
+		(comment 2 "FPGA")
 		(comment 3 "${Part Number}")
 	)
 	(lib_symbols
@@ -14020,26 +14020,6 @@
 	)
 	(bus
 		(pts
-			(xy 40.64 91.44) (xy 45.72 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e16ccd1-7524-43da-a1ec-56d84f5637f3")
-	)
-	(bus
-		(pts
-			(xy 158.75 149.86) (xy 163.83 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "237fb66b-1854-463c-b994-42100c4b2f99")
-	)
-	(bus
-		(pts
 			(xy 100.33 93.98) (xy 105.41 93.98)
 		)
 		(stroke
@@ -14478,16 +14458,6 @@
 		)
 		(uuid "8059201a-a2b0-4609-9e1d-37b8fd8f1d01")
 	)
-	(bus
-		(pts
-			(xy 158.75 134.62) (xy 163.83 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8308b2c5-31a0-46c7-881e-61b343de8bfd")
-	)
 	(wire
 		(pts
 			(xy 115.57 53.34) (xy 124.46 53.34)
@@ -14597,16 +14567,6 @@
 			(type default)
 		)
 		(uuid "91c8e1cb-060b-4977-891b-bc093d0b8309")
-	)
-	(bus
-		(pts
-			(xy 100.33 96.52) (xy 105.41 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9604dbbf-23f6-478a-83b8-ba789d5bfda1")
 	)
 	(wire
 		(pts
@@ -14808,16 +14768,6 @@
 		)
 		(uuid "c33335c7-e592-45f0-8d91-834e2a0529b7")
 	)
-	(bus
-		(pts
-			(xy 100.33 91.44) (xy 105.41 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5732e9a-1df3-49e2-b47d-c067b587b939")
-	)
 	(wire
 		(pts
 			(xy 88.9 34.29) (xy 88.9 35.56)
@@ -14857,16 +14807,6 @@
 			(type default)
 		)
 		(uuid "c8065b8c-5b98-4b10-b6a4-731a1dccd4d2")
-	)
-	(bus
-		(pts
-			(xy 158.75 139.7) (xy 163.83 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8ce8a48-0743-45c6-9037-123389253482")
 	)
 	(wire
 		(pts
@@ -15018,16 +14958,6 @@
 		)
 		(uuid "e1638072-5ab8-4ed7-9ede-d3396807fd19")
 	)
-	(bus
-		(pts
-			(xy 40.64 96.52) (xy 45.72 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4af3f07-c2a6-409f-8adf-f5f5311b5b72")
-	)
 	(wire
 		(pts
 			(xy 124.46 45.72) (xy 124.46 46.99)
@@ -15172,31 +15102,7 @@
 		)
 		(uuid "1e8eacdc-0998-43b8-a2a4-a93811a476a3")
 	)
-	(hierarchical_label "{SDRAM_CTRL}"
-		(shape input)
-		(at 40.64 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "23200486-20e9-4d95-9b69-3073b40221ed")
-	)
-	(hierarchical_label "{DDR2_CTRL}"
-		(shape input)
-		(at 158.75 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3e8a6c54-931e-4cd2-90db-7894b3eb274c")
-	)
-	(hierarchical_label "{SDRAM_DATA}"
+	(hierarchical_label "{SDRAM}"
 		(shape input)
 		(at 40.64 93.98 180)
 		(fields_autoplaced yes)
@@ -15208,31 +15114,7 @@
 		)
 		(uuid "425007f5-9db4-4c14-b49b-e2770914c230")
 	)
-	(hierarchical_label "{SDRAM_ADDR}"
-		(shape input)
-		(at 40.64 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "48085163-39af-42d4-98d0-bebf075c01db")
-	)
-	(hierarchical_label "{SRAM_ADDR}"
-		(shape input)
-		(at 100.33 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5d4d255c-a7e5-4525-8df1-4e565365cb8c")
-	)
-	(hierarchical_label "{SRAM_DATA}"
+	(hierarchical_label "{SRAM}"
 		(shape input)
 		(at 100.33 93.98 180)
 		(fields_autoplaced yes)
@@ -15244,19 +15126,7 @@
 		)
 		(uuid "69562734-65f7-4bb2-a318-7e218b426f78")
 	)
-	(hierarchical_label "{SRAM_CTRL}"
-		(shape input)
-		(at 100.33 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b358c555-3760-45ce-ab92-5e51a9620489")
-	)
-	(hierarchical_label "{EMMC_DATA}"
+	(hierarchical_label "{EMMC}"
 		(shape input)
 		(at 158.75 147.32 180)
 		(fields_autoplaced yes)
@@ -15280,30 +15150,6 @@
 		)
 		(uuid "e54319f7-1e00-4cce-9a4d-7d5d4a8381b6")
 	)
-	(hierarchical_label "{DDR2_ADDR}"
-		(shape input)
-		(at 158.75 134.62 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e8e42494-d216-4726-bb02-be1d57bc98ae")
-	)
-	(hierarchical_label "{EMMC_CTRL}"
-		(shape input)
-		(at 158.75 149.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ead0ef3e-3a57-4d86-998e-08718afac7a1")
-	)
 	(hierarchical_label "{LEDS}"
 		(shape input)
 		(at 100.33 102.87 180)
@@ -15316,7 +15162,7 @@
 		)
 		(uuid "eba8efd6-7fcf-4c10-bf30-dfd32efba36c")
 	)
-	(hierarchical_label "{DDR2_DATA}"
+	(hierarchical_label "{DDR2}"
 		(shape input)
 		(at 158.75 137.16 180)
 		(fields_autoplaced yes)
@@ -19650,27 +19496,7 @@
 				(hide yes)
 			)
 		)
-		(pin "{SRAM_CTRL}" input
-			(at 105.41 96.52 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b13e647e-640b-4fbc-bcd2-9d9c7ad7ed63")
-		)
-		(pin "{SRAM_ADDR}" input
-			(at 105.41 91.44 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e1263fb9-a762-4e60-845d-af9fe96484de")
-		)
-		(pin "{SRAM_DATA}" input
+		(pin "{SRAM}" input
 			(at 105.41 93.98 180)
 			(effects
 				(font
@@ -19826,7 +19652,7 @@
 				(hide yes)
 			)
 		)
-		(pin "{EMMC_DATA}" input
+		(pin "{EMMC}" input
 			(at 163.83 147.32 180)
 			(effects
 				(font
@@ -19836,17 +19662,7 @@
 			)
 			(uuid "eb9dfa79-8830-44f0-8c78-fd7bddc2831e")
 		)
-		(pin "{EMMC_CTRL}" input
-			(at 163.83 149.86 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "27bb09a7-26ad-4bc0-b9e7-5c4c55c52ace")
-		)
-		(pin "{DDR2_DATA}" input
+		(pin "{DDR2}" input
 			(at 163.83 137.16 180)
 			(effects
 				(font
@@ -19855,26 +19671,6 @@
 				(justify left)
 			)
 			(uuid "0bb52b90-26b8-4271-8965-5cee18467051")
-		)
-		(pin "{DDR2_ADDR}" input
-			(at 163.83 134.62 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "6451cbf9-c67f-4a3c-a294-2c0b25b5ce51")
-		)
-		(pin "{DDR2_CTRL}" input
-			(at 163.83 139.7 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b46f5ff5-b653-4463-bffb-ead070312a08")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -19915,7 +19711,7 @@
 				(hide yes)
 			)
 		)
-		(pin "{SDRAM_DATA}" input
+		(pin "{SDRAM}" input
 			(at 45.72 93.98 180)
 			(effects
 				(font
@@ -19924,26 +19720,6 @@
 				(justify left)
 			)
 			(uuid "54911be6-8e88-41da-bbae-a80b82e4b26c")
-		)
-		(pin "{SDRAM_CTRL}" input
-			(at 45.72 96.52 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "64e33b14-d9ff-4df1-b680-d3efe82fb474")
-		)
-		(pin "{SDRAM_ADDR}" input
-			(at 45.72 91.44 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "bac2cc33-17f0-4660-bda4-406cec58de8c")
 		)
 		(pin "PCLK_40MHZ" input
 			(at 45.72 86.36 180)
