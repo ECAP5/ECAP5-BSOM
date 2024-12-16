@@ -16,9 +16,9 @@ Clock
 ^^^^^
 
 .. requirement:: U_OSC_01
-   :rationale: 30MHz LVCMOS, Enable/Disable on pin 1, 7.0x5.0mm package, 3.3VDC±5% supply, ±25ppm precision, -40 to +85°C temperature range.
+   :rationale: 40MHz LVCMOS, Enable/Disable on pin 1, 3.2x2.5mm package, 3.3VDC±5% supply, ±50ppm precision, -40 to +85°C temperature range.
 
-   A 30 MHz reference oscillator shall be connected to one of the FPGA's global clock inputs, with reference XLH736030.000000I.
+   A 40 MHz reference oscillator shall be connected to one of the FPGA's global clock inputs, with reference XLH335040.000000I.
 
 Memory
 ^^^^^^

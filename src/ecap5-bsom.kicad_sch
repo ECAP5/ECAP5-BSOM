@@ -15,6 +15,16 @@
 	(lib_symbols)
 	(bus
 		(pts
+			(xy 153.67 133.35) (xy 153.67 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24784457-4ef7-4096-9ecb-5d904e9e6c08")
+	)
+	(bus
+		(pts
 			(xy 100.33 92.71) (xy 124.46 92.71)
 		)
 		(stroke
@@ -22,6 +32,16 @@
 			(type default)
 		)
 		(uuid "2ed57852-4776-4c8c-9e3b-b435b1ab6694")
+	)
+	(wire
+		(pts
+			(xy 153.67 48.26) (xy 153.67 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31be2193-5449-400d-bdc7-c1be45fc7beb")
 	)
 	(bus
 		(pts
@@ -95,7 +115,7 @@
 	)
 	(bus
 		(pts
-			(xy 152.4 48.26) (xy 152.4 60.96)
+			(xy 172.72 48.26) (xy 172.72 60.96)
 		)
 		(stroke
 			(width 0)
@@ -207,13 +227,13 @@
 		(instances
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
-					(page "14")
+					(page "16")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 146.05 33.02)
+		(at 166.37 33.02)
 		(size 12.7 15.24)
 		(stroke
 			(width 0.1524)
@@ -224,7 +244,7 @@
 		)
 		(uuid "1a74cf8f-5090-41f4-a289-4dc02847730a")
 		(property "Sheetname" "Flash"
-			(at 145.8464 32.258 0)
+			(at 166.1664 32.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -233,7 +253,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/flash.kicad_sch"
-			(at 159.3346 48.26 90)
+			(at 179.6546 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -243,7 +263,7 @@
 			)
 		)
 		(pin "{FLASH}" input
-			(at 152.4 48.26 270)
+			(at 172.72 48.26 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -255,7 +275,7 @@
 		(instances
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
-					(page "11")
+					(page "13")
 				)
 			)
 		)
@@ -304,7 +324,7 @@
 		(instances
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
-					(page "16")
+					(page "18")
 				)
 			)
 		)
@@ -373,7 +393,7 @@
 		(instances
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
-					(page "12")
+					(page "14")
 				)
 			)
 		)
@@ -442,7 +462,7 @@
 		(instances
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
-					(page "13")
+					(page "15")
 				)
 			)
 		)
@@ -482,6 +502,54 @@
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 33.02)
+		(size 12.7 15.24)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7a27c590-818b-482a-bf10-a3edba6d1e5d")
+		(property "Sheetname" "Clock"
+			(at 147.1164 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/clock.kicad_sch"
+			(at 160.6046 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "CLK_40MHZ" input
+			(at 153.67 48.26 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4d2c3141-cf00-4b97-8725-0a7720763003")
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
+					(page "12")
 				)
 			)
 		)
@@ -540,7 +608,7 @@
 		(instances
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
-					(page "15")
+					(page "17")
 				)
 			)
 		)
@@ -696,8 +764,8 @@
 			)
 			(uuid "5c01bc94-0d0e-406a-9094-4938f25b557a")
 		)
-		(pin "FLASH" input
-			(at 152.4 60.96 90)
+		(pin "{FLASH}" input
+			(at 172.72 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -706,10 +774,78 @@
 			)
 			(uuid "1dd7c206-a938-4576-b6e9-bdac44601a5d")
 		)
+		(pin "PCLK_40MHZ" input
+			(at 153.67 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "57ffab91-45ba-4e3e-b4be-989af6dc884e")
+		)
+		(pin "{LEDS}" input
+			(at 153.67 133.35 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f87a2ef9-132d-42d4-b66b-21a1b9718d41")
+		)
 		(instances
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 146.05)
+		(size 12.7 15.24)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e3d31ab8-ac0a-4c22-8900-830a9659f3d5")
+		(property "Sheetname" "LEDs"
+			(at 147.1164 145.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/leds.kicad_sch"
+			(at 160.6046 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "{LEDS}" input
+			(at 153.67 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6ceda24a-1c88-4130-9bcc-d58d96159be6")
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
+					(page "21")
 				)
 			)
 		)
