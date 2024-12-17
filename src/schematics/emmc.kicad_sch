@@ -209,79 +209,7 @@
 				)
 			)
 			(symbol "THGBMJG6C1LBAIL_0_0"
-				(pin unspecified line
-					(at 2.54 31.75 270)
-					(length 2.54)
-					(name "VCCQ[5]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 31.75 270)
-					(length 2.54)
-					(name "VCC[4]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -1.27 3.81 90)
-					(length 2.54)
-					(name "VSSQ[5]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 1.27 3.81 90)
-					(length 2.54)
-					(name "VSS[6]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 12.7 26.67 180)
 					(length 2.54)
 					(name "DAT0"
@@ -299,7 +227,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 12.7 24.13 180)
 					(length 2.54)
 					(name "DAT1"
@@ -317,7 +245,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 12.7 21.59 180)
 					(length 2.54)
 					(name "DAT2"
@@ -335,25 +263,7 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 1.27 3.81 90)
-					(length 2.54) hide
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 12.7 19.05 180)
 					(length 2.54)
 					(name "DAT3"
@@ -371,7 +281,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 12.7 16.51 180)
 					(length 2.54)
 					(name "DAT4"
@@ -389,7 +299,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 12.7 13.97 180)
 					(length 2.54)
 					(name "DAT5"
@@ -407,7 +317,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 12.7 11.43 180)
 					(length 2.54)
 					(name "DAT6"
@@ -425,7 +335,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 12.7 8.89 180)
 					(length 2.54)
 					(name "DAT7"
@@ -443,7 +353,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -2.54 31.75 270)
 					(length 2.54)
 					(name "VDDI"
@@ -461,61 +371,7 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -1.27 3.81 90)
-					(length 2.54) hide
-					(name "VSSQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 31.75 270)
-					(length 2.54) hide
-					(name "VCCQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 31.75 270)
-					(length 2.54) hide
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
+				(pin passive line
 					(at 1.27 3.81 90)
 					(length 2.54) hide
 					(name "VSS"
@@ -533,7 +389,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 31.75 270)
 					(length 2.54) hide
 					(name "VCC"
@@ -551,7 +407,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 1.27 3.81 90)
 					(length 2.54) hide
 					(name "VSS"
@@ -569,7 +425,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 1.27 3.81 90)
 					(length 2.54) hide
 					(name "VSS"
@@ -587,7 +443,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -12.7 13.97 0)
 					(length 2.54)
 					(name "DS"
@@ -605,7 +461,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 31.75 270)
 					(length 2.54) hide
 					(name "VCC"
@@ -623,7 +479,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 1.27 3.81 90)
 					(length 2.54) hide
 					(name "VSS"
@@ -641,7 +497,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -12.7 22.86 0)
 					(length 2.54)
 					(name "RST_n"
@@ -659,7 +515,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 1.27 3.81 90)
 					(length 2.54) hide
 					(name "VSS"
@@ -677,7 +533,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 31.75 270)
 					(length 2.54) hide
 					(name "VCC"
@@ -695,7 +551,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 2.54 31.75 270)
 					(length 2.54) hide
 					(name "VCCQ"
@@ -713,7 +569,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -12.7 16.51 0)
 					(length 2.54)
 					(name "CMD"
@@ -731,7 +587,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -12.7 20.32 0)
 					(length 2.54)
 					(name "CLK"
@@ -749,7 +605,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -1.27 3.81 90)
 					(length 2.54) hide
 					(name "VSSQ"
@@ -767,7 +623,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 2.54 31.75 270)
 					(length 2.54) hide
 					(name "VCCQ"
@@ -785,7 +641,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -1.27 3.81 90)
 					(length 2.54) hide
 					(name "VSSQ"
@@ -803,7 +659,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 2.54 31.75 270)
 					(length 2.54) hide
 					(name "VCCQ"
@@ -821,7 +677,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -1.27 3.81 90)
 					(length 2.54) hide
 					(name "VSSQ"
@@ -839,7 +695,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 2.54 31.75 270)
 					(length 2.54) hide
 					(name "VCCQ"
@@ -857,7 +713,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -1.27 3.81 90)
 					(length 2.54) hide
 					(name "VSSQ"
@@ -886,6 +742,80 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+			)
+			(symbol "THGBMJG6C1LBAIL_1_0"
+				(pin passive line
+					(at 1.27 3.81 90)
+					(length 2.54)
+					(name "VSS[6]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.27 3.81 90)
+					(length 2.54)
+					(name "VSSQ[5]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 31.75 270)
+					(length 2.54)
+					(name "VCCQ[5]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 31.75 270)
+					(length 2.54)
+					(name "VCC[4]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -2949,9 +2879,6 @@
 		(pin "N5"
 			(uuid "97085a42-00db-4177-a9bd-40ab373de3f0")
 		)
-		(pin ""
-			(uuid "e98e621c-abaf-4f1d-8d8d-d954a89345d6")
-		)
 		(pin "B4"
 			(uuid "c48582db-0c1b-402f-90bf-dc35a29865e9")
 		)
@@ -2963,12 +2890,6 @@
 		)
 		(pin "G5"
 			(uuid "3ddd2e99-5cfc-48aa-a8e1-7a2afdc768c0")
-		)
-		(pin ""
-			(uuid "bcfa9d2e-0914-42a0-a324-213a8e540c38")
-		)
-		(pin ""
-			(uuid "b1b54c00-ce37-4c16-8f5e-56e572c55d67")
 		)
 		(pin "P3"
 			(uuid "8eeb58f3-a365-4224-b2a3-a49d538817c2")
@@ -3023,9 +2944,6 @@
 		)
 		(pin "M4"
 			(uuid "c6ac41ee-a941-4daa-ab99-465a1f83facd")
-		)
-		(pin ""
-			(uuid "323593a1-3ea4-41f6-b996-ff362b544e3d")
 		)
 		(instances
 			(project ""

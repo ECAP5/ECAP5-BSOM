@@ -222,25 +222,7 @@
 				)
 			)
 			(symbol "IS61WV25616BLL-*BLI_1_0"
-				(pin power_in line
-					(at 0 -35.56 90)
-					(length 2.54)
-					(name "GND[2]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in non_logic
+				(pin no_connect non_logic
 					(at 2.54 -35.56 90)
 					(length 2.54) hide
 					(name "NC[5]"
@@ -258,25 +240,7 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 33.02 270)
-					(length 2.54)
-					(name "VDD[2]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
+				(pin input line
 					(at -10.16 -20.32 0)
 					(length 2.54)
 					(name "~{LB}"
@@ -294,7 +258,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -10.16 -27.94 0)
 					(length 2.54)
 					(name "~{OE}"
@@ -312,7 +276,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -10.16 27.94 0)
 					(length 2.54)
 					(name "A0"
@@ -330,7 +294,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -10.16 25.4 0)
 					(length 2.54)
 					(name "A1"
@@ -348,7 +312,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -10.16 22.86 0)
 					(length 2.54)
 					(name "A2"
@@ -366,7 +330,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin no_connect line
 					(at 2.54 -35.56 90)
 					(length 2.54) hide
 					(name "NC"
@@ -384,7 +348,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 10.16 -1.27 180)
 					(length 2.54)
 					(name "IO8"
@@ -402,7 +366,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -10.16 -22.86 0)
 					(length 2.54)
 					(name "~{UB}"
@@ -420,7 +384,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -10.16 20.32 0)
 					(length 2.54)
 					(name "A3"
@@ -438,7 +402,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -10.16 17.78 0)
 					(length 2.54)
 					(name "A4"
@@ -456,7 +420,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -10.16 -30.48 0)
 					(length 2.54)
 					(name "~{CE}"
@@ -474,7 +438,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 10.16 19.05 180)
 					(length 2.54)
 					(name "IO0"
@@ -492,7 +456,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 10.16 -3.81 180)
 					(length 2.54)
 					(name "IO9"
@@ -510,7 +474,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 10.16 -6.35 180)
 					(length 2.54)
 					(name "IO10"
@@ -528,7 +492,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -10.16 15.24 0)
 					(length 2.54)
 					(name "A5"
@@ -546,7 +510,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -10.16 12.7 0)
 					(length 2.54)
 					(name "A6"
@@ -564,7 +528,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 10.16 16.51 180)
 					(length 2.54)
 					(name "IO1"
@@ -582,7 +546,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 10.16 13.97 180)
 					(length 2.54)
 					(name "IO2"
@@ -602,8 +566,8 @@
 				)
 				(pin power_in line
 					(at 0 -35.56 90)
-					(length 2.54) hide
-					(name "GND"
+					(length 2.54)
+					(name "GND[2]"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -618,7 +582,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 10.16 -8.89 180)
 					(length 2.54)
 					(name "IO11"
@@ -636,7 +600,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -10.16 -15.24 0)
 					(length 2.54)
 					(name "A17"
@@ -654,7 +618,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -10.16 10.16 0)
 					(length 2.54)
 					(name "A7"
@@ -672,7 +636,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 10.16 11.43 180)
 					(length 2.54)
 					(name "IO3"
@@ -692,8 +656,8 @@
 				)
 				(pin power_in line
 					(at 0 33.02 270)
-					(length 2.54) hide
-					(name "VDD"
+					(length 2.54)
+					(name "VDD[2]"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -708,7 +672,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 33.02 270)
 					(length 2.54) hide
 					(name "VDD"
@@ -726,7 +690,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 10.16 -11.43 180)
 					(length 2.54)
 					(name "IO12"
@@ -744,7 +708,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin no_connect line
 					(at 2.54 -35.56 90)
 					(length 2.54) hide
 					(name "NC"
@@ -762,7 +726,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -10.16 -12.7 0)
 					(length 2.54)
 					(name "A16"
@@ -780,7 +744,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 10.16 8.89 180)
 					(length 2.54)
 					(name "IO4"
@@ -798,7 +762,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -35.56 90)
 					(length 2.54) hide
 					(name "GND"
@@ -816,7 +780,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 10.16 -16.51 180)
 					(length 2.54)
 					(name "IO14"
@@ -834,7 +798,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 10.16 -13.97 180)
 					(length 2.54)
 					(name "IO13"
@@ -852,7 +816,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -10.16 -7.62 0)
 					(length 2.54)
 					(name "A14"
@@ -870,7 +834,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -10.16 -10.16 0)
 					(length 2.54)
 					(name "A15"
@@ -888,7 +852,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 10.16 6.35 180)
 					(length 2.54)
 					(name "IO5"
@@ -906,7 +870,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 10.16 3.81 180)
 					(length 2.54)
 					(name "IO6"
@@ -924,7 +888,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 10.16 -19.05 180)
 					(length 2.54)
 					(name "IO15"
@@ -942,7 +906,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin no_connect line
 					(at 2.54 -35.56 90)
 					(length 2.54) hide
 					(name "NC"
@@ -960,7 +924,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -10.16 -2.54 0)
 					(length 2.54)
 					(name "A12"
@@ -978,7 +942,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -10.16 -5.08 0)
 					(length 2.54)
 					(name "A13"
@@ -996,7 +960,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -10.16 -25.4 0)
 					(length 2.54)
 					(name "~{WE}"
@@ -1014,7 +978,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 10.16 1.27 180)
 					(length 2.54)
 					(name "IO7"
@@ -1032,7 +996,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -10.16 7.62 0)
 					(length 2.54)
 					(name "A8"
@@ -1050,7 +1014,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin no_connect line
 					(at 2.54 -35.56 90)
 					(length 2.54) hide
 					(name "NC"
@@ -1068,7 +1032,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -10.16 5.08 0)
 					(length 2.54)
 					(name "A9"
@@ -1086,7 +1050,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -10.16 2.54 0)
 					(length 2.54)
 					(name "A10"
@@ -1104,7 +1068,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -10.16 0 0)
 					(length 2.54)
 					(name "A11"
@@ -1122,7 +1086,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin no_connect line
 					(at 2.54 -35.56 90)
 					(length 2.54) hide
 					(name "NC"
@@ -3761,14 +3725,8 @@
 		(pin "C1"
 			(uuid "90f19ced-9b06-472c-a1c0-eff74a12f834")
 		)
-		(pin ""
-			(uuid "343f1fbc-6ff1-486c-af80-9f7b6d4af59f")
-		)
 		(pin "F5"
 			(uuid "4596c5dc-c6e1-4294-a4c6-1abe2f1bfd14")
-		)
-		(pin ""
-			(uuid "ec12d072-f092-4ca6-b129-9448929325aa")
 		)
 		(pin "D3"
 			(uuid "a56fff0d-3a8d-4560-b7ec-1ab38f9ea312")

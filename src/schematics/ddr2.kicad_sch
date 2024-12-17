@@ -331,7 +331,7 @@
 				)
 			)
 			(symbol "IS43DR86400E_0_0"
-				(pin input line
+				(pin no_connect line
 					(at 7.62 -34.29 90)
 					(length 2.54)
 					(name "NC[3]"
@@ -342,96 +342,6 @@
 						)
 					)
 					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -1.27 31.75 270)
-					(length 2.54)
-					(name "VDDQ[5]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 1.27 31.75 270)
-					(length 2.54)
-					(name "VDD[4]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -34.29 90)
-					(length 2.54)
-					(name "VSSQ[5]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -34.29 90)
-					(length 2.54)
-					(name "VSS[4]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 1.27 31.75 270)
-					(length 2.54) hide
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -457,43 +367,7 @@
 						)
 					)
 				)
-				(pin input line
-					(at -2.54 -34.29 90)
-					(length 2.54) hide
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -34.29 90)
-					(length 2.54) hide
-					(name "VSSQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 -2.54 180)
 					(length 2.54)
 					(name "~{DQS}"
@@ -511,25 +385,7 @@
 						)
 					)
 				)
-				(pin input line
-					(at -1.27 31.75 270)
-					(length 2.54) hide
-					(name "VDDQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 6.35 180)
 					(length 2.54)
 					(name "DQ6"
@@ -547,7 +403,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 0 -34.29 90)
 					(length 2.54) hide
 					(name "VSSQ"
@@ -583,7 +439,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 0 180)
 					(length 2.54)
 					(name "DQS"
@@ -601,7 +457,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 0 -34.29 90)
 					(length 2.54) hide
 					(name "VSSQ"
@@ -619,7 +475,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 3.81 180)
 					(length 2.54)
 					(name "DQ7"
@@ -637,7 +493,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -1.27 31.75 270)
 					(length 2.54) hide
 					(name "VDDQ"
@@ -655,7 +511,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 19.05 180)
 					(length 2.54)
 					(name "DQ1"
@@ -673,7 +529,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -1.27 31.75 270)
 					(length 2.54) hide
 					(name "VDDQ"
@@ -691,7 +547,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -1.27 31.75 270)
 					(length 2.54) hide
 					(name "VDDQ"
@@ -709,7 +565,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 21.59 180)
 					(length 2.54)
 					(name "DQ0"
@@ -727,7 +583,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -1.27 31.75 270)
 					(length 2.54) hide
 					(name "VDDQ"
@@ -745,7 +601,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 11.43 180)
 					(length 2.54)
 					(name "DQ4"
@@ -763,7 +619,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 0 -34.29 90)
 					(length 2.54) hide
 					(name "VSSQ"
@@ -781,7 +637,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 13.97 180)
 					(length 2.54)
 					(name "DQ3"
@@ -799,7 +655,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 16.51 180)
 					(length 2.54)
 					(name "DQ2"
@@ -817,7 +673,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 0 -34.29 90)
 					(length 2.54) hide
 					(name "VSSQ"
@@ -835,7 +691,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 8.89 180)
 					(length 2.54)
 					(name "DQ5"
@@ -853,7 +709,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 3.81 31.75 270)
 					(length 2.54)
 					(name "VDDL"
@@ -889,7 +745,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -2.54 -34.29 90)
 					(length 2.54) hide
 					(name "VSS"
@@ -907,7 +763,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 2.54 -34.29 90)
 					(length 2.54)
 					(name "VSSDL"
@@ -943,7 +799,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 1.27 31.75 270)
 					(length 2.54) hide
 					(name "VDD"
@@ -1051,7 +907,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at 7.62 -34.29 90)
 					(length 2.54) hide
 					(name "NC"
@@ -1213,7 +1069,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 1.27 31.75 270)
 					(length 2.54) hide
 					(name "VDD"
@@ -1231,7 +1087,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -2.54 -34.29 90)
 					(length 2.54) hide
 					(name "VSS"
@@ -1393,7 +1249,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -2.54 -34.29 90)
 					(length 2.54) hide
 					(name "VSS"
@@ -1411,7 +1267,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 1.27 31.75 270)
 					(length 2.54) hide
 					(name "VDD"
@@ -1447,7 +1303,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at 7.62 -34.29 90)
 					(length 2.54) hide
 					(name "NC"
@@ -1465,7 +1321,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at 7.62 -34.29 90)
 					(length 2.54) hide
 					(name "NC"
@@ -1512,6 +1368,80 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+			)
+			(symbol "IS43DR86400E_1_0"
+				(pin power_in line
+					(at 1.27 31.75 270)
+					(length 2.54)
+					(name "VDD[4]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -34.29 90)
+					(length 2.54)
+					(name "VSS[4]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -34.29 90)
+					(length 2.54)
+					(name "VSSQ[5]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.27 31.75 270)
+					(length 2.54)
+					(name "VDDQ[5]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -6170,12 +6100,6 @@
 		(pin ""
 			(uuid "53461db4-b616-4758-a162-472de728a0a8")
 		)
-		(pin ""
-			(uuid "8abe28ce-9fa1-4938-991f-3dd1fbebfb84")
-		)
-		(pin ""
-			(uuid "88450641-5e74-4a21-9141-b188bd096d1b")
-		)
 		(pin "A2"
 			(uuid "871c5792-df04-4f1a-bd7b-d1b56d5aec38")
 		)
@@ -6217,9 +6141,6 @@
 		)
 		(pin "H2"
 			(uuid "de89ee53-ac92-479e-a3f1-792c5e7b9312")
-		)
-		(pin ""
-			(uuid "8256fdee-9acd-4d92-b590-183f2c11fc82")
 		)
 		(pin "A3"
 			(uuid "c1311ae4-eceb-40df-b97a-067a6fb7864c")
@@ -6307,9 +6228,6 @@
 		)
 		(pin "K9"
 			(uuid "5cf1bcbf-8dcf-42bf-8a3d-73d173d395c4")
-		)
-		(pin ""
-			(uuid "c19e8c81-15e4-477b-b79a-2603b65f98d1")
 		)
 		(pin "B2"
 			(uuid "5deb0ca5-e2db-4c97-8858-7506e6322550")

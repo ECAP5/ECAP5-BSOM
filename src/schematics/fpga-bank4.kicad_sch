@@ -79,25 +79,7 @@
 							)
 						)
 					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 22.86 0 180)
-					(length 2.54)
-					(name "VCCAUX[8]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
+					(number "AA11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -115,42 +97,6 @@
 							)
 						)
 					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 8.89 -15.24 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "AA11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 0 0)
-					(length 2.54) hide
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "AA12"
 						(effects
 							(font
@@ -159,7 +105,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -177,7 +123,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -195,7 +141,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -213,7 +159,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -231,7 +177,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -249,7 +195,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -267,7 +213,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -285,7 +231,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -303,7 +249,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -321,7 +267,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -339,7 +285,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -357,7 +303,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -375,7 +321,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -393,7 +339,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -411,7 +357,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -429,7 +375,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -447,7 +393,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -465,7 +411,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -483,7 +429,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -501,7 +447,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -519,7 +465,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -537,7 +483,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -557,8 +503,8 @@
 				)
 				(pin power_in line
 					(at 22.86 0 180)
-					(length 2.54) hide
-					(name "VCCAUX"
+					(length 2.54)
+					(name "VCCAUX[8]"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -573,7 +519,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -591,7 +537,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -609,7 +555,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -627,7 +573,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -645,7 +591,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -663,7 +609,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -681,7 +627,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -699,7 +645,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -717,7 +663,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -735,7 +681,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -753,7 +699,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 22.86 0 180)
 					(length 2.54) hide
 					(name "VCCAUX"
@@ -771,7 +717,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -789,7 +735,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -807,7 +753,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -825,7 +771,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -843,7 +789,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -861,7 +807,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -879,7 +825,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -897,7 +843,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -915,7 +861,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -933,7 +879,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -951,7 +897,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -969,7 +915,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -987,7 +933,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1005,7 +951,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1023,7 +969,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1041,7 +987,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1059,7 +1005,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1077,7 +1023,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1095,7 +1041,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1113,7 +1059,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1131,7 +1077,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1149,7 +1095,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1167,7 +1113,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1185,7 +1131,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1203,7 +1149,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1221,7 +1167,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1239,7 +1185,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1257,7 +1203,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1275,7 +1221,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1293,7 +1239,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1311,7 +1257,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1329,7 +1275,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1347,7 +1293,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1365,7 +1311,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1383,7 +1329,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1401,7 +1347,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1419,7 +1365,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1437,7 +1383,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1455,7 +1401,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1473,7 +1419,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1491,7 +1437,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1509,7 +1455,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1527,7 +1473,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1545,7 +1491,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1563,7 +1509,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1581,7 +1527,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1599,7 +1545,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1617,7 +1563,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1635,7 +1581,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1653,7 +1599,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1671,7 +1617,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1689,7 +1635,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1707,7 +1653,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1725,7 +1671,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1743,7 +1689,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1761,7 +1707,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1779,7 +1725,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1797,7 +1743,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1815,7 +1761,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1833,7 +1779,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1851,7 +1797,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1869,7 +1815,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1887,7 +1833,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1905,7 +1851,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1923,7 +1869,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1941,7 +1887,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1959,7 +1905,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1977,7 +1923,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -1995,7 +1941,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2013,7 +1959,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2031,7 +1977,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2049,7 +1995,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2067,7 +2013,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2085,7 +2031,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2103,7 +2049,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2121,7 +2067,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2139,7 +2085,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2157,7 +2103,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2175,7 +2121,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2193,7 +2139,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2211,7 +2157,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2229,7 +2175,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2247,7 +2193,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2265,7 +2211,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2283,7 +2229,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2301,7 +2247,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2319,7 +2265,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2337,7 +2283,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2355,7 +2301,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2373,7 +2319,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2391,7 +2337,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2409,7 +2355,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2427,7 +2373,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2445,7 +2391,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2463,7 +2409,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2481,7 +2427,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2499,7 +2445,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2517,7 +2463,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2535,7 +2481,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2553,7 +2499,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2571,7 +2517,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2589,7 +2535,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2607,7 +2553,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2625,7 +2571,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2643,7 +2589,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2661,7 +2607,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2679,7 +2625,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2697,7 +2643,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2715,7 +2661,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2733,7 +2679,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2751,7 +2697,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2769,7 +2715,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2787,7 +2733,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2805,7 +2751,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2823,7 +2769,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2841,7 +2787,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2859,7 +2805,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2877,7 +2823,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2895,7 +2841,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2913,7 +2859,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2931,7 +2877,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2949,7 +2895,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2967,7 +2913,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -2985,7 +2931,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3003,7 +2949,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3021,7 +2967,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3039,7 +2985,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3057,7 +3003,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3075,7 +3021,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3093,7 +3039,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3111,7 +3057,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3129,7 +3075,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 22.86 0 180)
 					(length 2.54) hide
 					(name "VCCAUX"
@@ -3147,7 +3093,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 22.86 0 180)
 					(length 2.54) hide
 					(name "VCCAUX"
@@ -3165,7 +3111,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3183,7 +3129,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3201,7 +3147,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3219,7 +3165,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3237,7 +3183,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3255,7 +3201,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3273,7 +3219,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3291,7 +3237,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3309,7 +3255,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3327,7 +3273,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3345,7 +3291,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3363,7 +3309,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3381,7 +3327,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3399,7 +3345,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3417,7 +3363,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3435,7 +3381,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3453,7 +3399,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3471,7 +3417,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -3489,7 +3435,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -3507,7 +3453,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -3525,7 +3471,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -3543,7 +3489,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -3561,7 +3507,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -3579,7 +3525,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -3597,7 +3543,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -3615,7 +3561,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -3633,7 +3579,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -3651,7 +3597,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3669,7 +3615,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 22.86 0 180)
 					(length 2.54) hide
 					(name "VCCAUX"
@@ -3687,7 +3633,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3705,7 +3651,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -3723,7 +3669,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3741,7 +3687,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3759,7 +3705,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3777,7 +3723,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3795,7 +3741,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3813,7 +3759,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3831,7 +3777,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3849,7 +3795,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3867,7 +3813,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3885,7 +3831,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -3903,7 +3849,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3921,7 +3867,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 22.86 0 180)
 					(length 2.54) hide
 					(name "VCCAUX"
@@ -3939,7 +3885,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3957,7 +3903,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3975,7 +3921,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -3993,7 +3939,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4011,7 +3957,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -4029,7 +3975,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4047,7 +3993,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4065,7 +4011,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4083,7 +4029,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4101,7 +4047,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4119,7 +4065,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4137,7 +4083,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4155,7 +4101,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -4173,7 +4119,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4191,7 +4137,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -4209,7 +4155,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4227,7 +4173,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4245,7 +4191,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4263,7 +4209,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4281,7 +4227,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4299,7 +4245,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4317,7 +4263,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4335,7 +4281,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4353,7 +4299,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4371,7 +4317,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -4389,7 +4335,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4407,7 +4353,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4425,7 +4371,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4443,7 +4389,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4461,7 +4407,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4479,7 +4425,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -4497,7 +4443,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4515,7 +4461,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4533,7 +4479,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4551,7 +4497,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4569,7 +4515,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4587,7 +4533,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4605,7 +4551,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4623,7 +4569,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4641,7 +4587,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -4659,7 +4605,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4677,7 +4623,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4695,7 +4641,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -4713,7 +4659,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4731,7 +4677,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4749,7 +4695,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4767,7 +4713,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4785,7 +4731,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4803,7 +4749,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4821,7 +4767,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4839,7 +4785,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4857,7 +4803,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -4875,7 +4821,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4893,7 +4839,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4911,7 +4857,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -4929,7 +4875,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4947,7 +4893,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4965,7 +4911,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -4983,7 +4929,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5001,7 +4947,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5019,7 +4965,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5037,7 +4983,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5055,7 +5001,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5073,7 +5019,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5091,7 +5037,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -5109,7 +5055,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5127,7 +5073,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5145,7 +5091,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5163,7 +5109,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5181,7 +5127,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5199,7 +5145,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -5217,7 +5163,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5235,7 +5181,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5253,7 +5199,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5271,7 +5217,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5289,7 +5235,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5307,7 +5253,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5325,7 +5271,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5343,7 +5289,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5361,7 +5307,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -5379,7 +5325,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5397,7 +5343,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 22.86 0 180)
 					(length 2.54) hide
 					(name "VCCAUX"
@@ -5415,7 +5361,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5433,7 +5379,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -5451,7 +5397,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5469,7 +5415,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5487,7 +5433,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5505,7 +5451,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5523,7 +5469,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5541,7 +5487,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5559,7 +5505,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5577,7 +5523,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5595,7 +5541,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5613,7 +5559,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -5631,7 +5577,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5649,7 +5595,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 22.86 0 180)
 					(length 2.54) hide
 					(name "VCCAUX"
@@ -5667,7 +5613,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
 					(name "GND"
@@ -5700,25 +5646,7 @@
 				)
 			)
 			(symbol "LFE5U-85F-*BG756*_2_0"
-				(pin power_in line
-					(at 30.48 5.08 270)
-					(length 2.54)
-					(name "VCCIO0[4]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -63.5 0)
 					(length 2.54)
 					(name "PT31B"
@@ -5736,7 +5664,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -12.7 180)
 					(length 2.54)
 					(name "PT38B"
@@ -5754,7 +5682,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -22.86 180)
 					(length 2.54)
 					(name "PT42B"
@@ -5772,7 +5700,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -38.1 180)
 					(length 2.54)
 					(name "PT49B"
@@ -5790,7 +5718,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -48.26 180)
 					(length 2.54)
 					(name "PT54B"
@@ -5808,7 +5736,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -63.5 180)
 					(length 2.54)
 					(name "PT60B/GR_PCLK0_0"
@@ -5826,7 +5754,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -66.04 180)
 					(length 2.54)
 					(name "PT63A/PCLKT0_1"
@@ -5844,7 +5772,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -5.08 0)
 					(length 2.54)
 					(name "PT6A"
@@ -5862,7 +5790,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -7.62 0)
 					(length 2.54)
 					(name "PT6B"
@@ -5880,7 +5808,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -10.16 0)
 					(length 2.54)
 					(name "PT9A"
@@ -5898,7 +5826,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -12.7 0)
 					(length 2.54)
 					(name "PT9B"
@@ -5916,7 +5844,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -22.86 0)
 					(length 2.54)
 					(name "PT13B"
@@ -5934,7 +5862,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -38.1 0)
 					(length 2.54)
 					(name "PT20B"
@@ -5952,7 +5880,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -48.26 0)
 					(length 2.54)
 					(name "PT24B"
@@ -5970,7 +5898,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -60.96 0)
 					(length 2.54)
 					(name "PT31A"
@@ -5988,7 +5916,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -10.16 180)
 					(length 2.54)
 					(name "PT38A"
@@ -6006,7 +5934,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -35.56 180)
 					(length 2.54)
 					(name "PT49A"
@@ -6024,7 +5952,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -60.96 180)
 					(length 2.54)
 					(name "PT60A/GR_PCLK0_1"
@@ -6042,7 +5970,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -68.58 180)
 					(length 2.54)
 					(name "PT63B/PCLKC0_1"
@@ -6060,7 +5988,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name "PT4A/ULC_GPLL1T_IN"
@@ -6078,7 +6006,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -2.54 0)
 					(length 2.54)
 					(name "PT4B/ULC_GPLL1C_IN"
@@ -6096,7 +6024,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -20.32 0)
 					(length 2.54)
 					(name "PT13A"
@@ -6114,7 +6042,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -35.56 0)
 					(length 2.54)
 					(name "PT20A"
@@ -6132,7 +6060,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -58.42 0)
 					(length 2.54)
 					(name "PT29B"
@@ -6150,7 +6078,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -73.66 0)
 					(length 2.54)
 					(name "PT36B"
@@ -6168,7 +6096,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -20.32 180)
 					(length 2.54)
 					(name "PT42A"
@@ -6186,7 +6114,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -33.02 180)
 					(length 2.54)
 					(name "PT47B"
@@ -6204,7 +6132,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -45.72 180)
 					(length 2.54)
 					(name "PT54A"
@@ -6222,7 +6150,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -58.42 180)
 					(length 2.54)
 					(name "PT58B"
@@ -6240,7 +6168,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -71.12 180)
 					(length 2.54)
 					(name "PT65A/PCLKT0_0"
@@ -6258,7 +6186,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -17.78 0)
 					(length 2.54)
 					(name "PT11B"
@@ -6276,7 +6204,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -33.02 0)
 					(length 2.54)
 					(name "PT18B"
@@ -6294,7 +6222,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -45.72 0)
 					(length 2.54)
 					(name "PT24A"
@@ -6312,7 +6240,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -55.88 0)
 					(length 2.54)
 					(name "PT29A"
@@ -6330,7 +6258,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -71.12 0)
 					(length 2.54)
 					(name "PT36A"
@@ -6348,7 +6276,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -17.78 180)
 					(length 2.54)
 					(name "PT40B"
@@ -6366,7 +6294,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -30.48 180)
 					(length 2.54)
 					(name "PT47A"
@@ -6384,7 +6312,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -43.18 180)
 					(length 2.54)
 					(name "PT51B"
@@ -6402,7 +6330,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -55.88 180)
 					(length 2.54)
 					(name "PT58A"
@@ -6420,7 +6348,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -73.66 180)
 					(length 2.54)
 					(name "PT65B/PCLKC0_0"
@@ -6438,7 +6366,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -15.24 0)
 					(length 2.54)
 					(name "PT11A"
@@ -6456,7 +6384,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -30.48 0)
 					(length 2.54)
 					(name "PT18A"
@@ -6474,7 +6402,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -43.18 0)
 					(length 2.54)
 					(name "PT22B"
@@ -6492,7 +6420,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -53.34 0)
 					(length 2.54)
 					(name "PT27B"
@@ -6510,7 +6438,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -68.58 0)
 					(length 2.54)
 					(name "PT33B"
@@ -6528,7 +6456,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -27.94 180)
 					(length 2.54)
 					(name "PT45B"
@@ -6546,7 +6474,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -53.34 180)
 					(length 2.54)
 					(name "PT56B"
@@ -6564,7 +6492,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -27.94 0)
 					(length 2.54)
 					(name "PT15B"
@@ -6582,7 +6510,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -50.8 0)
 					(length 2.54)
 					(name "PT27A"
@@ -6600,7 +6528,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -66.04 0)
 					(length 2.54)
 					(name "PT33A"
@@ -6618,7 +6546,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -15.24 180)
 					(length 2.54)
 					(name "PT40A"
@@ -6636,7 +6564,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -25.4 180)
 					(length 2.54)
 					(name "PT45A"
@@ -6654,7 +6582,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -40.64 180)
 					(length 2.54)
 					(name "PT51A"
@@ -6672,7 +6600,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -50.8 180)
 					(length 2.54)
 					(name "PT56A"
@@ -6690,7 +6618,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -25.4 0)
 					(length 2.54)
 					(name "PT15A"
@@ -6708,7 +6636,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -40.64 0)
 					(length 2.54)
 					(name "PT22A"
@@ -6728,8 +6656,8 @@
 				)
 				(pin power_in line
 					(at 30.48 5.08 270)
-					(length 2.54) hide
-					(name "VCCIO0"
+					(length 2.54)
+					(name "VCCIO0[4]"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6744,7 +6672,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 30.48 5.08 270)
 					(length 2.54) hide
 					(name "VCCIO0"
@@ -6762,7 +6690,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 30.48 5.08 270)
 					(length 2.54) hide
 					(name "VCCIO0"
@@ -6780,7 +6708,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 30.48 5.08 270)
 					(length 2.54) hide
 					(name "VCCIO0"
@@ -6813,25 +6741,7 @@
 				)
 			)
 			(symbol "LFE5U-85F-*BG756*_3_0"
-				(pin power_in line
-					(at 30.48 5.08 270)
-					(length 2.54)
-					(name "VCCIO1[4]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -5.08 0)
 					(length 2.54)
 					(name "PT71A/PCLKT1_0"
@@ -6849,7 +6759,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -15.24 0)
 					(length 2.54)
 					(name "PT76A"
@@ -6867,7 +6777,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -30.48 0)
 					(length 2.54)
 					(name "PT83A"
@@ -6885,7 +6795,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -40.64 0)
 					(length 2.54)
 					(name "PT87A"
@@ -6903,7 +6813,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -55.88 0)
 					(length 2.54)
 					(name "PT94A"
@@ -6921,7 +6831,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -71.12 0)
 					(length 2.54)
 					(name "PT101A"
@@ -6939,7 +6849,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -35.56 180)
 					(length 2.54)
 					(name "PT105A"
@@ -6957,7 +6867,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -50.8 180)
 					(length 2.54)
 					(name "PT112A"
@@ -6975,7 +6885,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -60.96 180)
 					(length 2.54)
 					(name "PT116A"
@@ -6993,7 +6903,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -63.5 180)
 					(length 2.54)
 					(name "PT116B"
@@ -7011,7 +6921,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -66.04 180)
 					(length 2.54)
 					(name "PT119A"
@@ -7029,7 +6939,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -68.58 180)
 					(length 2.54)
 					(name "PT119B"
@@ -7047,7 +6957,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -17.78 0)
 					(length 2.54)
 					(name "PT76B"
@@ -7065,7 +6975,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -43.18 0)
 					(length 2.54)
 					(name "PT87B"
@@ -7083,7 +6993,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -58.42 0)
 					(length 2.54)
 					(name "PT94B"
@@ -7101,7 +7011,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -38.1 180)
 					(length 2.54)
 					(name "PT105B"
@@ -7119,7 +7029,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -53.34 180)
 					(length 2.54)
 					(name "PT112B"
@@ -7137,7 +7047,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -71.12 180)
 					(length 2.54)
 					(name "PT121A/URC_GPLL1T_IN"
@@ -7155,7 +7065,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -73.66 180)
 					(length 2.54)
 					(name "PT121B/URC_GPLL1C_IN"
@@ -7173,7 +7083,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -7.62 0)
 					(length 2.54)
 					(name "PT71B/PCLKC1_0"
@@ -7191,7 +7101,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -20.32 0)
 					(length 2.54)
 					(name "PT78A"
@@ -7209,7 +7119,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -33.02 0)
 					(length 2.54)
 					(name "PT83B"
@@ -7227,7 +7137,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -45.72 0)
 					(length 2.54)
 					(name "PT89A"
@@ -7245,7 +7155,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -60.96 0)
 					(length 2.54)
 					(name "PT96A"
@@ -7263,7 +7173,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -73.66 0)
 					(length 2.54)
 					(name "PT101B"
@@ -7281,7 +7191,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -40.64 180)
 					(length 2.54)
 					(name "PT107A"
@@ -7299,7 +7209,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -55.88 180)
 					(length 2.54)
 					(name "PT114A"
@@ -7317,7 +7227,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -10.16 0)
 					(length 2.54)
 					(name "PT74A/GR_PCLK1_0"
@@ -7335,7 +7245,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -22.86 0)
 					(length 2.54)
 					(name "PT78B"
@@ -7353,7 +7263,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -35.56 0)
 					(length 2.54)
 					(name "PT85A"
@@ -7371,7 +7281,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -48.26 0)
 					(length 2.54)
 					(name "PT89B"
@@ -7389,7 +7299,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -63.5 0)
 					(length 2.54)
 					(name "PT96B"
@@ -7407,7 +7317,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -30.48 180)
 					(length 2.54)
 					(name "PT103A"
@@ -7425,7 +7335,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -43.18 180)
 					(length 2.54)
 					(name "PT107B"
@@ -7443,7 +7353,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -58.42 180)
 					(length 2.54)
 					(name "PT114B"
@@ -7461,7 +7371,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name "PT69A/PCLKT1_1"
@@ -7479,7 +7389,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -25.4 0)
 					(length 2.54)
 					(name "PT80A"
@@ -7497,7 +7407,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -50.8 0)
 					(length 2.54)
 					(name "PT92A"
@@ -7515,7 +7425,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -66.04 0)
 					(length 2.54)
 					(name "PT98A"
@@ -7533,7 +7443,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -45.72 180)
 					(length 2.54)
 					(name "PT110A"
@@ -7551,7 +7461,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -2.54 0)
 					(length 2.54)
 					(name "PT69B/PCLKC1_1"
@@ -7569,7 +7479,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -12.7 0)
 					(length 2.54)
 					(name "PT74B/GR_PCLK1_1"
@@ -7587,7 +7497,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -27.94 0)
 					(length 2.54)
 					(name "PT80B"
@@ -7605,7 +7515,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -38.1 0)
 					(length 2.54)
 					(name "PT85B"
@@ -7623,7 +7533,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -53.34 0)
 					(length 2.54)
 					(name "PT92B"
@@ -7641,7 +7551,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -68.58 0)
 					(length 2.54)
 					(name "PT98B"
@@ -7659,7 +7569,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -33.02 180)
 					(length 2.54)
 					(name "PT103B"
@@ -7677,7 +7587,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -48.26 180)
 					(length 2.54)
 					(name "PT110B"
@@ -7697,8 +7607,8 @@
 				)
 				(pin power_in line
 					(at 30.48 5.08 270)
-					(length 2.54) hide
-					(name "VCCIO1"
+					(length 2.54)
+					(name "VCCIO1[4]"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7713,7 +7623,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 30.48 5.08 270)
 					(length 2.54) hide
 					(name "VCCIO1"
@@ -7731,7 +7641,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 30.48 5.08 270)
 					(length 2.54) hide
 					(name "VCCIO1"
@@ -7749,7 +7659,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 30.48 5.08 270)
 					(length 2.54) hide
 					(name "VCCIO1"
@@ -7782,25 +7692,7 @@
 				)
 			)
 			(symbol "LFE5U-85F-*BG756*_4_0"
-				(pin power_in line
-					(at 30.48 5.08 270)
-					(length 2.54)
-					(name "VCCIO2[4]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -20.32 0)
 					(length 2.54)
 					(name "PR17A"
@@ -7818,7 +7710,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name "PR11A/URC_GPLL0T_IN"
@@ -7836,7 +7728,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -5.08 0)
 					(length 2.54)
 					(name "PR11C"
@@ -7854,7 +7746,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -7.62 0)
 					(length 2.54)
 					(name "PR11D"
@@ -7872,7 +7764,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -22.86 0)
 					(length 2.54)
 					(name "PR17B"
@@ -7890,7 +7782,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -35.56 0)
 					(length 2.54)
 					(name "PR20C"
@@ -7908,7 +7800,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -2.54 0)
 					(length 2.54)
 					(name "PR11B/URC_GPLL0C_IN"
@@ -7926,7 +7818,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -10.16 0)
 					(length 2.54)
 					(name "PR14A"
@@ -7944,7 +7836,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -25.4 0)
 					(length 2.54)
 					(name "PR17C"
@@ -7962,7 +7854,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -27.94 0)
 					(length 2.54)
 					(name "PR17D"
@@ -7980,7 +7872,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -38.1 0)
 					(length 2.54)
 					(name "PR20D"
@@ -7998,7 +7890,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -12.7 0)
 					(length 2.54)
 					(name "PR14B"
@@ -8016,7 +7908,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -33.02 0)
 					(length 2.54)
 					(name "PR20B"
@@ -8034,7 +7926,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -43.18 0)
 					(length 2.54)
 					(name "PR23B"
@@ -8052,7 +7944,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -17.78 0)
 					(length 2.54)
 					(name "PR14D"
@@ -8070,7 +7962,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -15.24 0)
 					(length 2.54)
 					(name "PR14C"
@@ -8088,7 +7980,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -30.48 0)
 					(length 2.54)
 					(name "PR20A"
@@ -8106,7 +7998,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -40.64 0)
 					(length 2.54)
 					(name "PR23A"
@@ -8124,7 +8016,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -45.72 0)
 					(length 2.54)
 					(name "PR23C"
@@ -8142,7 +8034,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -35.56 180)
 					(length 2.54)
 					(name "PR35A"
@@ -8160,7 +8052,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -38.1 180)
 					(length 2.54)
 					(name "PR35B"
@@ -8178,7 +8070,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -53.34 0)
 					(length 2.54)
 					(name "PR26B"
@@ -8196,7 +8088,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -50.8 0)
 					(length 2.54)
 					(name "PR26A"
@@ -8214,7 +8106,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -48.26 0)
 					(length 2.54)
 					(name "PR23D"
@@ -8232,7 +8124,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -40.64 180)
 					(length 2.54)
 					(name "PR35C/VREF1_2"
@@ -8250,7 +8142,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -43.18 180)
 					(length 2.54)
 					(name "PR35D"
@@ -8268,7 +8160,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -30.48 180)
 					(length 2.54)
 					(name "PR32C"
@@ -8286,7 +8178,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -55.88 0)
 					(length 2.54)
 					(name "PR26C"
@@ -8304,7 +8196,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -63.5 0)
 					(length 2.54)
 					(name "PR29B"
@@ -8322,7 +8214,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -48.26 180)
 					(length 2.54)
 					(name "PR38B"
@@ -8340,7 +8232,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -45.72 180)
 					(length 2.54)
 					(name "PR38A"
@@ -8358,7 +8250,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -50.8 180)
 					(length 2.54)
 					(name "PR38C"
@@ -8376,7 +8268,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -33.02 180)
 					(length 2.54)
 					(name "PR32D"
@@ -8394,7 +8286,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -58.42 0)
 					(length 2.54)
 					(name "PR26D"
@@ -8412,7 +8304,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -60.96 0)
 					(length 2.54)
 					(name "PR29A"
@@ -8430,7 +8322,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -66.04 0)
 					(length 2.54)
 					(name "PR29C"
@@ -8448,7 +8340,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -60.96 180)
 					(length 2.54)
 					(name "PR41C/GR_PCLK2_0"
@@ -8466,7 +8358,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -63.5 180)
 					(length 2.54)
 					(name "PR41D"
@@ -8484,7 +8376,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -53.34 180)
 					(length 2.54)
 					(name "PR38D"
@@ -8502,7 +8394,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -73.66 0)
 					(length 2.54)
 					(name "PR32B"
@@ -8520,7 +8412,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -71.12 0)
 					(length 2.54)
 					(name "PR32A"
@@ -8538,7 +8430,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -68.58 0)
 					(length 2.54)
 					(name "PR29D"
@@ -8558,8 +8450,8 @@
 				)
 				(pin power_in line
 					(at 30.48 5.08 270)
-					(length 2.54) hide
-					(name "VCCIO2"
+					(length 2.54)
+					(name "VCCIO2[4]"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8574,7 +8466,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -68.58 180)
 					(length 2.54)
 					(name "PR44B/PCLKC2_1"
@@ -8592,7 +8484,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -66.04 180)
 					(length 2.54)
 					(name "PR44A/PCLKT2_1"
@@ -8610,7 +8502,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -58.42 180)
 					(length 2.54)
 					(name "PR41B"
@@ -8628,7 +8520,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -55.88 180)
 					(length 2.54)
 					(name "PR41A/GR_PCLK2_1"
@@ -8646,7 +8538,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 30.48 5.08 270)
 					(length 2.54) hide
 					(name "VCCIO2"
@@ -8664,7 +8556,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -73.66 180)
 					(length 2.54)
 					(name "PR44D/PCLKC2_0"
@@ -8682,7 +8574,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -71.12 180)
 					(length 2.54)
 					(name "PR44C/PCLKT2_0"
@@ -8700,7 +8592,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 30.48 5.08 270)
 					(length 2.54) hide
 					(name "VCCIO2"
@@ -8718,7 +8610,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 30.48 5.08 270)
 					(length 2.54) hide
 					(name "VCCIO2"
@@ -8761,24 +8653,6 @@
 							)
 						)
 					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 30.48 5.08 270)
-					(length 2.54) hide
-					(name "VCCIO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "AA23"
 						(effects
 							(font
@@ -8787,7 +8661,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -20.32 180)
 					(length 2.54)
 					(name "PR74C"
@@ -8805,7 +8679,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -27.94 180)
 					(length 2.54)
 					(name "PR77B"
@@ -8823,7 +8697,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -25.4 180)
 					(length 2.54)
 					(name "PR77A"
@@ -8841,7 +8715,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -48.26 180)
 					(length 2.54)
 					(name "PR83B"
@@ -8859,7 +8733,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -45.72 180)
 					(length 2.54)
 					(name "PR83A"
@@ -8877,7 +8751,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -68.58 180)
 					(length 2.54)
 					(name "PR89B"
@@ -8895,7 +8769,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -76.2 180)
 					(length 2.54)
 					(name "PR92A"
@@ -8913,7 +8787,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -30.48 180)
 					(length 2.54)
 					(name "PR77C"
@@ -8931,7 +8805,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -22.86 180)
 					(length 2.54)
 					(name "PR74D"
@@ -8949,7 +8823,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -50.8 180)
 					(length 2.54)
 					(name "PR83C"
@@ -8967,7 +8841,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -66.04 180)
 					(length 2.54)
 					(name "PR89A"
@@ -8985,7 +8859,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -71.12 180)
 					(length 2.54)
 					(name "PR89C"
@@ -9003,7 +8877,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -78.74 180)
 					(length 2.54)
 					(name "PR92B"
@@ -9021,7 +8895,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -33.02 180)
 					(length 2.54)
 					(name "PR77D"
@@ -9039,7 +8913,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -35.56 180)
 					(length 2.54)
 					(name "PR80A"
@@ -9057,7 +8931,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -53.34 180)
 					(length 2.54)
 					(name "PR83D"
@@ -9075,7 +8949,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -60.96 180)
 					(length 2.54)
 					(name "PR86C"
@@ -9093,7 +8967,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -81.28 180)
 					(length 2.54)
 					(name "PR92C/LRC_GPLL0T_IN"
@@ -9111,7 +8985,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -38.1 180)
 					(length 2.54)
 					(name "PR80B"
@@ -9129,7 +9003,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -40.64 180)
 					(length 2.54)
 					(name "PR80C"
@@ -9147,7 +9021,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -43.18 180)
 					(length 2.54)
 					(name "PR80D"
@@ -9165,7 +9039,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -63.5 180)
 					(length 2.54)
 					(name "PR86D"
@@ -9183,7 +9057,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -73.66 180)
 					(length 2.54)
 					(name "PR89D"
@@ -9201,7 +9075,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -83.82 180)
 					(length 2.54)
 					(name "PR92D/LRC_GPLL0C_IN"
@@ -9219,7 +9093,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -50.8 0)
 					(length 2.54)
 					(name "PR62A"
@@ -9237,7 +9111,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name "PR47A/PCLKT3_1"
@@ -9255,7 +9129,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -2.54 0)
 					(length 2.54)
 					(name "PR47B/PCLKC3_1"
@@ -9273,7 +9147,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -43.18 0)
 					(length 2.54)
 					(name "PR59B"
@@ -9291,7 +9165,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -40.64 0)
 					(length 2.54)
 					(name "PR59A"
@@ -9309,7 +9183,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -53.34 0)
 					(length 2.54)
 					(name "PR62B"
@@ -9327,7 +9201,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -5.08 0)
 					(length 2.54)
 					(name "PR47C/PCLKT3_0"
@@ -9345,7 +9219,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -10.16 0)
 					(length 2.54)
 					(name "PR50A/GR_PCLK3_0"
@@ -9363,7 +9237,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -20.32 0)
 					(length 2.54)
 					(name "PR53A"
@@ -9381,7 +9255,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -45.72 0)
 					(length 2.54)
 					(name "PR59C"
@@ -9399,7 +9273,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -60.96 0)
 					(length 2.54)
 					(name "PR65A"
@@ -9417,7 +9291,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -7.62 0)
 					(length 2.54)
 					(name "PR47D/PCLKC3_0"
@@ -9435,7 +9309,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -12.7 0)
 					(length 2.54)
 					(name "PR50B"
@@ -9453,7 +9327,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -22.86 0)
 					(length 2.54)
 					(name "PR53B"
@@ -9471,7 +9345,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -25.4 0)
 					(length 2.54)
 					(name "PR53C"
@@ -9489,7 +9363,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -48.26 0)
 					(length 2.54)
 					(name "PR59D"
@@ -9507,7 +9381,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -63.5 0)
 					(length 2.54)
 					(name "PR65B"
@@ -9525,7 +9399,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -71.12 0)
 					(length 2.54)
 					(name "PR68A"
@@ -9543,7 +9417,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 30.48 5.08 270)
 					(length 2.54) hide
 					(name "VCCIO3"
@@ -9561,7 +9435,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -17.78 0)
 					(length 2.54)
 					(name "PR50D"
@@ -9579,7 +9453,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -15.24 0)
 					(length 2.54)
 					(name "PR50C/GR_PCLK3_1"
@@ -9597,7 +9471,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -27.94 0)
 					(length 2.54)
 					(name "PR53D"
@@ -9615,7 +9489,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -30.48 0)
 					(length 2.54)
 					(name "PR56A"
@@ -9633,7 +9507,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -58.42 0)
 					(length 2.54)
 					(name "PR62D"
@@ -9651,7 +9525,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -55.88 0)
 					(length 2.54)
 					(name "PR62C"
@@ -9669,7 +9543,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -73.66 0)
 					(length 2.54)
 					(name "PR68B"
@@ -9687,7 +9561,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 30.48 5.08 270)
 					(length 2.54) hide
 					(name "VCCIO3"
@@ -9705,7 +9579,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -38.1 0)
 					(length 2.54)
 					(name "PR56D"
@@ -9723,7 +9597,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -35.56 0)
 					(length 2.54)
 					(name "PR56C"
@@ -9741,7 +9615,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -33.02 0)
 					(length 2.54)
 					(name "PR56B/VREF1_3"
@@ -9759,7 +9633,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -76.2 0)
 					(length 2.54)
 					(name "PR68C"
@@ -9777,7 +9651,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 30.48 5.08 270)
 					(length 2.54) hide
 					(name "VCCIO3"
@@ -9795,7 +9669,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -12.7 180)
 					(length 2.54)
 					(name "PR71D"
@@ -9813,7 +9687,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -17.78 180)
 					(length 2.54)
 					(name "PR74B"
@@ -9831,7 +9705,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -66.04 0)
 					(length 2.54)
 					(name "PR65C"
@@ -9849,7 +9723,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -55.88 180)
 					(length 2.54)
 					(name "PR86A"
@@ -9867,7 +9741,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -78.74 0)
 					(length 2.54)
 					(name "PR68D"
@@ -9885,7 +9759,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -81.28 0)
 					(length 2.54)
 					(name "PR71A"
@@ -9903,7 +9777,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -83.82 0)
 					(length 2.54)
 					(name "PR71B"
@@ -9921,7 +9795,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -10.16 180)
 					(length 2.54)
 					(name "PR71C"
@@ -9939,7 +9813,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -15.24 180)
 					(length 2.54)
 					(name "PR74A"
@@ -9957,7 +9831,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -68.58 0)
 					(length 2.54)
 					(name "PR65D"
@@ -9975,7 +9849,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -58.42 180)
 					(length 2.54)
 					(name "PR86B"
@@ -10018,24 +9892,6 @@
 							)
 						)
 					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 30.48 5.08 270)
-					(length 2.54) hide
-					(name "VCCIO4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "AB23"
 						(effects
 							(font
@@ -10044,7 +9900,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 30.48 5.08 270)
 					(length 2.54) hide
 					(name "VCCIO4"
@@ -10062,7 +9918,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -5.08 -30.48 0)
 					(length 2.54)
 					(name "PB110A"
@@ -10080,7 +9936,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -5.08 -35.56 0)
 					(length 2.54)
 					(name "PB110B"
@@ -10098,7 +9954,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -5.08 -45.72 0)
 					(length 2.54)
 					(name "PB114B"
@@ -10116,7 +9972,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -5.08 -55.88 0)
 					(length 2.54)
 					(name "PB119B"
@@ -10134,7 +9990,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -5.08 -38.1 0)
 					(length 2.54)
 					(name "PB112B"
@@ -10152,7 +10008,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -5.08 -40.64 0)
 					(length 2.54)
 					(name "PB114A"
@@ -10170,7 +10026,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -5.08 -50.8 0)
 					(length 2.54)
 					(name "PB119A"
@@ -10188,7 +10044,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -5.08 -33.02 0)
 					(length 2.54)
 					(name "PB112A"
@@ -10206,7 +10062,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -5.08 -53.34 0)
 					(length 2.54)
 					(name "PB121A"
@@ -10224,7 +10080,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -5.08 -58.42 0)
 					(length 2.54)
 					(name "PB121B"
@@ -10242,7 +10098,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -5.08 -25.4 0)
 					(length 2.54)
 					(name "PB105B"
@@ -10260,7 +10116,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -5.08 -15.24 0)
 					(length 2.54)
 					(name "PB101B"
@@ -10278,7 +10134,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -5.08 -7.62 0)
 					(length 2.54)
 					(name "PB98B"
@@ -10296,7 +10152,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -5.08 -43.18 0)
 					(length 2.54)
 					(name "PB116A"
@@ -10314,7 +10170,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -5.08 -48.26 0)
 					(length 2.54)
 					(name "PB116B"
@@ -10332,7 +10188,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -5.08 -20.32 0)
 					(length 2.54)
 					(name "PB105A"
@@ -10350,7 +10206,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -5.08 -10.16 0)
 					(length 2.54)
 					(name "PB101A"
@@ -10368,7 +10224,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -5.08 -2.54 0)
 					(length 2.54)
 					(name "PB98A"
@@ -10386,7 +10242,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -5.08 -17.78 0)
 					(length 2.54)
 					(name "PB103B"
@@ -10404,7 +10260,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -5.08 -27.94 0)
 					(length 2.54)
 					(name "PB107B"
@@ -10422,7 +10278,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "PB96A"
@@ -10440,7 +10296,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -5.08 -5.08 0)
 					(length 2.54)
 					(name "PB96B"
@@ -10458,7 +10314,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -5.08 -12.7 0)
 					(length 2.54)
 					(name "PB103A"
@@ -10476,7 +10332,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -5.08 -22.86 0)
 					(length 2.54)
 					(name "PB107A"
@@ -10519,24 +10375,6 @@
 							)
 						)
 					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 30.48 5.08 270)
-					(length 2.54) hide
-					(name "VCCIO6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "AA10"
 						(effects
 							(font
@@ -10545,7 +10383,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -76.2 180)
 					(length 2.54)
 					(name "PL92A"
@@ -10563,7 +10401,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -68.58 180)
 					(length 2.54)
 					(name "PL89B"
@@ -10581,7 +10419,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -45.72 180)
 					(length 2.54)
 					(name "PL83A"
@@ -10599,7 +10437,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -48.26 180)
 					(length 2.54)
 					(name "PL83B"
@@ -10617,7 +10455,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -25.4 180)
 					(length 2.54)
 					(name "PL77A"
@@ -10635,7 +10473,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -27.94 180)
 					(length 2.54)
 					(name "PL77B"
@@ -10653,7 +10491,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -20.32 180)
 					(length 2.54)
 					(name "PL74C"
@@ -10671,7 +10509,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -78.74 180)
 					(length 2.54)
 					(name "PL92B"
@@ -10689,7 +10527,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -71.12 180)
 					(length 2.54)
 					(name "PL89C"
@@ -10707,7 +10545,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -66.04 180)
 					(length 2.54)
 					(name "PL89A"
@@ -10725,7 +10563,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -50.8 180)
 					(length 2.54)
 					(name "PL83C"
@@ -10743,7 +10581,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -22.86 180)
 					(length 2.54)
 					(name "PL74D"
@@ -10761,7 +10599,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -30.48 180)
 					(length 2.54)
 					(name "PL77C"
@@ -10779,7 +10617,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -81.28 180)
 					(length 2.54)
 					(name "PL92C/LLC_GPLL0T_IN"
@@ -10797,7 +10635,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -60.96 180)
 					(length 2.54)
 					(name "PL86C"
@@ -10815,7 +10653,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -53.34 180)
 					(length 2.54)
 					(name "PL83D"
@@ -10833,7 +10671,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -35.56 180)
 					(length 2.54)
 					(name "PL80A"
@@ -10851,7 +10689,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -33.02 180)
 					(length 2.54)
 					(name "PL77D"
@@ -10869,7 +10707,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -83.82 180)
 					(length 2.54)
 					(name "PL92D/LLC_GPLL0C_IN"
@@ -10887,7 +10725,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -73.66 180)
 					(length 2.54)
 					(name "PL89D"
@@ -10905,7 +10743,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -63.5 180)
 					(length 2.54)
 					(name "PL86D"
@@ -10923,7 +10761,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -43.18 180)
 					(length 2.54)
 					(name "PL80D"
@@ -10941,7 +10779,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -40.64 180)
 					(length 2.54)
 					(name "PL80C"
@@ -10959,7 +10797,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -38.1 180)
 					(length 2.54)
 					(name "PL80B"
@@ -10977,7 +10815,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -50.8 0)
 					(length 2.54)
 					(name "PL62A"
@@ -10995,7 +10833,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -53.34 0)
 					(length 2.54)
 					(name "PL62B"
@@ -11013,7 +10851,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -40.64 0)
 					(length 2.54)
 					(name "PL59A"
@@ -11031,7 +10869,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -43.18 0)
 					(length 2.54)
 					(name "PL59B"
@@ -11049,7 +10887,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -2.54 0)
 					(length 2.54)
 					(name "PL47B/PCLKC6_1"
@@ -11067,7 +10905,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name "PL47A/PCLKT6_1"
@@ -11085,7 +10923,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -60.96 0)
 					(length 2.54)
 					(name "PL65A"
@@ -11103,7 +10941,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -45.72 0)
 					(length 2.54)
 					(name "PL59C"
@@ -11121,7 +10959,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -20.32 0)
 					(length 2.54)
 					(name "PL53A"
@@ -11139,7 +10977,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -10.16 0)
 					(length 2.54)
 					(name "PL50A/GR_PCLK6_0"
@@ -11157,7 +10995,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -5.08 0)
 					(length 2.54)
 					(name "PL47C/PCLKT6_0"
@@ -11175,7 +11013,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -71.12 0)
 					(length 2.54)
 					(name "PL68A"
@@ -11193,7 +11031,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -63.5 0)
 					(length 2.54)
 					(name "PL65B"
@@ -11211,7 +11049,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -48.26 0)
 					(length 2.54)
 					(name "PL59D"
@@ -11229,7 +11067,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -25.4 0)
 					(length 2.54)
 					(name "PL53C"
@@ -11247,7 +11085,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -22.86 0)
 					(length 2.54)
 					(name "PL53B"
@@ -11265,7 +11103,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -12.7 0)
 					(length 2.54)
 					(name "PL50B/GR_PCLK6_1"
@@ -11283,7 +11121,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -7.62 0)
 					(length 2.54)
 					(name "PL47D/PCLKC6_0"
@@ -11301,7 +11139,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -73.66 0)
 					(length 2.54)
 					(name "PL68B"
@@ -11319,7 +11157,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 30.48 5.08 270)
 					(length 2.54) hide
 					(name "VCCIO6"
@@ -11337,7 +11175,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -55.88 0)
 					(length 2.54)
 					(name "PL62C"
@@ -11355,7 +11193,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -58.42 0)
 					(length 2.54)
 					(name "PL62D"
@@ -11373,7 +11211,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -30.48 0)
 					(length 2.54)
 					(name "PL56A"
@@ -11391,7 +11229,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -27.94 0)
 					(length 2.54)
 					(name "PL53D"
@@ -11409,7 +11247,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -15.24 0)
 					(length 2.54)
 					(name "PL50C"
@@ -11427,7 +11265,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -17.78 0)
 					(length 2.54)
 					(name "PL50D"
@@ -11445,7 +11283,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -76.2 0)
 					(length 2.54)
 					(name "PL68C"
@@ -11463,7 +11301,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 30.48 5.08 270)
 					(length 2.54) hide
 					(name "VCCIO6"
@@ -11481,7 +11319,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -33.02 0)
 					(length 2.54)
 					(name "PL56B/VREF1_6"
@@ -11499,7 +11337,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -35.56 0)
 					(length 2.54)
 					(name "PL56C"
@@ -11517,7 +11355,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -38.1 0)
 					(length 2.54)
 					(name "PL56D"
@@ -11535,7 +11373,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -78.74 0)
 					(length 2.54)
 					(name "PL68D"
@@ -11553,7 +11391,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 30.48 5.08 270)
 					(length 2.54) hide
 					(name "VCCIO6"
@@ -11571,7 +11409,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -55.88 180)
 					(length 2.54)
 					(name "PL86A"
@@ -11589,7 +11427,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -66.04 0)
 					(length 2.54)
 					(name "PL65C"
@@ -11607,7 +11445,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -17.78 180)
 					(length 2.54)
 					(name "PL74B"
@@ -11625,7 +11463,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -12.7 180)
 					(length 2.54)
 					(name "PL71D"
@@ -11643,7 +11481,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -58.42 180)
 					(length 2.54)
 					(name "PL86B"
@@ -11661,7 +11499,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -68.58 0)
 					(length 2.54)
 					(name "PL65D"
@@ -11679,7 +11517,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -15.24 180)
 					(length 2.54)
 					(name "PL74A"
@@ -11697,7 +11535,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 35.56 -10.16 180)
 					(length 2.54)
 					(name "PL71C"
@@ -11715,7 +11553,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -83.82 0)
 					(length 2.54)
 					(name "PL71B"
@@ -11733,7 +11571,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -81.28 0)
 					(length 2.54)
 					(name "PL71A"
@@ -11766,25 +11604,7 @@
 				)
 			)
 			(symbol "LFE5U-85F-*BG756*_8_0"
-				(pin power_in line
-					(at 40.64 5.08 270)
-					(length 2.54)
-					(name "VCCIO7[4]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -20.32 0)
 					(length 2.54)
 					(name "PL17A/LDQS17"
@@ -11802,7 +11622,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -33.02 0)
 					(length 2.54)
 					(name "PL20C/LDQ17"
@@ -11820,7 +11640,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -25.4 0)
 					(length 2.54)
 					(name "PL17B/LDQSN17"
@@ -11838,7 +11658,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -7.62 0)
 					(length 2.54)
 					(name "PL11D/LDQ17"
@@ -11856,7 +11676,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -5.08 0)
 					(length 2.54)
 					(name "PL11C/LDQ17"
@@ -11874,7 +11694,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name "PL11A/ULC_GPLL0T_IN/LDQ17"
@@ -11892,7 +11712,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -38.1 0)
 					(length 2.54)
 					(name "PL20D/LDQ17"
@@ -11910,7 +11730,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -27.94 0)
 					(length 2.54)
 					(name "PL17D/LDQ17"
@@ -11928,7 +11748,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -22.86 0)
 					(length 2.54)
 					(name "PL17C/LDQ17"
@@ -11946,7 +11766,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -10.16 0)
 					(length 2.54)
 					(name "PL14A/LDQ17"
@@ -11964,7 +11784,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -2.54 0)
 					(length 2.54)
 					(name "PL11B/ULC_GPLL0C_IN/LDQ17"
@@ -11982,7 +11802,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -45.72 0)
 					(length 2.54)
 					(name "PL23B/LDQ29"
@@ -12000,7 +11820,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -35.56 0)
 					(length 2.54)
 					(name "PL20B/LDQ17"
@@ -12018,7 +11838,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -15.24 0)
 					(length 2.54)
 					(name "PL14B/LDQ17"
@@ -12036,7 +11856,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -43.18 0)
 					(length 2.54)
 					(name "PL23C/LDQ29"
@@ -12054,7 +11874,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -40.64 0)
 					(length 2.54)
 					(name "PL23A/LDQ29"
@@ -12072,7 +11892,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -30.48 0)
 					(length 2.54)
 					(name "PL20A/LDQ17"
@@ -12090,7 +11910,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -12.7 0)
 					(length 2.54)
 					(name "PL14C/LDQ17"
@@ -12108,7 +11928,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -17.78 0)
 					(length 2.54)
 					(name "PL14D/LDQ17"
@@ -12126,7 +11946,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -48.26 0)
 					(length 2.54)
 					(name "PL23D/LDQ29"
@@ -12144,7 +11964,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -50.8 0)
 					(length 2.54)
 					(name "PL26A/LDQ29"
@@ -12162,7 +11982,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -55.88 0)
 					(length 2.54)
 					(name "PL26B/LDQ29"
@@ -12180,7 +12000,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 45.72 -40.64 180)
 					(length 2.54)
 					(name "PL35B/LDQ41"
@@ -12198,7 +12018,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 45.72 -35.56 180)
 					(length 2.54)
 					(name "PL35A/LDQ41"
@@ -12216,7 +12036,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -66.04 0)
 					(length 2.54)
 					(name "PL29B/LDQSN29"
@@ -12234,7 +12054,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -53.34 0)
 					(length 2.54)
 					(name "PL26C/LDQ29"
@@ -12252,7 +12072,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -73.66 0)
 					(length 2.54)
 					(name "PL32C/LDQ29"
@@ -12270,7 +12090,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 45.72 -43.18 180)
 					(length 2.54)
 					(name "PL35D/LDQ41"
@@ -12288,7 +12108,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 45.72 -38.1 180)
 					(length 2.54)
 					(name "PL35C/VREF1_7/LDQ41"
@@ -12306,7 +12126,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -63.5 0)
 					(length 2.54)
 					(name "PL29C/LDQ29"
@@ -12324,7 +12144,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -60.96 0)
 					(length 2.54)
 					(name "PL29A/LDQS29"
@@ -12342,7 +12162,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -58.42 0)
 					(length 2.54)
 					(name "PL26D/LDQ29"
@@ -12360,7 +12180,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 45.72 -33.02 180)
 					(length 2.54)
 					(name "PL32D/LDQ29"
@@ -12378,7 +12198,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 45.72 -48.26 180)
 					(length 2.54)
 					(name "PL38C/LDQ41"
@@ -12396,7 +12216,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 45.72 -45.72 180)
 					(length 2.54)
 					(name "PL38A/LDQ41"
@@ -12414,7 +12234,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 45.72 -50.8 180)
 					(length 2.54)
 					(name "PL38B/LDQ41"
@@ -12432,7 +12252,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -68.58 0)
 					(length 2.54)
 					(name "PL29D/LDQ29"
@@ -12450,7 +12270,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -71.12 0)
 					(length 2.54)
 					(name "PL32A/LDQ29"
@@ -12468,7 +12288,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 45.72 -30.48 180)
 					(length 2.54)
 					(name "PL32B/LDQ29"
@@ -12486,7 +12306,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 45.72 -53.34 180)
 					(length 2.54)
 					(name "PL38D/LDQ41"
@@ -12504,7 +12324,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 45.72 -63.5 180)
 					(length 2.54)
 					(name "PL41D/LDQ41"
@@ -12522,7 +12342,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 45.72 -58.42 180)
 					(length 2.54)
 					(name "PL41C/GR_PCLK7_0/LDQ41"
@@ -12542,8 +12362,8 @@
 				)
 				(pin power_in line
 					(at 40.64 5.08 270)
-					(length 2.54) hide
-					(name "VCCIO7"
+					(length 2.54)
+					(name "VCCIO7[4]"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12558,7 +12378,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 45.72 -55.88 180)
 					(length 2.54)
 					(name "PL41A/GR_PCLK7_1/LDQS41"
@@ -12576,7 +12396,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 45.72 -60.96 180)
 					(length 2.54)
 					(name "PL41B/LDQSN41"
@@ -12594,7 +12414,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 45.72 -66.04 180)
 					(length 2.54)
 					(name "PL44A/PCLKT7_1/LDQ41"
@@ -12612,7 +12432,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 45.72 -71.12 180)
 					(length 2.54)
 					(name "PL44B/PCLKC7_1/LDQ41"
@@ -12630,7 +12450,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 40.64 5.08 270)
 					(length 2.54) hide
 					(name "VCCIO7"
@@ -12648,7 +12468,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 45.72 -68.58 180)
 					(length 2.54)
 					(name "PL44C/PCLKT7_0/LDQ41"
@@ -12666,7 +12486,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 45.72 -73.66 180)
 					(length 2.54)
 					(name "PL44D/PCLKC7_0/LDQ41"
@@ -12684,7 +12504,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 40.64 5.08 270)
 					(length 2.54) hide
 					(name "VCCIO7"
@@ -12702,7 +12522,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 40.64 5.08 270)
 					(length 2.54) hide
 					(name "VCCIO7"
@@ -12745,24 +12565,6 @@
 							)
 						)
 					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 34.29 5.08 270)
-					(length 2.54) hide
-					(name "VCCIO8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "AB10"
 						(effects
 							(font
@@ -12771,7 +12573,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 34.29 5.08 270)
 					(length 2.54) hide
 					(name "VCCIO8"
@@ -12789,7 +12591,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name "PB4A/D7/IO7"
@@ -12807,7 +12609,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -20.32 0)
 					(length 2.54)
 					(name "PB13A/SN/CSN"
@@ -12825,7 +12627,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -43.18 0)
 					(length 2.54)
 					(name "INITN"
@@ -12843,7 +12645,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -2.54 0)
 					(length 2.54)
 					(name "PB4B/D6/IO6"
@@ -12861,7 +12663,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -22.86 0)
 					(length 2.54)
 					(name "PB13B/CS1N"
@@ -12879,7 +12681,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -48.26 0)
 					(length 2.54)
 					(name "PROGRAMN"
@@ -12897,7 +12699,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -5.08 0)
 					(length 2.54)
 					(name "PB6A/D5/MISO2/IO5"
@@ -12915,7 +12717,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -15.24 0)
 					(length 2.54)
 					(name "PB11A/D1/MISO/IO1"
@@ -12933,7 +12735,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -25.4 0)
 					(length 2.54)
 					(name "PB15A/HOLDN/DI/BUSY/CSSPIN/CEN"
@@ -12951,7 +12753,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -45.72 0)
 					(length 2.54)
 					(name "DONE"
@@ -12969,7 +12771,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -7.62 0)
 					(length 2.54)
 					(name "PB6B/D4/MOSI2/IO4"
@@ -12987,7 +12789,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -17.78 0)
 					(length 2.54)
 					(name "PB11B/D0/MOSI/IO0"
@@ -13005,7 +12807,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -27.94 0)
 					(length 2.54)
 					(name "PB15B/DOUT/CS0N"
@@ -13023,7 +12825,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -35.56 0)
 					(length 2.54)
 					(name "CFG_2"
@@ -13041,7 +12843,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -10.16 0)
 					(length 2.54)
 					(name "PB9A/D3/IO3"
@@ -13059,7 +12861,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -30.48 0)
 					(length 2.54)
 					(name "PB18A/WRITEN"
@@ -13077,7 +12879,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -38.1 0)
 					(length 2.54)
 					(name "CFG_1"
@@ -13095,7 +12897,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -12.7 0)
 					(length 2.54)
 					(name "PB9B/D2/IO2"
@@ -13113,7 +12915,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -33.02 0)
 					(length 2.54)
 					(name "CCLK/MCLK/SCK"
@@ -13131,7 +12933,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -3.81 -40.64 0)
 					(length 2.54)
 					(name "CFG_0"
@@ -13181,6 +12983,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "~"
@@ -13323,9 +13126,6 @@
 		)
 		(pin "Y31"
 			(uuid "28c999d5-de8e-421e-ac01-3c5e241a7667")
-		)
-		(pin ""
-			(uuid "e1e93f93-a8ba-495f-8d7c-be17ab7faa7d")
 		)
 		(pin "A10"
 			(uuid "f122ddb1-a3e0-4365-a6b8-12ec5d61ea7b")
@@ -13714,9 +13514,6 @@
 		(pin "Y32"
 			(uuid "c05fe45c-df4a-4c87-b027-9e5c91b9668a")
 		)
-		(pin ""
-			(uuid "015c57af-19c2-45d5-9fc0-fa72554025c8")
-		)
 		(pin "AB23"
 			(uuid "e36a33e5-8f78-4e7c-8a73-dc5944a38d6c")
 		)
@@ -13761,9 +13558,6 @@
 		)
 		(pin "K16"
 			(uuid "b9f6d0cc-dbbd-4bbb-ba78-61da8fe818d2")
-		)
-		(pin ""
-			(uuid "6c9ad03a-1028-44a9-abec-9cbdc87afba9")
 		)
 		(pin "A18"
 			(uuid "5d4d925a-4983-481d-8fbb-af6719dc33b6")
@@ -13921,9 +13715,6 @@
 		(pin "K21"
 			(uuid "7d893285-e058-41a5-8602-60aee6a57a89")
 		)
-		(pin ""
-			(uuid "1151b0a8-e99c-4050-aa8e-fb9bab78917a")
-		)
 		(pin "B32"
 			(uuid "2b2c3e53-5e0c-4d1f-a8eb-bc5c9789b641")
 		)
@@ -14079,9 +13870,6 @@
 		)
 		(pin "T23"
 			(uuid "6135759e-7e0c-4b28-8264-fbd5f4375991")
-		)
-		(pin ""
-			(uuid "ac6dcc8f-3992-48f9-be5b-1e485b9e38bb")
 		)
 		(pin "AA23"
 			(uuid "5b3f31d3-8f0e-4b66-b12e-fc03e44a3061")
@@ -14410,9 +14198,6 @@
 		(pin "AM31"
 			(uuid "f6442cab-d271-4e72-91ea-5f14ffaaec1a")
 		)
-		(pin ""
-			(uuid "47daee5a-7739-4644-adfb-71256f85fee3")
-		)
 		(pin "AA10"
 			(uuid "7dff3deb-8d03-4937-825f-2b68ddf30e36")
 		)
@@ -14617,9 +14402,6 @@
 		(pin "Y7"
 			(uuid "486850b4-59d1-4baf-a0dc-92dcc047ad2a")
 		)
-		(pin ""
-			(uuid "78b879cc-d975-4aa5-af5c-1dda13c192ea")
-		)
 		(pin "B1"
 			(uuid "a17b9fc6-361c-4589-af60-eb95e040efce")
 		)
@@ -14775,9 +14557,6 @@
 		)
 		(pin "T10"
 			(uuid "a08d079b-2d79-4e0f-9ed9-a454c96fa55f")
-		)
-		(pin ""
-			(uuid "593bbb5f-ccf0-41e3-883c-c28ca3c8fa5e")
 		)
 		(pin "AB10"
 			(uuid "0c8a4717-e6fe-4e8f-a770-83b3f71e49ab")
@@ -15289,9 +15068,6 @@
 		(pin "M14"
 			(uuid "45eaca89-c214-42b7-b225-aabfff7499d6")
 		)
-		(pin ""
-			(uuid "09ee9d53-04c1-41e0-ae37-4878b63b60b4")
-		)
 		(pin "AH12"
 			(uuid "ea3979e3-9cf9-4bb3-b540-73f447fe730f")
 		)
@@ -15349,9 +15125,6 @@
 		(pin "V19"
 			(uuid "f89e462d-0ab5-44e1-9568-53b8f8ab2707")
 		)
-		(pin ""
-			(uuid "529c29fa-1ee0-449a-af37-057ed2f39ff0")
-		)
 		(pin "AC11"
 			(uuid "dac73a83-10ae-40ed-9fee-dbbc46c8d3cc")
 		)
@@ -15375,9 +15148,6 @@
 		)
 		(pin "AA11"
 			(uuid "ec795cff-c6f5-4851-a25b-cdb1af49fa05")
-		)
-		(pin ""
-			(uuid "cc9a75ff-51be-473a-ae51-1c70e0af1057")
 		)
 		(instances
 			(project "ecap5-bsom"

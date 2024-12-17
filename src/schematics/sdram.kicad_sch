@@ -209,115 +209,7 @@
 				)
 			)
 			(symbol "IS42S16160J-*BL_0_0"
-				(pin input line
-					(at 1.27 31.75 270)
-					(length 2.54)
-					(name "VDDQ[4]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -1.27 31.75 270)
-					(length 2.54)
-					(name "VDD[4]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 1.27 -30.48 90)
-					(length 2.54)
-					(name "VSSQ[4]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -1.27 -30.48 90)
-					(length 2.54)
-					(name "VSS[3]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -1.27 31.75 270)
-					(length 2.54) hide
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -1.27 -30.48 90)
-					(length 2.54) hide
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 -11.43 180)
 					(length 2.54)
 					(name "DQ15"
@@ -335,43 +227,7 @@
 						)
 					)
 				)
-				(pin input line
-					(at 1.27 -30.48 90)
-					(length 2.54) hide
-					(name "VSSQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 1.27 31.75 270)
-					(length 2.54) hide
-					(name "VDDQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 26.67 180)
 					(length 2.54)
 					(name "DQ0"
@@ -389,7 +245,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -1.27 31.75 270)
 					(length 2.54) hide
 					(name "VDD"
@@ -407,7 +263,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 -8.89 180)
 					(length 2.54)
 					(name "DQ14"
@@ -425,7 +281,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 -6.35 180)
 					(length 2.54)
 					(name "DQ13"
@@ -443,7 +299,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 1.27 31.75 270)
 					(length 2.54) hide
 					(name "VDDQ"
@@ -461,7 +317,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 1.27 -30.48 90)
 					(length 2.54) hide
 					(name "VSSQ"
@@ -479,7 +335,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 21.59 180)
 					(length 2.54)
 					(name "DQ2"
@@ -497,7 +353,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 24.13 180)
 					(length 2.54)
 					(name "DQ1"
@@ -515,7 +371,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 -3.81 180)
 					(length 2.54)
 					(name "DQ12"
@@ -533,7 +389,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 -1.27 180)
 					(length 2.54)
 					(name "DQ11"
@@ -551,7 +407,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 1.27 -30.48 90)
 					(length 2.54) hide
 					(name "VSSQ"
@@ -569,7 +425,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 1.27 31.75 270)
 					(length 2.54) hide
 					(name "VDDQ"
@@ -587,7 +443,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 16.51 180)
 					(length 2.54)
 					(name "DQ4"
@@ -605,7 +461,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 19.05 180)
 					(length 2.54)
 					(name "DQ3"
@@ -623,7 +479,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 1.27 180)
 					(length 2.54)
 					(name "DQ10"
@@ -641,7 +497,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 3.81 180)
 					(length 2.54)
 					(name "DQ9"
@@ -659,7 +515,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 1.27 31.75 270)
 					(length 2.54) hide
 					(name "VDDQ"
@@ -677,7 +533,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 1.27 -30.48 90)
 					(length 2.54) hide
 					(name "VSSQ"
@@ -695,7 +551,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 11.43 180)
 					(length 2.54)
 					(name "DQ6"
@@ -713,7 +569,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 13.97 180)
 					(length 2.54)
 					(name "DQ5"
@@ -731,7 +587,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 6.35 180)
 					(length 2.54)
 					(name "DQ8"
@@ -749,7 +605,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at 6.35 -30.48 90)
 					(length 2.54) hide
 					(name "NC"
@@ -767,7 +623,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -1.27 -30.48 90)
 					(length 2.54) hide
 					(name "VSS"
@@ -785,7 +641,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -1.27 31.75 270)
 					(length 2.54) hide
 					(name "VDD"
@@ -821,7 +677,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 12.7 8.89 180)
 					(length 2.54)
 					(name "DQ7"
@@ -1163,7 +1019,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -1.27 -30.48 90)
 					(length 2.54) hide
 					(name "VSS"
@@ -1253,7 +1109,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -1.27 31.75 270)
 					(length 2.54) hide
 					(name "VDD"
@@ -1282,6 +1138,80 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+			)
+			(symbol "IS42S16160J-*BL_1_0"
+				(pin power_in line
+					(at -1.27 31.75 270)
+					(length 2.54)
+					(name "VDD[4]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -30.48 90)
+					(length 2.54)
+					(name "VSS[3]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -30.48 90)
+					(length 2.54)
+					(name "VSSQ[4]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 31.75 270)
+					(length 2.54)
+					(name "VDDQ[4]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -3980,12 +3910,6 @@
 		(pin "E7"
 			(uuid "f13666fe-3365-44ce-beb1-2bea389b8aaf")
 		)
-		(pin ""
-			(uuid "27b7e505-6069-44cc-a70a-4c92b6e19e0d")
-		)
-		(pin ""
-			(uuid "a94eca52-7bb0-4cde-97c6-4f72714c5cf6")
-		)
 		(pin "D3"
 			(uuid "50559e7d-61a3-4456-88e4-ce1fb530dd4e")
 		)
@@ -3994,9 +3918,6 @@
 		)
 		(pin "D2"
 			(uuid "ea2a4da2-adfc-4090-a12e-c09167667adf")
-		)
-		(pin ""
-			(uuid "ada197b3-e3be-4ecb-bab2-397242b0e966")
 		)
 		(pin "C1"
 			(uuid "d98c27be-38d4-40ff-b9c3-eb52b1a15bd7")
@@ -4012,9 +3933,6 @@
 		)
 		(pin "1"
 			(uuid "b7d06659-881b-49f1-9a3a-6aea7e749f8c")
-		)
-		(pin ""
-			(uuid "8109f0d2-39a1-47c9-bc27-63f015137b99")
 		)
 		(pin "B8"
 			(uuid "4ac76f90-6a56-4049-8d62-e284943d1181")
