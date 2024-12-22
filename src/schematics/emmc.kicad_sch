@@ -1158,16 +1158,7 @@
 		)
 	)
 	(bus_alias "EMMC"
-		(members "IO[0..7]" "{EMMC_CTRL}")
-	)
-	(bus_alias "EMMC_CTRL"
-		(members "~{LB}" "~{UB}" "~{WE}" "~{OE}" "~{CE}")
-	)
-	(junction
-		(at 74.93 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05200302-0e28-47cc-badf-03bda799db89")
+		(members "IO[0..7]" "~{RST}" "CLK" "CMD" "DS")
 	)
 	(junction
 		(at 129.54 59.69)
@@ -1319,7 +1310,7 @@
 	)
 	(bus
 		(pts
-			(xy 181.61 115.57) (xy 172.72 115.57)
+			(xy 179.07 115.57) (xy 172.72 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1376,26 +1367,6 @@
 			(type default)
 		)
 		(uuid "21d505dc-176c-4c10-8e23-36217953858a")
-	)
-	(bus
-		(pts
-			(xy 90.17 97.79) (xy 74.93 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2288a453-8385-4598-9361-77b06e342e4d")
-	)
-	(bus
-		(pts
-			(xy 74.93 95.25) (xy 90.17 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25cf06d7-e864-468d-96c3-ef845f158479")
 	)
 	(wire
 		(pts
@@ -1526,16 +1497,6 @@
 			(type default)
 		)
 		(uuid "722efec1-bd26-4137-b1fb-ab8d1c40badf")
-	)
-	(bus
-		(pts
-			(xy 72.39 96.52) (xy 74.93 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78c66bfa-9280-4d40-9c8c-3d895f7f9677")
 	)
 	(wire
 		(pts
@@ -1777,16 +1738,6 @@
 		)
 		(uuid "e4e52fdc-60e9-4e7f-9bbf-47cf9b9ac02d")
 	)
-	(bus
-		(pts
-			(xy 74.93 96.52) (xy 74.93 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e59daa49-e322-46c9-8699-10c01f2f3d39")
-	)
 	(wire
 		(pts
 			(xy 133.35 97.79) (xy 121.92 97.79)
@@ -1839,34 +1790,13 @@
 	)
 	(bus
 		(pts
-			(xy 74.93 96.52) (xy 74.93 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcc53a44-b0fe-4856-b353-d28a3870e5fb")
-	)
-	(bus
-		(pts
-			(xy 106.68 88.9) (xy 119.38 88.9)
+			(xy 114.3 88.9) (xy 119.38 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fdc0ea96-b59f-4bed-b05f-7590789972b7")
-	)
-	(label "IO[0..7]"
-		(at 181.61 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1652f7c7-80da-45a3-abec-953c1ab35aa1")
 	)
 	(label "IO5"
 		(at 168.91 104.14 180)
@@ -1878,17 +1808,6 @@
 			(justify right bottom)
 		)
 		(uuid "3119e33b-3e56-41be-a975-a4958478567a")
-	)
-	(label "{EMMC_CTRL}"
-		(at 90.17 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3a8acc11-feef-4de0-b011-d97fcb808cc6")
 	)
 	(label "CLK"
 		(at 123.19 97.79 0)
@@ -1923,17 +1842,6 @@
 		)
 		(uuid "65ae41d8-b49d-4710-a339-75a11ff6819d")
 	)
-	(label "IO[0..7]"
-		(at 90.17 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "79a9694a-7576-425e-a336-042e841afeca")
-	)
 	(label "IO1"
 		(at 168.91 93.98 180)
 		(fields_autoplaced yes)
@@ -1966,17 +1874,6 @@
 			(justify left bottom)
 		)
 		(uuid "7e55d79c-c6e6-4ad8-bfb1-e10d1ac3598e")
-	)
-	(label "{EMMC_CTRL}"
-		(at 106.68 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "835b0b64-db84-4698-baae-2596e3f21c20")
 	)
 	(label "~{RST}"
 		(at 123.19 95.25 0)
@@ -2035,7 +1932,19 @@
 	)
 	(hierarchical_label "{EMMC}"
 		(shape input)
-		(at 72.39 96.52 180)
+		(at 179.07 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77d9c751-508e-4d78-b241-82aa396b9a15")
+	)
+	(hierarchical_label "{EMMC}"
+		(shape input)
+		(at 114.3 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font

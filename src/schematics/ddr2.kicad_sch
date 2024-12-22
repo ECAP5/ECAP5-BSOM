@@ -1664,10 +1664,9 @@
 		)
 	)
 	(bus_alias "DDR2"
-		(members "A[0..13]" "BA[0..1]" "DQ[0..7]" "DQS" "~{DQS}" "{DDR2_CTRL}")
-	)
-	(bus_alias "DDR2_CTRL"
-		(members "~{LB}" "~{UB}" "~{WE}" "~{OE}" "~{CE}")
+		(members "A[0..13]" "BA[0..1]" "DQ[0..7]" "DQS" "~{DQS}" "CK" "~{CK}" "CKE"
+			"~{WE}" "~{RAS}" "ODT" "~{CAS}" "~{CS}" "DM"
+		)
 	)
 	(junction
 		(at 115.57 48.26)
@@ -1704,12 +1703,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "381a5d8c-0252-437d-a883-1a48ceb06b85")
-	)
-	(junction
-		(at 67.31 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51a37a7c-dd5a-4601-be92-07357e043380")
 	)
 	(junction
 		(at 129.54 119.38)
@@ -1806,10 +1799,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc0ef3a3-9ad3-47b3-8987-0a423a7efa6e")
-	)
-	(no_connect
-		(at 157.48 133.35)
-		(uuid "1802a968-98bb-4533-9792-5d8e04297e99")
 	)
 	(no_connect
 		(at 162.56 121.92)
@@ -2162,7 +2151,7 @@
 	)
 	(bus
 		(pts
-			(xy 104.14 68.58) (xy 123.19 68.58)
+			(xy 116.84 68.58) (xy 123.19 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2259,16 +2248,6 @@
 			(type default)
 		)
 		(uuid "1af5e9d6-593e-4ddb-82cf-3fcd17620fd1")
-	)
-	(bus
-		(pts
-			(xy 67.31 92.71) (xy 88.9 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c5b0ca9-dd89-4d23-89fe-0990a7465dbd")
 	)
 	(wire
 		(pts
@@ -2412,7 +2391,7 @@
 	)
 	(bus
 		(pts
-			(xy 97.79 110.49) (xy 110.49 110.49)
+			(xy 102.87 110.49) (xy 110.49 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2449,16 +2428,6 @@
 			(type default)
 		)
 		(uuid "31d9c942-02ff-4a83-a57c-e166f6d3383c")
-	)
-	(bus
-		(pts
-			(xy 67.31 92.71) (xy 67.31 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3300446c-605b-4d78-8295-5b3835efa552")
 	)
 	(bus
 		(pts
@@ -2500,16 +2469,6 @@
 		)
 		(uuid "41043991-b3e5-4754-bb04-51447bd21e9f")
 	)
-	(bus
-		(pts
-			(xy 67.31 92.71) (xy 67.31 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43fd616f-0041-4dcd-9c5d-cd1363a24974")
-	)
 	(wire
 		(pts
 			(xy 162.56 72.39) (xy 196.85 72.39)
@@ -2542,7 +2501,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 128.27) (xy 190.5 128.27)
+			(xy 176.53 128.27) (xy 182.88 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2589,16 +2548,6 @@
 			(type default)
 		)
 		(uuid "534bbef6-2288-40f8-b276-75bcac81142f")
-	)
-	(bus
-		(pts
-			(xy 64.77 92.71) (xy 67.31 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5378e0e3-f117-4a82-aa2a-b3d0809b8e70")
 	)
 	(wire
 		(pts
@@ -2729,16 +2678,6 @@
 			(type default)
 		)
 		(uuid "6603b252-1775-4a41-9b40-63d6773d0115")
-	)
-	(bus
-		(pts
-			(xy 67.31 90.17) (xy 88.9 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67a8b7e3-2bc6-4de8-99f4-ab8339323f2b")
 	)
 	(wire
 		(pts
@@ -2992,7 +2931,7 @@
 	)
 	(bus
 		(pts
-			(xy 181.61 109.22) (xy 201.93 109.22)
+			(xy 181.61 109.22) (xy 187.96 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3009,16 +2948,6 @@
 			(type default)
 		)
 		(uuid "88f8edc4-d6d4-4653-a3b3-bd58053b86ec")
-	)
-	(bus
-		(pts
-			(xy 88.9 95.25) (xy 67.31 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90c5bde1-e4c3-4217-a2bc-7b35ee6bcfc8")
 	)
 	(bus
 		(pts
@@ -3710,17 +3639,6 @@
 		)
 		(uuid "fe12f999-1c48-49cb-bea9-4d3969dd6223")
 	)
-	(label "{DDR2_CTRL}"
-		(at 88.9 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0ce83f5a-9779-4f10-8f46-6286b0c8d267")
-	)
 	(label "A3"
 		(at 127 82.55 0)
 		(fields_autoplaced yes)
@@ -3776,17 +3694,6 @@
 		)
 		(uuid "39f1ee8e-2f00-470f-97c5-330c87e5d8e8")
 	)
-	(label "{A[0..13] BA[0..1]}"
-		(at 88.9 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3f8e051d-1ee2-459a-923f-ecd9ab1ee12b")
-	)
 	(label "DQS"
 		(at 177.8 99.06 180)
 		(fields_autoplaced yes)
@@ -3819,17 +3726,6 @@
 			(justify right bottom)
 		)
 		(uuid "4c7eb9b0-8990-4154-a9af-017a21284f62")
-	)
-	(label "{DDR2_CTRL}"
-		(at 190.5 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4ddb293f-dc05-404e-86c5-577989eb9d4a")
 	)
 	(label "DM"
 		(at 172.72 119.38 180)
@@ -3963,17 +3859,6 @@
 		)
 		(uuid "9a671d70-25bd-45e5-ab9c-4c736a833106")
 	)
-	(label "{DQ[0..7] DQS ~{DQS}}"
-		(at 88.9 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9fa8dfe4-53d3-44dd-b744-fcbb55eb6446")
-	)
 	(label "A0"
 		(at 127 74.93 0)
 		(fields_autoplaced yes)
@@ -4040,17 +3925,6 @@
 		)
 		(uuid "bcb2931a-f0ad-4126-aa86-05af1bfe19f0")
 	)
-	(label "{DQ[0..7] DQS ~{DQS}}"
-		(at 201.93 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bf85faf9-2fec-482a-8a81-ea98e41cd1ab")
-	)
 	(label "ODT"
 		(at 172.72 111.76 180)
 		(fields_autoplaced yes)
@@ -4105,28 +3979,6 @@
 			(justify right bottom)
 		)
 		(uuid "ddd6a146-8075-4d95-8b78-0e0f18d09c90")
-	)
-	(label "{DDR2_CTRL}"
-		(at 97.79 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e054863e-4b10-436d-b73f-8898b3b912e7")
-	)
-	(label "{A[0..13] BA[0..1]}"
-		(at 104.14 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e4ef3276-4012-4aaf-b756-29f40f934b3b")
 	)
 	(label "A1"
 		(at 127 77.47 0)
@@ -4185,7 +4037,43 @@
 	)
 	(hierarchical_label "{DDR2}"
 		(shape input)
-		(at 64.77 92.71 180)
+		(at 102.87 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4cd0e30c-72bc-4b0e-a1c6-784c60cb1c9d")
+	)
+	(hierarchical_label "{DDR2}"
+		(shape input)
+		(at 182.88 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ae32a14-eead-4832-bb6f-fa8e70e4aa31")
+	)
+	(hierarchical_label "{DDR2}"
+		(shape input)
+		(at 187.96 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1167958-b23d-443b-b3ce-2dce91b486af")
+	)
+	(hierarchical_label "{DDR2}"
+		(shape input)
+		(at 116.84 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font

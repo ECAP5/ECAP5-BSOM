@@ -708,7 +708,7 @@
 		)
 	)
 	(bus_alias "FLASH"
-		(members "~{LB}" "~{UB}" "~{WE}" "~{OE}" "~{CE}")
+		(members "IO[0..3]" "CLK" "~{CS}")
 	)
 	(junction
 		(at 123.19 91.44)

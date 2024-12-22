@@ -8896,7 +8896,7 @@
 							)
 						)
 					)
-					(number "AB32"
+					(number "AB31"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13360,6 +13360,10 @@
 		(color 0 0 0 0)
 		(uuid "d5e52ddd-76ab-47bc-9652-1ed0144f5e03")
 	)
+	(no_connect
+		(at 127 96.52)
+		(uuid "eee6d3ac-7f3c-4690-95c3-5db2cc241a9c")
+	)
 	(bus_entry
 		(at 194.31 124.46)
 		(size -2.54 -2.54)
@@ -16824,7 +16828,7 @@
 		(pin "AB32"
 			(uuid "3f79ba6e-aa72-4be8-b46e-3823190e323a")
 		)
-		(pin "AB32"
+		(pin "AB31"
 			(uuid "d3664fff-47df-4006-a899-a975dff07161")
 		)
 		(pin "AC26"
