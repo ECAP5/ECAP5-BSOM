@@ -834,9 +834,6 @@
 			)
 		)
 	)
-	(bus_alias "LEDS"
-		(members "LED0" "LED1")
-	)
 	(bus_entry
 		(at 138.43 101.6)
 		(size 2.54 2.54)
@@ -1017,7 +1014,7 @@
 		)
 		(uuid "72cf7646-fe50-4cec-939d-27fa92757cef")
 	)
-	(hierarchical_label "{LEDS}"
+	(hierarchical_label "LED[0..1]"
 		(shape input)
 		(at 179.07 104.14 0)
 		(fields_autoplaced yes)

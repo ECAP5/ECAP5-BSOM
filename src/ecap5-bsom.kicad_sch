@@ -15,46 +15,6 @@
 	(lib_symbols)
 	(bus
 		(pts
-			(xy 100.33 109.22) (xy 124.46 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b51c8ac-9144-4d48-af04-e4054c87e21a")
-	)
-	(bus
-		(pts
-			(xy 153.67 133.35) (xy 153.67 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24784457-4ef7-4096-9ecb-5d904e9e6c08")
-	)
-	(bus
-		(pts
-			(xy 100.33 68.58) (xy 124.46 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dce3944-ef98-4f5a-9131-15019746fa17")
-	)
-	(wire
-		(pts
-			(xy 153.67 48.26) (xy 153.67 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31be2193-5449-400d-bdc7-c1be45fc7beb")
-	)
-	(bus
-		(pts
 			(xy 184.15 99.06) (xy 198.12 99.06)
 		)
 		(stroke
@@ -63,39 +23,9 @@
 		)
 		(uuid "425fc6da-9506-4642-96ce-d7e0a622668a")
 	)
-	(bus
-		(pts
-			(xy 100.33 128.27) (xy 124.46 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ff10aba-55aa-4acb-a79e-a8601330982b")
-	)
-	(bus
-		(pts
-			(xy 100.33 88.9) (xy 124.46 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e6ff776-97ab-4f02-9401-208b28203c18")
-	)
-	(bus
-		(pts
-			(xy 172.72 48.26) (xy 172.72 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca1ecfd5-3f1f-4baa-b6d2-3f592019233a")
-	)
 	(sheet
-		(at 71.12 101.6)
-		(size 29.21 15.24)
+		(at 36.83 121.92)
+		(size 15.24 40.64)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -106,7 +36,7 @@
 		)
 		(uuid "0481f44a-3ae5-4dda-99d2-682482abdf58")
 		(property "Sheetname" "DDR2"
-			(at 71.12 100.8884 0)
+			(at 36.83 121.2084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +45,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/ddr2.kicad_sch"
-			(at 71.12 117.4246 0)
+			(at 36.83 163.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -124,15 +54,145 @@
 				(hide yes)
 			)
 		)
-		(pin "{DDR2}" input
-			(at 100.33 109.22 0)
+		(pin "A[0..13]" input
+			(at 52.07 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a3a01444-c936-4094-90d7-3ccb99417000")
+			(uuid "74329fa2-6a13-4575-952b-839090ddf1bd")
+		)
+		(pin "~{CS}" input
+			(at 52.07 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "181da680-8ff8-495a-91da-9efb913ab9c8")
+		)
+		(pin "~{DQS}" input
+			(at 52.07 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e2317c9e-8eab-453e-bfd9-8d1e527a0f98")
+		)
+		(pin "DM" input
+			(at 52.07 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ace7d21d-85ac-4078-b532-4514274b42f6")
+		)
+		(pin "ODT" input
+			(at 52.07 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "29789f53-bd45-471e-a4f4-7985f2bbb1ab")
+		)
+		(pin "~{WE}" input
+			(at 52.07 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6572bd1b-e807-407f-952d-dc07258ee675")
+		)
+		(pin "~{RAS}" input
+			(at 52.07 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7691db7f-5ff0-43b6-a9e0-8b08770357c1")
+		)
+		(pin "~{CAS}" input
+			(at 52.07 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ec3d2207-4450-4982-a428-04d6c920bcb4")
+		)
+		(pin "BA[0..1]" input
+			(at 52.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7cd84930-e5ad-4ae3-9233-c813ece4b9af")
+		)
+		(pin "~{CK}" input
+			(at 52.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "22925989-55bc-4e06-85a2-3eb9fd26e4fd")
+		)
+		(pin "CK" input
+			(at 52.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b9f9c843-8350-47b8-92d9-93b8bfaf4463")
+		)
+		(pin "CKE" input
+			(at 52.07 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fda24b3e-0402-4217-ac8d-f332b22bf682")
+		)
+		(pin "DQ[0..7]" input
+			(at 52.07 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e4df8ba7-7c04-4a4e-992c-52b63236842e")
+		)
+		(pin "DQS" input
+			(at 52.07 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cf82bdf0-c955-4502-a9da-175e78a9317a")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -143,8 +203,8 @@
 		)
 	)
 	(sheet
-		(at 166.37 33.02)
-		(size 12.7 15.24)
+		(at 36.83 44.45)
+		(size 15.24 12.7)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -154,7 +214,7 @@
 		)
 		(uuid "1a74cf8f-5090-41f4-a289-4dc02847730a")
 		(property "Sheetname" "Flash"
-			(at 166.1664 32.258 0)
+			(at 36.6264 43.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -163,7 +223,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/flash.kicad_sch"
-			(at 179.6546 48.26 90)
+			(at 50.1146 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -172,15 +232,35 @@
 				(hide yes)
 			)
 		)
-		(pin "{FLASH}" input
-			(at 172.72 48.26 270)
+		(pin "IO[0..3]" input
+			(at 52.07 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
-			(uuid "f31fa502-c0ec-450c-87b3-31ce14c60229")
+			(uuid "fbfcac53-aff9-419d-8205-9db8216858b9")
+		)
+		(pin "CLK" input
+			(at 52.07 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "095392d7-a5b1-4afd-a462-96a1275ad8f6")
+		)
+		(pin "~{CS}" input
+			(at 52.07 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bd8c7c4e-3eea-4652-9b30-27d1b998d604")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -240,8 +320,8 @@
 		)
 	)
 	(sheet
-		(at 71.12 60.96)
-		(size 29.21 15.24)
+		(at 36.83 60.96)
+		(size 15.24 20.32)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -252,7 +332,7 @@
 		)
 		(uuid "492906df-f838-4d8b-b74b-2c5ce24fa298")
 		(property "Sheetname" "SRAM"
-			(at 71.12 60.2484 0)
+			(at 36.83 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -261,7 +341,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/sram.kicad_sch"
-			(at 71.12 76.7846 0)
+			(at 36.83 81.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -270,15 +350,75 @@
 				(hide yes)
 			)
 		)
-		(pin "{SRAM}" input
-			(at 100.33 68.58 0)
+		(pin "IO[0..15]" input
+			(at 52.07 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8626a39a-fe78-4056-806c-f3ad70178a11")
+			(uuid "346110a7-78e7-4614-975b-9ca0eda08226")
+		)
+		(pin "A[0..17]" input
+			(at 52.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "466c08c8-9666-4773-9c41-f80c78b3d202")
+		)
+		(pin "~{LB}" input
+			(at 52.07 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "802bef9b-e9e1-47d0-9925-5a13ba9753d0")
+		)
+		(pin "~{CE}" input
+			(at 52.07 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "37c4d175-5a01-460c-861b-6f584cdc12fe")
+		)
+		(pin "~{WE}" input
+			(at 52.07 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7b860cd3-d5b4-4da7-8dc6-bb9afba4b2a7")
+		)
+		(pin "~{OE}" input
+			(at 52.07 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4b0f3bc6-af5c-471b-bc67-62026dd4e96c")
+		)
+		(pin "~{UB}" input
+			(at 52.07 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "06095794-b5c6-49c0-a19c-9f197f732c6b")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -289,8 +429,8 @@
 		)
 	)
 	(sheet
-		(at 71.12 81.28)
-		(size 29.21 15.24)
+		(at 36.83 85.09)
+		(size 15.24 33.02)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -301,7 +441,7 @@
 		)
 		(uuid "5eb51a9c-d950-4bb7-8ecf-1741d6933e12")
 		(property "Sheetname" "SDRAM"
-			(at 71.12 80.5684 0)
+			(at 36.83 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -310,7 +450,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/sdram.kicad_sch"
-			(at 71.12 97.1046 0)
+			(at 36.83 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -319,15 +459,115 @@
 				(hide yes)
 			)
 		)
-		(pin "{SDRAM}" input
-			(at 100.33 88.9 0)
+		(pin "A[0..12]" input
+			(at 52.07 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4866d321-0861-419f-92ea-720d2a3a8b8f")
+			(uuid "dc231293-1eff-4137-9b41-0b13553005a4")
+		)
+		(pin "DQ[0..15]" input
+			(at 52.07 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "04636c75-151a-4ddb-a547-5caca7a6de34")
+		)
+		(pin "DQML" input
+			(at 52.07 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a5b5c965-ad0d-4c6f-a0c2-7a9f9e438265")
+		)
+		(pin "DQMH" input
+			(at 52.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "546c7145-3b48-4998-8575-ac9f2c4a1ab8")
+		)
+		(pin "~{CS}" input
+			(at 52.07 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c57fd9a4-30ca-4df5-b31e-629d6b834d57")
+		)
+		(pin "CKE" input
+			(at 52.07 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "78332ac7-a3d2-425e-a763-18fcf8f13707")
+		)
+		(pin "CLK" input
+			(at 52.07 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e79b4774-f5d9-4de4-96d5-7a7974a68b0d")
+		)
+		(pin "BA[0..1]" input
+			(at 52.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7f87368c-06ef-420e-a5b6-7a6bc528d0f9")
+		)
+		(pin "~{CAS}" input
+			(at 52.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2b62efca-0e81-48db-bb6a-37c1eadb6156")
+		)
+		(pin "~{RAS}" input
+			(at 52.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "21020155-db33-4743-b316-9521365763ff")
+		)
+		(pin "~{WE}" input
+			(at 52.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f31eb71b-40a0-4ee4-8cae-6f995a45e9b5")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -338,8 +578,8 @@
 		)
 	)
 	(sheet
-		(at 77.47 33.02)
-		(size 15.24 15.24)
+		(at 36.83 20.32)
+		(size 27.94 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -350,7 +590,7 @@
 		)
 		(uuid "75c84b0f-c428-4bdf-a9d0-2de4281daa69")
 		(property "Sheetname" "Power"
-			(at 77.47 32.3084 0)
+			(at 36.83 19.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -359,7 +599,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/power.kicad_sch"
-			(at 77.47 48.8446 0)
+			(at 36.83 36.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -377,8 +617,8 @@
 		)
 	)
 	(sheet
-		(at 147.32 33.02)
-		(size 12.7 15.24)
+		(at 67.31 83.82)
+		(size 15.24 12.7)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -388,7 +628,7 @@
 		)
 		(uuid "7a27c590-818b-482a-bf10-a3edba6d1e5d")
 		(property "Sheetname" "Clock"
-			(at 147.1164 32.258 0)
+			(at 67.1064 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -397,7 +637,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/clock.kicad_sch"
-			(at 160.6046 48.26 90)
+			(at 80.5946 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -407,12 +647,12 @@
 			)
 		)
 		(pin "CLK_40MHZ" input
-			(at 153.67 48.26 270)
+			(at 82.55 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "4d2c3141-cf00-4b97-8725-0a7720763003")
 		)
@@ -425,8 +665,8 @@
 		)
 	)
 	(sheet
-		(at 71.12 121.92)
-		(size 29.21 12.7)
+		(at 67.31 44.45)
+		(size 15.24 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -437,7 +677,7 @@
 		)
 		(uuid "8d5e6f54-b0a0-44ab-a9a3-d267ce1e7cb8")
 		(property "Sheetname" "eMMC"
-			(at 71.12 121.2084 0)
+			(at 67.31 43.7384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -446,7 +686,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/emmc.kicad_sch"
-			(at 71.12 135.2046 0)
+			(at 67.31 60.2746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -455,15 +695,55 @@
 				(hide yes)
 			)
 		)
-		(pin "{EMMC}" input
-			(at 100.33 128.27 0)
+		(pin "CLK" input
+			(at 82.55 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "99a63e4d-d96a-49f9-89cf-cb5d558aeab2")
+			(uuid "b072ec4d-3017-446b-aa7c-3a10b22f4bf2")
+		)
+		(pin "~{RST}" input
+			(at 82.55 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fe9f95fc-cf6e-4ca3-a545-16ef54b66632")
+		)
+		(pin "CMD" input
+			(at 82.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f1b1b86c-0e49-49b2-8f02-211cd0be8508")
+		)
+		(pin "DS" input
+			(at 82.55 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c3f770c1-0667-467e-aefd-d933d7a5268a")
+		)
+		(pin "IO[0..7]" input
+			(at 82.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "78ceeda1-8439-4415-8d13-53cf44496666")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -504,46 +784,6 @@
 				(hide yes)
 			)
 		)
-		(pin "{SDRAM}" input
-			(at 124.46 88.9 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "22f8d230-2a9e-4248-bf04-5e71210f53b1")
-		)
-		(pin "{DDR2}" input
-			(at 124.46 109.22 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "bcaeda60-8a87-4107-bde0-167996979a00")
-		)
-		(pin "{EMMC}" input
-			(at 124.46 128.27 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "28cc4cc1-6b76-4d1f-a26a-37f5fdb73dd9")
-		)
-		(pin "{SRAM}" input
-			(at 124.46 68.58 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "5ba02e09-7c7e-4c90-bb64-a5538212c160")
-		)
 		(pin "{IO}" input
 			(at 184.15 99.06 0)
 			(effects
@@ -554,36 +794,6 @@
 			)
 			(uuid "5c01bc94-0d0e-406a-9094-4938f25b557a")
 		)
-		(pin "{FLASH}" input
-			(at 172.72 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "1dd7c206-a938-4576-b6e9-bdac44601a5d")
-		)
-		(pin "PCLK_40MHZ" input
-			(at 153.67 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "57ffab91-45ba-4e3e-b4be-989af6dc884e")
-		)
-		(pin "{LEDS}" input
-			(at 153.67 133.35 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f87a2ef9-132d-42d4-b66b-21a1b9718d41")
-		)
 		(instances
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
@@ -593,8 +803,8 @@
 		)
 	)
 	(sheet
-		(at 147.32 146.05)
-		(size 12.7 15.24)
+		(at 67.31 64.77)
+		(size 15.24 12.7)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -604,7 +814,7 @@
 		)
 		(uuid "e3d31ab8-ac0a-4c22-8900-830a9659f3d5")
 		(property "Sheetname" "LEDs"
-			(at 147.1164 145.288 0)
+			(at 67.1064 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -613,7 +823,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/leds.kicad_sch"
-			(at 160.6046 161.29 90)
+			(at 80.5946 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -622,15 +832,15 @@
 				(hide yes)
 			)
 		)
-		(pin "{LEDS}" input
-			(at 153.67 146.05 90)
+		(pin "LED[0..1]" input
+			(at 82.55 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6ceda24a-1c88-4130-9bcc-d58d96159be6")
+			(uuid "68d84b17-18c1-463f-af30-afcdb81e7fb9")
 		)
 		(instances
 			(project "ecap5-bsom"

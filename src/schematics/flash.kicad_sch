@@ -707,9 +707,6 @@
 			)
 		)
 	)
-	(bus_alias "FLASH"
-		(members "IO[0..3]" "CLK" "~{CS}")
-	)
 	(junction
 		(at 123.19 91.44)
 		(diameter 0)
@@ -753,17 +750,8 @@
 		(uuid "c993f43b-b096-4a87-9ef4-197ffb4e5d2e")
 	)
 	(bus_entry
-		(at 107.95 86.36)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e1fe5b3-46da-4839-8a46-41ba584adee1")
-	)
-	(bus_entry
-		(at 107.95 91.44)
-		(size 2.54 2.54)
+		(at 107.95 99.06)
+		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -771,8 +759,8 @@
 		(uuid "6575a69a-b037-47f7-815f-6b60ec22108b")
 	)
 	(bus_entry
-		(at 107.95 93.98)
-		(size 2.54 2.54)
+		(at 107.95 96.52)
+		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -780,8 +768,8 @@
 		(uuid "9ff82a52-0fd6-4a20-9f87-9d3aa77935cd")
 	)
 	(bus_entry
-		(at 107.95 88.9)
-		(size 2.54 2.54)
+		(at 107.95 101.6)
+		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -789,22 +777,13 @@
 		(uuid "c75117db-a237-431d-a8c7-dc7acc92c34a")
 	)
 	(bus_entry
-		(at 107.95 96.52)
-		(size 2.54 2.54)
+		(at 107.95 93.98)
+		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d6bbf1ef-6bbf-41a0-af4c-416c7b9647ee")
-	)
-	(bus_entry
-		(at 107.95 83.82)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed19c83f-9b5f-4998-b6c9-f160f04ca505")
 	)
 	(wire
 		(pts
@@ -828,7 +807,7 @@
 	)
 	(bus
 		(pts
-			(xy 107.95 93.98) (xy 107.95 91.44)
+			(xy 107.95 96.52) (xy 107.95 99.06)
 		)
 		(stroke
 			(width 0)
@@ -858,13 +837,13 @@
 	)
 	(bus
 		(pts
-			(xy 107.95 88.9) (xy 107.95 86.36)
+			(xy 107.95 105.41) (xy 102.87 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ba27660-e146-402d-8658-12dfcee0abb2")
+		(uuid "2d7d4c2f-eedf-425a-9368-c62fe090fdbb")
 	)
 	(wire
 		(pts
@@ -878,23 +857,13 @@
 	)
 	(bus
 		(pts
-			(xy 107.95 91.44) (xy 107.95 88.9)
+			(xy 107.95 99.06) (xy 107.95 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "487beb36-d91c-4a7c-9c99-df0fe0074ab8")
-	)
-	(bus
-		(pts
-			(xy 107.95 86.36) (xy 107.95 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48f0bcc2-ecd1-442a-ab95-8d916b061fa3")
 	)
 	(wire
 		(pts
@@ -918,7 +887,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 86.36) (xy 162.56 86.36)
+			(xy 102.87 86.36) (xy 162.56 86.36)
 		)
 		(stroke
 			(width 0)
@@ -948,7 +917,7 @@
 	)
 	(bus
 		(pts
-			(xy 107.95 96.52) (xy 107.95 93.98)
+			(xy 107.95 93.98) (xy 107.95 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1086,16 +1055,6 @@
 		)
 		(uuid "ceed3ef0-59d2-4b04-a84e-7520ca4caa0f")
 	)
-	(bus
-		(pts
-			(xy 107.95 80.01) (xy 107.95 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf17813c-3f5c-432e-b525-ac189c987207")
-	)
 	(wire
 		(pts
 			(xy 146.05 82.55) (xy 146.05 99.06)
@@ -1108,17 +1067,17 @@
 	)
 	(bus
 		(pts
-			(xy 104.14 80.01) (xy 107.95 80.01)
+			(xy 107.95 101.6) (xy 107.95 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0c5ffbe-e67a-4971-a2e1-5491cb882c34")
+		(uuid "eb91b686-88b0-44ef-8290-c790c443a89c")
 	)
 	(wire
 		(pts
-			(xy 110.49 88.9) (xy 153.67 88.9)
+			(xy 102.87 88.9) (xy 153.67 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1232,9 +1191,9 @@
 		)
 		(uuid "fcf12678-ddb5-4b85-b50f-2cf91a4f0897")
 	)
-	(hierarchical_label "{FLASH}"
+	(hierarchical_label "~{CS}"
 		(shape input)
-		(at 104.14 80.01 180)
+		(at 102.87 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1242,7 +1201,31 @@
 			)
 			(justify right)
 		)
-		(uuid "63064de2-c5a3-4f98-b4b6-a9cd7c86d0f6")
+		(uuid "4f164ffa-888b-404b-87a8-415b0928bee5")
+	)
+	(hierarchical_label "IO[0..3]"
+		(shape input)
+		(at 102.87 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc438432-cce6-4d38-9866-ddb54b22c73b")
+	)
+	(hierarchical_label "CLK"
+		(shape input)
+		(at 102.87 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de8687b5-ae8c-440e-8296-91f4719c8867")
 	)
 	(symbol
 		(lib_id "power:+3V3")
