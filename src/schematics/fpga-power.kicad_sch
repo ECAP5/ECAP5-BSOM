@@ -9,7 +9,7 @@
 		(date "2024-06-30")
 		(rev "${Revision}")
 		(comment 1 "${Project Title}")
-		(comment 2 "FPGA")
+		(comment 2 "FPGA Power")
 		(comment 3 "${Part Number}")
 	)
 	(lib_symbols
@@ -14782,7 +14782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1723469f-f4be-4b82-b4a3-9180691b4d1e")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 67.31 82.55 0)
 			(effects
 				(font
@@ -14832,7 +14832,7 @@
 		(instances
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686/9ec64d27-698a-408d-bb9c-7e381193a80d"
-					(reference "#PWR020")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -15128,7 +15128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f0b1bdb-0114-403a-aa4a-4868ad249f67")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 238.76 82.55 0)
 			(effects
 				(font
@@ -15178,7 +15178,7 @@
 		(instances
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686/9ec64d27-698a-408d-bb9c-7e381193a80d"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -17733,7 +17733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5dba20f8-0449-43bc-bff4-8bef9f2efe7b")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 238.76 109.22 0)
 			(effects
 				(font
@@ -17783,7 +17783,7 @@
 		(instances
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686/9ec64d27-698a-408d-bb9c-7e381193a80d"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -18149,7 +18149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "935c32cd-9738-45bf-8c3a-4ebad177a9ec")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 196.85 109.22 0)
 			(effects
 				(font
@@ -18199,7 +18199,7 @@
 		(instances
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686/9ec64d27-698a-408d-bb9c-7e381193a80d"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -18495,7 +18495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8d1b2fc-a0f6-43e4-bfde-5423595677d0")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 67.31 109.22 0)
 			(effects
 				(font
@@ -18545,7 +18545,7 @@
 		(instances
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686/9ec64d27-698a-408d-bb9c-7e381193a80d"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)

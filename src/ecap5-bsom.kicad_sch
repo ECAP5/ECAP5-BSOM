@@ -2532,7 +2532,6 @@
 	(sheet
 		(at 168.91 91.44)
 		(size 19.05 26.67)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2558,6 +2557,15 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(property "Vio" "3.3V"
+			(at 185.166 90.17 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "LED[0..1]" input
@@ -2651,7 +2659,6 @@
 	(sheet
 		(at 195.58 134.62)
 		(size 19.05 10.16)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2677,6 +2684,14 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(property "Vio" "3.3V"
+			(at 212.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "{IO}" input
@@ -3015,6 +3030,14 @@
 				(hide yes)
 			)
 		)
+		(property "Vio" "2.5V"
+			(at 212.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "{IO}" input
 			(at 195.58 63.5 180)
 			(effects
@@ -3036,7 +3059,6 @@
 	(sheet
 		(at 168.91 48.26)
 		(size 19.05 39.37)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3062,6 +3084,14 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(property "Vio" "3.3V"
+			(at 185.166 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "PCLK_40MHZ" input
@@ -3282,7 +3312,6 @@
 	(sheet
 		(at 168.91 121.92)
 		(size 19.05 7.62)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3308,6 +3337,14 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(property "Vio" "2.5V"
+			(at 185.42 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "{IO}" input
@@ -3564,6 +3601,14 @@
 				(hide yes)
 			)
 		)
+		(property "Vio" "2.5V"
+			(at 185.42 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "{IO}" input
 			(at 187.96 137.16 0)
 			(effects
@@ -3633,7 +3678,6 @@
 	(sheet
 		(at 195.58 71.12)
 		(size 19.05 59.69)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3659,6 +3703,14 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(property "Vio" "1.8V"
+			(at 212.09 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "EMMC.~{RST}" input
