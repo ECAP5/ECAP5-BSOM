@@ -13,18 +13,458 @@
 		(comment 3 "${Part Number}")
 	)
 	(lib_symbols)
+	(junction
+		(at 152.4 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46e5b95b-2cc5-427d-a1ab-853f5d59b153")
+	)
+	(junction
+		(at 152.4 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc675482-fd18-4615-8b22-4407939fbcb1")
+	)
+	(junction
+		(at 152.4 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e06bdf44-cf3a-4d24-8cc7-1d12c4bed7b3")
+	)
 	(bus
 		(pts
-			(xy 184.15 99.06) (xy 198.12 99.06)
+			(xy 152.4 151.13) (xy 152.4 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "425fc6da-9506-4642-96ce-d7e0a622668a")
+		(uuid "099c3393-7dc3-4095-8c79-84c4122e6c91")
+	)
+	(bus
+		(pts
+			(xy 118.11 92.71) (xy 130.81 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b0247e5-e438-4324-9b26-7c74f7deab32")
+	)
+	(wire
+		(pts
+			(xy 173.99 135.89) (xy 186.69 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d013731-aa4b-4a8a-8339-1bcf8fa80772")
+	)
+	(wire
+		(pts
+			(xy 118.11 58.42) (xy 130.81 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16d2cfb9-f52f-4264-9fd2-0dfcd6b30508")
+	)
+	(wire
+		(pts
+			(xy 118.11 40.64) (xy 123.19 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25e75041-c8d7-4208-a280-b2be2edd05ba")
+	)
+	(wire
+		(pts
+			(xy 173.99 116.84) (xy 186.69 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "274c45e6-499d-4b23-a46e-4d0bf3edcbd7")
+	)
+	(wire
+		(pts
+			(xy 118.11 100.33) (xy 130.81 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b797739-9a4c-4353-9219-96c17a6459e0")
+	)
+	(bus
+		(pts
+			(xy 123.19 118.11) (xy 123.19 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "348a6368-2463-47d0-8ef0-76ab78f2e451")
+	)
+	(bus
+		(pts
+			(xy 148.59 121.92) (xy 152.4 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49eec988-111f-4b1b-b715-fd530dd64964")
+	)
+	(wire
+		(pts
+			(xy 173.99 114.3) (xy 186.69 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52dc2dd6-aa0a-4350-a4ac-cf6cf57fc0ce")
+	)
+	(bus
+		(pts
+			(xy 123.19 111.76) (xy 130.81 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58c5db79-cc6b-4526-a95e-6022fb01fb5d")
+	)
+	(wire
+		(pts
+			(xy 118.11 55.88) (xy 130.81 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e463501-3bc8-433e-8fdb-279a506fb916")
+	)
+	(bus
+		(pts
+			(xy 148.59 133.35) (xy 152.4 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f2ae855-054a-497a-980b-81141a8f5143")
+	)
+	(bus
+		(pts
+			(xy 173.99 124.46) (xy 186.69 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a032a60-1aa7-4d0d-ae22-3904b3c03dc4")
+	)
+	(wire
+		(pts
+			(xy 173.99 121.92) (xy 186.69 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e75bfaa-eada-4b1c-a681-6fa4bf7a2964")
+	)
+	(bus
+		(pts
+			(xy 118.11 62.23) (xy 130.81 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ef08fae-fa63-41ec-909e-0c274bb959e8")
+	)
+	(wire
+		(pts
+			(xy 118.11 95.25) (xy 130.81 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70955c2f-7290-4189-8e41-33d7689efc60")
+	)
+	(bus
+		(pts
+			(xy 152.4 135.89) (xy 156.21 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71341876-ac81-41f3-852f-ef3e290e0c7e")
+	)
+	(bus
+		(pts
+			(xy 118.11 118.11) (xy 123.19 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "732fd05c-f9c9-4528-9d72-f6d355f36848")
+	)
+	(bus
+		(pts
+			(xy 156.21 59.69) (xy 152.4 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e8c5cd1-f6c4-4386-9537-b5ea7d4d3210")
+	)
+	(wire
+		(pts
+			(xy 173.99 138.43) (xy 186.69 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8739c7e8-de9b-4a1b-9a7b-379aab3c1927")
+	)
+	(wire
+		(pts
+			(xy 118.11 105.41) (xy 130.81 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f5f8a69-861b-482e-9b61-64b9dd6f107e")
+	)
+	(bus
+		(pts
+			(xy 152.4 121.92) (xy 152.4 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9397653e-fb6b-4bc5-89d3-134c5fcdd87d")
+	)
+	(wire
+		(pts
+			(xy 173.99 119.38) (xy 186.69 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9588ec40-824b-4f66-954d-dde9294ba2d0")
+	)
+	(bus
+		(pts
+			(xy 152.4 133.35) (xy 152.4 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd3fa56-a404-4888-8149-4713e3f4fcdc")
+	)
+	(bus
+		(pts
+			(xy 118.11 90.17) (xy 130.81 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afcc23d5-143f-4e7a-a4bb-1884b542e27e")
+	)
+	(wire
+		(pts
+			(xy 118.11 102.87) (xy 130.81 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6db842e-9b6b-4150-b9f8-87ef089ebcc2")
+	)
+	(wire
+		(pts
+			(xy 118.11 71.12) (xy 130.81 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c7d6cf-23d9-47ae-a4e3-aeef68739aaf")
+	)
+	(wire
+		(pts
+			(xy 123.19 40.64) (xy 123.19 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3387dce-6acf-4cf6-b2d6-9e516446f822")
+	)
+	(bus
+		(pts
+			(xy 173.99 133.35) (xy 186.69 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c34e4410-9c39-45bb-a2d7-f2ffc71000b2")
+	)
+	(wire
+		(pts
+			(xy 118.11 97.79) (xy 130.81 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca65b944-f1f6-4214-9e09-c4715784889f")
+	)
+	(wire
+		(pts
+			(xy 123.19 46.99) (xy 130.81 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce2a4f3e-9e2e-4c9d-82a5-71ea82cfd5a9")
+	)
+	(bus
+		(pts
+			(xy 118.11 67.31) (xy 130.81 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc440659-9add-42c0-a467-ea39b3d1777d")
+	)
+	(wire
+		(pts
+			(xy 118.11 81.28) (xy 130.81 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6693431-c32c-4ab1-99b4-5002bb455156")
+	)
+	(bus
+		(pts
+			(xy 152.4 59.69) (xy 152.4 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef0bf636-6a8b-4b3d-b0e8-e3a0bd941463")
+	)
+	(wire
+		(pts
+			(xy 118.11 73.66) (xy 130.81 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1440319-d76e-40bc-8556-d75b52208633")
+	)
+	(bus
+		(pts
+			(xy 118.11 64.77) (xy 130.81 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f220848f-1bf7-4735-95d9-19f7fa79ce53")
+	)
+	(wire
+		(pts
+			(xy 118.11 78.74) (xy 130.81 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5189087-589e-4e99-9580-8cb00838e21f")
+	)
+	(polyline
+		(pts
+			(xy 128.27 39.37) (xy 176.53 39.37)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "f5653093-09ef-4a41-bc91-ea78cf78dbc5")
+	)
+	(wire
+		(pts
+			(xy 118.11 76.2) (xy 130.81 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9916e8a-ba7a-4f49-8f4e-8d9d9602d1b3")
+	)
+	(wire
+		(pts
+			(xy 118.11 53.34) (xy 130.81 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fea50f13-51fb-4f60-a8c0-33f8a73b196f")
+	)
+	(rectangle
+		(start 128.27 25.4)
+		(end 176.53 143.51)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8bd85781-8d6c-43e9-af77-21a89d4959e5)
+	)
+	(text "Lattice ECP5"
+		(exclude_from_sim no)
+		(at 134.366 23.622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d059a582-6d43-4eda-9b39-4433c28901b0")
 	)
 	(sheet
-		(at 36.83 121.92)
+		(at 186.69 67.31)
 		(size 15.24 40.64)
 		(fields_autoplaced yes)
 		(stroke
@@ -36,7 +476,7 @@
 		)
 		(uuid "0481f44a-3ae5-4dda-99d2-682482abdf58")
 		(property "Sheetname" "DDR2"
-			(at 36.83 121.2084 0)
+			(at 186.69 66.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45,7 +485,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/ddr2.kicad_sch"
-			(at 36.83 163.1446 0)
+			(at 186.69 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55,142 +495,142 @@
 			)
 		)
 		(pin "A[0..13]" input
-			(at 52.07 135.89 0)
+			(at 186.69 81.28 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "74329fa2-6a13-4575-952b-839090ddf1bd")
 		)
 		(pin "~{CS}" input
-			(at 52.07 132.08 0)
+			(at 186.69 77.47 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "181da680-8ff8-495a-91da-9efb913ab9c8")
 		)
 		(pin "~{DQS}" input
-			(at 52.07 146.05 0)
+			(at 186.69 91.44 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "e2317c9e-8eab-453e-bfd9-8d1e527a0f98")
 		)
 		(pin "DM" input
-			(at 52.07 152.4 0)
+			(at 186.69 97.79 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "ace7d21d-85ac-4078-b532-4514274b42f6")
 		)
 		(pin "ODT" input
-			(at 52.07 149.86 0)
+			(at 186.69 95.25 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "29789f53-bd45-471e-a4f4-7985f2bbb1ab")
 		)
 		(pin "~{WE}" input
-			(at 52.07 154.94 0)
+			(at 186.69 100.33 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "6572bd1b-e807-407f-952d-dc07258ee675")
 		)
 		(pin "~{RAS}" input
-			(at 52.07 157.48 0)
+			(at 186.69 102.87 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "7691db7f-5ff0-43b6-a9e0-8b08770357c1")
 		)
 		(pin "~{CAS}" input
-			(at 52.07 160.02 0)
+			(at 186.69 105.41 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "ec3d2207-4450-4982-a428-04d6c920bcb4")
 		)
 		(pin "BA[0..1]" input
-			(at 52.07 138.43 0)
+			(at 186.69 83.82 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "7cd84930-e5ad-4ae3-9233-c813ece4b9af")
 		)
 		(pin "~{CK}" input
-			(at 52.07 127 0)
+			(at 186.69 72.39 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "22925989-55bc-4e06-85a2-3eb9fd26e4fd")
 		)
 		(pin "CK" input
-			(at 52.07 124.46 0)
+			(at 186.69 69.85 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "b9f9c843-8350-47b8-92d9-93b8bfaf4463")
 		)
 		(pin "CKE" input
-			(at 52.07 129.54 0)
+			(at 186.69 74.93 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "fda24b3e-0402-4217-ac8d-f332b22bf682")
 		)
 		(pin "DQ[0..7]" input
-			(at 52.07 140.97 0)
+			(at 186.69 86.36 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "e4df8ba7-7c04-4a4e-992c-52b63236842e")
 		)
 		(pin "DQS" input
-			(at 52.07 143.51 0)
+			(at 186.69 88.9 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "cf82bdf0-c955-4502-a9da-175e78a9317a")
 		)
@@ -203,8 +643,8 @@
 		)
 	)
 	(sheet
-		(at 36.83 44.45)
-		(size 15.24 12.7)
+		(at 186.69 130.81)
+		(size 15.24 10.16)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -214,7 +654,7 @@
 		)
 		(uuid "1a74cf8f-5090-41f4-a289-4dc02847730a")
 		(property "Sheetname" "Flash"
-			(at 36.6264 43.688 0)
+			(at 186.4864 130.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -223,7 +663,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/flash.kicad_sch"
-			(at 50.1146 59.69 90)
+			(at 199.9746 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -233,32 +673,32 @@
 			)
 		)
 		(pin "IO[0..3]" input
-			(at 52.07 48.26 0)
+			(at 186.69 133.35 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "fbfcac53-aff9-419d-8205-9db8216858b9")
 		)
 		(pin "CLK" input
-			(at 52.07 53.34 0)
+			(at 186.69 138.43 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "095392d7-a5b1-4afd-a462-96a1275ad8f6")
 		)
 		(pin "~{CS}" input
-			(at 52.07 50.8 0)
+			(at 186.69 135.89 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "bd8c7c4e-3eea-4652-9b30-27d1b998d604")
 		)
@@ -271,9 +711,8 @@
 		)
 	)
 	(sheet
-		(at 198.12 60.96)
-		(size 16.51 72.39)
-		(fields_autoplaced yes)
+		(at 102.87 151.13)
+		(size 99.06 11.43)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -283,7 +722,7 @@
 		)
 		(uuid "25311f3d-42bc-4bc6-b069-9a914cc16127")
 		(property "Sheetname" "IO connector"
-			(at 198.12 60.2484 0)
+			(at 102.616 150.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -292,7 +731,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/io-connector.kicad_sch"
-			(at 198.12 133.9346 0)
+			(at 151.7146 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -302,12 +741,12 @@
 			)
 		)
 		(pin "{IO}" bidirectional
-			(at 198.12 99.06 180)
+			(at 152.4 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "e8d507ee-33ba-4caa-b35e-416d9c03246d")
 		)
@@ -320,7 +759,205 @@
 		)
 	)
 	(sheet
-		(at 36.83 60.96)
+		(at 130.81 87.63)
+		(size 17.78 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "32883292-2146-4067-bcec-7b9e760c81f8")
+		(property "Sheetname" "FPGA Bank 1"
+			(at 130.81 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga-bank1.kicad_sch"
+			(at 130.81 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "LED[0..1]" input
+			(at 130.81 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "976e9b3a-71b6-4531-b9b1-3c6dbbe891c6")
+		)
+		(pin "SRAM_~{WE}" input
+			(at 130.81 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "71b9b356-4dd1-4caa-b42d-7a48caeada67")
+		)
+		(pin "SRAM_A[0..17]" input
+			(at 130.81 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "72f1c7be-f7a3-428b-9038-ba69aa8dff0e")
+		)
+		(pin "SRAM_~{UB}" input
+			(at 130.81 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dc2cb198-670e-4f48-a330-cfad6873271f")
+		)
+		(pin "SRAM_~{CE}" input
+			(at 130.81 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a4e6ec81-61a7-4268-9547-a4f5d8631aee")
+		)
+		(pin "SRAM_~{LB}" input
+			(at 130.81 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c1564679-86ad-4bbf-82ab-08064d2fbf9c")
+		)
+		(pin "SRAM_~{OE}" input
+			(at 130.81 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c6ad26e0-3f6a-4684-83ea-7047cad6aefa")
+		)
+		(pin "SRAM_IO[0..15]" input
+			(at 130.81 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1b207f82-52ad-43b7-84a2-3bf4f6f8f8c5")
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 130.81)
+		(size 17.78 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "39c4ab3a-ae01-4b5a-b6e2-b19213d5302c")
+		(property "Sheetname" "FPGA Bank 8"
+			(at 156.21 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga-bank8.kicad_sch"
+			(at 156.21 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "{IO}" input
+			(at 156.21 135.89 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "85a38801-fb6c-48ad-9b0a-baf8a131a739")
+		)
+		(pin "~{CS}" input
+			(at 173.99 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0960b4e9-f6ab-4b56-a025-c70cd31b87ea")
+		)
+		(pin "IO[0..3]" input
+			(at 173.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8735fdc4-bb32-4cb1-95db-f6a2c563f913")
+		)
+		(pin "CLK" input
+			(at 173.99 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fb2cdc3b-ce24-4357-b45d-e3463fa55278")
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 87.63)
 		(size 15.24 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -332,7 +969,7 @@
 		)
 		(uuid "492906df-f838-4d8b-b74b-2c5ce24fa298")
 		(property "Sheetname" "SRAM"
-			(at 36.83 60.2484 0)
+			(at 102.87 86.9184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -341,7 +978,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/sram.kicad_sch"
-			(at 36.83 81.8646 0)
+			(at 102.87 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -351,7 +988,7 @@
 			)
 		)
 		(pin "IO[0..15]" input
-			(at 52.07 66.04 0)
+			(at 118.11 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -361,7 +998,7 @@
 			(uuid "346110a7-78e7-4614-975b-9ca0eda08226")
 		)
 		(pin "A[0..17]" input
-			(at 52.07 63.5 0)
+			(at 118.11 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -371,7 +1008,7 @@
 			(uuid "466c08c8-9666-4773-9c41-f80c78b3d202")
 		)
 		(pin "~{LB}" input
-			(at 52.07 68.58 0)
+			(at 118.11 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -381,7 +1018,7 @@
 			(uuid "802bef9b-e9e1-47d0-9925-5a13ba9753d0")
 		)
 		(pin "~{CE}" input
-			(at 52.07 71.12 0)
+			(at 118.11 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -391,7 +1028,7 @@
 			(uuid "37c4d175-5a01-460c-861b-6f584cdc12fe")
 		)
 		(pin "~{WE}" input
-			(at 52.07 73.66 0)
+			(at 118.11 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -401,7 +1038,7 @@
 			(uuid "7b860cd3-d5b4-4da7-8dc6-bb9afba4b2a7")
 		)
 		(pin "~{OE}" input
-			(at 52.07 76.2 0)
+			(at 118.11 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -411,7 +1048,7 @@
 			(uuid "4b0f3bc6-af5c-471b-bc67-62026dd4e96c")
 		)
 		(pin "~{UB}" input
-			(at 52.07 78.74 0)
+			(at 118.11 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -429,7 +1066,7 @@
 		)
 	)
 	(sheet
-		(at 36.83 85.09)
+		(at 102.87 50.8)
 		(size 15.24 33.02)
 		(fields_autoplaced yes)
 		(stroke
@@ -441,7 +1078,7 @@
 		)
 		(uuid "5eb51a9c-d950-4bb7-8ecf-1741d6933e12")
 		(property "Sheetname" "SDRAM"
-			(at 36.83 84.3784 0)
+			(at 102.87 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -450,7 +1087,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/sdram.kicad_sch"
-			(at 36.83 118.6946 0)
+			(at 102.87 84.4046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -460,7 +1097,7 @@
 			)
 		)
 		(pin "A[0..12]" input
-			(at 52.07 96.52 0)
+			(at 118.11 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -470,7 +1107,7 @@
 			(uuid "dc231293-1eff-4137-9b41-0b13553005a4")
 		)
 		(pin "DQ[0..15]" input
-			(at 52.07 101.6 0)
+			(at 118.11 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -480,7 +1117,7 @@
 			(uuid "04636c75-151a-4ddb-a547-5caca7a6de34")
 		)
 		(pin "DQML" input
-			(at 52.07 105.41 0)
+			(at 118.11 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -490,7 +1127,7 @@
 			(uuid "a5b5c965-ad0d-4c6f-a0c2-7a9f9e438265")
 		)
 		(pin "DQMH" input
-			(at 52.07 107.95 0)
+			(at 118.11 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -500,7 +1137,7 @@
 			(uuid "546c7145-3b48-4998-8575-ac9f2c4a1ab8")
 		)
 		(pin "~{CS}" input
-			(at 52.07 92.71 0)
+			(at 118.11 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -510,7 +1147,7 @@
 			(uuid "c57fd9a4-30ca-4df5-b31e-629d6b834d57")
 		)
 		(pin "CKE" input
-			(at 52.07 90.17 0)
+			(at 118.11 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -520,7 +1157,7 @@
 			(uuid "78332ac7-a3d2-425e-a763-18fcf8f13707")
 		)
 		(pin "CLK" input
-			(at 52.07 87.63 0)
+			(at 118.11 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -530,7 +1167,7 @@
 			(uuid "e79b4774-f5d9-4de4-96d5-7a7974a68b0d")
 		)
 		(pin "BA[0..1]" input
-			(at 52.07 99.06 0)
+			(at 118.11 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -540,7 +1177,7 @@
 			(uuid "7f87368c-06ef-420e-a5b6-7a6bc528d0f9")
 		)
 		(pin "~{CAS}" input
-			(at 52.07 110.49 0)
+			(at 118.11 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -550,7 +1187,7 @@
 			(uuid "2b62efca-0e81-48db-bb6a-37c1eadb6156")
 		)
 		(pin "~{RAS}" input
-			(at 52.07 113.03 0)
+			(at 118.11 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -560,7 +1197,7 @@
 			(uuid "21020155-db33-4743-b316-9521365763ff")
 		)
 		(pin "~{WE}" input
-			(at 52.07 115.57 0)
+			(at 118.11 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -578,8 +1215,215 @@
 		)
 	)
 	(sheet
-		(at 36.83 20.32)
-		(size 27.94 15.24)
+		(at 156.21 55.88)
+		(size 17.78 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "624c8ae5-3519-4938-8e49-46a13f6c30b9")
+		(property "Sheetname" "FPGA Bank 6"
+			(at 156.21 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga-bank6.kicad_sch"
+			(at 156.21 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "{IO}" input
+			(at 156.21 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2789d4d7-9c4c-4c2a-a5bc-a78f9fe1c823")
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 44.45)
+		(size 17.78 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6e8ffa03-3d0b-48ef-9cef-06edc52c2bd8")
+		(property "Sheetname" "FPGA Bank 0"
+			(at 130.81 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga-bank0.kicad_sch"
+			(at 130.81 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PCLK_40MHZ" input
+			(at 130.81 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e5702e68-230a-4f3b-886f-b481473bf68c")
+		)
+		(pin "DQMH" input
+			(at 130.81 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "08c54391-1ff3-4710-afcd-2b4e88c5cbcc")
+		)
+		(pin "DQ[0..15]" input
+			(at 130.81 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6c773137-031b-4343-9b4f-f64ab7bfecf0")
+		)
+		(pin "~{CS}" input
+			(at 130.81 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c92b89ee-1fb2-4885-baca-49799da23fb0")
+		)
+		(pin "CKE" input
+			(at 130.81 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "04a95762-53d9-49d3-ae20-08e234bc053e")
+		)
+		(pin "~{RAS}" input
+			(at 130.81 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bb74c2d9-de35-4300-a5b8-1e39187404d3")
+		)
+		(pin "DQML" input
+			(at 130.81 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0818a47f-8e49-47b8-ac0b-e2d873c35d34")
+		)
+		(pin "~{CAS}" input
+			(at 130.81 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "719b078f-d305-4010-b87b-8dd03b25c316")
+		)
+		(pin "~{WE}" input
+			(at 130.81 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5e74a220-269e-48ce-a742-1171e77ecd19")
+		)
+		(pin "BA[0..1]" input
+			(at 130.81 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9c2ee64b-93b4-4966-9d6c-6dcf7ccb0003")
+		)
+		(pin "CLK" input
+			(at 130.81 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f840951d-c043-4c1b-9020-861d4c229cd4")
+		)
+		(pin "A[0..12]" input
+			(at 130.81 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b1826433-70c1-4d41-bd18-c9b3cea89b52")
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 20.32)
+		(size 17.78 7.62)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -590,7 +1434,7 @@
 		)
 		(uuid "75c84b0f-c428-4bdf-a9d0-2de4281daa69")
 		(property "Sheetname" "Power"
-			(at 36.83 19.6084 0)
+			(at 102.87 19.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -599,7 +1443,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/power.kicad_sch"
-			(at 36.83 36.1446 0)
+			(at 102.87 28.5246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -617,7 +1461,7 @@
 		)
 	)
 	(sheet
-		(at 67.31 83.82)
+		(at 102.87 34.29)
 		(size 15.24 12.7)
 		(stroke
 			(width 0.1524)
@@ -628,7 +1472,7 @@
 		)
 		(uuid "7a27c590-818b-482a-bf10-a3edba6d1e5d")
 		(property "Sheetname" "Clock"
-			(at 67.1064 83.058 0)
+			(at 102.6664 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -637,7 +1481,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/clock.kicad_sch"
-			(at 80.5946 99.06 90)
+			(at 116.1546 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -647,7 +1491,7 @@
 			)
 		)
 		(pin "CLK_40MHZ" input
-			(at 82.55 90.17 0)
+			(at 118.11 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -665,7 +1509,56 @@
 		)
 	)
 	(sheet
-		(at 67.31 44.45)
+		(at 130.81 118.11)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "82eaa538-a5ac-465e-a467-f81a7248ecaa")
+		(property "Sheetname" "FPGA Bank 2"
+			(at 130.81 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga-bank2.kicad_sch"
+			(at 130.81 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "{IO}" input
+			(at 148.59 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4cb8d792-113e-40ab-930d-888c6446dd11")
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.69 111.76)
 		(size 15.24 15.24)
 		(fields_autoplaced yes)
 		(stroke
@@ -677,7 +1570,7 @@
 		)
 		(uuid "8d5e6f54-b0a0-44ab-a9a3-d267ce1e7cb8")
 		(property "Sheetname" "eMMC"
-			(at 67.31 43.7384 0)
+			(at 186.69 111.0484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -686,7 +1579,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/emmc.kicad_sch"
-			(at 67.31 60.2746 0)
+			(at 186.69 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -696,52 +1589,52 @@
 			)
 		)
 		(pin "CLK" input
-			(at 82.55 46.99 0)
+			(at 186.69 114.3 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "b072ec4d-3017-446b-aa7c-3a10b22f4bf2")
 		)
 		(pin "~{RST}" input
-			(at 82.55 49.53 0)
+			(at 186.69 116.84 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "fe9f95fc-cf6e-4ca3-a545-16ef54b66632")
 		)
 		(pin "CMD" input
-			(at 82.55 52.07 0)
+			(at 186.69 119.38 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "f1b1b86c-0e49-49b2-8f02-211cd0be8508")
 		)
 		(pin "DS" input
-			(at 82.55 54.61 0)
+			(at 186.69 121.92 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "c3f770c1-0667-467e-aefd-d933d7a5268a")
 		)
 		(pin "IO[0..7]" input
-			(at 82.55 57.15 0)
+			(at 186.69 124.46 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "78ceeda1-8439-4415-8d13-53cf44496666")
 		)
@@ -754,8 +1647,8 @@
 		)
 	)
 	(sheet
-		(at 124.46 60.96)
-		(size 59.69 72.39)
+		(at 130.81 29.21)
+		(size 17.78 7.62)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -765,8 +1658,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "9ec64d27-698a-408d-bb9c-7e381193a80d")
-		(property "Sheetname" "FPGA"
-			(at 124.46 60.2484 0)
+		(property "Sheetname" "Power"
+			(at 130.81 28.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -774,8 +1667,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "schematics/fpga.kicad_sch"
-			(at 124.46 133.9346 0)
+		(property "Sheetfile" "schematics/fpga-power.kicad_sch"
+			(at 130.81 37.4146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -783,16 +1676,6 @@
 				(justify left top)
 				(hide yes)
 			)
-		)
-		(pin "{IO}" input
-			(at 184.15 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "5c01bc94-0d0e-406a-9094-4938f25b557a")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -803,7 +1686,133 @@
 		)
 	)
 	(sheet
-		(at 67.31 64.77)
+		(at 156.21 44.45)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cf7b4afe-be2f-4770-95a4-78e3e4d23437")
+		(property "Sheetname" "FPGA Bank 4"
+			(at 156.21 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga-bank4.kicad_sch"
+			(at 156.21 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 29.21)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e0fcbabf-de4c-44c9-9e3c-088b9ebb0fb1")
+		(property "Sheetname" "JTAG"
+			(at 156.21 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/jtag.kicad_sch"
+			(at 156.21 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 129.54)
+		(size 17.78 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e11dc7e2-f552-4ffa-bf29-259d68ea6d3d")
+		(property "Sheetname" "FPGA Bank 3"
+			(at 130.556 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga-bank3.kicad_sch"
+			(at 149.1746 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "{IO}" input
+			(at 148.59 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "459ea42f-055e-4e99-8a00-f804d9e3cfbe")
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 111.76)
 		(size 15.24 12.7)
 		(stroke
 			(width 0.1524)
@@ -814,7 +1823,7 @@
 		)
 		(uuid "e3d31ab8-ac0a-4c22-8900-830a9659f3d5")
 		(property "Sheetname" "LEDs"
-			(at 67.1064 64.008 0)
+			(at 102.6664 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -823,7 +1832,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/leds.kicad_sch"
-			(at 80.5946 80.01 90)
+			(at 116.1546 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -833,7 +1842,7 @@
 			)
 		)
 		(pin "LED[0..1]" input
-			(at 82.55 71.12 0)
+			(at 118.11 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -846,6 +1855,95 @@
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
 					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 67.31)
+		(size 17.78 59.69)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f3fcc28f-f4b5-4b97-b1c8-620b151b8835")
+		(property "Sheetname" "FPGA Bank 7"
+			(at 156.21 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga-bank7.kicad_sch"
+			(at 156.21 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "EMMC_~{RST}" input
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f4158aed-1e98-487b-ab87-ba4766e11cf1")
+		)
+		(pin "EMMC_CMD" input
+			(at 173.99 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "000780ec-57ee-4373-b26e-c0a3f9a13013")
+		)
+		(pin "EMMC_DS" input
+			(at 173.99 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "36f14e1d-d8bd-40c8-9705-455867110b2e")
+		)
+		(pin "EMMC_CLK" input
+			(at 173.99 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "83b50980-bdcd-498f-81df-70f530fb3172")
+		)
+		(pin "EMMC_IO[0..7]" input
+			(at 173.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a80559c8-d891-4dbd-a08b-e70cd55cc9fd")
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
+					(page "9")
 				)
 			)
 		)
