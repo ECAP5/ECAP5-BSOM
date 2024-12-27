@@ -48,6 +48,8 @@ with requirement IDs having the following format :
 Definitions and Abbreviations
 -----------------------------
 
+.. todo:: Update the ref table
+
 .. _reftable:
 
 References
@@ -89,9 +91,9 @@ References
     - IS43DR16320E 32Mx16 DDR2 DRAM
 
   * - DS6
-    - January 19, 2021
+    - September 21, 2023
     - N/A
-    - XL Family of Low Phase Noise Quartz-based PLL Oscillators
+    - Plastic Package Ultra Miniature Pure Silicon Clock Oscillators
 
   * - AN1
     - May, 2023

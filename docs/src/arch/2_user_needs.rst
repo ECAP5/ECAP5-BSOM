@@ -8,16 +8,17 @@ FPGA
 ^^^^
 
 .. requirement:: U_FPGA_01
-   :rationale: 85k LUTs with 2.5Gb/s transceivers with 365 I/Os. The speed grade of the part is not specified.
+   :rationale: 85k LUTs with 365 I/Os. The speed grade of the part is not specified.
 
-   The board shall include a Lattice ECP5 FPGA with reference LFE5UM-85F-*BG756C.
+   The board shall include a Lattice ECP5 FPGA with reference LFE5U-85F-*BG756C.
 
 Clock
 ^^^^^
 
 .. requirement:: U_OSC_01
+   :rationale: 40MHz LVCMOS, Enable/Disable on pin 1, 3.2x2.5mm package, 3.3VDC±5% supply, ±50ppm precision, -40 to +85°C temperature range.
 
-   A 30 MHz reference oscillator shall be connected to one of the FPGA's global clock inputs, with reference XLH335030.000000I.
+   A 40 MHz reference oscillator shall be connected to one of the FPGA's global clock inputs, with reference XLH335040.000000I.
 
 Memory
 ^^^^^^
@@ -35,9 +36,7 @@ Multiple volatile memories are included on the board with different technologies
 .. requirement:: U_MEMORY_03
    :rationale: The -5B speed grade corresponds to DDR2-400B standard.
 
-   The board shall include a 32M x 16bits 512Mb DDR2 Synchronous DRAM with reference IS43DR16320E up to -5B speed grade.
-
-.. todo:: Add DDR3 if enough pins
+   The board shall include a 64M x 8bits 512Mb DDR2 Synchronous DRAM with reference IS43DR86400E up to -5B speed grade.
 
 Flash
 ^^^^^
@@ -49,7 +48,7 @@ Flash
 
 .. requirement:: U_FLASH_02
 
-   The board shall include a 8GB eMMC flash memory with reference THGBMJG6C1LBAIL with High Speed DDR and HS200 support.
+   The board shall include a 8GB eMMC flash memory with reference THGBMUG6C1LBAIL with High Speed DDR and HS200 support.
 
 Miscellaneous
 ^^^^^^^^^^^^^
@@ -104,30 +103,26 @@ Interfaces
    * - SE[0-130]
      - I/O
      - Single-Ended general purpose input/output
-   * - RS[0-64][P/N]
+   * - RD[0-64][P/N]
      - I
      - General purpose input differencial pair
-   * - RTS[0-64][P/N]
+   * - RTD[0-64][P/N]
      - I/O
      - General purpose input/output differencial pair
-   * - HSRX_D[0-1]C[0-1][P/N]
-     - I
-     - High-Speed SerDes input differencial pair
-   * - HSTX_D[0-1]C[0-1][P/N]
-     - O
-     - High-Speed SerDes output differencial pair
-   * - HS_REFCLK[0-1][P/N]
-     - I
-     - High-Speed SerDes reference clock differencial pair
    * - RESET_I
      - I
      - Reset input
    * - VIN9_20
      - 
      - Main power input 9~20V
+   * - unused
+     - 
+     - 
    * - GND
      - 
      - 
+
+.. note:: Unused pins are left unconnected but reserved on the connector for future use.
 
 Power
 -----
