@@ -1,8 +1,5 @@
-Architecture Document
-=====================
-
-.. image:: ../assets/overview.svg
-   :align: center
+Design Document
+===============
 
 .. container:: custom-title
 
@@ -10,13 +7,21 @@ Architecture Document
 
 .. toctree::
    :maxdepth: 5
-   :numbered:
 
    1_introduction
-   2_user_needs
-   3_requirements
-   4_overview
-   5_design
+   2_specification
+   3_system_overview
+   4_design_considerations
+   5_power
+   6_fpga
+   7_sram
+   8_sdram
+   9_ddr2
+   10_emmc
+   11_flash
+   12_clock
+   13_misc
+   14_mechanical
 
 .. container:: custom-title
    
@@ -32,5 +37,5 @@ Architecture Document
      - Changes
 
    * -
-     -
-     -
+     - 1.0.0
+     - Initial release
