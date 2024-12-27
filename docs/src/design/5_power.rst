@@ -1,105 +1,10 @@
 (F1) Power
-============
+==========
 
-FPGA Power Estimation
-^^^^^^^^^^^^^^^^^^^^^
+Functional description
+----------------------
 
-In order to perform a rough FPGA power estimation, the following assumptions were taken :
-
-- LFE5U-85F-8BG756C reference
-- 200MHz internal frequency
-- 25% Activity Factor (as stated in :ref:`AN1 <reftable>`)
-- 70% logic utilization
-- 100% BRAM utilization
-- 64 LVDS input differential pairs
-- eMMC IOs
-- SRAM Address/Data IOs
-- SDRAM Address/DQ IOs
-- DDR2 Address/DQ IOs
-
-.. note:: I/O utilization isn't precisely modelled as the IO power consumption is low. Margins will be taken to prevent any supply issues.
-
-.. image:: ../assets/power-summary.png
-   :width: 100%
-   :align: center
-
-|
-
-Part Selection
-^^^^^^^^^^^^^^
-
-The following table outlines the voltage requirements of the specified components :
-
-.. flat-table:: Component Supply Voltage Requirements
-   :header-rows: 1
-   :width: 100%
-
-   * - Component
-     - Name
-     - Voltage
-     - Max Current
-     - Description
-   
-   * - :rspan:`3` LFE5U-85F-*BG756C
-     - VCC
-     - 1.1V ±5%
-     - 3A
-     - Core Supply Voltage
-   * - VCCAUX
-     - 2.5V ±5%
-     - 200mA
-     - Auxilary Supply Voltage
-   * - VCCIO[*]
-     - 
-     - 
-     - 
-   * - VCCIO8
-     - 3.3V ±10%
-     - 100mA
-     - sysIO bank Supply Voltage
-   * - IS61W25616BLL
-     - VDD
-     - 3.3V ±5%
-     - 50mA
-     - Supply Voltage
-   * - :rspan:`1` IS42S16160J
-     - VDD
-     - 3.3V ±10%
-     - 140mA
-     - Supply Voltage
-   * - VDDQ
-     - 3.3V ±10%
-     - *included in VDD*
-     - I/O Supply Voltage
-   * - :rspan:`2` IS43DR16320E
-     - VDD
-     - 1.8V ±5%
-     - 185mA
-     - Supply Voltage
-   * - VDDQ
-     - 1.8V ±5%
-     - *included in VDD*
-     - I/O Supply Voltage
-   * - VDDL
-     - 1.8V ±5%
-     - *included in VDD*
-     - DLL Supply Voltage
-   * - W25Q158JVPIM
-     - VCC
-     - 3.3V ±10%
-     - 25mA
-     - Supply Voltage
-   * - :rspan:`1` THGBMJG6C1LBAIL
-     - VDD
-     - 1.8V ±8%
-     - 220mA
-     - Controller Supply Voltage
-   * - VDDF
-     - 3.3V ±10%
-     - 140mA
-     - Memory Supply Voltage
-
-The following table outlines the supply voltage requirement per voltage :
+The power sub-circuit is in charge of converting the supply voltage from the IO connector to the following supply voltages required for the board's operation :
 
 .. flat-table:: Supply Voltage Requirements
    :header-rows: 1
@@ -117,11 +22,21 @@ The following table outlines the supply voltage requirement per voltage :
    * - 1.8V ±5%
      - 500mA
 
-Component Selection
-^^^^^^^^^^^^^^^^^^^
+The sub-circuit enables the voltage regulators in the following sequence, with a 10ms delay:
 
-1.1V Core
-`````````
+.. image:: ../assets/power-sequencing.svg
+   :width: 70%
+   :align: center
+
+|
+
+.. note:: The 3.3V voltage regulator is enabled by default so it can power the power sequencing IC.
+
+Circuit diagram
+---------------
+
+1.1V regulator
+``````````````
 
 .. flat-table:: Characteristics Requirements
    :stub-columns: 1
@@ -184,54 +99,8 @@ Component Selection
      - 1uF
      - 
 
-.. flat-table:: Simulation Results
-   :header-rows: 1
-   :stub-columns: 1
-   :width: 100%
-
-   * - 
-     - Value
-     - Constraint
-  
-   * - Vout
-     - 1.1V
-     - ±1% 
-   * - Ripple
-     - 11mv - 0.96%
-     - <2%
-   * - IL ripple
-     - 702mA - 17.54% of 4A
-     - <1.2A
-   * - Fws
-     - 850kHz
-     - 
-   * - Ton
-     - 115.47ns
-     - >= 90ns
-   * - Vin ripple
-     - 1.01%
-     - 
-   * - Bandwidth
-     - 118.98kHz
-     - < 141.68kHz
-   * - Phase Margin
-     - 60.96°
-     - >= 45°
-   * - IC Tj
-     - 113.7°C
-     - < 125°C
-   * - ΔTj
-     - 88.7°C
-     - 
-
-.. image:: ../assets/buck-1V1-eff.png
-   :width: 90%
-   :align: center
-
-.. note:: The converter's efficiency is rather low at the operating limit of 15Vin - 4A but is acceptable in most behaviors. Proper power dissipation shall be put in place to handle the 2.5W of dissipated power at the operating limit.
-
-2.5V
-````
+2.5V regulator
+``````````````
 
 .. flat-table:: Characteristics Requirements
    :stub-columns: 1
@@ -309,52 +178,8 @@ Component Selection
      - 1uF
      - 
 
-.. flat-table:: Simulation Results
-   :header-rows: 1
-   :stub-columns: 1
-   :width: 100%
-
-   * - 
-     - Value
-     - Constraint
-  
-   * - Vout
-     - 2.5V
-     - ±1% 
-   * - Ripple
-     - 2mv - 0.07%
-     - <2%
-   * - IL ripple
-     - 246mA - 24.61% of 1A
-     - <300mA
-   * - Fws
-     - 400kHz
-     - 
-   * - Ton
-     - 440.13ns
-     - >= 85ns
-   * - Vin ripple
-     - 0.69%
-     - 
-   * - Bandwidth
-     - 34.6kHz
-     - 
-   * - Phase Margin
-     - 63.47°
-     - >= 45°
-   * - IC Tj
-     - 40.6°C
-     - < 150°C
-   * - ΔTj
-     - 15.6°C
-     - 
-
-.. image:: ../assets/buck-2V5-eff.png
-   :width: 90%
-   :align: center
-
-3.3V
-````
+3.3V regulator
+``````````````
 
 .. flat-table:: Characteristics Requirements
    :stub-columns: 1
@@ -432,52 +257,8 @@ Component Selection
      - 1uF
      - 
 
-.. flat-table:: Simulation Results
-   :header-rows: 1
-   :stub-columns: 1
-   :width: 100%
-
-   * - 
-     - Value
-     - Constraint
-  
-   * - Vout
-     - 3.31V
-     - ±1% 
-   * - Ripple
-     - 5mv - 0.15%
-     - <2%
-   * - IL ripple
-     - 244mA - 24.45% of 1A
-     - <300mA
-   * - Fws
-     - 400kHz
-     - 
-   * - Ton
-     - 573.80ns
-     - >= 85ns
-   * - Vin ripple
-     - 0.83%
-     - 
-   * - Bandwidth
-     - 47.31kHz
-     - 
-   * - Phase Margin
-     - 54.84°
-     - >= 45°
-   * - IC Tj
-     - 40.9°C
-     - < 150°C
-   * - ΔTj
-     - 15.9°C
-     - 
-
-.. image:: ../assets/buck-3V3-eff.png
-   :width: 90%
-   :align: center
-
-1.8V
-````
+1.8V regulator
+``````````````
 
 .. flat-table:: Characteristics Requirements
    :stub-columns: 1
@@ -555,6 +336,314 @@ Component Selection
      - 1uF
      - 
 
+Power sequencing
+````````````````
+
+.. image:: ../assets/diagram-power-sequencing.png
+   :width: 90%
+   :align: center
+
+.. flat-table:: Power sequencer IC
+   :stub-columns: 1
+   :width: 100%
+
+   * - IC
+     - LM3880
+   * - Sequence Number
+     - 1 (1-2-3 / 3-2-1)
+   * - Timing Designator
+     - AA (10ms)
+   * - Ordering reference
+     - LM3880MF*-1AA
+
+Design calculations
+-------------------
+
+Supply requirements
+```````````````````
+
+In order to perform a rough FPGA power estimation, the following assumptions were taken :
+
+- LFE5U-85F-8BG756C reference
+- 200MHz internal frequency
+- 25% Activity Factor (as stated in :ref:`AN1 <reftable>`)
+- 70% logic utilization
+- 100% BRAM utilization
+- 64 LVDS input differential pairs
+- eMMC IOs
+- SRAM Address/Data IOs
+- SDRAM Address/DQ IOs
+- DDR2 Address/DQ IOs
+
+.. note:: I/O utilization isn't precisely modelled as the IO power consumption is low. Margins will be taken to prevent any supply issues.
+
+.. image:: ../assets/power-summary.png
+   :width: 100%
+   :align: center
+
+|
+
+The following table outlines the voltage requirements of the specified components :
+
+.. flat-table:: Component Supply Voltage Requirements
+   :header-rows: 1
+   :width: 100%
+
+   * - Component
+     - Name
+     - Voltage
+     - Max Current
+     - Description
+   
+   * - :rspan:`3` LFE5U-85F-*BG756C
+     - VCC
+     - 1.1V ±5%
+     - 3A
+     - Core Supply Voltage
+   * - VCCAUX
+     - 2.5V ±5%
+     - 200mA
+     - Auxilary Supply Voltage
+   * - VCCIO[*]
+     - 
+     - 
+     - 
+   * - VCCIO8
+     - 3.3V ±10%
+     - 100mA
+     - sysIO bank Supply Voltage
+   * - IS61W25616BLL
+     - VDD
+     - 3.3V ±5%
+     - 50mA
+     - Supply Voltage
+   * - :rspan:`1` IS42S16160J
+     - VDD
+     - 3.3V ±10%
+     - 140mA
+     - Supply Voltage
+   * - VDDQ
+     - 3.3V ±10%
+     - *included in VDD*
+     - I/O Supply Voltage
+   * - :rspan:`2` IS43DR16320E
+     - VDD
+     - 1.8V ±5%
+     - 185mA
+     - Supply Voltage
+   * - VDDQ
+     - 1.8V ±5%
+     - *included in VDD*
+     - I/O Supply Voltage
+   * - VDDL
+     - 1.8V ±5%
+     - *included in VDD*
+     - DLL Supply Voltage
+   * - W25Q158JVPIM
+     - VCC
+     - 3.3V ±10%
+     - 25mA
+     - Supply Voltage
+   * - :rspan:`1` THGBMJG6C1LBAIL
+     - VDD
+     - 1.8V ±8%
+     - 220mA
+     - Controller Supply Voltage
+   * - VDDF
+     - 3.3V ±10%
+     - 140mA
+     - Memory Supply Voltage
+
+Power Sequencing
+````````````````
+
+.. flat-table:: Power-up timings
+   :header-rows: 1
+   :stub-columns: 2
+   :width: 100%
+
+   * - IC
+     - Voltage
+     - Max ramp rate
+     - Max start time
+   * - ST1S41PHR
+     - 1.1V
+     - 1.1mV/us
+     - 1ms
+   * - L6981NDR
+     - 1.8V
+     - 1.8mV/us
+     - 1.6ms
+   * - L6981NDR
+     - 2.5V
+     - 2.5mV/us
+     - 1.6ms
+   * - L6981NDR
+     - 3.3V
+     - 3.3mV/us
+     - 1.6ms
+
+The following formula is used to compute the value of :math:`C_{\text{en}}` which applies a delay to the start of the sequence:
+
+.. math::
+
+   t_{\text{enable_delay}} = \frac{1.25V * C_{\text{en}}}{7 \mu A}
+
+:math:`t_{\text{enable_delay}}` must greater than the start time of the 3.3V regulation (ie. 1.6ms), therefore :
+
+.. math::
+
+  C_{\text{en}} = 56nF \implies t_{\text{enable_delay}} = 10ms
+
+Simulation results
+------------------
+
+1.1V Core
+`````````
+
+.. flat-table:: Simulation Results
+   :header-rows: 1
+   :stub-columns: 1
+   :width: 100%
+
+   * - 
+     - Value
+     - Constraint
+  
+   * - Vout
+     - 1.1V
+     - ±1% 
+   * - Ripple
+     - 11mv - 0.96%
+     - <2%
+   * - IL ripple
+     - 702mA - 17.54% of 4A
+     - <1.2A
+   * - Fws
+     - 850kHz
+     - 
+   * - Ton
+     - 115.47ns
+     - >= 90ns
+   * - Vin ripple
+     - 1.01%
+     - 
+   * - Bandwidth
+     - 118.98kHz
+     - < 141.68kHz
+   * - Phase Margin
+     - 60.96°
+     - >= 45°
+   * - IC Tj
+     - 113.7°C
+     - < 125°C
+   * - ΔTj
+     - 88.7°C
+     - 
+
+.. image:: ../assets/buck-1V1-eff.png
+   :width: 90%
+   :align: center
+
+.. note:: The converter's efficiency is rather low at the operating limit of 15Vin - 4A but is acceptable in most behaviors. Proper power dissipation shall be put in place to handle the 2.5W of dissipated power at the operating limit.
+
+2.5V
+````
+
+.. flat-table:: Simulation Results
+   :header-rows: 1
+   :stub-columns: 1
+   :width: 100%
+
+   * - 
+     - Value
+     - Constraint
+  
+   * - Vout
+     - 2.5V
+     - ±1% 
+   * - Ripple
+     - 2mv - 0.07%
+     - <2%
+   * - IL ripple
+     - 246mA - 24.61% of 1A
+     - <300mA
+   * - Fws
+     - 400kHz
+     - 
+   * - Ton
+     - 440.13ns
+     - >= 85ns
+   * - Vin ripple
+     - 0.69%
+     - 
+   * - Bandwidth
+     - 34.6kHz
+     - 
+   * - Phase Margin
+     - 63.47°
+     - >= 45°
+   * - IC Tj
+     - 40.6°C
+     - < 150°C
+   * - ΔTj
+     - 15.6°C
+     - 
+
+.. image:: ../assets/buck-2V5-eff.png
+   :width: 90%
+   :align: center
+
+3.3V
+````
+
+.. flat-table:: Simulation Results
+   :header-rows: 1
+   :stub-columns: 1
+   :width: 100%
+
+   * - 
+     - Value
+     - Constraint
+  
+   * - Vout
+     - 3.31V
+     - ±1% 
+   * - Ripple
+     - 5mv - 0.15%
+     - <2%
+   * - IL ripple
+     - 244mA - 24.45% of 1A
+     - <300mA
+   * - Fws
+     - 400kHz
+     - 
+   * - Ton
+     - 573.80ns
+     - >= 85ns
+   * - Vin ripple
+     - 0.83%
+     - 
+   * - Bandwidth
+     - 47.31kHz
+     - 
+   * - Phase Margin
+     - 54.84°
+     - >= 45°
+   * - IC Tj
+     - 40.9°C
+     - < 150°C
+   * - ΔTj
+     - 15.9°C
+     - 
+
+.. image:: ../assets/buck-3V3-eff.png
+   :width: 90%
+   :align: center
+
+1.8V
+````
+
 .. flat-table:: Simulation Results
    :header-rows: 1
    :stub-columns: 1
@@ -599,73 +688,7 @@ Component Selection
    :width: 90%
    :align: center
 
-Power Sequencing
-^^^^^^^^^^^^^^^^
+Power sequencing
+````````````````
 
-Timing requirements
-```````````````````
-
-.. flat-table:: Power-up timings
-   :header-rows: 1
-   :stub-columns: 2
-   :width: 100%
-
-   * - IC
-     - Voltage
-     - Max ramp rate
-     - Max start time
-   * - ST1S41PHR
-     - 1.1V
-     - 1.1mV/us
-     - 1ms
-   * - L6981NDR
-     - 1.8V
-     - 1.8mV/us
-     - 1.6ms
-   * - L6981NDR
-     - 2.5V
-     - 2.5mV/us
-     - 1.6ms
-   * - L6981NDR
-     - 3.3V
-     - 3.3mV/us
-     - 1.6ms
-
-Sequence
-````````
-
-The power supply sequencing is performed with at least a 2ms delay.
-
-.. flat-table:: Power sequencer IC
-   :stub-columns: 1
-   :width: 100%
-
-   * - IC
-     - LM3880
-   * - Sequence Number
-     - 1 (1-2-3 / 3-2-1)
-   * - Timing Designator
-     - AA (10ms)
-   * - Ordering reference
-     - LM3880MF*-1AA
-
-The power sequencing IC is powered by the generated 3.3V as shown in the following diagram :
-
-.. image:: ../assets/power-sequencing.svg
-   :width: 70%
-   :align: center
-
-|
-
-The following formula is used to compute the value of :math:`C_{\text{en}}` which applies a delay to the start of the sequence:
-
-.. math::
-
-   t_{\text{enable_delay}} = \frac{1.25V * C_{\text{en}}}{7 \mu A}
-
-:math:`t_{\text{enable_delay}}` must greater than the start time of the 3.3V regulation (ie. 1.6ms), therefore :
-
-.. math::
-
-  C_{\text{en}} = 56nF \implies t_{\text{enable_delay}} = 10ms
-
+N/A
