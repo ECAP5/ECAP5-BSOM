@@ -7,6 +7,7 @@ Design Document
 
 .. toctree::
    :maxdepth: 5
+   :numbered:
 
    1_introduction
    2_specification

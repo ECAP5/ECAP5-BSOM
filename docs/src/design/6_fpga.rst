@@ -1,5 +1,5 @@
-F2. FPGA
-=======
+(F2) FPGA
+=========
 
 Configuration
 -------------

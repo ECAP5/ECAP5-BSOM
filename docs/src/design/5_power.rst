@@ -1,5 +1,5 @@
-F1. Power
-========
+(F1) Power
+============
 
 FPGA Power Estimation
 ^^^^^^^^^^^^^^^^^^^^^

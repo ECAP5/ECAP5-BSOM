@@ -1,8 +1,66 @@
 Specification
 =============
 
-Functions
----------
+User needs
+----------
+
+Interfaces
+^^^^^^^^^^
+
+.. requirement:: U_CONNECTOR_01
+
+   The board shall expose its various interfaces using a DDR4 SO-DIMM 260pin edge-card connector with the mapping specified in the following table.
+
+.. image:: ../assets/io-pinout.svg
+   :align: center
+   :width: 50%
+
+.. list-table:: SO-DIMM IO Connector Signal Description
+   :header-rows: 1
+   :width: 100%
+
+   * - Name
+     - Type
+     - Description
+
+   * - JTAG_TCK
+     - I
+     - JTAG clock input
+   * - JTAG_TDI
+     - I
+     - JTAG data input
+   * - JTAG_TDO
+     - O
+     - JTAG data output
+   * - JTAG_TMS
+     - I
+     - JTAG test mode select input
+   * - SE[0-130]
+     - I/O
+     - Single-Ended general purpose input/output
+   * - RD[0-64][P/N]
+     - I
+     - General purpose input differencial pair
+   * - RTD[0-64][P/N]
+     - I/O
+     - General purpose input/output differencial pair
+   * - RESET_I
+     - I
+     - Reset input
+   * - VIN9_20
+     - 
+     - Main power input 9~20V
+   * - unused
+     - 
+     - 
+   * - GND
+     - 
+     - 
+
+.. note:: Unused pins are left unconnected but reserved on the connector for future use.
+
+Requirements
+------------
 
 FPGA
 ^^^^
@@ -69,70 +127,16 @@ Miscellaneous
 
    The board shall include a user LED which shall be driven by the FPGA.
 
-Interfaces
-----------
-
-.. requirement:: U_CONNECTOR_01
-
-   The board shall expose its various interfaces using a DDR4 SO-DIMM 260pin edge-card connector with the mapping specified in the following table.
-
-.. image:: ../assets/io-pinout.svg
-   :align: center
-   :width: 50%
-
-.. list-table:: SO-DIMM IO Connector Signal Description
-   :header-rows: 1
-   :width: 100%
-
-   * - Name
-     - Type
-     - Description
-
-   * - JTAG_TCK
-     - I
-     - JTAG clock input
-   * - JTAG_TDI
-     - I
-     - JTAG data input
-   * - JTAG_TDO
-     - O
-     - JTAG data output
-   * - JTAG_TMS
-     - I
-     - JTAG test mode select input
-   * - SE[0-130]
-     - I/O
-     - Single-Ended general purpose input/output
-   * - RD[0-64][P/N]
-     - I
-     - General purpose input differencial pair
-   * - RTD[0-64][P/N]
-     - I/O
-     - General purpose input/output differencial pair
-   * - RESET_I
-     - I
-     - Reset input
-   * - VIN9_20
-     - 
-     - Main power input 9~20V
-   * - unused
-     - 
-     - 
-   * - GND
-     - 
-     - 
-
-.. note:: Unused pins are left unconnected but reserved on the connector for future use.
 
 Power
------
+^^^^^
 
 .. requirement:: U_POWER_01
 
    The board shall include DC-DC converters converting the 9-15V input voltage to the appropriate voltages required by the board's components.
 
 Mechanical
-----------
+^^^^^^^^^^
 
 .. requirement:: U_MECHANICAL_01
    :rationale: The board can be as tall as needed.
@@ -143,15 +147,14 @@ Mechanical
 
    The board shall include mounting holes around the FPGA to mount a heatsink.
 
-
-Requirements
-------------
+Design constraints
+------------------
 
 FPGA
-----
+^^^^
 
 Operating Conditions
-^^^^^^^^^^^^^^^^^^^^
+````````````````````
 
 .. requirement:: D_FPGA_01
    :derivedfrom: U_FPGA_01
@@ -200,7 +203,7 @@ Operating Conditions
    The FPGA junction temperature shall not exceed 85°C.
 
 Configuration
-^^^^^^^^^^^^^
+`````````````
 
 As the FPGA sysCONFIG configuration is MSPI, only requirements targetting this configuration method are outlined.
 
@@ -235,7 +238,7 @@ As the FPGA sysCONFIG configuration is MSPI, only requirements targetting this c
    10kohms pull-up resistors shall be placed between CFG[2:0] and VCCIO8 when the configuration bit shall be 1. CFG[2:0] shall be directly connected to GND otherwise.
 
 Flash
------
+^^^^^
 
 The following requirements are extracted from the datasheet of W25Q128JVPIM [:ref:`DS1 <reftable>`].
 
@@ -265,12 +268,12 @@ This requirement implies that the FPGA must not start its configuration before 2
 This requirement is only provided as information as write operations are only performed by the board designer while the board is already up and running.
 
 Oscillator
-----------
+^^^^^^^^^^
 
 The following requirements are extracted from the datasheet of XLH736030.000000I [:ref:`DS6 <reftable>`].
 
 Supply Voltage
-^^^^^^^^^^^^^^
+``````````````
 
 .. requirement:: D_OSC_01
    :derivedfrom: U_OSC_01
@@ -283,12 +286,12 @@ Supply Voltage
    A 0.01uF bypass capacitor shall be placed between VDD and GND.
 
 eMMC
-----
+^^^^
 
 The following requirements are extracted from the datasheet of THGBMUG6C1LBAIL [:ref:`DS2 <reftable>`].
 
 Supply Voltages
-^^^^^^^^^^^^^^^
+```````````````
 
 .. requirement:: D_EMMC_01
    :rationale: This corresponds to an 8% precision arround 1.8V.
@@ -324,7 +327,7 @@ Supply Voltages
 
 
 Interface
-^^^^^^^^^
+`````````
 
 .. requirement:: D_EMMC_07
    :derivedfrom: U_FLASH_02
@@ -362,7 +365,7 @@ Interface
    The following signals shall be length matched : DAT0-DAT7, CMD and CLK.
 
 SRAM
-----
+^^^^
 
 The following requirements are extracted from the datasheet of IS61WV25616BLL [:ref:`DS3 <reftable>`].
 
@@ -383,7 +386,7 @@ The following requirements are extracted from the datasheet of IS61WV25616BLL [:
    The following pins shall not be lower than -0.3V : Address, Data and Control pins.
 
 SDRAM
------
+^^^^^
 
 The following requirements are extracted from the datasheet of IS42S16160J [:ref:`DS4 <reftable>`].
 
@@ -404,7 +407,7 @@ The following requirements are extracted from the datasheet of IS42S16160J [:ref
    The following pins shall not be lower than -0.3V : Address, Data and Control pins.
 
 DDR2
-----
+^^^^
 
 The following requirements are extracted from the datasheet of IS43DR86400E [:ref:`DS5 <reftable>`].
 
