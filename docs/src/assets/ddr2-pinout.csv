@@ -4,13 +4,12 @@ RAS_n;O;;SSTL_18_I;
 CAS_n;O;;SSTL_18_I;
 WE_n;O;;SSTL_18_I;
 ODT;O;;SSTL_18_I;
+CKE;O;;SSTL_18_I;
+CK;O;;SSTL_18_I;
+CK_n;O;;SSTL_18_I;
+DM;O;;SSTL_18_I;
 A[0-12];O;;SSTL_18_I;;;
 BA[0-1];O;;SSTL_18_I;;;
 DQ[0-7];I/O;;SSTL_18_I;;Group 1;[L/R]DQ*
-DQ[8-15];I/O;;SSTL_18_I;;Group 2;[L/R]DQ*
-LDQS;O;;SSTL_18_I;LDQS_n;Group 1;[L/R]DQS*
-LDQS_n;O;;SSTL_18_I;LDQS;Group 1;[L/R]DQS*
-UDQS;O;;SSTL_18_I;UDQS_n;Group 2;[L/R]DQS*
-UDQS_n;O;;SSTL_18_I;UDQS;Group 2;[L/R]DQS*
-LDM;O;;SSTL_18_I;;Group 1;[L/R]DQ*
-UDM;O;;SSTL_18_I;;Group 2;[L/R]DQ*
+DQS;O;;SSTL_18_I;;Group 1;[L/R]DQS*
+DQS_n;O;;SSTL_18_I;;Group 1;[L/R]DQSN*

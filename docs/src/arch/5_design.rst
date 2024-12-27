@@ -1,55 +1,6 @@
 Design
 ======
 
-Pinout
-------
-
-The following table outlines the FPGA interface signals and their pinout constraints.
-
-.. note:: The I/O column is from the FPGA's perspective to ease the creation of design constraints files.
-
-.. csv-table:: Oscillator interface signals
-   :header-rows: 1
-   :width: 100%
-   :file: ../assets/osc-pinout.csv
-   :delim: ;
-
-.. csv-table:: Flash interface signals
-   :header-rows: 1
-   :width: 100%
-   :file: ../assets/flash-pinout.csv
-   :delim: ;
-
-.. csv-table:: eMMC interface signals
-   :header-rows: 1
-   :width: 100%
-   :file: ../assets/emmc-pinout.csv
-   :delim: ;
-
-.. csv-table:: SRAM interface signals
-   :header-rows: 1
-   :width: 100%
-   :file: ../assets/sram-pinout.csv
-   :delim: ;
-
-.. csv-table:: SDRAM interface signals
-   :header-rows: 1
-   :width: 100%
-   :file: ../assets/sdram-pinout.csv
-   :delim: ;
-
-.. csv-table:: DDR2 interface signals
-   :header-rows: 1
-   :width: 100%
-   :file: ../assets/ddr2-pinout.csv
-   :delim: ;
-
-.. csv-table:: IO connector interface signals
-   :header-rows: 1
-   :width: 100%
-   :file: ../assets/io-pinout.csv
-   :delim: ;
-
 Power
 -----
 
@@ -58,11 +9,11 @@ FPGA Power Estimation
 
 In order to perform a rough FPGA power estimation, the following assumptions were taken :
 
+- LFE5U-85F-8BG756C reference
 - 200MHz internal frequency
 - 25% Activity Factor (as stated in :ref:`AN1 <reftable>`)
 - 70% logic utilization
 - 100% BRAM utilization
-- 4 RX/TX SerDes channels at 3.125Gbps with TXPLL enabled
 - 64 LVDS input differential pairs
 - eMMC IOs
 - SRAM Address/Data IOs
@@ -70,30 +21,6 @@ In order to perform a rough FPGA power estimation, the following assumptions wer
 - DDR2 Address/DQ IOs
 
 .. note:: I/O utilization isn't precisely modelled as the IO power consumption is low. Margins will be taken to prevent any supply issues.
-
-.. image:: ../assets/power-logic.png
-   :width: 100%
-   :align: center
-
-|
-
-.. image:: ../assets/power-bram.png
-   :width: 100%
-   :align: center
-
-|
-
-.. image:: ../assets/power-io.png
-   :width: 100%
-   :align: center
-
-|
-
-.. image:: ../assets/power-serdes.png
-   :width: 100%
-   :align: center
-
-|
 
 .. image:: ../assets/power-summary.png
    :width: 100%
@@ -116,15 +43,11 @@ The following table outlines the voltage requirements of the specified component
      - Max Current
      - Description
    
-   * - :rspan:`7` LFE5UM-85F-*BG756C
+   * - :rspan:`3` LFE5U-85F-*BG756C
      - VCC
      - 1.1V ±5%
      - 3A
      - Core Supply Voltage
-   * - VCCA
-     - 1.1V ±5%
-     - 300mA
-     - Analog Supply Voltage
    * - VCCAUX
      - 2.5V ±5%
      - 200mA
@@ -137,27 +60,15 @@ The following table outlines the voltage requirements of the specified component
      - 3.3V ±10%
      - 100mA
      - sysIO bank Supply Voltage
-   * - VCCHRX
-     - 1.1V ±5%
-     - 50mA
-     - SerDes RX Termination
-   * - VCCHTX
-     - 1.1V ±5%
-     - 10mA
-     - SerDes TX Termination
-   * - VCCAUXA
-     - 2.5V ±5%
-     - 20mA
-     - SerDes Auxilary Supply Voltage
    * - IS61W25616BLL
      - VDD
      - 3.3V ±5%
      - 50mA
      - Supply Voltage
-   * - :rspan:`1` IS42S32800J
+   * - :rspan:`1` IS42S16160J
      - VDD
      - 3.3V ±10%
-     - 190mA
+     - 140mA
      - Supply Voltage
    * - VDDQ
      - 3.3V ±10%
@@ -181,14 +92,14 @@ The following table outlines the voltage requirements of the specified component
      - 3.3V ±10%
      - 25mA
      - Supply Voltage
-   * - :rspan:`1` KLMAG1JETD-B041
+   * - :rspan:`1` THGBMJG6C1LBAIL
      - VDD
      - 1.8V ±8%
-     - 180mA
+     - 220mA
      - Controller Supply Voltage
    * - VDDF
      - 3.3V ±10%
-     - 50mA
+     - 140mA
      - Memory Supply Voltage
 
 The following table outlines the supply voltage requirement per voltage :
@@ -208,36 +119,6 @@ The following table outlines the supply voltage requirement per voltage :
      - 1A
    * - 1.8V ±5%
      - 500mA
-
-The following diagram outlines the Point-Of-Load architecture of the board :
-
-.. image:: ../assets/pol.svg
-   :width: 45%
-   :align: center
-
-.. note:: The 9-15V input shall support up to 10W of power.
-
-.. flat-table:: DC-DC converters
-   :header-rows: 1
-   :width: 100%
-
-   * - Component
-     - Vin
-     - Vout
-     - Current capacity
-  
-   * - ST1S41PHR
-     - 4-18V
-     - 0.8-18V
-     - 4A
-   * - L6981NDR
-     - 3.5-38V
-     - 0.85V-38V
-     - 1.5A
-   * - TLV73311PQDRVRQ1
-     - 1.4-5.5V
-     - 1.1V
-     - 300mA
 
 Component Selection
 ^^^^^^^^^^^^^^^^^^^
@@ -351,50 +232,6 @@ Component Selection
    :align: center
 
 .. note:: The converter's efficiency is rather low at the operating limit of 15Vin - 4A but is acceptable in most behaviors. Proper power dissipation shall be put in place to handle the 2.5W of dissipated power at the operating limit.
-
-1.1V SerDes
-```````````
-
-.. flat-table:: Characteristics Requirements
-   :stub-columns: 1
-   :width: 100%
-
-   * - IC
-     - TLV73311PQDRVRQ1
-   * - Topology
-     - LDO Post-Regulation
-   * - Input Voltage
-     - 3.3V
-   * - Output Voltage
-     - 1.1V ±1%
-
-.. image:: ../assets/ldo-1V1.svg
-   :width: 90%
-   :align: center
-
-.. flat-table:: Component Selection
-   :header-rows: 1
-   :width: 100%
-  
-   * - Type
-     - Ref
-     - Value
-     - Description
-
-   * - IC
-     - 
-     - TLV73311PQDRVRQ1
-     - 
-   
-   * - Capacitor
-     - Cin
-     - 1uF
-     - 
-
-   * - Capacitor
-     - Cout
-     - 1uF
-     - 
 
 2.5V
 ````
@@ -764,3 +601,160 @@ Component Selection
 .. image:: ../assets/buck-3V3-eff.png
    :width: 90%
    :align: center
+
+Power Sequencing
+^^^^^^^^^^^^^^^^
+
+Timing requirements
+```````````````````
+
+.. flat-table:: Power-up timings
+   :header-rows: 1
+   :stub-columns: 2
+   :width: 100%
+
+   * - IC
+     - Voltage
+     - Max ramp rate
+     - Max start time
+   * - ST1S41PHR
+     - 1.1V
+     - 1.1mV/us
+     - 1ms
+   * - L6981NDR
+     - 1.8V
+     - 1.8mV/us
+     - 1.6ms
+   * - L6981NDR
+     - 2.5V
+     - 2.5mV/us
+     - 1.6ms
+   * - L6981NDR
+     - 3.3V
+     - 3.3mV/us
+     - 1.6ms
+
+Sequence
+````````
+
+The power supply sequencing is performed with at least a 2ms delay.
+
+.. flat-table:: Power sequencer IC
+   :stub-columns: 1
+   :width: 100%
+
+   * - IC
+     - LM3880
+   * - Sequence Number
+     - 1 (1-2-3 / 3-2-1)
+   * - Timing Designator
+     - AA (10ms)
+   * - Ordering reference
+     - LM3880MF*-1AA
+
+The power sequencing IC is powered by the generated 3.3V as shown in the following diagram :
+
+.. image:: ../assets/power-sequencing.svg
+   :width: 70%
+   :align: center
+
+|
+
+The following formula is used to compute the value of :math:`C_{\text{en}}` which applies a delay to the start of the sequence:
+
+.. math::
+
+   t_{\text{enable_delay}} = \frac{1.25V * C_{\text{en}}}{7 \mu A}
+
+:math:`t_{\text{enable_delay}}` must greater than the start time of the 3.3V regulation (ie. 1.6ms), therefore :
+
+.. math::
+
+  C_{\text{en}} = 56nF \implies t_{\text{enable_delay}} = 10ms
+
+Configuration
+-------------
+
+CFGMDN[2:0]
+^^^^^^^^^^^
+
+.. requirement:: D_CONF_01
+   :rationale: The sysCONFIG pins are configured as Master SPI.
+
+   The CFGMDN[2:0] pins shall be configured as 010 using 4.7k pull-up or pull-down resistors.
+
+IO[3:0]
+^^^^^^^
+
+.. requirement:: D_CONF_02
+
+   10k pull-up resistors shall be used on sysCONFIG IO[3:0] pins.
+   
+.. requirement:: D_CONF_03
+
+   A 1k pull-up resistor shall be used on sysCONFIG CLK pin.
+
+PROGRAMN
+^^^^^^^^
+
+.. requirement:: D_CONF_04
+
+   A 100nF capacitor shall be placed between PROGRAMN and GND.
+
+INITN and DONE
+^^^^^^^^^^^^^^
+
+INITN is open-drain.
+
+.. image:: ../assets/conf-status.png
+   :width: 40%
+   :align: center
+
+FPGA Pinout
+-----------
+
+The following table outlines the FPGA interface signals and their pinout constraints.
+
+.. note:: The I/O column is from the FPGA's perspective to ease the creation of design constraints files.
+
+.. csv-table:: Oscillator interface signals
+   :header-rows: 1
+   :width: 100%
+   :file: ../assets/osc-pinout.csv
+   :delim: ;
+
+.. csv-table:: Flash interface signals
+   :header-rows: 1
+   :width: 100%
+   :file: ../assets/flash-pinout.csv
+   :delim: ;
+
+.. csv-table:: eMMC interface signals
+   :header-rows: 1
+   :width: 100%
+   :file: ../assets/emmc-pinout.csv
+   :delim: ;
+
+.. csv-table:: SRAM interface signals
+   :header-rows: 1
+   :width: 100%
+   :file: ../assets/sram-pinout.csv
+   :delim: ;
+
+.. csv-table:: SDRAM interface signals
+   :header-rows: 1
+   :width: 100%
+   :file: ../assets/sdram-pinout.csv
+   :delim: ;
+
+.. csv-table:: DDR2 interface signals
+   :header-rows: 1
+   :width: 100%
+   :file: ../assets/ddr2-pinout.csv
+   :delim: ;
+
+.. csv-table:: IO connector interface signals
+   :header-rows: 1
+   :width: 100%
+   :file: ../assets/io-pinout.csv
+   :delim: ;

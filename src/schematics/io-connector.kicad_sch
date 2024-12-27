@@ -1,0 +1,180 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ba80c8e4-e47f-476d-a44f-46a4f08ba45d")
+	(paper "A4")
+	(title_block
+		(title "${Project Designation}")
+		(date "2024-06-30")
+		(rev "${Revision}")
+		(comment 1 "${Project Title}")
+		(comment 2 "IO CONNECTOR")
+		(comment 3 "${Part Number}")
+	)
+	(lib_symbols)
+	(junction
+		(at 127 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18d41030-1c67-4bf5-ae3b-f3cc42e5f25a")
+	)
+	(bus
+		(pts
+			(xy 127 97.79) (xy 132.08 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ebc6e4c-c376-4786-8bb6-4987f89eb03b")
+	)
+	(bus
+		(pts
+			(xy 127 80.01) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "432719a2-4215-4987-8307-93caf34405ab")
+	)
+	(bus
+		(pts
+			(xy 127 88.9) (xy 127 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cd64345-0a3d-4123-9cc6-7200a9c9a879")
+	)
+	(bus
+		(pts
+			(xy 118.11 88.9) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6909cd86-b342-4ee2-bac7-4d8fd8b8286a")
+	)
+	(bus
+		(pts
+			(xy 132.08 80.01) (xy 127 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c0575a-8c88-4bd9-90b7-e16e19308130")
+	)
+	(hierarchical_label "{IO}"
+		(shape input)
+		(at 118.11 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f828194b-f3d8-47ba-9bbf-db6001d32363")
+	)
+	(sheet
+		(at 132.08 74.93)
+		(size 35.56 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9b7e9ac9-0b74-4ac0-9962-3e0d280c31a1")
+		(property "Sheetname" "IO connector 1"
+			(at 132.08 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io-connector-1.kicad_sch"
+			(at 132.08 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{IO}" bidirectional
+			(at 132.08 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c6262be1-8f95-4a9e-baca-47b8eb653b3a")
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686/25311f3d-42bc-4bc6-b069-9a914cc16127"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 92.71)
+		(size 35.56 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b8034c88-bc29-48fe-94a3-92f685be2030")
+		(property "Sheetname" "IO connector 2"
+			(at 132.08 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io-connector-2.kicad_sch"
+			(at 132.08 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{IO}" bidirectional
+			(at 132.08 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5856861d-5214-44c4-9bce-7ca991c1148c")
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686/25311f3d-42bc-4bc6-b069-9a914cc16127"
+					(page "21")
+				)
+			)
+		)
+	)
+)

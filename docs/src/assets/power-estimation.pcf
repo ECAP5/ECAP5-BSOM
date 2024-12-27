@@ -1,0 +1,344 @@
+[[Info]]
+_PARENT: none
+_FILE_FORMAT: 1.00
+_DATA_VALUES: 1.00
+_STATUS: Advanced
+_FAMILY: sa5p00m
+
+[[Project]]
+DesignName: Untitled
+Version: 1.0
+Family: ECP5U
+Device: LFE5U-85F
+Package: CABGA756
+Operating: Commercial
+Performance: -8
+PartName: LFE5U-85F-8BG756C
+
+[[Settings]]
+EstimationMode: Medium
+ProcessType: Worst
+SoftwareMode: Estimation
+SectionY: Total Power
+SectionX: Vcc
+SectionLowerLimit: 1.0450
+SectionUpperLimit: 1.1650
+SectionResolution: 0.0240
+TempAmbY: Total Power
+TempAmbX: Ambient Temperature
+TempAmbLowerLimit: -40.0000
+TempAmbUpperLimit: 125.0000
+TempAmbResolution: 33.0000
+FreqY: Total Power
+FreqX: clk_1
+FreqLowerLimit: 0.0000
+FreqUpperLimit: 100.0000
+FreqAmbResolution: 20.0000
+PowerMode: Normal
+DisableBandgap: false
+DisablePor: false
+DisableDll: false
+DisableOsc: false
+DisablePCSD0CH0CDRPLL: false
+DisablePCSD0CH0LOS: false
+DisablePCSD0CH0Rx: false
+DisablePCSD0CH0Tx: false
+DisablePCSD0CH1CDRPLL: false
+DisablePCSD0CH1LOS: false
+DisablePCSD0CH1Rx: false
+DisablePCSD0CH1Tx: false
+DisablePCSD1CH0CDRPLL: false
+DisablePCSD1CH0LOS: false
+DisablePCSD1CH0Rx: false
+DisablePCSD1CH0Tx: false
+DisablePCSD1CH1CDRPLL: false
+DisablePCSD1CH1LOS: false
+DisablePCSD1CH1Rx: false
+DisablePCSD1CH1Tx: false
+DisablePCSD2CH0CDRPLL: false
+DisablePCSD2CH0LOS: false
+DisablePCSD2CH0Rx: false
+DisablePCSD2CH0Tx: false
+DisablePCSD2CH1CDRPLL: false
+DisablePCSD2CH1LOS: false
+DisablePCSD2CH1Rx: false
+DisablePCSD2CH1Tx: false
+DisablePCSD3CH0CDRPLL: false
+DisablePCSD3CH0LOS: false
+DisablePCSD3CH0Rx: false
+DisablePCSD3CH0Tx: false
+DisablePCSD3CH1CDRPLL: false
+DisablePCSD3CH1LOS: false
+DisablePCSD3CH1Rx: false
+DisablePCSD3CH1Tx: false
+DisableD0TXPLL: false
+DisableD1TXPLL: false
+DisableD2TXPLL: false
+DisableD3TXPLL: false
+DisableMACOMAC2EMACA0: false
+DisableMACOMAC2EMACA1: false
+DisableMACOMAC2EMACA2: false
+DisableMACOMAC2EMACA3: false
+DisableMACOMAC2EMACB0: false
+DisableMACOMAC2EMACB1: false
+DisableMACOMAC2EMACB2: false
+DisableMACOMAC2EMACB3: false
+DisableMACOMAC2XMAC: false
+DisableMACOMAC3EMACA0: false
+DisableMACOMAC3EMACA1: false
+DisableMACOMAC3EMACA2: false
+DisableMACOMAC3EMACA3: false
+DisableMACOMAC3EMACB0: false
+DisableMACOMAC3EMACB1: false
+DisableMACOMAC3EMACB2: false
+DisableMACOMAC3EMACB3: false
+DisableMACOMAC3XMAC: false
+DisableMACOPCIEPCIE: false
+DisableMACOSRIOEMAC0: false
+DisableMACOSRIOEMAC1: false
+DisableMACOSRIOEMAC2: false
+DisableMACOSRIOEMAC3: false
+DisableMACOSRIOSRIO: false
+DisablePUSL0: false
+DisablePUSL1: false
+DisablePUSL2: false
+DisablePUSL3: false
+DisablePUSL4: false
+DisablePUSL5: false
+DisablePUSL6: false
+DisablePUSL7: false
+DisableDDRDLLBL0: false
+DisableDDRDLLBL1: false
+DisableDDRDLLBR0: false
+DisableDDRDLLBR1: false
+DisableDDRDLLTL0: false
+DisableDDRDLLTL1: false
+DisableDDRDLLTR0: false
+DisableDDRDLLTR1: false
+DisablePLLBL0: false
+DisablePLLBL1: false
+DisablePLLBR0: false
+DisablePLLBR1: false
+DisablePLLTL0: false
+DisablePLLTL1: false
+DisablePLLTR0: false
+DisablePLLTR1: false
+DisableInRd0: false
+DisableInRd1: false
+DisableInRd2: false
+DisableInRd3: false
+DisableInRd4: false
+DisableInRd5: false
+DisableInRd6: false
+DisableInRd7: false
+EnablePg0: false
+EnablePg1: false
+EnablePg2: false
+EnablePg3: false
+EnablePg4: false
+EnablePg5: false
+EnablePg6: false
+EnablePg7: false
+DisableLVDS: false
+DisableLVDS1: false
+DisableLVDS2: false
+DisableLVDS3: false
+DisableLVDS4: false
+DisableLVDS5: false
+DisableLVDS6: false
+DisableLVDS7: false
+DisableSlewrate0: false
+DisableSlewrate1: false
+DisableSlewrate2: false
+DisableSlewrate3: false
+DisableSlewrate4: false
+DisableSlewrate5: false
+
+[[Thermal]]
+Airflow: 200 LFM
+AmbientTemperature: 25
+CustomThetaSA: -1
+JunctionTemperature: 58.24
+MaxSafeAmbient: 48.74
+ThetaBA: 10.0
+ThetaCS: 0
+ThetaEffective: 7.684294872
+ThetaJA: 20.59
+ThetaJB: 12.88
+ThetaJC: 0
+ThetaSA: -1
+UserThetaBA: No
+UserThetaCS: No
+UserThetaEffective: No
+UserThetaJA: No
+UserThetaJB: No
+UserThetaJC: No
+UserThetaSA: No
+thetaBoard: Medium Board
+thetaHeatSink: No Heat Sink
+thetaOption: ThermalModels
+
+[[VDPM]]
+Supply = Voltage, DPM
+Vcc = 1.100, 1.00
+Vccaux = 2.500, 1.00
+Vccio 3.3 = 3.300, 1.00
+Vccio 2.5 = 2.500, 1.00
+Vccio 1.8 = 1.800, 1.00
+Vccio 1.5 = 1.500, 1.00
+Vccio 1.35 = 1.350, 1.00
+Vccio 1.2 = 1.200, 1.00
+Vcchtx = 1.100, 1.00
+Vcchrx = 1.100, 1.00
+Vcca = 1.100, 1.00
+Vccauxa = 2.500, 1.00
+
+[[Logic]]
+Clk = F, AF, LUT, RAM, RIPPLE, REG, X0, X1, X2, X6, ISB, ISBLUT, ISBCE, ISBLSR, ISBM, ISBCLK
+clk_1 = 200.0000, 25.0000, 60000, 30000, 30000, 60000, 4.0219e+004, 4.0219e+004, 1.6087e+005, 8.0437e+004, 2.7000e+005, 0, 0, 0, 0, 0
+
+[[Clocks]]
+Clk = F, Duty, DCC, Pfeed, Ptrunk, Pspine, Ptap, Etb, Ebg, Elr
+clk_1 = 200.0000, 100, None, f_29, t0_31, s_68, p_4599, t_0, 0, t_0
+clk_2 = 200.0000, 100, None, f_0, t0_0, s_1, p_64, t_0, 0, t_0
+clk_3 = 200.0000, 100, None, f_0, t0_0, s_1, p_64, t_0, 0, t_0
+clk_4 = 0.0000^d^, 100, None, 0, 0, 0, 0, 0, 0, 0
+clk_5 = 0.0000^d^, 100, None, 0, 0, 0, 0, 0, 0, 0
+clk_6 = 400.0000, 100, None, 0, 0, 0, 0, 0, 0, 0
+clk_7 = 400.0000, 100, None, 0, 0, 0, 0, 0, 0, 0
+clk_8 = 400.0000, 100, None, 0, 0, 0, 0, 0, 0, 0
+clk_9 = 0.0000^d^, 100, None, 0, 0, 0, 0, 0, 0, 0
+clk_10 = 400.0000, 100, None, 0, 0, 0, 0, 0, 0, 0
+clk_11 = 150.0000, 100, None, 0, 0, 0, 0, 0, 0, 0
+clk_12 = 800.0000, 100, None, 0, 0, 0, 0, 0, 0, 0
+clk_13 = 800.0000, 100, None, f_0, t0_0, s_0, p_4, t_0, 0, t_0
+clk_14 = 150.0000, 100, None, 0, 0, 0, 0, 0, 0, 0
+clk_15 = 150.0000, 100, None, f_0, t0_0, s_0, p_1, t_0, 0, t_0
+clk_16 = 150.0000, 100, None, 0, 0, 0, 0, 0, 0, 0
+clk_17 = 150.0000, 100, None, f_0, t0_0, s_0, p_1, t_0, 0, t_0
+clk_18 = 200.0000, 100, None, 0, 0, 0, 0, 0, 0, 0
+clk_19 = 200.0000, 100, None, f_0, t0_0, s_0, p_1, t_0, 0, t_0
+clk_20 = 150.0000, 100, None, 0, 0, 0, 0, 0, 0, 0
+clk_21 = 150.0000, 100, None, 0, 0, 0, 0, 0, 0, 0
+clk_22 = 800.0000, 100, None, 0, 0, 0, 0, 0, 0, 0
+IO0 = 400.0000, 100, None, f_0, t0_0, s_0, p_4, t_0, 0, t_0
+IO1 = 400.0000, 100, None, f_0, t0_0, s_0, p_4, t_0, 0, t_0
+IO3 = 400.0000, 100, None, f_0, t0_0, s_0, p_2, t_0, 0, t_0
+ADDR_SRAM = 150.0000, 100, None, f_0, t0_0, s_0, p_1, t_0, 0, t_0
+SRA = 150.0000, 100, None, 0, 0, 0, 0, 0, 0, 0
+ADDR_SDRAM = 150.0000, 100, None, f_0, t0_0, s_0, p_1, t_0, 0, t_0
+ADDR_DDR2 = 800.0000, 100, None, f_0, t0_0, s_0, p_1, t_0, 0, t_0
+DQ_DDR2 = 800.0000, 100, None, f_0, t0_0, s_0, p_4, t_0, 0, t_0
+DQ_SDRAM = 150.0000, 100, None, f_0, t0_0, s_0, p_1, t_0, 0, t_0
+IO_SRAM = 150.0000, 100, None, f_0, t0_0, s_0, p_1, t_0, 0, t_0
+IO_EMMC = 200.0000, 100, None, f_0, t0_0, s_0, p_1, t_0, 0, t_0
+
+[[Input Output]]
+Clk = _Type, _Mode, F, AF, IP, OP, Cload, Bank, _ActualMode, _Pull, X0, X1, X2, X6, ISB
+IO0 = LVDS, none, 400.0000, 25.0000, 48, 0, 5.0000, 6, none, none, 3.2175e+001, 0, 1.2870e+002, 6.4350e+001, 0.0000e+000
+IO1 = LVDS, none, 400.0000, 25.0000, 48, 0, 5.0000, 2, none, none, 3.2175e+001, 0, 1.2870e+002, 6.4350e+001, 0.0000e+000
+IO3 = LVDS, none, 400.0000, 25.0000, 32, 0, 5.0000, 3, none, none, 2.1450e+001, 0, 8.5800e+001, 4.2900e+001, 0.0000e+000
+ADDR_SRAM = LVCMOS33-12mA-SLEW:SLOW, sdr, 150.0000, 25.0000, 0, 18, 5.0000, 0, IREG_OREG, none, 1.2066e+001, 0, 4.8262e+001, 2.4131e+001, 0.0000e+000
+ADDR_SDRAM = LVTTL33-12mA-SLEW:SLOW, sdr, 150.0000, 25.0000, 0, 13, 5.0000, 6, IREG_OREG, none, 8.7140e+000, 0, 3.4856e+001, 1.7428e+001, 0.0000e+000
+ADDR_DDR2 = SSTL18_I-8mA-SLEW:SLOW, ddr, 800.0000, 25.0000, 0, 13, 5.0000, 4, IDDR_ODDR, none, 8.7140e+000, 0, 3.4856e+001, 1.7428e+001, 0.0000e+000
+
+[[Bidi]]
+ClkInpName = _Type, _Mode, InpF, InpAF, Bidi, ClkOutName, OutF, OutAF, Duty, Cload, Bank, _ActualMode, _Pull, X0, X1, X2, X6, ISB
+DQ_DDR2 = SSTL18_I-8mA-SLEW:SLOW, ddr, 800.0000, 25.0000, 48, clk_13, 800.0000, 25.0000, 50, 5.0000, 1, IDDR_ODDR, none, 3.2175e+001, 3.2175e+001, 1.2870e+002, 6.4350e+001, 0.0000e+000
+DQ_SDRAM = LVTTL33-8mA-SLEW:SLOW, sdr, 150.0000, 25.0000, 16, clk_15, 150.0000, 25.0000, 50, 5.0000, 0, IREG_OREG, none, 1.0725e+001, 1.0725e+001, 4.2900e+001, 2.1450e+001, 0.0000e+000
+IO_SRAM = LVCMOS33-8mA-SLEW:SLOW, sdr, 150.0000, 25.0000, 16, clk_17, 150.0000, 25.0000, 50, 5.0000, 0, IREG_OREG, none, 1.0725e+001, 1.0725e+001, 4.2900e+001, 2.1450e+001, 0.0000e+000
+IO_EMMC = LVCMOS18-8mA-SLEW:SLOW, ddr, 200.0000, 25.0000, 8, clk_19, 200.0000, 25.0000, 50, 5.0000, 4, IDDR_ODDR, none, 5.3625e+000, 5.3625e+000, 2.1450e+001, 1.0725e+001, 0.0000e+000
+
+[[Bank Voltage]]
+Bank = Voltage, InRD, LVDSO
+0 = Vccio 3.3, N/A, N/A
+1 = Vccio 1.8, N/A, N/A
+2 = Vccio 3.3, No, No
+3 = Vccio 3.3, No, No
+4 = Vccio 1.8, N/A, N/A
+6 = Vccio 3.3, No, No
+7 = Vccio 2.5, No, No
+8 = Vccio 2.5, N/A, N/A
+
+[[Termination]]
+_Type = IP, OP, Bidi, Duty, Bank, Rth, Vth
+LVDS = 48, 0, 0, 0.000000, 2, 1.0E12, 0
+LVDS = 32, 0, 0, 0.000000, 3, 1.0E12, 0
+LVDS = 48, 0, 0, 0.000000, 6, 1.0E12, 0
+SSTL18_I-8mA-SLEW:SLOW = 0, 0, 48, 50.000000, 1, 1.0E12, 0
+LVTTL33-8mA-SLEW:SLOW = 0, 0, 16, 50.000000, 0, 1.0E12, 0
+LVCMOS33-8mA-SLEW:SLOW = 0, 0, 16, 50.000000, 0, 1.0E12, 0
+LVCMOS18-8mA-SLEW:SLOW = 0, 0, 8, 50.000000, 4, 1.0E12, 0
+LVCMOS33-12mA-SLEW:SLOW = 0, 18, 0, 0.000000, 0, 1.0E12, 0
+LVTTL33-12mA-SLEW:SLOW = 0, 13, 0, 0.000000, 6, 1.0E12, 0
+SSTL18_I-8mA-SLEW:SLOW = 0, 13, 0, 0.000000, 4, 1.0E12, 0
+
+[[PRADD9]]
+Clk = F, AF, PRADD9, X0, X1, X2, X6, ISB
+
+[[PRADD18]]
+Clk = F, AF, PRADD18, Type, X0, X1, X2, X6, ISB
+
+[[M9X9]]
+Clk = F, AF, M9X9, X0, X1, X2, X6, ISB
+
+[[M18X18]]
+Clk = F, AF, M18X18, Type, X0, X1, X2, X6, ISB
+
+[[ALU24]]
+Clk = F, AF, ALU24, X0, X1, X2, X6, ISB
+
+[[ALU54]]
+Clk = F, AF, ALU54, Type, X0, X1, X2, X6, ISB
+
+[[PLL]]
+OutClk = inF, N, V, M, PLL, PLLID, STANDBY
+
+[[DP RAM]]
+RdClk = RdF, RdAF, EBR, WrClk, WrF, WrAF, _TypeA, _TypeB, X0, X1, X2, X6, ISB
+clk_2 = 200.0000, 25.0000, 208, clk_3, 200.0000, 25.0000, PDPW16KD_READ, PDPW16KD_WRITE, 5.5770e+002, 5.5770e+002, 2.2308e+003, 1.1154e+003, 0.0000e+000
+
+[[DP RAM True]]
+ClkA = aF, aAF, EBR, ClkB, bF, bAF, _TypeA, _TypeB, X0, X1, X2, X6, ISB
+
+[[DDRDLL]]
+Clk = F, DDRDLLID, STANDBY, DDRDLL
+
+[[DQS]]
+Clk = F, DQS
+
+[[DLLDEL]]
+Clk = F, DLLDEL
+
+[[CLKDIV]]
+Clk = F, AF, CLKDIV
+
+[[CIBTEST]]
+CIBTEST = 
+
+[[MCLK]]
+Clk = F, AF, MCLK, MCLKF, SEDF
+_CLKNAME = 310.0000, 100.000, 1, 2.4000, 2.4000
+
+[[JTAG]]
+Clk = F, AF, Input, Output
+clk1 = 25, 100, 3, 1
+
+[[SED]]
+_Mode = SED, STATUS
+
+[[DTR]]
+Clk = F, AF, DTR
+
+[[PCS]]
+DID = Mode, RXMAXDATARATE, RXRATE, TXMAXDATARATE, TXRATE, TXDIFFAMPLITUDE, TXOUTPUTTERMINATION, TXDEEMPHASISPRE, TXDEEMPHASISPOST, LOS, TXDATARATE, RXDATARATE, LPRE, X0, X1, X2, X6, ISB
+D0CH0 = Rx and Tx, 3.1250, Full, 3.1250, Full, 100, 50 ohms, Disabled, Disabled, Disabled, 3125.00000000000000000000, 3125.00000000000000000000, 0.003500, 0.0000e+000, 0.0000e+000, 0.0000e+000, 0.0000e+000, 0.0000e+000
+D0CH1 = Rx and Tx, 3.1250, Full, 3.1250, Full, 100, 50 ohms, Disabled, Disabled, Disabled, 3125.00000000000000000000, 3125.00000000000000000000, 0.003500, 0.0000e+000, 0.0000e+000, 0.0000e+000, 0.0000e+000, 0.0000e+000
+D1CH0 = Rx and Tx, 3.1250, Full, 3.1250, Full, 100, 50 ohms, Disabled, Disabled, Disabled, 3125.00000000000000000000, 3125.00000000000000000000, 0.003500, 0.0000e+000, 0.0000e+000, 0.0000e+000, 0.0000e+000, 0.0000e+000
+D1CH1 = Rx and Tx, 3.1250, Full, 3.1250, Full, 100, 50 ohms, Disabled, Disabled, Disabled, 3125.00000000000000000000, 3125.00000000000000000000, 0.003500, 0.0000e+000, 0.0000e+000, 0.0000e+000, 0.0000e+000, 0.0000e+000
+
+[[SERDES AUX]]
+DUAL = TXPLL, TXMAXDATARATE
+D0 = ON, 3.1250
+D1 = ON, 3.1250
+
