@@ -4,12 +4,41 @@ Specification
 User needs
 ----------
 
-Interfaces
-^^^^^^^^^^
+.. requirement:: U_FPGA_01
+   :rationale: 85k LUTs with 365 I/Os. The speed grade of the part is not specified.
+
+   The board shall include a Lattice ECP5 FPGA with reference LFE5U-85F-*BG756C.
+
+.. requirement:: U_CLOCK_01
+
+   The board shall include a 40MHz clock generator which shall be connected to one of the FPGA's global input clock pins.
+
+.. requirement:: U_MEMORY_01
+
+   The board shall include a 16-bit SRAM memory IC.
+
+.. requirement:: U_MEMORY_02
+
+   The board shall include a 16-bit SDRAM memory IC.
+
+.. requirement:: U_MEMORY_03
+
+   The board shall include a 8-bit DDR2 memory IC.
+
+.. note:: Multiple different memory technologies are integrated into the board to allow experimenting with memory controller development.
+
+.. requirement:: U_STORAGE_01
+   :rationale: 32Mb of storage is enough to store the FPGA bitstream but a bigger IC can be used to store user data.
+
+   The board shall include a Quad-SPI Flash memory IC with at least 32Mb of storage which shall be connected to the FPGA sysConfig pins.
+
+.. requirement:: U_STORAGE_02
+
+   The board shall include an eMMC flash memory IC with HS200 support.
 
 .. requirement:: U_CONNECTOR_01
 
-   The board shall expose its various interfaces using a DDR4 SO-DIMM 260pin edge-card connector with the mapping specified in the following table.
+   The board shall expose its various interfaces using a DDR4 SO-DIMM 260pin edge-card connector with the following pinout
 
 .. image:: ../assets/io-pinout.svg
    :align: center
@@ -59,84 +88,9 @@ Interfaces
 
 .. note:: Unused pins are left unconnected but reserved on the connector for future use.
 
-Requirements
-------------
-
-FPGA
-^^^^
-
-.. requirement:: U_FPGA_01
-   :rationale: 85k LUTs with 365 I/Os. The speed grade of the part is not specified.
-
-   The board shall include a Lattice ECP5 FPGA with reference LFE5U-85F-*BG756C.
-
-Clock
-^^^^^
-
-.. requirement:: U_OSC_01
-   :rationale: 40MHz LVCMOS, Enable/Disable on pin 1, 3.2x2.5mm package, 3.3VDC±5% supply, ±50ppm precision, -40 to +85°C temperature range.
-
-   A 40 MHz reference oscillator shall be connected to one of the FPGA's global clock inputs, with reference XLH335040.000000I.
-
-Memory
-^^^^^^
-
-Multiple volatile memories are included on the board with different technologies to provide the user with a memory controller development platform.
-
-.. requirement:: U_MEMORY_01
-
-   The board shall include a 256k x 16bits Asynchronous SRAM with reference IS61WV25616BLL up to -6 speed grade.
-
-.. requirement:: U_MEMORY_02
-
-   The board shall include a 16M x 16bits 256Mb Synchronous DRAM with reference IS42S16160J up to -6 speed grade.
-
-.. requirement:: U_MEMORY_03
-   :rationale: The -5B speed grade corresponds to DDR2-400B standard.
-
-   The board shall include a 64M x 8bits 512Mb DDR2 Synchronous DRAM with reference IS43DR86400E up to -5B speed grade.
-
-Flash
-^^^^^
-
-.. requirement:: U_FLASH_01
-   :rationale: Only 32MBits are required to store the FPGA bitstream but the extra storage can be used by the user more easily than the eMMC. This reference supports optional programmable QSPI interface.
-
-   The board shall include a 128Mbits NOR flash memory with reference W25Q128JVPIM to store the FPGA bitstream used in Quad-SPI configuration.
-
-.. requirement:: U_FLASH_02
-
-   The board shall include a 8GB eMMC flash memory with reference THGBMUG6C1LBAIL with High Speed DDR and HS200 support.
-
-Miscellaneous
-^^^^^^^^^^^^^
-
-.. requirement:: U_BUTTON_01
-
-   The board shall include a reset button which shall reset the FPGA.
-
-.. requirement:: U_BUTTON_02
-
-   The board shall include a user button which shall be wired to the FPGA.
-
-.. requirement:: U_LED_01
-
-   The board shall include a status LED which shall indicicate the status of the FPGA.
-
-.. requirement:: U_LED_02
-
-   The board shall include a user LED which shall be driven by the FPGA.
-
-
-Power
-^^^^^
-
 .. requirement:: U_POWER_01
 
-   The board shall include DC-DC converters converting the 9-15V input voltage to the appropriate voltages required by the board's components.
-
-Mechanical
-^^^^^^^^^^
+   The board shall be powered by the 9-15V power inputs from the IO connector.
 
 .. requirement:: U_MECHANICAL_01
    :rationale: The board can be as tall as needed.
@@ -146,6 +100,44 @@ Mechanical
 .. requirement:: U_MECHANICAL_02
 
    The board shall include mounting holes around the FPGA to mount a heatsink.
+
+.. requirement:: U_LED_01
+
+   The board shall include a status LED which shall indicicate the status of the FPGA.
+
+.. requirement:: U_LED_02
+
+   The board shall include a user LED which shall be driven by the FPGA.
+
+Selected Components
+^^^^^^^^^^^^^^^^^^^
+
+.. requirement:: D_OSC_01
+   :rationale: 40MHz LVCMOS, Enable/Disable on pin 1, 3.2x2.5mm package, 3.3VDC±5% supply, ±50ppm precision, -40 to +85°C temperature range.
+
+   A 40 MHz reference oscillator shall be connected to one of the FPGA's global clock inputs, with reference XLH335040.000000I.
+
+.. requirement:: D_MEMORY_01
+
+   The board shall include a 256k x 16bits Asynchronous SRAM with reference IS61WV25616BLL up to -6 speed grade.
+
+.. requirement:: D_MEMORY_02
+
+   The board shall include a 16M x 16bits 256Mb Synchronous DRAM with reference IS42S16160J up to -6 speed grade.
+
+.. requirement:: D_MEMORY_03
+   :rationale: The -5B speed grade corresponds to DDR2-400B standard.
+
+   The board shall include a 64M x 8bits 512Mb DDR2 Synchronous DRAM with reference IS43DR86400E up to -5B speed grade.
+
+.. requirement:: D_FLASH_01
+   :rationale: Only 32MBits are required to store the FPGA bitstream but the extra storage can be used by the user more easily than the eMMC. This reference supports optional programmable QSPI interface.
+
+   The board shall include a 128Mbits NOR flash memory with reference W25Q128JVPIM to store the FPGA bitstream used in Quad-SPI configuration.
+
+.. requirement:: D_FLASH_02
+
+   The board shall include a 8GB eMMC flash memory with reference THGBMUG6C1LBAIL with High Speed DDR and HS200 support.
 
 Design constraints
 ------------------
