@@ -32,6 +32,12 @@ The sub-circuit enables the voltage regulators in the following sequence, with a
 
 .. note:: The 3.3V voltage regulator is enabled by default so it can power the power sequencing IC.
 
+Design constraints
+------------------
+
+N/A
+
+
 Circuit diagram
 ---------------
 
@@ -51,8 +57,8 @@ Circuit diagram
    * - Output Voltage
      - 1.1V (2% ripple) - 4A max
 
-.. image:: ../assets/buck-1V1.png
-   :width: 90%
+.. image:: ../assets/buck-1V1.svg
+   :width: 70%
    :align: center
 
 .. flat-table:: Component Selection
@@ -115,8 +121,8 @@ Circuit diagram
    * - Output Voltage
      - 2.5V (2% ripple) - 1A max
 
-.. image:: ../assets/buck-2V5.png
-   :width: 90%
+.. image:: ../assets/buck-2V5.svg
+   :width: 70%
    :align: center
 
 .. flat-table:: Component Selection
@@ -194,8 +200,8 @@ Circuit diagram
    * - Output Voltage
      - 3.3V (2% ripple) - 1A max
 
-.. image:: ../assets/buck-3V3.png
-   :width: 90%
+.. image:: ../assets/buck-3V3.svg
+   :width: 70%
    :align: center
 
 .. flat-table:: Component Selection
@@ -273,8 +279,8 @@ Circuit diagram
    * - Output Voltage
      - 1.8V (2% ripple) - 1A max
 
-.. image:: ../assets/buck-1V8.png
-   :width: 90%
+.. image:: ../assets/buck-1V8.svg
+   :width: 70%
    :align: center
 
 .. flat-table:: Component Selection
@@ -339,8 +345,8 @@ Circuit diagram
 Power sequencing
 ````````````````
 
-.. image:: ../assets/diagram-power-sequencing.png
-   :width: 90%
+.. image:: ../assets/diagram-power-sequencing.svg
+   :width: 70%
    :align: center
 
 .. flat-table:: Power sequencer IC

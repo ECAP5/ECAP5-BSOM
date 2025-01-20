@@ -12,17 +12,18 @@ Design Document
    1_introduction
    2_specification
    3_system_overview
-   4_design_considerations
-   5_power
-   6_fpga
-   7_sram
-   8_sdram
-   9_ddr2
-   10_emmc
-   11_flash
-   12_clock
+   4_power
+   5_fpga
+   6_sram
+   7_sdram
+   8_ddr2
+   9_emmc
+   10_flash
+   11_clock
+   12_io
    13_misc
    14_mechanical
+   15_analysis
 
 .. container:: custom-title
    
