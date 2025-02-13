@@ -996,24 +996,6 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "H1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin no_connect line
 					(at 2.54 -35.56 90)
 					(length 2.54) hide
@@ -1033,6 +1015,24 @@
 					)
 				)
 				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at -10.16 5.08 0)
 					(length 2.54)
 					(name "A9"
@@ -1042,7 +1042,7 @@
 							)
 						)
 					)
-					(number "H2"
+					(number "H3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1060,7 +1060,7 @@
 							)
 						)
 					)
-					(number "H3"
+					(number "H4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1078,7 +1078,7 @@
 							)
 						)
 					)
-					(number "H4"
+					(number "H5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2519,7 +2519,6 @@
 	)
 	(label "IO4"
 		(at 173.99 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2530,7 +2529,6 @@
 	)
 	(label "A1"
 		(at 132.08 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2541,7 +2539,6 @@
 	)
 	(label "IO9"
 		(at 173.99 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2552,7 +2549,6 @@
 	)
 	(label "A10"
 		(at 132.08 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2563,7 +2559,6 @@
 	)
 	(label "A0"
 		(at 132.08 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2574,7 +2569,6 @@
 	)
 	(label "IO8"
 		(at 173.99 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2585,7 +2579,6 @@
 	)
 	(label "A6"
 		(at 132.08 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2596,7 +2589,6 @@
 	)
 	(label "A3"
 		(at 132.08 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2607,7 +2599,6 @@
 	)
 	(label "A9"
 		(at 132.08 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2618,7 +2609,6 @@
 	)
 	(label "A16"
 		(at 132.08 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2629,7 +2619,6 @@
 	)
 	(label "A7"
 		(at 132.08 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2640,7 +2629,6 @@
 	)
 	(label "IO5"
 		(at 173.99 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2651,7 +2639,6 @@
 	)
 	(label "A8"
 		(at 132.08 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2662,7 +2649,6 @@
 	)
 	(label "A4"
 		(at 132.08 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2673,7 +2659,6 @@
 	)
 	(label "A11"
 		(at 132.08 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2684,7 +2669,6 @@
 	)
 	(label "IO14"
 		(at 173.99 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2695,7 +2679,6 @@
 	)
 	(label "A13"
 		(at 132.08 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2706,7 +2689,6 @@
 	)
 	(label "IO0"
 		(at 173.99 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2717,7 +2699,6 @@
 	)
 	(label "IO13"
 		(at 173.99 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2728,7 +2709,6 @@
 	)
 	(label "A15"
 		(at 132.08 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2739,7 +2719,6 @@
 	)
 	(label "A12"
 		(at 132.08 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2750,7 +2729,6 @@
 	)
 	(label "IO10"
 		(at 173.99 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2761,7 +2739,6 @@
 	)
 	(label "A17"
 		(at 132.08 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2772,7 +2749,6 @@
 	)
 	(label "IO15"
 		(at 173.99 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2783,7 +2759,6 @@
 	)
 	(label "A14"
 		(at 132.08 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2794,7 +2769,6 @@
 	)
 	(label "IO1"
 		(at 173.99 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2805,7 +2779,6 @@
 	)
 	(label "IO2"
 		(at 173.99 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2816,7 +2789,6 @@
 	)
 	(label "IO6"
 		(at 173.99 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2827,7 +2799,6 @@
 	)
 	(label "IO3"
 		(at 173.99 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2838,7 +2809,6 @@
 	)
 	(label "A2"
 		(at 132.08 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2849,7 +2819,6 @@
 	)
 	(label "A5"
 		(at 132.08 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2860,7 +2829,6 @@
 	)
 	(label "IO12"
 		(at 173.99 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2871,7 +2839,6 @@
 	)
 	(label "IO7"
 		(at 173.99 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2882,7 +2849,6 @@
 	)
 	(label "IO11"
 		(at 173.99 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2894,7 +2860,6 @@
 	(hierarchical_label "~{WE}"
 		(shape input)
 		(at 134.62 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2906,7 +2871,6 @@
 	(hierarchical_label "~{LB}"
 		(shape input)
 		(at 134.62 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2918,7 +2882,6 @@
 	(hierarchical_label "~{CE}"
 		(shape input)
 		(at 134.62 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2930,7 +2893,6 @@
 	(hierarchical_label "IO[0..15]"
 		(shape input)
 		(at 189.23 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2942,7 +2904,6 @@
 	(hierarchical_label "A[0..17]"
 		(shape input)
 		(at 115.57 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2954,7 +2915,6 @@
 	(hierarchical_label "~{UB}"
 		(shape input)
 		(at 134.62 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2966,7 +2926,6 @@
 	(hierarchical_label "~{OE}"
 		(shape input)
 		(at 134.62 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3580,7 +3539,7 @@
 		(pin "H6"
 			(uuid "f94c1f13-0ce5-42f0-8fb8-d217dc8137b0")
 		)
-		(pin "H1"
+		(pin "H5"
 			(uuid "ccfaf014-c6eb-4970-9a44-abba2ff64eac")
 		)
 		(pin "G4"
