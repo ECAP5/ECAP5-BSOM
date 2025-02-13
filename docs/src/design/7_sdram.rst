@@ -37,3 +37,28 @@ Design calculations
 
 Simulation results
 ------------------
+
+Pre-layout
+``````````
+
+The goal of the pre-layout simulation is to adjust the high-speed bus termination.
+
+Transient behavior
+^^^^^^^^^^^^^^^^^^
+
+Eye Diagram
+^^^^^^^^^^^
+
+Post-layout
+```````````
+
+The goal of the post-layout simulation is to simulate the high-speed bus taking into account the routed trace geometry.
+
+Transient behavior
+^^^^^^^^^^^^^^^^^^
+
+Eye Diagram
+^^^^^^^^^^^
+
+Crosstalk
+^^^^^^^^^

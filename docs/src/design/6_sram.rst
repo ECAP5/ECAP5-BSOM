@@ -38,19 +38,30 @@ Circuit diagram
 Design calculations
 -------------------
 
-Considering a read access time of 8ns, for one of the address or IO signals, the Data Transfer Rate is :math:`1 / 8\text{ns} = 125\text{Mbps}`.
-
-The highest signal frequency content is given as :
-
-.. math::
-
-  F_m = 2.5 * \text{DTR} = 2.5 * 125 * 10^6 = 312.5\text{MHz}
-
-Using Kicad's wavelength calculator tool with :math:`E_r = 4.04` (FR4 370HR), we get a wavelength of :math:`\simeq 45\text{cm}`.
-
-The address and IO signals are therefore considered low-speed as long as the traces are less than 45cm.
-
-.. todo:: Check with the final material
-
 Simulation results
 ------------------
+
+Pre-layout
+``````````
+
+The goal of the pre-layout simulation is to adjust the high-speed bus termination.
+
+Transient behavior
+^^^^^^^^^^^^^^^^^^
+
+Eye Diagram
+^^^^^^^^^^^
+
+Post-layout
+```````````
+
+The goal of the post-layout simulation is to simulate the high-speed bus taking into account the routed trace geometry.
+
+Transient behavior
+^^^^^^^^^^^^^^^^^^
+
+Eye Diagram
+^^^^^^^^^^^
+
+Crosstalk
+^^^^^^^^^
