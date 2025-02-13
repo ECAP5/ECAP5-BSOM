@@ -312,7 +312,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "32Mx16 DDR2 DRAM"
+			(property "Description" "64Mx8 DDR2 DRAM"
 				(at -7.874 -48.26 0)
 				(effects
 					(font
@@ -321,7 +321,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "32Mx16 DDR2 DRAM"
+			(property "ki_keywords" "64Mx8 DDR2 DRAM"
 				(at 0 0 0)
 				(effects
 					(font
@@ -331,24 +331,6 @@
 				)
 			)
 			(symbol "IS43DR86400E_0_0"
-				(pin no_connect line
-					(at 7.62 -34.29 90)
-					(length 2.54)
-					(name "NC[3]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 12.7 -22.86 180)
 					(length 2.54)
@@ -907,24 +889,6 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 7.62 -34.29 90)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -12.7 -12.7 0)
 					(length 2.54)
@@ -1437,6 +1401,24 @@
 						)
 					)
 					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 -34.29 90)
+					(length 2.54) hide
+					(name "NC[3]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5709,7 +5691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "32Mx16 DDR2 DRAM"
+		(property "Description" "64Mx8 DDR2 DRAM"
 			(at 141.986 147.32 0)
 			(effects
 				(font
@@ -5720,9 +5702,6 @@
 		)
 		(pin "A1"
 			(uuid "e91d312a-5094-457a-9129-7b882577ba68")
-		)
-		(pin ""
-			(uuid "53461db4-b616-4758-a162-472de728a0a8")
 		)
 		(pin "A2"
 			(uuid "871c5792-df04-4f1a-bd7b-d1b56d5aec38")
