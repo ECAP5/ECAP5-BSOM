@@ -7910,24 +7910,6 @@
 					)
 				)
 			)
-			(pin input line
-				(at -10.16 7.62 0)
-				(length 2.54)
-				(name "A8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "H1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin no_connect line
 				(at 2.54 -35.56 90)
 				(length 2.54) hide
@@ -7947,6 +7929,24 @@
 				)
 			)
 			(pin input line
+				(at -10.16 7.62 0)
+				(length 2.54)
+				(name "A8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
 				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "A9"
@@ -7956,7 +7956,7 @@
 						)
 					)
 				)
-				(number "H2"
+				(number "H3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7974,7 +7974,7 @@
 						)
 					)
 				)
-				(number "H3"
+				(number "H4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7992,7 +7992,7 @@
 						)
 					)
 				)
-				(number "H4"
+				(number "H5"
 					(effects
 						(font
 							(size 1.27 1.27)
