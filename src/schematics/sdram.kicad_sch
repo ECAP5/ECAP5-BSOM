@@ -245,9 +245,9 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at -1.27 31.75 270)
-					(length 2.54) hide
+					(length 2.54)
 					(name "VDD"
 						(effects
 							(font
@@ -543,7 +543,7 @@
 							)
 						)
 					)
-					(number "D4"
+					(number "D7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1142,24 +1142,6 @@
 				)
 			)
 			(symbol "IS42S16160J-*BL_1_0"
-				(pin power_in line
-					(at -1.27 31.75 270)
-					(length 2.54)
-					(name "VDD[4]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at -1.27 -30.48 90)
 					(length 2.54)
@@ -3592,9 +3574,6 @@
 		(pin "D3"
 			(uuid "50559e7d-61a3-4456-88e4-ce1fb530dd4e")
 		)
-		(pin "D4"
-			(uuid "66f31368-e6b1-4b0c-bb56-506065b96039")
-		)
 		(pin "D2"
 			(uuid "ea2a4da2-adfc-4090-a12e-c09167667adf")
 		)
@@ -3610,7 +3589,7 @@
 		(pin "B9"
 			(uuid "31ce7177-2977-4b62-97c5-f9686bf8d548")
 		)
-		(pin "1"
+		(pin "D7"
 			(uuid "b7d06659-881b-49f1-9a3a-6aea7e749f8c")
 		)
 		(pin "B8"
