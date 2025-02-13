@@ -994,7 +994,6 @@
 	)
 	(label "LED1"
 		(at 171.45 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1005,7 +1004,6 @@
 	)
 	(label "LED0"
 		(at 138.43 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1017,7 +1015,6 @@
 	(hierarchical_label "LED[0..1]"
 		(shape input)
 		(at 179.07 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
