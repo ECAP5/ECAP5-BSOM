@@ -4,12 +4,12 @@ Introduction
 Purpose
 -------
 
-This documents aims at defining the functional requirements for ECAP5-BSOM as well as the design constraints derived from them.
+This documents aims at defining the functional requirements for ECAP5-BSOM as well as documenting the design process.
 
 Product Scope
 -------------
 
-ECAP5-BSOM is a System-On-Module board which shall provide ECAP5 with a general-purpose FPGA platform with integrated memory, flash storage and high-speed interfaces.
+ECAP5-BSOM is a System-On-Module board which shall provide ECAP5 with a general-purpose FPGA platform including integrated memory, flash storage and high-speed interfaces.
 
 Intended Use
 -------------------------
