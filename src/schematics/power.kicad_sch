@@ -906,6 +906,26 @@
 					)
 				)
 			)
+			(symbol "ST1S41PHR_1_0"
+				(pin no_connect line
+					(at 7.62 -17.78 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 			(symbol "ST1S41PHR_1_1"
 				(pin power_in line
 					(at -12.7 -1.27 0)
@@ -918,6 +938,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -8.89 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -954,24 +992,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -8.89 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4282,6 +4302,9 @@
 		)
 		(pin "5"
 			(uuid "c215dc7e-c463-44ee-8d99-d2454032d6c2")
+		)
+		(pin "2"
+			(uuid "5f6e4c22-1b14-4e0b-9f7e-7005fc2dbb30")
 		)
 		(instances
 			(project "ecap5-bsom"
