@@ -1,8 +1,5 @@
-Architecture Document
-=====================
-
-.. image:: ../assets/overview.svg
-   :align: center
+Design Document
+===============
 
 .. container:: custom-title
 
@@ -13,10 +10,20 @@ Architecture Document
    :numbered:
 
    1_introduction
-   2_user_needs
-   3_requirements
-   4_overview
-   5_design
+   2_specification
+   3_system_overview
+   4_power
+   5_fpga
+   6_sram
+   7_sdram
+   8_ddr2
+   9_emmc
+   10_flash
+   11_clock
+   12_io
+   13_misc
+   14_mechanical
+   15_analysis
 
 .. container:: custom-title
    
@@ -32,5 +39,5 @@ Architecture Document
      - Changes
 
    * -
-     -
-     -
+     - 1.0.0
+     - Initial release

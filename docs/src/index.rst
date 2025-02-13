@@ -33,4 +33,4 @@ License
    :maxdepth: 5
    :hidden:
 
-   arch/index
+   design/index
