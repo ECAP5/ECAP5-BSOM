@@ -207,7 +207,7 @@
 				(pin power_in line
 					(at 8.89 -15.24 90)
 					(length 2.54)
-					(name "GND[265]"
+					(name "GND[266]"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -852,6 +852,42 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AC29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AC4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
@@ -917,6 +953,42 @@
 						)
 					)
 					(number "AD5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AE26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AE7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1230,6 +1302,24 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AG2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
@@ -1277,6 +1367,42 @@
 						)
 					)
 					(number "AG23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AG24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AG31"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2022,6 +2148,24 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 15.24 -15.24 90)
+					(length 2.54) hide
+					(name "RESERVED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AK10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
@@ -2033,6 +2177,42 @@
 						)
 					)
 					(number "AK11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -15.24 90)
+					(length 2.54) hide
+					(name "RESERVED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AK12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -15.24 90)
+					(length 2.54) hide
+					(name "RESERVED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AK13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2058,6 +2238,42 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 15.24 -15.24 90)
+					(length 2.54) hide
+					(name "RESERVED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AK15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -15.24 90)
+					(length 2.54) hide
+					(name "RESERVED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AK16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
@@ -2069,6 +2285,42 @@
 						)
 					)
 					(number "AK17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -15.24 90)
+					(length 2.54) hide
+					(name "RESERVED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AK18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -15.24 90)
+					(length 2.54) hide
+					(name "RESERVED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AK19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2094,6 +2346,42 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 15.24 -15.24 90)
+					(length 2.54) hide
+					(name "RESERVED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AK21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -15.24 90)
+					(length 2.54) hide
+					(name "RESERVED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AK22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
@@ -2105,6 +2393,42 @@
 						)
 					)
 					(number "AK23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -15.24 90)
+					(length 2.54) hide
+					(name "RESERVED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AK24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -15.24 90)
+					(length 2.54) hide
+					(name "RESERVED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AK25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2159,6 +2483,24 @@
 						)
 					)
 					(number "AK8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -15.24 90)
+					(length 2.54) hide
+					(name "RESERVED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AK9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3030,6 +3372,24 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
@@ -3084,6 +3444,24 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
@@ -3095,6 +3473,258 @@
 						)
 					)
 					(number "E9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3527,6 +4157,42 @@
 						)
 					)
 					(number "L23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4237,6 +4903,24 @@
 					)
 				)
 				(pin passive line
+					(at 8.89 -15.24 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54) hide
 					(name "VCC"
@@ -4265,6 +4949,24 @@
 						)
 					)
 					(number "P22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -15.24 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5226,6 +5928,42 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 8.89 -15.24 90)
 					(length 2.54) hide
@@ -5471,6 +6209,42 @@
 						)
 					)
 					(number "W22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "W27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 -15.24 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "W6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11241,7 +12015,7 @@
 				(pin bidirectional line
 					(at -3.81 -12.7 0)
 					(length 2.54)
-					(name "PL50B/GR_PCLK6_1"
+					(name "PL50B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11385,7 +12159,7 @@
 				(pin bidirectional line
 					(at -3.81 -15.24 0)
 					(length 2.54)
-					(name "PL50C"
+					(name "PL50C/GR_PCLK6_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13091,6 +13865,93 @@
 				(rectangle
 					(start -1.27 2.54)
 					(end 36.83 -50.8)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LFE5U-85F-*BG756*_10_0"
+				(pin output line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "TDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AG5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "TDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AJ5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "TCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AK5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -7.62 0)
+					(length 2.54)
+					(name "TMS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AM5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LFE5U-85F-*BG756*_10_1"
+				(rectangle
+					(start -2.54 2.54)
+					(end 7.62 -10.16)
 					(stroke
 						(width 0)
 						(type default)
@@ -17941,6 +18802,147 @@
 		)
 		(pin "AA11"
 			(uuid "ec795cff-c6f5-4851-a25b-cdb1af49fa05")
+		)
+		(pin "AG5"
+			(uuid "66c59f90-2fb5-49d8-a468-d46b3ea867b6")
+		)
+		(pin "AJ5"
+			(uuid "b48c2c6f-8c7d-42d6-8b63-32b116e4888e")
+		)
+		(pin "AK5"
+			(uuid "73df4ac4-28a2-4029-a6a6-4908c7bf31a6")
+		)
+		(pin "AM5"
+			(uuid "de2cb5f5-1432-4b13-95e4-2fa12b1e70ae")
+		)
+		(pin "AG24"
+			(uuid "fbafadd3-2ef6-4001-89f9-6c194f70ea83")
+		)
+		(pin "AC29"
+			(uuid "24855544-2dda-4404-a136-a7747e4768a8")
+		)
+		(pin "AC4"
+			(uuid "c34dff12-11b3-4c0d-bcaa-05e24f8c427d")
+		)
+		(pin "AE26"
+			(uuid "dd849217-07c9-49b6-8c1e-808d22cb39a8")
+		)
+		(pin "AE7"
+			(uuid "f4e9c967-42e9-4e7c-b17a-8bad2c4cc66d")
+		)
+		(pin "AG2"
+			(uuid "99d6cfa3-8397-4735-b5bf-6c07c85d7e81")
+		)
+		(pin "AG31"
+			(uuid "95aa53a8-800f-4774-9d50-5a9759972789")
+		)
+		(pin "AK10"
+			(uuid "07c67e13-5b1b-45d4-b4c4-9dece27d8a63")
+		)
+		(pin "AK12"
+			(uuid "098cff32-3198-4527-ae14-7fb439a70b50")
+		)
+		(pin "AK13"
+			(uuid "3b954dd0-ecba-4047-ac93-0fd87942b889")
+		)
+		(pin "AK15"
+			(uuid "3746af36-f344-4310-a16e-fcc74d83b526")
+		)
+		(pin "AK16"
+			(uuid "88fe4999-39e4-4fe8-b652-8b1882ce791d")
+		)
+		(pin "AK18"
+			(uuid "50a0b0cd-8ce0-4b3d-990f-c02eba1bab26")
+		)
+		(pin "AK19"
+			(uuid "2e17475d-8d24-4edd-9df8-133d97e3d6ef")
+		)
+		(pin "AK21"
+			(uuid "098891f8-5830-4acd-a8e7-9d103ee7007f")
+		)
+		(pin "AK22"
+			(uuid "f7dd253c-d82d-4e99-9b55-7088e484eea0")
+		)
+		(pin "AK24"
+			(uuid "2f882c81-6ce4-4dd2-a32d-be7a7aba5dec")
+		)
+		(pin "AK25"
+			(uuid "f22c8cd4-e3d2-4d29-950b-1dc2af7fc891")
+		)
+		(pin "AK9"
+			(uuid "3d8ba1b3-2110-43ad-8d8c-b2f728572e35")
+		)
+		(pin "E26"
+			(uuid "ddc18f10-3a35-4984-90c2-f21029a418a4")
+		)
+		(pin "E7"
+			(uuid "617c0e91-f181-4736-950e-20bd5dd5cf4a")
+		)
+		(pin "G10"
+			(uuid "19d2484b-ae92-4ac8-96c7-596a54005dfc")
+		)
+		(pin "G11"
+			(uuid "3514e473-0688-4906-8676-77c5a18dec7b")
+		)
+		(pin "G14"
+			(uuid "924e260a-262f-41eb-a3f9-52ae7d37c1c5")
+		)
+		(pin "G15"
+			(uuid "d5360caf-c083-4ffd-9851-4443137b4098")
+		)
+		(pin "G16"
+			(uuid "bb56a93c-7e48-474f-83ca-7e8648b38ccf")
+		)
+		(pin "G17"
+			(uuid "43d5e40a-b28d-4dda-aa3e-20ddd1df8a0d")
+		)
+		(pin "G18"
+			(uuid "bdc8a3f9-672d-4def-98cc-c4e2fffee26a")
+		)
+		(pin "G19"
+			(uuid "69e3ac35-f4a8-4d2b-9f41-8106692f35a4")
+		)
+		(pin "G22"
+			(uuid "65f69c44-7993-4790-8b7c-390e3007d592")
+		)
+		(pin "G23"
+			(uuid "5bb13a47-f592-4980-8c21-8eb0b00ad899")
+		)
+		(pin "G24"
+			(uuid "0f0e0719-7dad-46b5-a005-30d928d0a281")
+		)
+		(pin "G9"
+			(uuid "f5e32b14-2b8f-41fd-bc99-557c095f1c50")
+		)
+		(pin "H29"
+			(uuid "10f68d90-e658-4b46-91ff-30899ee423d4")
+		)
+		(pin "H4"
+			(uuid "fa9bf029-5f7c-4e6f-91cf-adfb2574621b")
+		)
+		(pin "L28"
+			(uuid "90a90da1-5ef3-47cd-b362-4f1867c1b80e")
+		)
+		(pin "L5"
+			(uuid "48f90561-ea71-4f7f-8546-87cbdcbf5aa9")
+		)
+		(pin "P20"
+			(uuid "13e6414e-8536-4dd0-bb80-c3e533f68b49")
+		)
+		(pin "R11"
+			(uuid "a3efd177-bd23-4f10-b824-e787978e2588")
+		)
+		(pin "V3"
+			(uuid "bdd569bf-f0b7-4530-8a1c-20a7e3bba8a5")
+		)
+		(pin "V30"
+			(uuid "d02a796b-2109-4382-8d55-14bfb8166ea7")
+		)
+		(pin "W27"
+			(uuid "7aa4d15b-d55b-40f6-8ce9-1cac76168054")
+		)
+		(pin "W6"
+			(uuid "c7af99b8-3d69-4ce3-91c1-23dc006d47a8")
 		)
 		(instances
 			(project "ecap5-bsom"
