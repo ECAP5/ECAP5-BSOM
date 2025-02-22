@@ -207,6 +207,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -14550,26 +14559,8 @@
 				)
 			)
 			(symbol "LFE5U-85F-*BG756*_10_0"
-				(pin output line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "TDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "AG5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "TDI"
 						(effects
@@ -14587,16 +14578,34 @@
 					)
 				)
 				(pin input line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 2.54)
-					(name "TCK"
+					(name "TMS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "AK5"
+					(number "AM5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "TDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AG5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14607,14 +14616,14 @@
 				(pin input line
 					(at -5.08 -7.62 0)
 					(length 2.54)
-					(name "TMS"
+					(name "TCK"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "AM5"
+					(number "AK5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -19671,6 +19680,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 59.69 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "83195b59-2502-4f2c-9989-ad7bb16968ca")
 		)
@@ -19866,6 +19884,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 90.17 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 90.17 129.54 0)
 			(effects
 				(font
