@@ -1758,6 +1758,12 @@
 		(color 0 0 0 0)
 		(uuid "49290a7c-6544-4db9-bda6-6ab261a3e86a")
 	)
+	(junction
+		(at 191.77 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "849b647d-6402-4c12-82d9-1b1509ee01bd")
+	)
 	(bus
 		(pts
 			(xy 191.77 154.94) (xy 191.77 139.7)
@@ -2010,6 +2016,16 @@
 	)
 	(bus
 		(pts
+			(xy 195.58 36.83) (xy 191.77 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "704fb7ff-d26e-47d3-aaa8-55daad72d7da")
+	)
+	(bus
+		(pts
 			(xy 156.21 121.92) (xy 161.29 121.92)
 		)
 		(stroke
@@ -2117,6 +2133,16 @@
 			(type default)
 		)
 		(uuid "b4701141-bc2e-45c8-88e0-edf827c7768f")
+	)
+	(bus
+		(pts
+			(xy 191.77 36.83) (xy 191.77 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a9c6f0-ec43-4025-ae81-77048cc71a60")
 	)
 	(wire
 		(pts
@@ -2597,7 +2623,7 @@
 				(hide yes)
 			)
 		)
-		(pin "{IO}" bidirectional
+		(pin "{IO}" input
 			(at 191.77 154.94 90)
 			(uuid "e8d507ee-33ba-4caa-b35e-416d9c03246d")
 			(effects
@@ -3699,6 +3725,16 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(pin "{IO}" input
+			(at 195.58 36.83 180)
+			(uuid "3a6c352b-f9eb-4d05-a013-32be31388518")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
