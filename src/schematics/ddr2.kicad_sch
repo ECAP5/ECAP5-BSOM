@@ -1683,6 +1683,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "DDR2_50 nets shall be routed as single-ended 50 ohm transmission lines\nDDR2_CLK_100 nets shall be routed as differencial 100 ohm transmission lines"
+		(exclude_from_sim no)
+		(at 29.21 159.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70b24750-a050-448b-a5ff-bcaa222d960c")
+	)
 	(junction
 		(at 115.57 48.26)
 		(diameter 0)
@@ -2047,7 +2058,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 114.3) (xy 168.91 114.3)
+			(xy 162.56 114.3) (xy 172.72 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2077,7 +2088,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 109.22) (xy 168.91 109.22)
+			(xy 162.56 109.22) (xy 172.72 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2187,7 +2198,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 111.76) (xy 168.91 111.76)
+			(xy 162.56 111.76) (xy 172.72 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2267,7 +2278,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 106.68) (xy 168.91 106.68)
+			(xy 162.56 106.68) (xy 172.72 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2377,7 +2388,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 101.6) (xy 168.91 101.6)
+			(xy 162.56 101.6) (xy 172.72 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2417,7 +2428,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 99.06) (xy 168.91 99.06)
+			(xy 162.56 99.06) (xy 172.72 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2787,7 +2798,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 119.38) (xy 168.91 119.38)
+			(xy 162.56 119.38) (xy 172.72 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2877,7 +2888,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 116.84) (xy 168.91 116.84)
+			(xy 162.56 116.84) (xy 172.72 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3436,7 +3447,7 @@
 		(uuid "fe12f999-1c48-49cb-bea9-4d3969dd6223")
 	)
 	(label "A3"
-		(at 127 82.55 0)
+		(at 123.19 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3446,7 +3457,7 @@
 		(uuid "1f2def7b-f237-4ef4-bdf6-7288ed1173f1")
 	)
 	(label "A9"
-		(at 127 97.79 0)
+		(at 123.19 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3456,7 +3467,7 @@
 		(uuid "2bcdcd20-8a20-44c8-a649-121e1796608a")
 	)
 	(label "BA1"
-		(at 127 114.3 0)
+		(at 123.19 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3466,7 +3477,7 @@
 		(uuid "2dba0385-5415-4892-b7ed-7110e4d7260a")
 	)
 	(label "DQ7"
-		(at 173.99 95.25 180)
+		(at 176.53 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3476,7 +3487,7 @@
 		(uuid "39f1ee8e-2f00-470f-97c5-330c87e5d8e8")
 	)
 	(label "DQ0"
-		(at 173.99 77.47 180)
+		(at 176.53 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3486,7 +3497,7 @@
 		(uuid "4952cba8-29bd-414b-a3f9-c2cb4ea2ca30")
 	)
 	(label "DQ3"
-		(at 173.99 85.09 180)
+		(at 176.53 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3496,7 +3507,7 @@
 		(uuid "4c7eb9b0-8990-4154-a9af-017a21284f62")
 	)
 	(label "A5"
-		(at 127 87.63 0)
+		(at 123.19 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3506,7 +3517,7 @@
 		(uuid "69b4b0b7-bdaa-40a5-b32c-2c6c85c17982")
 	)
 	(label "A7"
-		(at 127 92.71 0)
+		(at 123.19 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3516,7 +3527,7 @@
 		(uuid "6aaead12-7d24-4274-93dc-744828796bfc")
 	)
 	(label "DQ1"
-		(at 173.99 80.01 180)
+		(at 176.53 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3526,7 +3537,7 @@
 		(uuid "8246a897-ed58-4d62-851a-d9376ab971cf")
 	)
 	(label "A4"
-		(at 127 85.09 0)
+		(at 123.19 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3536,7 +3547,7 @@
 		(uuid "8aea1196-333d-4ffd-88bc-246d7c1ffa18")
 	)
 	(label "A6"
-		(at 127 90.17 0)
+		(at 123.19 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3546,7 +3557,7 @@
 		(uuid "94d1a887-8f09-4854-bd26-2e0f45cbaee1")
 	)
 	(label "DQ5"
-		(at 173.99 90.17 180)
+		(at 176.53 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3556,7 +3567,7 @@
 		(uuid "98acbc21-d94a-4115-9378-89f8701d91a3")
 	)
 	(label "A0"
-		(at 127 74.93 0)
+		(at 123.19 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3566,7 +3577,7 @@
 		(uuid "a1ea0bc1-455e-46e4-b057-1d36d2c407dc")
 	)
 	(label "A10"
-		(at 127 100.33 0)
+		(at 123.19 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3576,7 +3587,7 @@
 		(uuid "a46e551e-0982-4fe1-b105-033dadd966c0")
 	)
 	(label "BA0"
-		(at 127 111.76 0)
+		(at 123.19 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3586,7 +3597,7 @@
 		(uuid "a4f2b5b9-8416-4e20-9c7c-1789a714536a")
 	)
 	(label "A13"
-		(at 127 107.95 0)
+		(at 123.19 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3596,7 +3607,7 @@
 		(uuid "b77ba740-d697-4e24-9c06-9a4f92e79c90")
 	)
 	(label "DQ6"
-		(at 173.99 92.71 180)
+		(at 176.53 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3606,7 +3617,7 @@
 		(uuid "bcb2931a-f0ad-4126-aa86-05af1bfe19f0")
 	)
 	(label "DQ2"
-		(at 173.99 82.55 180)
+		(at 176.53 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3626,7 +3637,7 @@
 		(uuid "db9fca3c-d04f-4f1a-ba0a-2a84c32ea0a5")
 	)
 	(label "A8"
-		(at 127 95.25 0)
+		(at 123.19 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3636,7 +3647,7 @@
 		(uuid "dd82b8b3-0377-43c7-847b-0159331dfff2")
 	)
 	(label "DQ4"
-		(at 173.99 87.63 180)
+		(at 176.53 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3646,7 +3657,7 @@
 		(uuid "ddd6a146-8075-4d95-8b78-0e0f18d09c90")
 	)
 	(label "A1"
-		(at 127 77.47 0)
+		(at 123.19 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3656,7 +3667,7 @@
 		(uuid "ec66b906-32e7-4568-9328-dc4643c4eb06")
 	)
 	(label "A12"
-		(at 127 105.41 0)
+		(at 123.19 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3666,7 +3677,7 @@
 		(uuid "ef343522-248d-45d2-8bc6-465cbef5ea48")
 	)
 	(label "A11"
-		(at 127 102.87 0)
+		(at 123.19 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3676,7 +3687,7 @@
 		(uuid "f134f2bd-aaac-433a-ba73-1fe4b38670b6")
 	)
 	(label "A2"
-		(at 127 80.01 0)
+		(at 123.19 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3687,7 +3698,7 @@
 	)
 	(hierarchical_label "~{CAS}"
 		(shape input)
-		(at 168.91 114.3 0)
+		(at 172.72 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3709,7 +3720,7 @@
 	)
 	(hierarchical_label "DM"
 		(shape input)
-		(at 168.91 119.38 0)
+		(at 172.72 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3720,7 +3731,7 @@
 	)
 	(hierarchical_label "~{WE}"
 		(shape input)
-		(at 168.91 106.68 0)
+		(at 172.72 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3753,7 +3764,7 @@
 	)
 	(hierarchical_label "~{RAS}"
 		(shape input)
-		(at 168.91 109.22 0)
+		(at 172.72 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3764,7 +3775,7 @@
 	)
 	(hierarchical_label "ODT"
 		(shape input)
-		(at 168.91 111.76 0)
+		(at 172.72 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3775,7 +3786,7 @@
 	)
 	(hierarchical_label "DQS"
 		(shape input)
-		(at 168.91 99.06 0)
+		(at 172.72 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3797,7 +3808,7 @@
 	)
 	(hierarchical_label "~{DQS}"
 		(shape input)
-		(at 168.91 101.6 0)
+		(at 172.72 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3830,7 +3841,7 @@
 	)
 	(hierarchical_label "~{CS}"
 		(shape input)
-		(at 168.91 116.84 0)
+		(at 172.72 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3838,6 +3849,144 @@
 			(justify left)
 		)
 		(uuid "eb9341a8-aa26-43f2-a7d9-0d7ee2baa57d")
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 130.81 73.66) (xy 130.81 115.57) (xy 133.35 115.57) (xy 133.35 73.66)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid 0518a44d-17e8-48ce-90db-d1b40a189073)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 118.11 118.11) (xy 118.11 123.19) (xy 120.65 123.19) (xy 120.65 118.11)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid 42feee14-e672-4a4b-b923-b3c684338829)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 166.37 76.2) (xy 166.37 120.65) (xy 168.91 120.65) (xy 168.91 76.2)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid 64af651f-658f-42aa-9a7a-633d598c9a4d)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 132.08 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a2e60d4-2e8d-4957-aa38-4cd75ba648bc")
+		(property "Netclass" "DDR2_50"
+			(at 122.174 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -119.38 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 119.38 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31c6b60a-1669-4a34-9002-efb19ea546a0")
+		(property "Netclass" "DDR2_DIFF_100"
+			(at 103.632 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -132.08 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 167.64 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42b3ede6-6652-42c3-a7a4-00ef29233042")
+		(property "Netclass" "DDR2_50"
+			(at 168.656 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -83.82 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")

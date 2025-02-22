@@ -1194,6 +1194,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "EMMC_50 nets shall be routed as single-ended 50 ohm transmission lines"
+		(exclude_from_sim no)
+		(at 29.21 159.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bfae92d9-3e99-404c-9f54-465dfa7cee28")
+	)
 	(junction
 		(at 129.54 59.69)
 		(diameter 0)
@@ -1880,6 +1891,98 @@
 			(justify right)
 		)
 		(uuid "bf46337a-a83a-4624-bbaa-78eafddfe4b8")
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 130.81 105.41) (xy 130.81 96.52) (xy 128.27 96.52) (xy 128.27 105.41)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid 180e2f99-61c1-4931-8ccf-512dcac08eee)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 161.29 90.17) (xy 161.29 110.49) (xy 163.83 110.49) (xy 163.83 90.17)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid 3079a412-e741-4ba9-8880-c06a0a87af45)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 162.56 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b453789-a0fb-42dd-b51b-25dba7fe75cb")
+		(property "Netclass" "EMMC_50"
+			(at 164.084 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -88.9 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 129.54 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0477e6d-e38e-4a98-bfe1-4619f8165ed8")
+		(property "Netclass" "EMMC_50"
+			(at 128.016 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 381 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
