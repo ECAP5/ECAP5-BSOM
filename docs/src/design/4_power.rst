@@ -450,14 +450,14 @@ The following table outlines the voltage requirements of the specified component
      - 3.3V ±10%
      - 25mA
      - Supply Voltage
-   * - :rspan:`1` THGBMJG6C1LBAIL
-     - VDD
+   * - :rspan:`1` ASFC4G31M-51BIN
+     - VCCQ
      - 1.8V ±8%
-     - 220mA
-     - Controller Supply Voltage
-   * - VDDF
+     - 120mA
+     - Host Interface Supply Voltage
+   * - VCC
      - 3.3V ±10%
-     - 140mA
+     - 120mA
      - Memory Supply Voltage
 
 Power Sequencing

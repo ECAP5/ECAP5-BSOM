@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "c5fd18a3-9aa0-4151-b6e0-94da3d606686")
 	(paper "A4")
 	(title_block
@@ -13,6 +13,1733 @@
 		(comment 3 "${Part Number}")
 	)
 	(lib_symbols)
+	(rectangle
+		(start 166.37 29.21)
+		(end 217.17 147.32)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8bd85781-8d6c-43e9-af77-21a89d4959e5)
+	)
+	(text "Table of Contents"
+		(exclude_from_sim no)
+		(at 37.338 50.292 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.032 2.032)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "418e819e-2b3d-4a58-b24b-6c9efe304f39")
+	)
+	(text "Revision history"
+		(exclude_from_sim no)
+		(at 36.576 141.732 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.032 2.032)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "535f8190-0f73-4ee2-ade0-f6e728b8b7b9")
+	)
+	(text "ECAP5-BSOM"
+		(exclude_from_sim no)
+		(at 42.926 26.924 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "6966623f-e5d4-4c42-8796-5dd6423aec69")
+	)
+	(text "Lattice ECP5"
+		(exclude_from_sim no)
+		(at 172.466 27.432 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d059a582-6d43-4eda-9b39-4433c28901b0")
+	)
+	(text_box "11"
+		(exclude_from_sim no)
+		(at 25.4 80.01 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "004fa0d0-dfa9-4162-9649-f0db74120339")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 25.4 158.75 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "00ce91f0-7150-4ada-add8-8f7e2e735505")
+	)
+	(text_box "20"
+		(exclude_from_sim no)
+		(at 25.4 102.87 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "04b63ec5-7967-4a2b-a41e-11f06a50c6d6")
+	)
+	(text_box "18"
+		(exclude_from_sim no)
+		(at 25.4 97.79 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "095b0890-5147-4715-b729-ff1204ba0f35")
+	)
+	(text_box "Rev"
+		(exclude_from_sim no)
+		(at 25.4 143.51 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "0a39919f-ea94-42cf-9965-b077b4ebbf88")
+	)
+	(text_box "eMMC"
+		(exclude_from_sim no)
+		(at 35.56 97.79 0)
+		(size 33.02 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "0afd8ae5-ebb0-4087-ba75-761ee7518548")
+	)
+	(text_box "Power"
+		(exclude_from_sim no)
+		(at 35.56 57.15 0)
+		(size 33.02 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "0fca2c07-3215-4f71-bb92-dd50325199ab")
+	)
+	(text_box "8"
+		(exclude_from_sim no)
+		(at 25.4 72.39 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "10683081-eb4d-4e8e-83f7-480b6505dc63")
+	)
+	(text_box "4"
+		(exclude_from_sim no)
+		(at 25.4 62.23 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "1c7f32b7-50d3-4ce7-9c41-b04251979ab5")
+	)
+	(text_box "14"
+		(exclude_from_sim no)
+		(at 25.4 87.63 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "1d44760b-9546-4762-810a-0ac588d0dbfe")
+	)
+	(text_box "1"
+		(exclude_from_sim no)
+		(at 25.4 54.61 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "216acd6c-3b5f-4b83-8681-4aa8f59f2f0f")
+	)
+	(text_box "ECAP5-BSOM is a System-On-Module board for the ECAP5 project. It integrates a Lattice ECP5 FPGA, multiple memories and high speed interfaces with carrier boards through a DDR4-SODIMM male connector."
+		(exclude_from_sim no)
+		(at 24.13 29.21 0)
+		(size 80.01 25.4)
+		(margins 1.3334 1.3334 1.3334 1.3334)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.778 1.778)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "22a079a7-d319-42e3-9c8e-9a969039882f")
+	)
+	(text_box "IO connector 2"
+		(exclude_from_sim no)
+		(at 35.56 105.41 0)
+		(size 33.02 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "25cad29b-1cfd-4e56-893c-a27fe3d73341")
+	)
+	(text_box "Date"
+		(exclude_from_sim no)
+		(at 35.56 143.51 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "267cbf1e-41bf-4551-a58e-4f7df5bb7c96")
+	)
+	(text_box "12"
+		(exclude_from_sim no)
+		(at 25.4 82.55 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "2b7b8a95-a882-4351-9f44-4b126c89d07c")
+	)
+	(text_box "FPGA Power"
+		(exclude_from_sim no)
+		(at 35.56 59.69 0)
+		(size 33.02 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "2cb71fa1-d144-486c-a4fd-bbe130041e1e")
+	)
+	(text_box "16"
+		(exclude_from_sim no)
+		(at 25.4 92.71 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "33531ac4-d14b-4c20-95fd-ce7e1e916f17")
+	)
+	(text_box "Content"
+		(exclude_from_sim no)
+		(at 35.56 52.07 0)
+		(size 33.02 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "34c6506b-1d6a-48b7-8c36-bea2252b140b")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 25.4 163.83 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "368db0dd-2722-499f-bcb4-df03b0df0d99")
+	)
+	(text_box "22"
+		(exclude_from_sim no)
+		(at 25.4 107.95 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "3979cef4-acbc-4319-9a2f-b68660c1ecaa")
+	)
+	(text_box "IO connector"
+		(exclude_from_sim no)
+		(at 35.56 100.33 0)
+		(size 33.02 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "3acca73c-ae12-4787-bd43-1110cf5408a7")
+	)
+	(text_box "1.0.0"
+		(exclude_from_sim no)
+		(at 25.4 146.05 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "3c238334-aeeb-450e-899f-bd03da49b324")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 45.72 156.21 0)
+		(size 54.61 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "3e81198b-6df6-4c3b-b1d0-3dd1e5d2988b")
+	)
+	(text_box "2"
+		(exclude_from_sim no)
+		(at 25.4 57.15 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "45ec304d-53a2-4378-a0ff-17e0672ed99b")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 45.72 153.67 0)
+		(size 54.61 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "4f9427b2-d788-4a5c-a9be-bb16a390dfc3")
+	)
+	(text_box "DDR2"
+		(exclude_from_sim no)
+		(at 35.56 95.25 0)
+		(size 33.02 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "5048402c-4777-4aba-bd10-ca4771a254d0")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 146.05 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "519bb504-dcd3-4c23-b6bf-416b33077879")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 25.4 148.59 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "51dad803-cbe1-4f30-b588-74f40ae9cafd")
+	)
+	(text_box "IO connector 1"
+		(exclude_from_sim no)
+		(at 35.56 102.87 0)
+		(size 33.02 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "5a1f634e-183e-48ed-a191-7d9e578a479f")
+	)
+	(text_box "21"
+		(exclude_from_sim no)
+		(at 25.4 105.41 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "5b8112ff-4540-48dc-98e4-90998886cb14")
+	)
+	(text_box "SDRAM"
+		(exclude_from_sim no)
+		(at 35.56 92.71 0)
+		(size 33.02 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "604a8459-f1b2-49d0-a534-920446b471b2")
+	)
+	(text_box "7"
+		(exclude_from_sim no)
+		(at 25.4 69.85 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "64b8f8fe-6bd3-46d7-bed7-b284dc9ef75d")
+	)
+	(text_box "Flash"
+		(exclude_from_sim no)
+		(at 35.56 87.63 0)
+		(size 33.02 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "680b6289-0e24-42e5-89d6-a31e7360f805")
+	)
+	(text_box "10"
+		(exclude_from_sim no)
+		(at 25.4 77.47 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "6c0ec773-885e-4eab-953b-559214e45f2d")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 156.21 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "6c6f3450-3abc-40ac-a2f7-a1fcd847e4e1")
+	)
+	(text_box "19"
+		(exclude_from_sim no)
+		(at 25.4 100.33 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "77c3c436-e9b0-41f1-a1bb-9a6ec7406a37")
+	)
+	(text_box "9"
+		(exclude_from_sim no)
+		(at 25.4 74.93 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "7c1492aa-f616-41d2-9ca1-7fabc974d01e")
+	)
+	(text_box "Description"
+		(exclude_from_sim no)
+		(at 45.72 143.51 0)
+		(size 54.61 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "8017377c-6dcc-4bf6-b63d-05ca9e0b55d7")
+	)
+	(text_box "13"
+		(exclude_from_sim no)
+		(at 25.4 85.09 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "8520c89a-4bd0-4aed-901b-71fa333c4a6b")
+	)
+	(text_box "FPGA Bank 4"
+		(exclude_from_sim no)
+		(at 35.56 72.39 0)
+		(size 33.02 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "85c260d2-f96b-4f6f-bd24-a5d39a89a691")
+	)
+	(text_box "6"
+		(exclude_from_sim no)
+		(at 25.4 67.31 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "889610bd-014f-4b53-9d7c-ea9a4fca24ef")
+	)
+	(text_box "3"
+		(exclude_from_sim no)
+		(at 25.4 59.69 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "89d9eda4-875d-4b90-ab7c-ae3e64b1806a")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 45.72 163.83 0)
+		(size 54.61 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "8b1b1c59-1530-40e5-a368-0e363a18ffc6")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 45.72 158.75 0)
+		(size 54.61 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "8ed55f46-0fef-4e90-abc9-05f34c4a28ab")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 25.4 153.67 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "9049ee7d-9c97-4b0b-b3ea-a47a65d66087")
+	)
+	(text_box "FPGA Bank 7"
+		(exclude_from_sim no)
+		(at 35.56 77.47 0)
+		(size 33.02 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "9624ec85-795d-48f6-bd42-0e58795d0ded")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 153.67 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "968b0bc1-98e1-4564-9750-68272516b401")
+	)
+	(text_box "FPGA Bank 0"
+		(exclude_from_sim no)
+		(at 35.56 62.23 0)
+		(size 33.02 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "9b4cf966-993e-4550-b78c-9b92f22f39bd")
+	)
+	(text_box "FPGA Bank 6"
+		(exclude_from_sim no)
+		(at 35.56 74.93 0)
+		(size 33.02 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "9cab959a-30eb-4ce0-b319-077bb6e016fe")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 158.75 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "9dd4303f-4e2c-47be-bf49-0806cf5c5121")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 25.4 151.13 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "a3e11554-26c4-4d7e-bc28-52c87d3f92ab")
+	)
+	(text_box "Page"
+		(exclude_from_sim no)
+		(at 25.4 52.07 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "a599979a-06cb-41a6-9a8d-8f0aa8ac62cb")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 45.72 161.29 0)
+		(size 54.61 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "a6635642-2544-46a9-aaad-daa865c90a37")
+	)
+	(text_box "FPGA Bank 8"
+		(exclude_from_sim no)
+		(at 35.56 80.01 0)
+		(size 33.02 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "aacf7dd1-4bb4-4c57-93dc-163cdb6df6e2")
+	)
+	(text_box "5"
+		(exclude_from_sim no)
+		(at 25.4 64.77 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "b53e4bb5-9202-4894-856b-6f447abddba8")
+	)
+	(text_box "15"
+		(exclude_from_sim no)
+		(at 25.4 90.17 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "b875cbe6-0832-409a-b999-54ea68c6ab67")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 25.4 156.21 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "bdb8bd5c-0297-4e2c-a14e-aa9e66a08e67")
+	)
+	(text_box "Clock"
+		(exclude_from_sim no)
+		(at 35.56 85.09 0)
+		(size 33.02 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "c8765831-4dce-4588-ad04-a2a5f4f1d181")
+	)
+	(text_box "Initial Revision"
+		(exclude_from_sim no)
+		(at 45.72 146.05 0)
+		(size 54.61 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "cd7ffc28-6b6c-4aa9-9972-e657907e0814")
+	)
+	(text_box "FPGA Bank 1"
+		(exclude_from_sim no)
+		(at 35.56 64.77 0)
+		(size 33.02 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "cebaf37a-1c4f-4943-a9b9-3ff766c68875")
+	)
+	(text_box "FPGA Bank 2"
+		(exclude_from_sim no)
+		(at 35.56 67.31 0)
+		(size 33.02 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "cef1f992-d5fa-457f-8dce-8e42397e4470")
+	)
+	(text_box "SRAM"
+		(exclude_from_sim no)
+		(at 35.56 90.17 0)
+		(size 33.02 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "d00c4b3f-37d2-4831-8604-bd013952cf15")
+	)
+	(text_box "FPGA JTAG"
+		(exclude_from_sim no)
+		(at 35.56 82.55 0)
+		(size 33.02 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "d74d19ca-7e61-4516-85dd-39db2d34c337")
+	)
+	(text_box "LEDs"
+		(exclude_from_sim no)
+		(at 35.56 107.95 0)
+		(size 33.02 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "daaa3703-a2c3-44a1-889e-e23e53712693")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 163.83 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "ddb56474-6beb-44c6-b079-7ba828e85178")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 148.59 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "e404c212-b6a0-4ccc-ab45-decf3255c550")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 25.4 161.29 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "e4f0b577-573a-4bb9-9fcc-a6b61e665266")
+	)
+	(text_box "FPGA Bank 3"
+		(exclude_from_sim no)
+		(at 35.56 69.85 0)
+		(size 33.02 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "e5f67204-307e-411a-a559-90be29f5109a")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 151.13 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "ed5a9656-fc97-4202-ac98-c6dd73b4643c")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 35.56 161.29 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "ef345f2a-5594-45cb-a2e6-d0953964a44d")
+	)
+	(text_box "ECAP5-BSOM"
+		(exclude_from_sim no)
+		(at 35.56 54.61 0)
+		(size 33.02 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "f00bc3f4-d6eb-4404-95cc-39b63edbe8c4")
+	)
+	(text_box "17"
+		(exclude_from_sim no)
+		(at 25.4 95.25 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "f13d0e8e-b747-43be-b648-6053fa8f00b1")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 45.72 151.13 0)
+		(size 54.61 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "f68ef80b-a2dd-4041-98b0-a885569f4dea")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 45.72 148.59 0)
+		(size 54.61 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "f743e4aa-05a2-4135-a992-6b61ec5f3f53")
+	)
 	(junction
 		(at 191.77 125.73)
 		(diameter 0)
@@ -581,1662 +2308,13 @@
 		)
 		(uuid "fea50f13-51fb-4f60-a8c0-33f8a73b196f")
 	)
-	(rectangle
-		(start 166.37 29.21)
-		(end 217.17 147.32)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 8bd85781-8d6c-43e9-af77-21a89d4959e5)
-	)
-	(text_box "11"
-		(exclude_from_sim no)
-		(at 25.4 80.01 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "004fa0d0-dfa9-4162-9649-f0db74120339")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 25.4 158.75 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "00ce91f0-7150-4ada-add8-8f7e2e735505")
-	)
-	(text_box "20"
-		(exclude_from_sim no)
-		(at 25.4 102.87 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "04b63ec5-7967-4a2b-a41e-11f06a50c6d6")
-	)
-	(text_box "18"
-		(exclude_from_sim no)
-		(at 25.4 97.79 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "095b0890-5147-4715-b729-ff1204ba0f35")
-	)
-	(text_box "Rev"
-		(exclude_from_sim no)
-		(at 25.4 143.51 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "0a39919f-ea94-42cf-9965-b077b4ebbf88")
-	)
-	(text_box "eMMC"
-		(exclude_from_sim no)
-		(at 35.56 97.79 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "0afd8ae5-ebb0-4087-ba75-761ee7518548")
-	)
-	(text_box "Power"
-		(exclude_from_sim no)
-		(at 35.56 57.15 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "0fca2c07-3215-4f71-bb92-dd50325199ab")
-	)
-	(text_box "8"
-		(exclude_from_sim no)
-		(at 25.4 72.39 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "10683081-eb4d-4e8e-83f7-480b6505dc63")
-	)
-	(text_box "4"
-		(exclude_from_sim no)
-		(at 25.4 62.23 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "1c7f32b7-50d3-4ce7-9c41-b04251979ab5")
-	)
-	(text_box "14"
-		(exclude_from_sim no)
-		(at 25.4 87.63 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "1d44760b-9546-4762-810a-0ac588d0dbfe")
-	)
-	(text_box "1"
-		(exclude_from_sim no)
-		(at 25.4 54.61 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "216acd6c-3b5f-4b83-8681-4aa8f59f2f0f")
-	)
-	(text_box "ECAP5-BSOM is a System-On-Module board for the ECAP5 project. It integrates a Lattice ECP5 FPGA, multiple memories and high speed interfaces with carrier boards through a DDR4-SODIMM male connector."
-		(exclude_from_sim no)
-		(at 24.13 29.21 0)
-		(size 80.01 25.4)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.778 1.778)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "22a079a7-d319-42e3-9c8e-9a969039882f")
-	)
-	(text_box "IO connector 2"
-		(exclude_from_sim no)
-		(at 35.56 105.41 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "25cad29b-1cfd-4e56-893c-a27fe3d73341")
-	)
-	(text_box "Date"
-		(exclude_from_sim no)
-		(at 35.56 143.51 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "267cbf1e-41bf-4551-a58e-4f7df5bb7c96")
-	)
-	(text_box "12"
-		(exclude_from_sim no)
-		(at 25.4 82.55 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "2b7b8a95-a882-4351-9f44-4b126c89d07c")
-	)
-	(text_box "FPGA Power"
-		(exclude_from_sim no)
-		(at 35.56 59.69 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "2cb71fa1-d144-486c-a4fd-bbe130041e1e")
-	)
-	(text_box "16"
-		(exclude_from_sim no)
-		(at 25.4 92.71 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "33531ac4-d14b-4c20-95fd-ce7e1e916f17")
-	)
-	(text_box "Content"
-		(exclude_from_sim no)
-		(at 35.56 52.07 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "34c6506b-1d6a-48b7-8c36-bea2252b140b")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 25.4 163.83 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "368db0dd-2722-499f-bcb4-df03b0df0d99")
-	)
-	(text_box "22"
-		(exclude_from_sim no)
-		(at 25.4 107.95 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "3979cef4-acbc-4319-9a2f-b68660c1ecaa")
-	)
-	(text_box "IO connector"
-		(exclude_from_sim no)
-		(at 35.56 100.33 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "3acca73c-ae12-4787-bd43-1110cf5408a7")
-	)
-	(text_box "1.0.0"
-		(exclude_from_sim no)
-		(at 25.4 146.05 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "3c238334-aeeb-450e-899f-bd03da49b324")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 45.72 156.21 0)
-		(size 54.61 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "3e81198b-6df6-4c3b-b1d0-3dd1e5d2988b")
-	)
-	(text_box "2"
-		(exclude_from_sim no)
-		(at 25.4 57.15 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "45ec304d-53a2-4378-a0ff-17e0672ed99b")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 45.72 153.67 0)
-		(size 54.61 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "4f9427b2-d788-4a5c-a9be-bb16a390dfc3")
-	)
-	(text_box "DDR2"
-		(exclude_from_sim no)
-		(at 35.56 95.25 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "5048402c-4777-4aba-bd10-ca4771a254d0")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 35.56 146.05 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "519bb504-dcd3-4c23-b6bf-416b33077879")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 25.4 148.59 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "51dad803-cbe1-4f30-b588-74f40ae9cafd")
-	)
-	(text_box "IO connector 1"
-		(exclude_from_sim no)
-		(at 35.56 102.87 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "5a1f634e-183e-48ed-a191-7d9e578a479f")
-	)
-	(text_box "21"
-		(exclude_from_sim no)
-		(at 25.4 105.41 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "5b8112ff-4540-48dc-98e4-90998886cb14")
-	)
-	(text_box "SDRAM"
-		(exclude_from_sim no)
-		(at 35.56 92.71 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "604a8459-f1b2-49d0-a534-920446b471b2")
-	)
-	(text_box "7"
-		(exclude_from_sim no)
-		(at 25.4 69.85 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "64b8f8fe-6bd3-46d7-bed7-b284dc9ef75d")
-	)
-	(text_box "Flash"
-		(exclude_from_sim no)
-		(at 35.56 87.63 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "680b6289-0e24-42e5-89d6-a31e7360f805")
-	)
-	(text_box "10"
-		(exclude_from_sim no)
-		(at 25.4 77.47 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "6c0ec773-885e-4eab-953b-559214e45f2d")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 35.56 156.21 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "6c6f3450-3abc-40ac-a2f7-a1fcd847e4e1")
-	)
-	(text_box "19"
-		(exclude_from_sim no)
-		(at 25.4 100.33 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "77c3c436-e9b0-41f1-a1bb-9a6ec7406a37")
-	)
-	(text_box "9"
-		(exclude_from_sim no)
-		(at 25.4 74.93 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "7c1492aa-f616-41d2-9ca1-7fabc974d01e")
-	)
-	(text_box "Description"
-		(exclude_from_sim no)
-		(at 45.72 143.51 0)
-		(size 54.61 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "8017377c-6dcc-4bf6-b63d-05ca9e0b55d7")
-	)
-	(text_box "13"
-		(exclude_from_sim no)
-		(at 25.4 85.09 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "8520c89a-4bd0-4aed-901b-71fa333c4a6b")
-	)
-	(text_box "FPGA Bank 4"
-		(exclude_from_sim no)
-		(at 35.56 72.39 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "85c260d2-f96b-4f6f-bd24-a5d39a89a691")
-	)
-	(text_box "6"
-		(exclude_from_sim no)
-		(at 25.4 67.31 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "889610bd-014f-4b53-9d7c-ea9a4fca24ef")
-	)
-	(text_box "3"
-		(exclude_from_sim no)
-		(at 25.4 59.69 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "89d9eda4-875d-4b90-ab7c-ae3e64b1806a")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 45.72 163.83 0)
-		(size 54.61 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "8b1b1c59-1530-40e5-a368-0e363a18ffc6")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 45.72 158.75 0)
-		(size 54.61 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "8ed55f46-0fef-4e90-abc9-05f34c4a28ab")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 25.4 153.67 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "9049ee7d-9c97-4b0b-b3ea-a47a65d66087")
-	)
-	(text_box "FPGA Bank 7"
-		(exclude_from_sim no)
-		(at 35.56 77.47 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "9624ec85-795d-48f6-bd42-0e58795d0ded")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 35.56 153.67 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "968b0bc1-98e1-4564-9750-68272516b401")
-	)
-	(text_box "FPGA Bank 0"
-		(exclude_from_sim no)
-		(at 35.56 62.23 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "9b4cf966-993e-4550-b78c-9b92f22f39bd")
-	)
-	(text_box "FPGA Bank 6"
-		(exclude_from_sim no)
-		(at 35.56 74.93 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "9cab959a-30eb-4ce0-b319-077bb6e016fe")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 35.56 158.75 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "9dd4303f-4e2c-47be-bf49-0806cf5c5121")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 25.4 151.13 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "a3e11554-26c4-4d7e-bc28-52c87d3f92ab")
-	)
-	(text_box "Page"
-		(exclude_from_sim no)
-		(at 25.4 52.07 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "a599979a-06cb-41a6-9a8d-8f0aa8ac62cb")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 45.72 161.29 0)
-		(size 54.61 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "a6635642-2544-46a9-aaad-daa865c90a37")
-	)
-	(text_box "FPGA Bank 8"
-		(exclude_from_sim no)
-		(at 35.56 80.01 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "aacf7dd1-4bb4-4c57-93dc-163cdb6df6e2")
-	)
-	(text_box "5"
-		(exclude_from_sim no)
-		(at 25.4 64.77 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "b53e4bb5-9202-4894-856b-6f447abddba8")
-	)
-	(text_box "15"
-		(exclude_from_sim no)
-		(at 25.4 90.17 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "b875cbe6-0832-409a-b999-54ea68c6ab67")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 25.4 156.21 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "bdb8bd5c-0297-4e2c-a14e-aa9e66a08e67")
-	)
-	(text_box "Clock"
-		(exclude_from_sim no)
-		(at 35.56 85.09 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "c8765831-4dce-4588-ad04-a2a5f4f1d181")
-	)
-	(text_box "Initial Revision"
-		(exclude_from_sim no)
-		(at 45.72 146.05 0)
-		(size 54.61 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "cd7ffc28-6b6c-4aa9-9972-e657907e0814")
-	)
-	(text_box "FPGA Bank 1"
-		(exclude_from_sim no)
-		(at 35.56 64.77 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "cebaf37a-1c4f-4943-a9b9-3ff766c68875")
-	)
-	(text_box "FPGA Bank 2"
-		(exclude_from_sim no)
-		(at 35.56 67.31 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "cef1f992-d5fa-457f-8dce-8e42397e4470")
-	)
-	(text_box "SRAM"
-		(exclude_from_sim no)
-		(at 35.56 90.17 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "d00c4b3f-37d2-4831-8604-bd013952cf15")
-	)
-	(text_box "FPGA JTAG"
-		(exclude_from_sim no)
-		(at 35.56 82.55 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "d74d19ca-7e61-4516-85dd-39db2d34c337")
-	)
-	(text_box "LEDs"
-		(exclude_from_sim no)
-		(at 35.56 107.95 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "daaa3703-a2c3-44a1-889e-e23e53712693")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 35.56 163.83 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "ddb56474-6beb-44c6-b079-7ba828e85178")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 35.56 148.59 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "e404c212-b6a0-4ccc-ab45-decf3255c550")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 25.4 161.29 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "e4f0b577-573a-4bb9-9fcc-a6b61e665266")
-	)
-	(text_box "FPGA Bank 3"
-		(exclude_from_sim no)
-		(at 35.56 69.85 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "e5f67204-307e-411a-a559-90be29f5109a")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 35.56 151.13 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "ed5a9656-fc97-4202-ac98-c6dd73b4643c")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 35.56 161.29 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "ef345f2a-5594-45cb-a2e6-d0953964a44d")
-	)
-	(text_box "ECAP5-BSOM"
-		(exclude_from_sim no)
-		(at 35.56 54.61 0)
-		(size 33.02 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "f00bc3f4-d6eb-4404-95cc-39b63edbe8c4")
-	)
-	(text_box "17"
-		(exclude_from_sim no)
-		(at 25.4 95.25 0)
-		(size 10.16 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "f13d0e8e-b747-43be-b648-6053fa8f00b1")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 45.72 151.13 0)
-		(size 54.61 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "f68ef80b-a2dd-4041-98b0-a885569f4dea")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 45.72 148.59 0)
-		(size 54.61 2.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "f743e4aa-05a2-4135-a992-6b61ec5f3f53")
-	)
-	(text "Table of Contents"
-		(exclude_from_sim no)
-		(at 37.338 50.292 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 2.032 2.032)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "418e819e-2b3d-4a58-b24b-6c9efe304f39")
-	)
-	(text "Revision history"
-		(exclude_from_sim no)
-		(at 36.576 141.732 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 2.032 2.032)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "535f8190-0f73-4ee2-ade0-f6e728b8b7b9")
-	)
-	(text "ECAP5-BSOM"
-		(exclude_from_sim no)
-		(at 42.926 26.924 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 3.81 3.81)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "6966623f-e5d4-4c42-8796-5dd6423aec69")
-	)
-	(text "Lattice ECP5"
-		(exclude_from_sim no)
-		(at 172.466 27.432 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d059a582-6d43-4eda-9b39-4433c28901b0")
-	)
 	(sheet
 		(at 227.33 71.12)
 		(size 15.24 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2267,143 +2345,143 @@
 		)
 		(pin "A[0..13]" input
 			(at 227.33 85.09 180)
+			(uuid "74329fa2-6a13-4575-952b-839090ddf1bd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "74329fa2-6a13-4575-952b-839090ddf1bd")
 		)
 		(pin "~{CS}" input
 			(at 227.33 81.28 180)
+			(uuid "181da680-8ff8-495a-91da-9efb913ab9c8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "181da680-8ff8-495a-91da-9efb913ab9c8")
 		)
 		(pin "~{DQS}" input
 			(at 227.33 95.25 180)
+			(uuid "e2317c9e-8eab-453e-bfd9-8d1e527a0f98")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e2317c9e-8eab-453e-bfd9-8d1e527a0f98")
 		)
 		(pin "DM" input
 			(at 227.33 101.6 180)
+			(uuid "ace7d21d-85ac-4078-b532-4514274b42f6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ace7d21d-85ac-4078-b532-4514274b42f6")
 		)
 		(pin "ODT" input
 			(at 227.33 99.06 180)
+			(uuid "29789f53-bd45-471e-a4f4-7985f2bbb1ab")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "29789f53-bd45-471e-a4f4-7985f2bbb1ab")
 		)
 		(pin "~{WE}" input
 			(at 227.33 104.14 180)
+			(uuid "6572bd1b-e807-407f-952d-dc07258ee675")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6572bd1b-e807-407f-952d-dc07258ee675")
 		)
 		(pin "~{RAS}" input
 			(at 227.33 106.68 180)
+			(uuid "7691db7f-5ff0-43b6-a9e0-8b08770357c1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7691db7f-5ff0-43b6-a9e0-8b08770357c1")
 		)
 		(pin "~{CAS}" input
 			(at 227.33 109.22 180)
+			(uuid "ec3d2207-4450-4982-a428-04d6c920bcb4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ec3d2207-4450-4982-a428-04d6c920bcb4")
 		)
 		(pin "BA[0..1]" input
 			(at 227.33 87.63 180)
+			(uuid "7cd84930-e5ad-4ae3-9233-c813ece4b9af")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7cd84930-e5ad-4ae3-9233-c813ece4b9af")
 		)
 		(pin "~{CK}" input
 			(at 227.33 76.2 180)
+			(uuid "22925989-55bc-4e06-85a2-3eb9fd26e4fd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "22925989-55bc-4e06-85a2-3eb9fd26e4fd")
 		)
 		(pin "CK" input
 			(at 227.33 73.66 180)
+			(uuid "b9f9c843-8350-47b8-92d9-93b8bfaf4463")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b9f9c843-8350-47b8-92d9-93b8bfaf4463")
 		)
 		(pin "CKE" input
 			(at 227.33 78.74 180)
+			(uuid "fda24b3e-0402-4217-ac8d-f332b22bf682")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fda24b3e-0402-4217-ac8d-f332b22bf682")
 		)
 		(pin "DQ[0..7]" input
 			(at 227.33 90.17 180)
+			(uuid "e4df8ba7-7c04-4a4e-992c-52b63236842e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e4df8ba7-7c04-4a4e-992c-52b63236842e")
 		)
 		(pin "DQS" input
 			(at 227.33 92.71 180)
+			(uuid "cf82bdf0-c955-4502-a9da-175e78a9317a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cf82bdf0-c955-4502-a9da-175e78a9317a")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -2416,6 +2494,10 @@
 	(sheet
 		(at 227.33 134.62)
 		(size 15.24 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2445,33 +2527,33 @@
 		)
 		(pin "IO[0..3]" input
 			(at 227.33 137.16 180)
+			(uuid "fbfcac53-aff9-419d-8205-9db8216858b9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fbfcac53-aff9-419d-8205-9db8216858b9")
 		)
 		(pin "CLK" input
 			(at 227.33 142.24 180)
+			(uuid "095392d7-a5b1-4afd-a462-96a1275ad8f6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "095392d7-a5b1-4afd-a462-96a1275ad8f6")
 		)
 		(pin "~{CS}" input
 			(at 227.33 139.7 180)
+			(uuid "bd8c7c4e-3eea-4652-9b30-27d1b998d604")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bd8c7c4e-3eea-4652-9b30-27d1b998d604")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -2484,6 +2566,10 @@
 	(sheet
 		(at 140.97 154.94)
 		(size 99.06 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2513,13 +2599,13 @@
 		)
 		(pin "{IO}" bidirectional
 			(at 191.77 154.94 90)
+			(uuid "e8d507ee-33ba-4caa-b35e-416d9c03246d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e8d507ee-33ba-4caa-b35e-416d9c03246d")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -2532,6 +2618,10 @@
 	(sheet
 		(at 168.91 91.44)
 		(size 19.05 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2570,83 +2660,83 @@
 		)
 		(pin "LED[0..1]" input
 			(at 168.91 115.57 180)
+			(uuid "976e9b3a-71b6-4531-b9b1-3c6dbbe891c6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "976e9b3a-71b6-4531-b9b1-3c6dbbe891c6")
 		)
 		(pin "SRAM.~{WE}" input
 			(at 168.91 106.68 180)
+			(uuid "71b9b356-4dd1-4caa-b42d-7a48caeada67")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "71b9b356-4dd1-4caa-b42d-7a48caeada67")
 		)
 		(pin "SRAM.A[0..17]" input
 			(at 168.91 93.98 180)
+			(uuid "72f1c7be-f7a3-428b-9038-ba69aa8dff0e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "72f1c7be-f7a3-428b-9038-ba69aa8dff0e")
 		)
 		(pin "SRAM.~{UB}" input
 			(at 168.91 99.06 180)
+			(uuid "dc2cb198-670e-4f48-a330-cfad6873271f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dc2cb198-670e-4f48-a330-cfad6873271f")
 		)
 		(pin "SRAM.~{CE}" input
 			(at 168.91 104.14 180)
+			(uuid "a4e6ec81-61a7-4268-9547-a4f5d8631aee")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a4e6ec81-61a7-4268-9547-a4f5d8631aee")
 		)
 		(pin "SRAM.~{LB}" input
 			(at 168.91 101.6 180)
+			(uuid "c1564679-86ad-4bbf-82ab-08064d2fbf9c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c1564679-86ad-4bbf-82ab-08064d2fbf9c")
 		)
 		(pin "SRAM.~{OE}" input
 			(at 168.91 109.22 180)
+			(uuid "c6ad26e0-3f6a-4684-83ea-7047cad6aefa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c6ad26e0-3f6a-4684-83ea-7047cad6aefa")
 		)
 		(pin "SRAM.IO[0..15]" input
 			(at 168.91 96.52 180)
+			(uuid "1b207f82-52ad-43b7-84a2-3bf4f6f8f8c5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1b207f82-52ad-43b7-84a2-3bf4f6f8f8c5")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -2659,6 +2749,10 @@
 	(sheet
 		(at 195.58 134.62)
 		(size 19.05 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2696,43 +2790,43 @@
 		)
 		(pin "{IO}" input
 			(at 195.58 139.7 180)
+			(uuid "85a38801-fb6c-48ad-9b0a-baf8a131a739")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "85a38801-fb6c-48ad-9b0a-baf8a131a739")
 		)
 		(pin "FLASH.~{CS}" input
 			(at 214.63 139.7 0)
+			(uuid "0960b4e9-f6ab-4b56-a025-c70cd31b87ea")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0960b4e9-f6ab-4b56-a025-c70cd31b87ea")
 		)
 		(pin "FLASH.IO[0..3]" input
 			(at 214.63 137.16 0)
+			(uuid "8735fdc4-bb32-4cb1-95db-f6a2c563f913")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8735fdc4-bb32-4cb1-95db-f6a2c563f913")
 		)
 		(pin "FLASH.CLK" input
 			(at 214.63 142.24 0)
+			(uuid "fb2cdc3b-ce24-4357-b45d-e3463fa55278")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fb2cdc3b-ce24-4357-b45d-e3463fa55278")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -2745,6 +2839,10 @@
 	(sheet
 		(at 140.97 91.44)
 		(size 15.24 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2775,73 +2873,73 @@
 		)
 		(pin "IO[0..15]" input
 			(at 156.21 96.52 0)
+			(uuid "346110a7-78e7-4614-975b-9ca0eda08226")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "346110a7-78e7-4614-975b-9ca0eda08226")
 		)
 		(pin "A[0..17]" input
 			(at 156.21 93.98 0)
+			(uuid "466c08c8-9666-4773-9c41-f80c78b3d202")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "466c08c8-9666-4773-9c41-f80c78b3d202")
 		)
 		(pin "~{LB}" input
 			(at 156.21 101.6 0)
+			(uuid "802bef9b-e9e1-47d0-9925-5a13ba9753d0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "802bef9b-e9e1-47d0-9925-5a13ba9753d0")
 		)
 		(pin "~{CE}" input
 			(at 156.21 104.14 0)
+			(uuid "37c4d175-5a01-460c-861b-6f584cdc12fe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "37c4d175-5a01-460c-861b-6f584cdc12fe")
 		)
 		(pin "~{WE}" input
 			(at 156.21 106.68 0)
+			(uuid "7b860cd3-d5b4-4da7-8dc6-bb9afba4b2a7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7b860cd3-d5b4-4da7-8dc6-bb9afba4b2a7")
 		)
 		(pin "~{OE}" input
 			(at 156.21 109.22 0)
+			(uuid "4b0f3bc6-af5c-471b-bc67-62026dd4e96c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4b0f3bc6-af5c-471b-bc67-62026dd4e96c")
 		)
 		(pin "~{UB}" input
 			(at 156.21 99.06 0)
+			(uuid "06095794-b5c6-49c0-a19c-9f197f732c6b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "06095794-b5c6-49c0-a19c-9f197f732c6b")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -2854,6 +2952,10 @@
 	(sheet
 		(at 140.97 54.61)
 		(size 15.24 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2884,113 +2986,113 @@
 		)
 		(pin "A[0..12]" input
 			(at 156.21 66.04 0)
+			(uuid "dc231293-1eff-4137-9b41-0b13553005a4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "dc231293-1eff-4137-9b41-0b13553005a4")
 		)
 		(pin "DQ[0..15]" input
 			(at 156.21 71.12 0)
+			(uuid "04636c75-151a-4ddb-a547-5caca7a6de34")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "04636c75-151a-4ddb-a547-5caca7a6de34")
 		)
 		(pin "DQML" input
 			(at 156.21 74.93 0)
+			(uuid "a5b5c965-ad0d-4c6f-a0c2-7a9f9e438265")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a5b5c965-ad0d-4c6f-a0c2-7a9f9e438265")
 		)
 		(pin "DQMH" input
 			(at 156.21 77.47 0)
+			(uuid "546c7145-3b48-4998-8575-ac9f2c4a1ab8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "546c7145-3b48-4998-8575-ac9f2c4a1ab8")
 		)
 		(pin "~{CS}" input
 			(at 156.21 62.23 0)
+			(uuid "c57fd9a4-30ca-4df5-b31e-629d6b834d57")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c57fd9a4-30ca-4df5-b31e-629d6b834d57")
 		)
 		(pin "CKE" input
 			(at 156.21 59.69 0)
+			(uuid "78332ac7-a3d2-425e-a763-18fcf8f13707")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "78332ac7-a3d2-425e-a763-18fcf8f13707")
 		)
 		(pin "CLK" input
 			(at 156.21 57.15 0)
+			(uuid "e79b4774-f5d9-4de4-96d5-7a7974a68b0d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e79b4774-f5d9-4de4-96d5-7a7974a68b0d")
 		)
 		(pin "BA[0..1]" input
 			(at 156.21 68.58 0)
+			(uuid "7f87368c-06ef-420e-a5b6-7a6bc528d0f9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7f87368c-06ef-420e-a5b6-7a6bc528d0f9")
 		)
 		(pin "~{CAS}" input
 			(at 156.21 80.01 0)
+			(uuid "2b62efca-0e81-48db-bb6a-37c1eadb6156")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2b62efca-0e81-48db-bb6a-37c1eadb6156")
 		)
 		(pin "~{RAS}" input
 			(at 156.21 82.55 0)
+			(uuid "21020155-db33-4743-b316-9521365763ff")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "21020155-db33-4743-b316-9521365763ff")
 		)
 		(pin "~{WE}" input
 			(at 156.21 85.09 0)
+			(uuid "f31eb71b-40a0-4ee4-8cae-6f995a45e9b5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f31eb71b-40a0-4ee4-8cae-6f995a45e9b5")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -3003,6 +3105,10 @@
 	(sheet
 		(at 195.58 59.69)
 		(size 19.05 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3040,13 +3146,13 @@
 		)
 		(pin "{IO}" input
 			(at 195.58 63.5 180)
+			(uuid "2789d4d7-9c4c-4c2a-a5bc-a78f9fe1c823")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2789d4d7-9c4c-4c2a-a5bc-a78f9fe1c823")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -3059,6 +3165,10 @@
 	(sheet
 		(at 168.91 48.26)
 		(size 19.05 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3096,123 +3206,123 @@
 		)
 		(pin "PCLK_40MHZ" input
 			(at 168.91 50.8 180)
+			(uuid "e5702e68-230a-4f3b-886f-b481473bf68c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e5702e68-230a-4f3b-886f-b481473bf68c")
 		)
 		(pin "SDRAM.DQMH" input
 			(at 168.91 74.93 180)
+			(uuid "08c54391-1ff3-4710-afcd-2b4e88c5cbcc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "08c54391-1ff3-4710-afcd-2b4e88c5cbcc")
 		)
 		(pin "SDRAM.DQ[0..15]" input
 			(at 168.91 71.12 180)
+			(uuid "6c773137-031b-4343-9b4f-f64ab7bfecf0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6c773137-031b-4343-9b4f-f64ab7bfecf0")
 		)
 		(pin "SDRAM.~{CS}" input
 			(at 168.91 62.23 180)
+			(uuid "c92b89ee-1fb2-4885-baca-49799da23fb0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c92b89ee-1fb2-4885-baca-49799da23fb0")
 		)
 		(pin "SDRAM.CKE" input
 			(at 168.91 59.69 180)
+			(uuid "04a95762-53d9-49d3-ae20-08e234bc053e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "04a95762-53d9-49d3-ae20-08e234bc053e")
 		)
 		(pin "SDRAM.~{RAS}" input
 			(at 168.91 82.55 180)
+			(uuid "bb74c2d9-de35-4300-a5b8-1e39187404d3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bb74c2d9-de35-4300-a5b8-1e39187404d3")
 		)
 		(pin "SDRAM.DQML" input
 			(at 168.91 77.47 180)
+			(uuid "0818a47f-8e49-47b8-ac0b-e2d873c35d34")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0818a47f-8e49-47b8-ac0b-e2d873c35d34")
 		)
 		(pin "SDRAM.~{CAS}" input
 			(at 168.91 80.01 180)
+			(uuid "719b078f-d305-4010-b87b-8dd03b25c316")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "719b078f-d305-4010-b87b-8dd03b25c316")
 		)
 		(pin "SDRAM.~{WE}" input
 			(at 168.91 85.09 180)
+			(uuid "5e74a220-269e-48ce-a742-1171e77ecd19")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5e74a220-269e-48ce-a742-1171e77ecd19")
 		)
 		(pin "SDRAM.BA[0..1]" input
 			(at 168.91 68.58 180)
+			(uuid "9c2ee64b-93b4-4966-9d6c-6dcf7ccb0003")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9c2ee64b-93b4-4966-9d6c-6dcf7ccb0003")
 		)
 		(pin "SDRAM.CLK" input
 			(at 168.91 57.15 180)
+			(uuid "f840951d-c043-4c1b-9020-861d4c229cd4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f840951d-c043-4c1b-9020-861d4c229cd4")
 		)
 		(pin "SDRAM.A[0..12]" input
 			(at 168.91 66.04 180)
+			(uuid "b1826433-70c1-4d41-bd18-c9b3cea89b52")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b1826433-70c1-4d41-bd18-c9b3cea89b52")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -3225,6 +3335,10 @@
 	(sheet
 		(at 140.97 24.13)
 		(size 17.78 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3264,6 +3378,10 @@
 	(sheet
 		(at 140.97 38.1)
 		(size 15.24 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3293,13 +3411,13 @@
 		)
 		(pin "CLK_40MHZ" input
 			(at 156.21 44.45 0)
+			(uuid "4d2c3141-cf00-4b97-8725-0a7720763003")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4d2c3141-cf00-4b97-8725-0a7720763003")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -3312,6 +3430,10 @@
 	(sheet
 		(at 168.91 121.92)
 		(size 19.05 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3349,13 +3471,13 @@
 		)
 		(pin "{IO}" input
 			(at 187.96 125.73 0)
+			(uuid "4cb8d792-113e-40ab-930d-888c6446dd11")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4cb8d792-113e-40ab-930d-888c6446dd11")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -3368,6 +3490,10 @@
 	(sheet
 		(at 227.33 115.57)
 		(size 15.24 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3398,53 +3524,53 @@
 		)
 		(pin "CLK" input
 			(at 227.33 118.11 180)
+			(uuid "b072ec4d-3017-446b-aa7c-3a10b22f4bf2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b072ec4d-3017-446b-aa7c-3a10b22f4bf2")
 		)
 		(pin "~{RST}" input
 			(at 227.33 120.65 180)
+			(uuid "fe9f95fc-cf6e-4ca3-a545-16ef54b66632")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fe9f95fc-cf6e-4ca3-a545-16ef54b66632")
 		)
 		(pin "CMD" input
 			(at 227.33 123.19 180)
+			(uuid "f1b1b86c-0e49-49b2-8f02-211cd0be8508")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f1b1b86c-0e49-49b2-8f02-211cd0be8508")
 		)
 		(pin "DS" input
 			(at 227.33 125.73 180)
+			(uuid "c3f770c1-0667-467e-aefd-d933d7a5268a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c3f770c1-0667-467e-aefd-d933d7a5268a")
 		)
 		(pin "IO[0..7]" input
 			(at 227.33 128.27 180)
+			(uuid "78ceeda1-8439-4415-8d13-53cf44496666")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "78ceeda1-8439-4415-8d13-53cf44496666")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -3457,6 +3583,10 @@
 	(sheet
 		(at 168.91 33.02)
 		(size 19.05 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3496,6 +3626,10 @@
 	(sheet
 		(at 195.58 48.26)
 		(size 19.05 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3535,6 +3669,10 @@
 	(sheet
 		(at 195.58 33.02)
 		(size 19.05 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3574,6 +3712,10 @@
 	(sheet
 		(at 168.91 133.35)
 		(size 19.05 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3611,13 +3753,13 @@
 		)
 		(pin "{IO}" input
 			(at 187.96 137.16 0)
+			(uuid "459ea42f-055e-4e99-8a00-f804d9e3cfbe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "459ea42f-055e-4e99-8a00-f804d9e3cfbe")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -3630,6 +3772,10 @@
 	(sheet
 		(at 140.97 115.57)
 		(size 15.24 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3659,13 +3805,13 @@
 		)
 		(pin "LED[0..1]" input
 			(at 156.21 121.92 0)
+			(uuid "68d84b17-18c1-463f-af30-afcdb81e7fb9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "68d84b17-18c1-463f-af30-afcdb81e7fb9")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -3678,6 +3824,10 @@
 	(sheet
 		(at 195.58 71.12)
 		(size 19.05 59.69)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3715,193 +3865,193 @@
 		)
 		(pin "EMMC.~{RST}" input
 			(at 214.63 120.65 0)
+			(uuid "f4158aed-1e98-487b-ab87-ba4766e11cf1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f4158aed-1e98-487b-ab87-ba4766e11cf1")
 		)
 		(pin "EMMC.CMD" input
 			(at 214.63 123.19 0)
+			(uuid "000780ec-57ee-4373-b26e-c0a3f9a13013")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "000780ec-57ee-4373-b26e-c0a3f9a13013")
 		)
 		(pin "EMMC.DS" input
 			(at 214.63 125.73 0)
+			(uuid "36f14e1d-d8bd-40c8-9705-455867110b2e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "36f14e1d-d8bd-40c8-9705-455867110b2e")
 		)
 		(pin "EMMC.CLK" input
 			(at 214.63 118.11 0)
+			(uuid "83b50980-bdcd-498f-81df-70f530fb3172")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "83b50980-bdcd-498f-81df-70f530fb3172")
 		)
 		(pin "EMMC.IO[0..7]" input
 			(at 214.63 128.27 0)
+			(uuid "a80559c8-d891-4dbd-a08b-e70cd55cc9fd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a80559c8-d891-4dbd-a08b-e70cd55cc9fd")
 		)
 		(pin "DDR2.~{CS}" input
 			(at 214.63 81.28 0)
+			(uuid "fe090e0f-10eb-4910-a4bc-8339c91133f5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fe090e0f-10eb-4910-a4bc-8339c91133f5")
 		)
 		(pin "DDR2.DQ[0..7]" input
 			(at 214.63 90.17 0)
+			(uuid "e1190062-6594-4dbb-b9ee-b77d90a6241c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e1190062-6594-4dbb-b9ee-b77d90a6241c")
 		)
 		(pin "DDR2.~{CAS}" input
 			(at 214.63 109.22 0)
+			(uuid "95999ed6-e099-42e6-9307-48867b1fc74b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "95999ed6-e099-42e6-9307-48867b1fc74b")
 		)
 		(pin "DDR2.ODT" input
 			(at 214.63 99.06 0)
+			(uuid "ba2f5b09-10bf-4401-97dd-ec1e10ceb30f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ba2f5b09-10bf-4401-97dd-ec1e10ceb30f")
 		)
 		(pin "DDR2.~{DQS}" input
 			(at 214.63 95.25 0)
+			(uuid "ed34ca1f-754b-4b1f-90d3-b705182867b8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ed34ca1f-754b-4b1f-90d3-b705182867b8")
 		)
 		(pin "DDR2.DQS" input
 			(at 214.63 92.71 0)
+			(uuid "7e8661e8-27a0-4964-ab7f-1b77332f10de")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7e8661e8-27a0-4964-ab7f-1b77332f10de")
 		)
 		(pin "DDR2.~{WE}" input
 			(at 214.63 104.14 0)
+			(uuid "a7d3d67b-3077-4d61-9f8c-a9accfe21d8d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a7d3d67b-3077-4d61-9f8c-a9accfe21d8d")
 		)
 		(pin "DDR2.~{RAS}" input
 			(at 214.63 106.68 0)
+			(uuid "d6c096e2-569d-4347-9c16-7989e558c8eb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d6c096e2-569d-4347-9c16-7989e558c8eb")
 		)
 		(pin "DDR2.A[0..13]" input
 			(at 214.63 85.09 0)
+			(uuid "35a57dd6-b7c6-40b1-a94f-228f1d193c2b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "35a57dd6-b7c6-40b1-a94f-228f1d193c2b")
 		)
 		(pin "DDR2.DM" input
 			(at 214.63 101.6 0)
+			(uuid "d430c4fc-797d-4811-92dc-933b139e7d0d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d430c4fc-797d-4811-92dc-933b139e7d0d")
 		)
 		(pin "DDR2.~{CK}" input
 			(at 214.63 76.2 0)
+			(uuid "3e8d7844-9b26-4bee-a05d-f0b4458f56c2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3e8d7844-9b26-4bee-a05d-f0b4458f56c2")
 		)
 		(pin "DDR2.CK" input
 			(at 214.63 73.66 0)
+			(uuid "409c1d30-b69a-4ae1-8a46-fdf5a2b4fea5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "409c1d30-b69a-4ae1-8a46-fdf5a2b4fea5")
 		)
 		(pin "DDR2.BA[0..1]" input
 			(at 214.63 87.63 0)
+			(uuid "94789d62-46b7-42bf-93c2-b2d6cb43cd6f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "94789d62-46b7-42bf-93c2-b2d6cb43cd6f")
 		)
 		(pin "DDR2.CKE" input
 			(at 214.63 78.74 0)
+			(uuid "73c54867-173f-4cd8-acfe-7c7f6194c9e7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "73c54867-173f-4cd8-acfe-7c7f6194c9e7")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -3916,4 +4066,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

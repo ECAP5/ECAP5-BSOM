@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "ba80c8e4-e47f-476d-a44f-46a4f08ba45d")
 	(paper "A4")
 	(title_block
@@ -14,9 +14,13 @@
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -86,10 +90,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -98,10 +102,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -147,8 +151,9 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
-		(symbol "ECAP5-BSOM:THGBMJG6C1LBAIL"
+		(symbol "ECAP5-BSOM:ASFC4G31M-51*"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -161,7 +166,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "THGBMJG6C1LBAIL"
+			(property "Value" "ASFC4G31M-51*"
 				(at 4.826 30.48 0)
 				(effects
 					(font
@@ -181,7 +186,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.mouser.fr/datasheet/2/12/AllianceMemory_4GB_ASFC4G31M_51BIN_eMMCdatasheet_D-2888783.pdf"
 				(at -21.59 -8.89 0)
 				(effects
 					(font
@@ -190,7 +195,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "8GB eMMC module"
+			(property "Description" "4GB eMMC module"
 				(at -1.524 -7.874 0)
 				(effects
 					(font
@@ -199,7 +204,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "8GB eMMC module"
+			(property "ki_keywords" "4GB eMMC module"
 				(at 0 0 0)
 				(effects
 					(font
@@ -208,7 +213,401 @@
 					(hide yes)
 				)
 			)
-			(symbol "THGBMJG6C1LBAIL_0_0"
+			(symbol "ASFC4G31M-51*_0_0"
+				(pin input line
+					(at -12.7 22.86 0)
+					(length 2.54)
+					(name "RST_n"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "K5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 20.32 0)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "M6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 16.51 0)
+					(length 2.54)
+					(name "CMD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "M5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 13.97 0)
+					(length 2.54)
+					(name "DS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 31.75 270)
+					(length 2.54)
+					(name "VDDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 3.81 90)
+					(length 2.54)
+					(hide yes)
+					(name "VSSQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "N2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 3.81 90)
+					(length 2.54)
+					(hide yes)
+					(name "VSSQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "N5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 3.81 90)
+					(length 2.54)
+					(hide yes)
+					(name "VSSQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 3.81 90)
+					(length 2.54)
+					(hide yes)
+					(name "VSSQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 31.75 270)
+					(length 2.54)
+					(hide yes)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "F5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 31.75 270)
+					(length 2.54)
+					(hide yes)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 31.75 270)
+					(length 2.54)
+					(hide yes)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "K9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 3.81 90)
+					(length 2.54)
+					(hide yes)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 3.81 90)
+					(length 2.54)
+					(hide yes)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 3.81 90)
+					(length 2.54)
+					(hide yes)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 3.81 90)
+					(length 2.54)
+					(hide yes)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 3.81 90)
+					(length 2.54)
+					(hide yes)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "K8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 31.75 270)
+					(length 2.54)
+					(hide yes)
+					(name "VCCQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "M4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 31.75 270)
+					(length 2.54)
+					(hide yes)
+					(name "VCCQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "N4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 31.75 270)
+					(length 2.54)
+					(hide yes)
+					(name "VCCQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 31.75 270)
+					(length 2.54)
+					(hide yes)
+					(name "VCCQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
 					(at 12.7 26.67 180)
 					(length 2.54)
@@ -353,386 +752,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -2.54 31.75 270)
-					(length 2.54)
-					(name "VDDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 3.81 90)
-					(length 2.54) hide
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 31.75 270)
-					(length 2.54) hide
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "F5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 3.81 90)
-					(length 2.54) hide
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 3.81 90)
-					(length 2.54) hide
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "H10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 13.97 0)
-					(length 2.54)
-					(name "DS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "H5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 31.75 270)
-					(length 2.54) hide
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "J10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 3.81 90)
-					(length 2.54) hide
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "J5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 22.86 0)
-					(length 2.54)
-					(name "RST_n"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "K5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 3.81 90)
-					(length 2.54) hide
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "K8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 31.75 270)
-					(length 2.54) hide
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "K9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 31.75 270)
-					(length 2.54) hide
-					(name "VCCQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "M4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 16.51 0)
-					(length 2.54)
-					(name "CMD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "M5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 20.32 0)
-					(length 2.54)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "M6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -1.27 3.81 90)
-					(length 2.54) hide
-					(name "VSSQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "N2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 31.75 270)
-					(length 2.54) hide
-					(name "VCCQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "N4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -1.27 3.81 90)
-					(length 2.54) hide
-					(name "VSSQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "N5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 31.75 270)
-					(length 2.54) hide
-					(name "VCCQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -1.27 3.81 90)
-					(length 2.54) hide
-					(name "VSSQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 31.75 270)
-					(length 2.54) hide
-					(name "VCCQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -1.27 3.81 90)
-					(length 2.54) hide
-					(name "VSSQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
-			(symbol "THGBMJG6C1LBAIL_0_1"
+			(symbol "ASFC4G31M-51*_0_1"
 				(rectangle
 					(start -10.16 29.21)
 					(end 10.16 6.35)
@@ -745,25 +766,7 @@
 					)
 				)
 			)
-			(symbol "THGBMJG6C1LBAIL_1_0"
-				(pin passive line
-					(at 1.27 3.81 90)
-					(length 2.54)
-					(name "VSS[6]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			(symbol "ASFC4G31M-51*_1_0"
 				(pin power_in line
 					(at -1.27 3.81 90)
 					(length 2.54)
@@ -775,24 +778,6 @@
 						)
 					)
 					(number "C4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 31.75 270)
-					(length 2.54)
-					(name "VCCQ[5]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -818,13 +803,54 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 1.27 3.81 90)
+					(length 2.54)
+					(name "VSS[6]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 31.75 270)
+					(length 2.54)
+					(name "VCCQ[5]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+1V8"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -896,7 +922,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -908,7 +934,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -939,12 +965,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1016,7 +1047,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1028,7 +1059,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1059,12 +1090,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1155,6 +1191,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -2454,6 +2491,171 @@
 		)
 	)
 	(symbol
+		(lib_id "ECAP5-BSOM:ASFC4G31M-51*")
+		(at 146.05 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9186d4cd-fa6c-4501-85b1-4b830a83776d")
+		(property "Reference" "U12"
+			(at 149.4633 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ASFC4G31M-51*"
+			(at 149.4633 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.995 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/12/AllianceMemory_4GB_ASFC4G31M_51BIN_eMMCdatasheet_D-2888783.pdf"
+			(at 124.46 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4GB eMMC module"
+			(at 144.526 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P6"
+			(uuid "ce4abb8f-1983-46d4-beba-4c35f47bc904")
+		)
+		(pin "F5"
+			(uuid "36675de0-840a-4758-ab6d-b41ffa382386")
+		)
+		(pin "J10"
+			(uuid "c2dc97ef-bd48-42ee-904c-9db8d0ce06da")
+		)
+		(pin "K9"
+			(uuid "77558bfa-6e61-40ce-a8f0-c2e7ac34e788")
+		)
+		(pin "E7"
+			(uuid "f9189f39-5c0f-49ce-ae80-79854893ada8")
+		)
+		(pin "G5"
+			(uuid "32f80f39-245d-4041-92e9-ae1420dd30c6")
+		)
+		(pin "K5"
+			(uuid "33c973d4-abe7-4799-be96-92aee5381d99")
+		)
+		(pin "M6"
+			(uuid "38681f59-3382-4f27-b602-74e055ef908b")
+		)
+		(pin "M5"
+			(uuid "349c01f3-0dc9-49b0-a3df-457e62760cd1")
+		)
+		(pin "H10"
+			(uuid "351e6e55-3082-456b-bd2a-a78f18695a37")
+		)
+		(pin "J5"
+			(uuid "d84fdcb0-0f64-48ea-bb89-6c5a6620ecd1")
+		)
+		(pin "K8"
+			(uuid "8e7340fe-0ca8-4f2e-b511-09fcedc5252a")
+		)
+		(pin "N5"
+			(uuid "8ddd6b53-368e-4477-b577-e2709c9a22c2")
+		)
+		(pin "P4"
+			(uuid "1a239063-3a85-4a41-8e4a-fc54b44b0cdd")
+		)
+		(pin "H5"
+			(uuid "8f443f35-1762-4c34-97fe-a8f3a456528d")
+		)
+		(pin "C2"
+			(uuid "8de3bfee-c09b-4f7c-9e84-24cf63b52700")
+		)
+		(pin "N2"
+			(uuid "b4ae44f1-0449-46a7-9a74-d5aa50b6e1a6")
+		)
+		(pin "B6"
+			(uuid "a063b4f3-5ebe-469e-807d-f91253c8d3fa")
+		)
+		(pin "C4"
+			(uuid "5ae46b4d-497b-4cfd-881c-023b8c171dfb")
+		)
+		(pin "E6"
+			(uuid "c0670b08-e0a5-4249-a333-31c88e85a1e9")
+		)
+		(pin "A6"
+			(uuid "8ba83d3c-a710-4ee8-9f2d-f8f67c90db1d")
+		)
+		(pin "C6"
+			(uuid "f38b548a-a4d8-4ffb-92e7-1d7a07adf460")
+		)
+		(pin "M4"
+			(uuid "3bc53216-71c7-436f-9f0c-c0f5199e6402")
+		)
+		(pin "N4"
+			(uuid "d5ac1323-8351-4ad5-900f-5b76229a3b30")
+		)
+		(pin "P3"
+			(uuid "407ba016-0f2b-415c-9089-133032de6930")
+		)
+		(pin "P5"
+			(uuid "1fdf1ad9-486c-4a10-ab77-9b1712ff7347")
+		)
+		(pin "A3"
+			(uuid "b05b561a-fb3c-4793-a926-788a7d490cf4")
+		)
+		(pin "A4"
+			(uuid "267196ec-2ec6-47cf-82cd-31f435b10915")
+		)
+		(pin "A5"
+			(uuid "b5c85723-e67f-4117-9acf-26dc0edcdfe2")
+		)
+		(pin "B2"
+			(uuid "a94ba6d5-2d5b-4dc6-9e8d-22666eb026d6")
+		)
+		(pin "B3"
+			(uuid "f1ab1d9d-2253-403a-a9f0-dbe3bc3ca63a")
+		)
+		(pin "B4"
+			(uuid "1f135f30-6fb5-4e79-9206-43c9e8ce0348")
+		)
+		(pin "B5"
+			(uuid "77fc13bb-1159-425c-bd82-1397d1aeed9b")
+		)
+		(instances
+			(project ""
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686/8d5e6f54-b0a0-44ab-a9a3-d267ce1e7cb8"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 127 81.28 0)
 		(unit 1)
@@ -2584,170 +2786,6 @@
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686/8d5e6f54-b0a0-44ab-a9a3-d267ce1e7cb8"
 					(reference "#PWR0141")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ECAP5-BSOM:THGBMJG6C1LBAIL")
-		(at 146.05 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b7bacc7a-ef4a-40db-a25b-132f96c97715")
-		(property "Reference" "U12"
-			(at 150.7841 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "THGBMJG6C1LBAIL"
-			(at 150.7841 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.995 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8GB eMMC module"
-			(at 144.526 125.984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "J10"
-			(uuid "e5a06a26-f1a5-4189-a420-82c1885e517f")
-		)
-		(pin "P5"
-			(uuid "e6abd1e0-ad21-4b76-b3cb-8dbd772fe0c8")
-		)
-		(pin "K9"
-			(uuid "c8ce1e16-38ff-456e-9ab8-191adedd2ab4")
-		)
-		(pin "P4"
-			(uuid "99184522-42a7-4a1d-af67-be30d54a3323")
-		)
-		(pin "A5"
-			(uuid "19104b6c-386f-4ee3-a569-74a4e5a438b6")
-		)
-		(pin "F5"
-			(uuid "77f6049a-db0e-46d8-bfc2-17a61954b11f")
-		)
-		(pin "K5"
-			(uuid "a4ffa3d1-922a-4c47-8bd9-579426425373")
-		)
-		(pin "H5"
-			(uuid "94c91c10-aef6-4cbd-922e-9d580b37c2ee")
-		)
-		(pin "K8"
-			(uuid "942c741e-ccbe-47bc-83df-7a1ae9b253a4")
-		)
-		(pin "C4"
-			(uuid "cb4a572e-be8e-428b-86f1-ca55c4ca6ff2")
-		)
-		(pin "N5"
-			(uuid "97085a42-00db-4177-a9bd-40ab373de3f0")
-		)
-		(pin "B4"
-			(uuid "c48582db-0c1b-402f-90bf-dc35a29865e9")
-		)
-		(pin "N4"
-			(uuid "423cbf6b-742d-4440-a10c-a350b0df8612")
-		)
-		(pin "B2"
-			(uuid "6ea650a5-b44c-4e4a-9746-ffa42b2564c7")
-		)
-		(pin "G5"
-			(uuid "3ddd2e99-5cfc-48aa-a8e1-7a2afdc768c0")
-		)
-		(pin "P3"
-			(uuid "8eeb58f3-a365-4224-b2a3-a49d538817c2")
-		)
-		(pin "E7"
-			(uuid "dfe5cdef-ff20-4c18-97d7-f57c192b5fb2")
-		)
-		(pin "P6"
-			(uuid "12f0220f-2cbe-4045-9062-482d9102c58c")
-		)
-		(pin "C6"
-			(uuid "6dabe59b-aef7-4087-ab83-d690e8cc6c9b")
-		)
-		(pin "M6"
-			(uuid "2a6c8bc4-3f7b-42d1-b135-132c1f37a2a8")
-		)
-		(pin "M5"
-			(uuid "d73ce3b1-1601-42cd-9b85-445af784cccf")
-		)
-		(pin "A6"
-			(uuid "a8ef801c-06f6-430b-9695-5db975a83fd0")
-		)
-		(pin "E6"
-			(uuid "533bbcbe-cf9b-47ba-b7fb-2d20c34ff219")
-		)
-		(pin "A3"
-			(uuid "afb51894-3621-47cf-bf48-3b45d029c603")
-		)
-		(pin "J5"
-			(uuid "dc76125f-ef39-48a6-af0d-afc63df358b8")
-		)
-		(pin "B6"
-			(uuid "fc5c2cb4-c6d0-475f-8034-8e56799549cc")
-		)
-		(pin "N2"
-			(uuid "d3b6f8cb-b9df-48b1-929c-3ed639f33b61")
-		)
-		(pin "B5"
-			(uuid "b05ac2ed-ed1e-452a-b975-c228c0a7de43")
-		)
-		(pin "B3"
-			(uuid "12ac1ea2-f7d5-4cf9-89f1-2c2d094cef06")
-		)
-		(pin "H10"
-			(uuid "691397de-86a4-4c33-b1f2-52bdbf4eb299")
-		)
-		(pin "A4"
-			(uuid "1aef2283-f272-414f-b554-22a342ece52f")
-		)
-		(pin "C2"
-			(uuid "d12e369c-77a9-4ff5-a66e-1f720b757204")
-		)
-		(pin "M4"
-			(uuid "c6ac41ee-a941-4daa-ab99-465a1f83facd")
-		)
-		(instances
-			(project ""
-				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686/8d5e6f54-b0a0-44ab-a9a3-d267ce1e7cb8"
-					(reference "U12")
 					(unit 1)
 				)
 			)
