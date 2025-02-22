@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "ba80c8e4-e47f-476d-a44f-46a4f08ba45d")
 	(paper "A4")
 	(title_block
@@ -83,6 +83,10 @@
 	(sheet
 		(at 132.08 74.93)
 		(size 35.56 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -112,13 +116,13 @@
 		)
 		(pin "{IO}" bidirectional
 			(at 132.08 80.01 180)
+			(uuid "c6262be1-8f95-4a9e-baca-47b8eb653b3a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c6262be1-8f95-4a9e-baca-47b8eb653b3a")
 		)
 		(instances
 			(project "ecap5-bsom"
@@ -131,6 +135,10 @@
 	(sheet
 		(at 132.08 92.71)
 		(size 35.56 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -160,13 +168,13 @@
 		)
 		(pin "{IO}" bidirectional
 			(at 132.08 97.79 180)
+			(uuid "5856861d-5214-44c4-9bce-7ca991c1148c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5856861d-5214-44c4-9bce-7ca991c1148c")
 		)
 		(instances
 			(project "ecap5-bsom"
