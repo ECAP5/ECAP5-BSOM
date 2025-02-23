@@ -198,7 +198,7 @@
 				(pin passive line
 					(at -19.05 24.13 0)
 					(length 2.54)
-					(name "SE0/RTD0P"
+					(name "RTD0P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -216,7 +216,7 @@
 				(pin passive line
 					(at -19.05 21.59 0)
 					(length 2.54)
-					(name "SE1/RTD0N"
+					(name "RTD0N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -252,7 +252,7 @@
 				(pin passive line
 					(at -19.05 16.51 0)
 					(length 2.54)
-					(name "SE2/RD1P"
+					(name "RTD1P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -270,7 +270,7 @@
 				(pin passive line
 					(at -19.05 13.97 0)
 					(length 2.54)
-					(name "SE3/RD1N"
+					(name "RTD1N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -306,7 +306,7 @@
 				(pin passive line
 					(at -19.05 8.89 0)
 					(length 2.54)
-					(name "SE4/RTD2P"
+					(name "RTD2P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -324,7 +324,7 @@
 				(pin passive line
 					(at -19.05 6.35 0)
 					(length 2.54)
-					(name "SE5/RTD2N"
+					(name "RTD2N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -360,7 +360,7 @@
 				(pin passive line
 					(at -19.05 1.27 0)
 					(length 2.54)
-					(name "SE6/RD3P"
+					(name "RTD3P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -378,7 +378,7 @@
 				(pin passive line
 					(at -19.05 -1.27 0)
 					(length 2.54)
-					(name "SE7/RD3N"
+					(name "RTD3N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -414,7 +414,7 @@
 				(pin passive line
 					(at -19.05 -6.35 0)
 					(length 2.54)
-					(name "SE8/RTD4P"
+					(name "RTD4P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -432,7 +432,7 @@
 				(pin passive line
 					(at -19.05 -8.89 0)
 					(length 2.54)
-					(name "SE9/RTD4N"
+					(name "RTD4N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -468,7 +468,7 @@
 				(pin passive line
 					(at -19.05 -13.97 0)
 					(length 2.54)
-					(name "SE10/RD5P"
+					(name "RTD5P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -486,7 +486,7 @@
 				(pin passive line
 					(at -19.05 -16.51 0)
 					(length 2.54)
-					(name "SE11/RD5N"
+					(name "RTD5N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -522,7 +522,7 @@
 				(pin passive line
 					(at -19.05 -21.59 0)
 					(length 2.54)
-					(name "SE12/RTD6P"
+					(name "RTD6P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -540,7 +540,7 @@
 				(pin passive line
 					(at -19.05 -24.13 0)
 					(length 2.54)
-					(name "SE13/RTD6N"
+					(name "RTD6N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -576,7 +576,7 @@
 				(pin passive line
 					(at -19.05 -29.21 0)
 					(length 2.54)
-					(name "SE14/RD7P"
+					(name "RTD7P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -594,7 +594,7 @@
 				(pin passive line
 					(at -19.05 -31.75 0)
 					(length 2.54)
-					(name "SE15/RD7N"
+					(name "RTD7N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -720,7 +720,7 @@
 				(pin passive line
 					(at 17.78 36.83 180)
 					(length 2.54)
-					(name "SE50/RD25P"
+					(name "RTD8P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -738,7 +738,7 @@
 				(pin passive line
 					(at 17.78 34.29 180)
 					(length 2.54)
-					(name "SE51/RD25N"
+					(name "RTD8N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -774,7 +774,7 @@
 				(pin passive line
 					(at 17.78 29.21 180)
 					(length 2.54)
-					(name "SE52/RTD26P"
+					(name "RTD9P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -792,7 +792,7 @@
 				(pin passive line
 					(at 17.78 26.67 180)
 					(length 2.54)
-					(name "SE53/RTD26N"
+					(name "RTD9N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -828,7 +828,7 @@
 				(pin passive line
 					(at 17.78 21.59 180)
 					(length 2.54)
-					(name "SE54/RD27P"
+					(name "RTD10P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -846,7 +846,7 @@
 				(pin passive line
 					(at 17.78 19.05 180)
 					(length 2.54)
-					(name "SE55/RD27N"
+					(name "RTD10N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -882,7 +882,7 @@
 				(pin passive line
 					(at 17.78 13.97 180)
 					(length 2.54)
-					(name "SE56/RTD28P"
+					(name "RTD11P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -900,7 +900,7 @@
 				(pin passive line
 					(at 17.78 11.43 180)
 					(length 2.54)
-					(name "SE57/RTD28N"
+					(name "RTD11N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -936,7 +936,7 @@
 				(pin passive line
 					(at 17.78 6.35 180)
 					(length 2.54)
-					(name "SE58/RD29P"
+					(name "RTD12P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -954,7 +954,7 @@
 				(pin passive line
 					(at 17.78 3.81 180)
 					(length 2.54)
-					(name "SE59/RD29N"
+					(name "RTD12N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -990,7 +990,7 @@
 				(pin passive line
 					(at 17.78 -1.27 180)
 					(length 2.54)
-					(name "SE60/RTD30P"
+					(name "RTD13P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1008,7 +1008,7 @@
 				(pin passive line
 					(at 17.78 -3.81 180)
 					(length 2.54)
-					(name "SE61/RTD30N"
+					(name "RTD13N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1044,7 +1044,7 @@
 				(pin passive line
 					(at 17.78 -8.89 180)
 					(length 2.54)
-					(name "SE62/RD31P"
+					(name "RTD14P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1062,7 +1062,7 @@
 				(pin passive line
 					(at 17.78 -11.43 180)
 					(length 2.54)
-					(name "SE63/RD31N"
+					(name "RTD14N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1098,7 +1098,7 @@
 				(pin passive line
 					(at 17.78 -16.51 180)
 					(length 2.54)
-					(name "SE64/RTD32P"
+					(name "RTD15P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1116,7 +1116,7 @@
 				(pin passive line
 					(at 17.78 -19.05 180)
 					(length 2.54)
-					(name "SE65/RTD32N"
+					(name "RTD15N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1152,7 +1152,7 @@
 				(pin passive line
 					(at 17.78 -24.13 180)
 					(length 2.54)
-					(name "SE66/RD33P"
+					(name "RTD16P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1170,7 +1170,7 @@
 				(pin passive line
 					(at 17.78 -26.67 180)
 					(length 2.54)
-					(name "SE67/RD33N"
+					(name "RTD16N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1206,7 +1206,7 @@
 				(pin passive line
 					(at 17.78 -31.75 180)
 					(length 2.54)
-					(name "SE68/RTD34P"
+					(name "RTD17P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1224,7 +1224,7 @@
 				(pin passive line
 					(at 17.78 -34.29 180)
 					(length 2.54)
-					(name "SE69/RTD34N"
+					(name "RTD17N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1260,7 +1260,7 @@
 				(pin passive line
 					(at 17.78 -39.37 180)
 					(length 2.54)
-					(name "SE70/RD35P"
+					(name "RTD18P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1278,7 +1278,7 @@
 				(pin passive line
 					(at 17.78 -41.91 180)
 					(length 2.54)
-					(name "SE71/RD35N"
+					(name "RTD18N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1941,7 +1941,7 @@
 				(pin passive line
 					(at 17.78 39.37 180)
 					(length 2.54)
-					(name "SE72/RTD36P"
+					(name "RTD19P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1959,7 +1959,7 @@
 				(pin passive line
 					(at 17.78 36.83 180)
 					(length 2.54)
-					(name "SE73/RTD36N"
+					(name "RTD19N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1995,7 +1995,7 @@
 				(pin passive line
 					(at 17.78 31.75 180)
 					(length 2.54)
-					(name "SE74/RD37P"
+					(name "RTD20P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2013,7 +2013,7 @@
 				(pin passive line
 					(at 17.78 29.21 180)
 					(length 2.54)
-					(name "SE75/RD37N"
+					(name "RTD20N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2049,7 +2049,7 @@
 				(pin passive line
 					(at 17.78 24.13 180)
 					(length 2.54)
-					(name "SE76/RTD38P"
+					(name "RTD21P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2067,7 +2067,7 @@
 				(pin passive line
 					(at 17.78 21.59 180)
 					(length 2.54)
-					(name "SE77/RTD38N"
+					(name "RTD21N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2103,7 +2103,7 @@
 				(pin passive line
 					(at 17.78 16.51 180)
 					(length 2.54)
-					(name "SE78/RD39P"
+					(name "RTD22P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2121,7 +2121,7 @@
 				(pin passive line
 					(at 17.78 13.97 180)
 					(length 2.54)
-					(name "SE79/RD39N"
+					(name "RTD22N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2157,7 +2157,7 @@
 				(pin passive line
 					(at 17.78 8.89 180)
 					(length 2.54)
-					(name "SE80/RTD40P"
+					(name "RTD23P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2175,7 +2175,7 @@
 				(pin passive line
 					(at 17.78 6.35 180)
 					(length 2.54)
-					(name "SE81/RTD40N"
+					(name "RTD23N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2211,7 +2211,7 @@
 				(pin passive line
 					(at 17.78 1.27 180)
 					(length 2.54)
-					(name "SE82/RD41P"
+					(name "RTD24P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2229,7 +2229,7 @@
 				(pin passive line
 					(at 17.78 -1.27 180)
 					(length 2.54)
-					(name "SE83/RD41N"
+					(name "RTD24N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2265,7 +2265,7 @@
 				(pin passive line
 					(at 17.78 -6.35 180)
 					(length 2.54)
-					(name "SE84/RTD42P"
+					(name "RTD25P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2283,7 +2283,7 @@
 				(pin passive line
 					(at 17.78 -8.89 180)
 					(length 2.54)
-					(name "SE85/RTD42N"
+					(name "RTD25N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2319,7 +2319,7 @@
 				(pin passive line
 					(at 17.78 -13.97 180)
 					(length 2.54)
-					(name "SE86/RD43P"
+					(name "RTD26P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2337,7 +2337,7 @@
 				(pin passive line
 					(at 17.78 -16.51 180)
 					(length 2.54)
-					(name "SE87/RD43N"
+					(name "RTD26N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2373,7 +2373,7 @@
 				(pin passive line
 					(at 17.78 -21.59 180)
 					(length 2.54)
-					(name "SE88/RTD44P"
+					(name "RTD27P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2391,7 +2391,7 @@
 				(pin passive line
 					(at 17.78 -24.13 180)
 					(length 2.54)
-					(name "SE89/RTD44N"
+					(name "RTD27N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2427,7 +2427,7 @@
 				(pin passive line
 					(at 17.78 -29.21 180)
 					(length 2.54)
-					(name "SE90/RD45P"
+					(name "RTD28P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2445,7 +2445,7 @@
 				(pin passive line
 					(at 17.78 -31.75 180)
 					(length 2.54)
-					(name "SE91/RD45N"
+					(name "RTD28N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2481,7 +2481,7 @@
 				(pin passive line
 					(at 17.78 -36.83 180)
 					(length 2.54)
-					(name "SE92/RTD46P"
+					(name "RTD29P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2499,7 +2499,7 @@
 				(pin passive line
 					(at 17.78 -39.37 180)
 					(length 2.54)
-					(name "SE93/RTD46N"
+					(name "RTD29N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2604,7 +2604,7 @@
 				(pin passive line
 					(at -19.05 19.05 0)
 					(length 2.54)
-					(name "SE131"
+					(name "SE0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2640,7 +2640,7 @@
 				(pin passive line
 					(at -19.05 13.97 0)
 					(length 2.54)
-					(name "SE16/RTD8P"
+					(name "SE1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2658,7 +2658,7 @@
 				(pin passive line
 					(at -19.05 11.43 0)
 					(length 2.54)
-					(name "SE17/RTD8N"
+					(name "SE2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2694,7 +2694,7 @@
 				(pin passive line
 					(at -19.05 6.35 0)
 					(length 2.54)
-					(name "SE18/RD9P"
+					(name "SE3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2712,7 +2712,7 @@
 				(pin passive line
 					(at -19.05 3.81 0)
 					(length 2.54)
-					(name "SE19/RD9N"
+					(name "SE4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2748,7 +2748,7 @@
 				(pin passive line
 					(at -19.05 -1.27 0)
 					(length 2.54)
-					(name "SE20/RTD10P"
+					(name "SE5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2766,7 +2766,7 @@
 				(pin passive line
 					(at -19.05 -3.81 0)
 					(length 2.54)
-					(name "SE21/RTD10N"
+					(name "SE6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2802,7 +2802,7 @@
 				(pin passive line
 					(at -19.05 -8.89 0)
 					(length 2.54)
-					(name "SE22/RD11P"
+					(name "SE7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2820,7 +2820,7 @@
 				(pin passive line
 					(at -19.05 -11.43 0)
 					(length 2.54)
-					(name "SE23/RD11N"
+					(name "SE8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2856,7 +2856,7 @@
 				(pin passive line
 					(at -19.05 -16.51 0)
 					(length 2.54)
-					(name "SE24/RTD12P"
+					(name "SE9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2874,7 +2874,7 @@
 				(pin passive line
 					(at -19.05 -19.05 0)
 					(length 2.54)
-					(name "SE25/RTD12N"
+					(name "SE10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2910,7 +2910,7 @@
 				(pin passive line
 					(at -19.05 -24.13 0)
 					(length 2.54)
-					(name "SE26/RD13P"
+					(name "SE11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2928,7 +2928,7 @@
 				(pin passive line
 					(at -19.05 -26.67 0)
 					(length 2.54)
-					(name "SE27/RD13N"
+					(name "SE12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2964,7 +2964,7 @@
 				(pin passive line
 					(at -19.05 -31.75 0)
 					(length 2.54)
-					(name "SE28/RTD14P"
+					(name "SE13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2982,7 +2982,7 @@
 				(pin passive line
 					(at -19.05 -34.29 0)
 					(length 2.54)
-					(name "SE29/RTD14N"
+					(name "SE14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3018,7 +3018,7 @@
 				(pin passive line
 					(at -19.05 -39.37 0)
 					(length 2.54)
-					(name "SE30/RD15P"
+					(name "SE15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3036,7 +3036,7 @@
 				(pin passive line
 					(at -19.05 -41.91 0)
 					(length 2.54)
-					(name "SE31/RD15N"
+					(name "SE16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3054,7 +3054,7 @@
 				(pin passive line
 					(at 17.78 41.91 180)
 					(length 2.54)
-					(name "SE94/RD47P"
+					(name "RTD30P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3072,7 +3072,7 @@
 				(pin passive line
 					(at 17.78 39.37 180)
 					(length 2.54)
-					(name "SE95/RD47N"
+					(name "RTD30N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3126,7 +3126,7 @@
 				(pin passive line
 					(at 17.78 16.51 180)
 					(length 2.54)
-					(name "SE96/RTD48P"
+					(name "RTD31P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3144,7 +3144,7 @@
 				(pin passive line
 					(at 17.78 13.97 180)
 					(length 2.54)
-					(name "SE97/RTD48N"
+					(name "RTD31N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3180,7 +3180,7 @@
 				(pin passive line
 					(at 17.78 8.89 180)
 					(length 2.54)
-					(name "SE98/RD49P"
+					(name "SE35"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3198,7 +3198,7 @@
 				(pin passive line
 					(at 17.78 6.35 180)
 					(length 2.54)
-					(name "SE99/RD49N"
+					(name "SE36"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3234,7 +3234,7 @@
 				(pin passive line
 					(at 17.78 1.27 180)
 					(length 2.54)
-					(name "SE100/RTD50P"
+					(name "SE37"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3252,7 +3252,7 @@
 				(pin passive line
 					(at 17.78 -1.27 180)
 					(length 2.54)
-					(name "SE101/RTD50N"
+					(name "SE38"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3288,7 +3288,7 @@
 				(pin passive line
 					(at 17.78 -6.35 180)
 					(length 2.54)
-					(name "SE102/RD51P"
+					(name "SE39"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3306,7 +3306,7 @@
 				(pin passive line
 					(at 17.78 -8.89 180)
 					(length 2.54)
-					(name "SE103/RD51N"
+					(name "SE40"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3342,7 +3342,7 @@
 				(pin passive line
 					(at 17.78 -13.97 180)
 					(length 2.54)
-					(name "SE104/RTD52P"
+					(name "SE41"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3360,7 +3360,7 @@
 				(pin passive line
 					(at 17.78 -16.51 180)
 					(length 2.54)
-					(name "SE105/RTD52N"
+					(name "SE42"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3396,7 +3396,7 @@
 				(pin passive line
 					(at 17.78 -21.59 180)
 					(length 2.54)
-					(name "SE106/RD53P"
+					(name "SE43"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3414,7 +3414,7 @@
 				(pin passive line
 					(at 17.78 -24.13 180)
 					(length 2.54)
-					(name "SE107/RD53N"
+					(name "SE44"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3450,7 +3450,7 @@
 				(pin passive line
 					(at 17.78 -29.21 180)
 					(length 2.54)
-					(name "SE108/RTD54P"
+					(name "SE45"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3468,7 +3468,7 @@
 				(pin passive line
 					(at 17.78 -31.75 180)
 					(length 2.54)
-					(name "SE109/RTD54N"
+					(name "SE46"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3504,7 +3504,7 @@
 				(pin passive line
 					(at 17.78 -36.83 180)
 					(length 2.54)
-					(name "SE110/RD55P"
+					(name "SE47"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3522,7 +3522,7 @@
 				(pin passive line
 					(at 17.78 -39.37 180)
 					(length 2.54)
-					(name "SE111/RD55N"
+					(name "SE48"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3611,7 +3611,7 @@
 				(pin passive line
 					(at -19.05 39.37 0)
 					(length 2.54)
-					(name "SE32/RTD16P"
+					(name "SE17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3629,7 +3629,7 @@
 				(pin passive line
 					(at -19.05 36.83 0)
 					(length 2.54)
-					(name "SE33/RTD16N"
+					(name "SE18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3665,7 +3665,7 @@
 				(pin passive line
 					(at -19.05 31.75 0)
 					(length 2.54)
-					(name "SE34/RD17P"
+					(name "SE19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3683,7 +3683,7 @@
 				(pin passive line
 					(at -19.05 29.21 0)
 					(length 2.54)
-					(name "SE45/RD17N"
+					(name "SE20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3719,7 +3719,7 @@
 				(pin passive line
 					(at -19.05 24.13 0)
 					(length 2.54)
-					(name "SE36/RTD18P"
+					(name "SE21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3737,7 +3737,7 @@
 				(pin passive line
 					(at -19.05 21.59 0)
 					(length 2.54)
-					(name "SE37/RTD18N"
+					(name "SE22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3773,7 +3773,7 @@
 				(pin passive line
 					(at -19.05 16.51 0)
 					(length 2.54)
-					(name "SE38/RD19P"
+					(name "SE23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3791,7 +3791,7 @@
 				(pin passive line
 					(at -19.05 13.97 0)
 					(length 2.54)
-					(name "SE39/RD19N"
+					(name "SE24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3827,7 +3827,7 @@
 				(pin passive line
 					(at -19.05 8.89 0)
 					(length 2.54)
-					(name "SE40/RTD20P"
+					(name "SE25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3845,7 +3845,7 @@
 				(pin passive line
 					(at -19.05 6.35 0)
 					(length 2.54)
-					(name "SE41/RTD20N"
+					(name "SE26"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3881,7 +3881,7 @@
 				(pin passive line
 					(at -19.05 1.27 0)
 					(length 2.54)
-					(name "SE42/RD21P"
+					(name "SE27"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3899,7 +3899,7 @@
 				(pin passive line
 					(at -19.05 -1.27 0)
 					(length 2.54)
-					(name "SE43/RD21N"
+					(name "SE28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3935,7 +3935,7 @@
 				(pin passive line
 					(at -19.05 -6.35 0)
 					(length 2.54)
-					(name "SE44/RTD22P"
+					(name "SE29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3953,7 +3953,7 @@
 				(pin passive line
 					(at -19.05 -8.89 0)
 					(length 2.54)
-					(name "SE45/RTD22N"
+					(name "SE30"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3989,7 +3989,7 @@
 				(pin passive line
 					(at -19.05 -13.97 0)
 					(length 2.54)
-					(name "SE46/RD23P"
+					(name "SE31"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4007,7 +4007,7 @@
 				(pin passive line
 					(at -19.05 -16.51 0)
 					(length 2.54)
-					(name "SE47/RD23N"
+					(name "SE32"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4043,7 +4043,7 @@
 				(pin passive line
 					(at -19.05 -21.59 0)
 					(length 2.54)
-					(name "SR48/RTD24P"
+					(name "SE33"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4061,7 +4061,7 @@
 				(pin passive line
 					(at -19.05 -24.13 0)
 					(length 2.54)
-					(name "SR49/RTD24N"
+					(name "SE34"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4205,7 +4205,7 @@
 				(pin passive line
 					(at 17.78 41.91 180)
 					(length 2.54)
-					(name "SE112/RTD56P"
+					(name "SE49"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4223,7 +4223,7 @@
 				(pin passive line
 					(at 17.78 39.37 180)
 					(length 2.54)
-					(name "SE113/RTD56N"
+					(name "SE50"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4259,7 +4259,7 @@
 				(pin passive line
 					(at 17.78 34.29 180)
 					(length 2.54)
-					(name "SE114/RD57P"
+					(name "SE51"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4277,7 +4277,7 @@
 				(pin passive line
 					(at 17.78 31.75 180)
 					(length 2.54)
-					(name "SE115/RD57N"
+					(name "SE52"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4313,7 +4313,7 @@
 				(pin passive line
 					(at 17.78 26.67 180)
 					(length 2.54)
-					(name "SE116/RTD58P"
+					(name "SE53"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4331,7 +4331,7 @@
 				(pin passive line
 					(at 17.78 24.13 180)
 					(length 2.54)
-					(name "SE117/RTD58N"
+					(name "SE54"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4367,7 +4367,7 @@
 				(pin passive line
 					(at 17.78 19.05 180)
 					(length 2.54)
-					(name "SE118/RD59P"
+					(name "SE55"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4385,7 +4385,7 @@
 				(pin passive line
 					(at 17.78 16.51 180)
 					(length 2.54)
-					(name "SE119/RD59N"
+					(name "SE56"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4421,7 +4421,7 @@
 				(pin passive line
 					(at 17.78 11.43 180)
 					(length 2.54)
-					(name "SE120/RTD60P"
+					(name "SE57"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4439,7 +4439,7 @@
 				(pin passive line
 					(at 17.78 8.89 180)
 					(length 2.54)
-					(name "SE121/RTD60N"
+					(name "SE58"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4475,7 +4475,7 @@
 				(pin passive line
 					(at 17.78 3.81 180)
 					(length 2.54)
-					(name "SE122/RD61P"
+					(name "SE59"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4493,7 +4493,7 @@
 				(pin passive line
 					(at 17.78 1.27 180)
 					(length 2.54)
-					(name "SE123/RD61N"
+					(name "SE60"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4529,7 +4529,7 @@
 				(pin passive line
 					(at 17.78 -3.81 180)
 					(length 2.54)
-					(name "SE124/RTD62P"
+					(name "SE61"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4547,7 +4547,7 @@
 				(pin passive line
 					(at 17.78 -6.35 180)
 					(length 2.54)
-					(name "SE125/RTD62N"
+					(name "SE62"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4583,7 +4583,7 @@
 				(pin passive line
 					(at 17.78 -11.43 180)
 					(length 2.54)
-					(name "SE126/RD63P"
+					(name "SE63"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4601,7 +4601,7 @@
 				(pin passive line
 					(at 17.78 -13.97 180)
 					(length 2.54)
-					(name "SE127/RD63N"
+					(name "SE64"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4637,7 +4637,7 @@
 				(pin passive line
 					(at 17.78 -19.05 180)
 					(length 2.54)
-					(name "SE128/RTD64P"
+					(name "SE65"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4655,7 +4655,7 @@
 				(pin passive line
 					(at 17.78 -21.59 180)
 					(length 2.54)
-					(name "SE129/RTD64N"
+					(name "SE66"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4691,7 +4691,7 @@
 				(pin passive line
 					(at 17.78 -26.67 180)
 					(length 2.54)
-					(name "SE130"
+					(name "SE67"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5057,7 +5057,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "IO_DIFF_100 nets shall be routed as 100 ohm differential transmission lines.\nLVDS termination is performed on the receiver using the FPGA's internal termination."
+	(text "IO_DIFF_100 nets shall be routed as 100 ohm differential transmission lines.\nIO_50 nets shall be routed as 50 ohm single-ended transmission lines.\nLVDS termination is performed on the receiver using the FPGA's internal termination."
 		(exclude_from_sim no)
 		(at 25.146 25.146 0)
 		(effects
@@ -8478,7 +8478,7 @@
 		)
 		(uuid "ffbdc399-b941-4f6c-a219-906aba9c4b79")
 	)
-	(label "SE117{slash}RTD58N-"
+	(label "SE54"
 		(at 257.81 68.58 180)
 		(effects
 			(font
@@ -8488,7 +8488,7 @@
 		)
 		(uuid "0508314b-e14c-45e6-8ee6-d2fefc8f7bd4")
 	)
-	(label "SE48{slash}RTD24P+"
+	(label "SE33"
 		(at 161.29 114.3 0)
 		(effects
 			(font
@@ -8498,7 +8498,7 @@
 		)
 		(uuid "05c4e11b-4e43-461f-b3c2-8a714584cdbc")
 	)
-	(label "SE123{slash}RD61N-"
+	(label "SE60"
 		(at 257.81 91.44 180)
 		(effects
 			(font
@@ -8508,7 +8508,7 @@
 		)
 		(uuid "0602fa5d-562c-4bb8-892d-caf6138a35ff")
 	)
-	(label "SE102{slash}RD51P+"
+	(label "SE39"
 		(at 140.97 99.06 180)
 		(effects
 			(font
@@ -8518,7 +8518,7 @@
 		)
 		(uuid "07eb1825-f712-4b19-809c-47172fcae5cb")
 	)
-	(label "SE98{slash}RD49P+"
+	(label "SE35"
 		(at 140.97 83.82 180)
 		(effects
 			(font
@@ -8528,7 +8528,7 @@
 		)
 		(uuid "08e38198-5d81-496f-ae03-8895b0d6deb1")
 	)
-	(label "SE17{slash}RTD8N-"
+	(label "SE2"
 		(at 43.18 81.28 0)
 		(effects
 			(font
@@ -8538,7 +8538,7 @@
 		)
 		(uuid "105690eb-feff-43c9-9f54-2497f4aeb8cc")
 	)
-	(label "SE29{slash}RTD14N-"
+	(label "SE14"
 		(at 43.18 127 0)
 		(effects
 			(font
@@ -8548,7 +8548,7 @@
 		)
 		(uuid "10fc669d-524d-4d68-9a75-26542e3a3234")
 	)
-	(label "SE100{slash}RTD50P+"
+	(label "SE37"
 		(at 140.97 91.44 180)
 		(effects
 			(font
@@ -8558,7 +8558,7 @@
 		)
 		(uuid "110ff2e0-6dad-4a93-a739-bc47deb51cfd")
 	)
-	(label "SE113{slash}RTD56N-"
+	(label "SE50"
 		(at 257.81 53.34 180)
 		(effects
 			(font
@@ -8568,7 +8568,7 @@
 		)
 		(uuid "18552bbc-49f4-4fe8-8318-362aa81bd0fb")
 	)
-	(label "SE110{slash}RD55P+"
+	(label "SE47"
 		(at 140.97 129.54 180)
 		(effects
 			(font
@@ -8578,7 +8578,7 @@
 		)
 		(uuid "1abb583f-e03c-4bf8-b1a3-0e4cc91ef80d")
 	)
-	(label "SE16{slash}RTD8P+"
+	(label "SE1"
 		(at 43.18 78.74 0)
 		(effects
 			(font
@@ -8588,7 +8588,7 @@
 		)
 		(uuid "1bc6c25f-8801-49bc-9ac4-1f9df8abd366")
 	)
-	(label "SE28{slash}RTD14P+"
+	(label "SE13"
 		(at 43.18 124.46 0)
 		(effects
 			(font
@@ -8598,7 +8598,7 @@
 		)
 		(uuid "1cd6318d-95dc-4e5f-95f6-ce348cd1ce01")
 	)
-	(label "SE40{slash}RTD20P+"
+	(label "SE25"
 		(at 161.29 83.82 0)
 		(effects
 			(font
@@ -8608,7 +8608,7 @@
 		)
 		(uuid "1d11fb3f-10fe-4150-b759-61c5e0049e63")
 	)
-	(label "SE128{slash}RTD64P+"
+	(label "SE65"
 		(at 257.81 111.76 180)
 		(effects
 			(font
@@ -8618,7 +8618,7 @@
 		)
 		(uuid "1e4608f3-0f55-441d-8659-083b10cc82d2")
 	)
-	(label "SE31{slash}RD15N-"
+	(label "SE16"
 		(at 43.18 134.62 0)
 		(effects
 			(font
@@ -8628,7 +8628,7 @@
 		)
 		(uuid "1f7a6c61-eb04-40a3-ace6-c727a2a86237")
 	)
-	(label "SE112{slash}RTD56P+"
+	(label "SE49"
 		(at 257.81 50.8 180)
 		(effects
 			(font
@@ -8638,7 +8638,7 @@
 		)
 		(uuid "2628dd9f-8ffe-4336-8825-e7f7f5d186b4")
 	)
-	(label "SE129{slash}RTD64N-"
+	(label "SE66"
 		(at 257.81 114.3 180)
 		(effects
 			(font
@@ -8648,7 +8648,7 @@
 		)
 		(uuid "27a4cf9f-d5b2-4de5-a4de-e9cb6570cd11")
 	)
-	(label "SE35{slash}RD17N-"
+	(label "SE20"
 		(at 161.29 63.5 0)
 		(effects
 			(font
@@ -8658,7 +8658,7 @@
 		)
 		(uuid "27d52082-ea67-4640-8b97-cece38ff94bf")
 	)
-	(label "SE38{slash}RD19P+"
+	(label "SE23"
 		(at 161.29 76.2 0)
 		(effects
 			(font
@@ -8668,7 +8668,7 @@
 		)
 		(uuid "28b388ce-af42-4106-b45f-c6ea3d2bb19d")
 	)
-	(label "SE36{slash}RTD18P+"
+	(label "SE21"
 		(at 161.29 68.58 0)
 		(effects
 			(font
@@ -8678,7 +8678,7 @@
 		)
 		(uuid "2f3df2d1-28cb-4272-bb74-a724e46bbe03")
 	)
-	(label "SE125{slash}RTD62N-"
+	(label "SE62"
 		(at 257.81 99.06 180)
 		(effects
 			(font
@@ -8688,7 +8688,7 @@
 		)
 		(uuid "37d8490c-4784-4972-b604-e17cab2705cd")
 	)
-	(label "SE23{slash}RD11N-"
+	(label "SE8"
 		(at 43.18 104.14 0)
 		(effects
 			(font
@@ -8698,7 +8698,7 @@
 		)
 		(uuid "4275bbbe-0801-4ef1-a1fc-05f8695d1ee1")
 	)
-	(label "SE95{slash}RD47N-"
+	(label "RTD30N-"
 		(at 140.97 53.34 180)
 		(effects
 			(font
@@ -8708,7 +8708,7 @@
 		)
 		(uuid "4587ec22-15b4-4d2d-8501-5e0d0c5d7f57")
 	)
-	(label "SE109{slash}RTD54N-"
+	(label "SE46"
 		(at 140.97 124.46 180)
 		(effects
 			(font
@@ -8718,7 +8718,7 @@
 		)
 		(uuid "52ca1adb-68ec-411a-8874-433e1a0dc39b")
 	)
-	(label "SE126{slash}RD63P+"
+	(label "SE63"
 		(at 257.81 104.14 180)
 		(effects
 			(font
@@ -8728,7 +8728,7 @@
 		)
 		(uuid "5656acb2-ef00-483d-9f02-a8a062829e46")
 	)
-	(label "SE103{slash}RD51N-"
+	(label "SE40"
 		(at 140.97 101.6 180)
 		(effects
 			(font
@@ -8738,7 +8738,7 @@
 		)
 		(uuid "56c865ee-666d-4568-8d9b-0c0e77f63d0e")
 	)
-	(label "SE26{slash}RD13P+"
+	(label "SE11"
 		(at 43.18 116.84 0)
 		(effects
 			(font
@@ -8748,7 +8748,7 @@
 		)
 		(uuid "5d0cc472-d288-4200-9f57-63fd8c5f8184")
 	)
-	(label "SE130"
+	(label "SE67"
 		(at 257.81 119.38 180)
 		(effects
 			(font
@@ -8758,7 +8758,7 @@
 		)
 		(uuid "61ed8002-94b8-4bac-ac91-210b19678c56")
 	)
-	(label "SE44{slash}RTD22P+"
+	(label "SE29"
 		(at 161.29 99.06 0)
 		(effects
 			(font
@@ -8768,7 +8768,7 @@
 		)
 		(uuid "6584588a-eacd-462f-8178-ad1f9df783d0")
 	)
-	(label "SE47{slash}RD23N-"
+	(label "SE32"
 		(at 161.29 109.22 0)
 		(effects
 			(font
@@ -8778,7 +8778,7 @@
 		)
 		(uuid "671caace-a354-44fa-b0c0-460825092d79")
 	)
-	(label "SE46{slash}RD23P+"
+	(label "SE31"
 		(at 161.29 106.68 0)
 		(effects
 			(font
@@ -8788,7 +8788,7 @@
 		)
 		(uuid "6a8f2325-de55-4e32-b032-f6d6fd309050")
 	)
-	(label "SE27{slash}RD13N-"
+	(label "SE12"
 		(at 43.18 119.38 0)
 		(effects
 			(font
@@ -8798,7 +8798,7 @@
 		)
 		(uuid "6b3d7195-5db1-441a-b814-562f922ad9e0")
 	)
-	(label "SE42{slash}RD21P+"
+	(label "SE27"
 		(at 161.29 91.44 0)
 		(effects
 			(font
@@ -8808,7 +8808,7 @@
 		)
 		(uuid "75f2c461-0b79-49be-8503-7d08a1065056")
 	)
-	(label "SE43{slash}RD21N-"
+	(label "SE28"
 		(at 161.29 93.98 0)
 		(effects
 			(font
@@ -8818,7 +8818,7 @@
 		)
 		(uuid "76e7d6a4-d491-4085-ac66-8503a4cb71c7")
 	)
-	(label "SE122{slash}RD61P+"
+	(label "SE59"
 		(at 257.81 88.9 180)
 		(effects
 			(font
@@ -8828,7 +8828,7 @@
 		)
 		(uuid "7959de47-cf5e-4325-85b1-e92fc344ac23")
 	)
-	(label "SE124{slash}RTD62P+"
+	(label "SE61"
 		(at 257.81 96.52 180)
 		(effects
 			(font
@@ -8838,7 +8838,7 @@
 		)
 		(uuid "7bf99c1e-4731-43d7-8412-150a1fac53be")
 	)
-	(label "SE127{slash}RD63N-"
+	(label "SE64"
 		(at 257.81 106.68 180)
 		(effects
 			(font
@@ -8848,7 +8848,7 @@
 		)
 		(uuid "89100d3d-0e7c-4f43-879f-7533e2362ddb")
 	)
-	(label "SE118{slash}RD59P+"
+	(label "SE55"
 		(at 257.81 73.66 180)
 		(effects
 			(font
@@ -8858,7 +8858,7 @@
 		)
 		(uuid "8f6f7d0b-518e-44d5-870c-8cc4c8a6bfe8")
 	)
-	(label "SE33{slash}RTD16N-"
+	(label "SE18"
 		(at 161.29 55.88 0)
 		(effects
 			(font
@@ -8868,7 +8868,7 @@
 		)
 		(uuid "8fe9d190-f329-41f1-a503-beb44d06003a")
 	)
-	(label "SE99{slash}RD49N-"
+	(label "SE36"
 		(at 140.97 86.36 180)
 		(effects
 			(font
@@ -8878,7 +8878,7 @@
 		)
 		(uuid "927cb661-284b-480b-916b-2e20666a5ead")
 	)
-	(label "SE105{slash}RTD52N-"
+	(label "SE42"
 		(at 140.97 109.22 180)
 		(effects
 			(font
@@ -8888,7 +8888,7 @@
 		)
 		(uuid "93393625-d362-43ed-b184-0d9be66848e8")
 	)
-	(label "SE37{slash}RTD18N-"
+	(label "SE22"
 		(at 161.29 71.12 0)
 		(effects
 			(font
@@ -8898,7 +8898,7 @@
 		)
 		(uuid "9b646d17-3205-4da6-8654-11250fa1e26a")
 	)
-	(label "SE131"
+	(label "SE0"
 		(at 43.18 73.66 0)
 		(effects
 			(font
@@ -8908,7 +8908,7 @@
 		)
 		(uuid "9d0d7a54-4283-4505-b85c-9a62acdbfa5e")
 	)
-	(label "SE121{slash}RTD60N-"
+	(label "SE58"
 		(at 257.81 83.82 180)
 		(effects
 			(font
@@ -8918,7 +8918,7 @@
 		)
 		(uuid "9d5b05a1-ee48-4260-afbf-c1bb8e8bee55")
 	)
-	(label "SE22{slash}RD11P+"
+	(label "SE7"
 		(at 43.18 101.6 0)
 		(effects
 			(font
@@ -8928,7 +8928,7 @@
 		)
 		(uuid "9eda08cc-0cbf-466f-a041-a1d8cea1f26e")
 	)
-	(label "SE97{slash}RTD48N-"
+	(label "RTD31N-"
 		(at 140.97 78.74 180)
 		(effects
 			(font
@@ -8938,7 +8938,7 @@
 		)
 		(uuid "9edcd429-bd34-475c-aa54-fe22e4beac0e")
 	)
-	(label "SE49{slash}RTD24N-"
+	(label "SE34"
 		(at 161.29 116.84 0)
 		(effects
 			(font
@@ -8948,7 +8948,7 @@
 		)
 		(uuid "a384c868-5ba3-4463-94f4-5222a6ff901b")
 	)
-	(label "SE34{slash}RD17P+"
+	(label "SE19"
 		(at 161.29 60.96 0)
 		(effects
 			(font
@@ -8958,7 +8958,7 @@
 		)
 		(uuid "a44bcaf3-3933-4551-b6b3-e7d25f586f74")
 	)
-	(label "SE111{slash}RD55N-"
+	(label "SE48"
 		(at 140.97 132.08 180)
 		(effects
 			(font
@@ -8968,7 +8968,7 @@
 		)
 		(uuid "a7072962-237c-4cc7-a174-afec6e96a642")
 	)
-	(label "SE25{slash}RTD12N-"
+	(label "SE10"
 		(at 43.18 111.76 0)
 		(effects
 			(font
@@ -8978,7 +8978,7 @@
 		)
 		(uuid "acdb0eed-7943-40cf-92bf-8a19012be8b4")
 	)
-	(label "SE94{slash}RD47P+"
+	(label "RTD30P+"
 		(at 140.97 50.8 180)
 		(effects
 			(font
@@ -8988,7 +8988,7 @@
 		)
 		(uuid "b413e522-57bd-498f-ac24-53f248280141")
 	)
-	(label "SE101{slash}RTD50N-"
+	(label "SE38"
 		(at 140.97 93.98 180)
 		(effects
 			(font
@@ -8998,7 +8998,7 @@
 		)
 		(uuid "b568bf65-9c40-4d19-af47-da6fe0f84a87")
 	)
-	(label "SE120{slash}RTD60P+"
+	(label "SE57"
 		(at 257.81 81.28 180)
 		(effects
 			(font
@@ -9008,7 +9008,7 @@
 		)
 		(uuid "b5871395-57ef-49c0-8ba7-eb4b81bd6489")
 	)
-	(label "SE39{slash}RD19N-"
+	(label "SE24"
 		(at 161.29 78.74 0)
 		(effects
 			(font
@@ -9018,7 +9018,7 @@
 		)
 		(uuid "b8919680-94d5-42df-948c-a82eb84109a1")
 	)
-	(label "SE20{slash}RTD10P+"
+	(label "SE5"
 		(at 43.18 93.98 0)
 		(effects
 			(font
@@ -9028,7 +9028,7 @@
 		)
 		(uuid "bbd4b2b2-00a8-417f-a69b-8935d62a5570")
 	)
-	(label "SE114{slash}RD57P+"
+	(label "SE51"
 		(at 257.81 58.42 180)
 		(effects
 			(font
@@ -9038,7 +9038,7 @@
 		)
 		(uuid "bf33510b-40bf-44d2-b4b2-9c33b2f915f0")
 	)
-	(label "SE45{slash}RTD22N-"
+	(label "SE30"
 		(at 161.29 101.6 0)
 		(effects
 			(font
@@ -9048,7 +9048,7 @@
 		)
 		(uuid "bf45f7f7-12fc-4c27-8fd6-aca7c82f6317")
 	)
-	(label "SE108{slash}RTD54P+"
+	(label "SE45"
 		(at 140.97 121.92 180)
 		(effects
 			(font
@@ -9058,7 +9058,7 @@
 		)
 		(uuid "c4d1ae45-3746-4353-83a6-48e148662cb9")
 	)
-	(label "SE107{slash}RD53N-"
+	(label "SE44"
 		(at 140.97 116.84 180)
 		(effects
 			(font
@@ -9068,7 +9068,7 @@
 		)
 		(uuid "c8cadfde-2d66-43c1-b618-688b34f125b3")
 	)
-	(label "SE21{slash}RTD10N-"
+	(label "SE6"
 		(at 43.18 96.52 0)
 		(effects
 			(font
@@ -9078,7 +9078,7 @@
 		)
 		(uuid "c8cb71ad-25c2-4f2b-8eb8-37ab3b2736a6")
 	)
-	(label "SE41{slash}RTD20N-"
+	(label "SE26"
 		(at 161.29 86.36 0)
 		(effects
 			(font
@@ -9088,7 +9088,7 @@
 		)
 		(uuid "cb781455-1a9e-4235-b5f7-e3f5aaf0a9e6")
 	)
-	(label "SE32{slash}RTD16P+"
+	(label "SE17"
 		(at 161.29 53.34 0)
 		(effects
 			(font
@@ -9098,7 +9098,7 @@
 		)
 		(uuid "cc8df4f5-4023-4cc1-9985-24e78bf56875")
 	)
-	(label "SE24{slash}RTD12P+"
+	(label "SE9"
 		(at 43.18 109.22 0)
 		(effects
 			(font
@@ -9108,7 +9108,7 @@
 		)
 		(uuid "cd23e9b8-30b4-4b01-9bc4-4dc53a6183e5")
 	)
-	(label "SE96{slash}RTD48P+"
+	(label "RTD31P+"
 		(at 140.97 76.2 180)
 		(effects
 			(font
@@ -9118,7 +9118,7 @@
 		)
 		(uuid "d39bfd3b-60f2-4015-b7c2-df07b0e82438")
 	)
-	(label "SE115{slash}RD57N-"
+	(label "SE52"
 		(at 257.81 60.96 180)
 		(effects
 			(font
@@ -9128,7 +9128,7 @@
 		)
 		(uuid "e6a05fa3-e5d0-446e-aeb5-2b4efb4a80d7")
 	)
-	(label "SE106{slash}RD53P+"
+	(label "SE43"
 		(at 140.97 114.3 180)
 		(effects
 			(font
@@ -9138,7 +9138,7 @@
 		)
 		(uuid "e73b7557-c09c-4cfd-a4fb-9f6710f544e8")
 	)
-	(label "SE18{slash}RD9P+"
+	(label "SE3"
 		(at 43.18 86.36 0)
 		(effects
 			(font
@@ -9148,7 +9148,7 @@
 		)
 		(uuid "e9501a5f-d1b3-4271-a82a-d2324867cd29")
 	)
-	(label "SE116{slash}RTD58P+"
+	(label "SE53"
 		(at 257.81 66.04 180)
 		(effects
 			(font
@@ -9158,7 +9158,7 @@
 		)
 		(uuid "e9861c8e-71ea-4ec1-a0d5-2d0977138ce0")
 	)
-	(label "SE119{slash}RD59N-"
+	(label "SE56"
 		(at 257.81 76.2 180)
 		(effects
 			(font
@@ -9168,7 +9168,7 @@
 		)
 		(uuid "ef5350c8-33f6-4a19-b1d6-ad4dffcd4171")
 	)
-	(label "SE30{slash}RD15P+"
+	(label "SE15"
 		(at 43.18 132.08 0)
 		(effects
 			(font
@@ -9178,7 +9178,7 @@
 		)
 		(uuid "f8d23ebb-f91d-4330-a793-61054136300e")
 	)
-	(label "SE19{slash}RD9N-"
+	(label "SE4"
 		(at 43.18 88.9 0)
 		(effects
 			(font
@@ -9188,7 +9188,7 @@
 		)
 		(uuid "fb4b6b5d-c8bd-480b-8883-007b66d0dbb6")
 	)
-	(label "SE104{slash}RTD52P+"
+	(label "SE41"
 		(at 140.97 106.68 180)
 		(effects
 			(font
@@ -9212,6 +9212,22 @@
 	(rule_area
 		(polyline
 			(pts
+				(xy 119.38 49.53) (xy 121.92 49.53) (xy 121.92 80.01) (xy 119.38 80.01)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid 1b6b0fb5-9358-4f3c-b16a-344b0145f606)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
 				(xy 179.07 52.07) (xy 181.61 52.07) (xy 181.61 118.11) (xy 179.07 118.11)
 			)
 			(stroke
@@ -9222,13 +9238,13 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid 1b5b002b-942c-4293-9977-6e5386200344)
+			(uuid 228ce302-b2f1-4599-a6d5-ba561895e9f7)
 		)
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 119.38 49.53) (xy 121.92 49.53) (xy 121.92 133.35) (xy 119.38 133.35)
+				(xy 119.38 82.55) (xy 121.92 82.55) (xy 121.92 133.35) (xy 119.38 133.35)
 			)
 			(stroke
 				(width 0)
@@ -9238,7 +9254,23 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid 259aba79-221e-44e0-9095-33982bc9c570)
+			(uuid 55a43e72-958c-40bc-a420-8ddae72fbe8a)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 62.23 72.39) (xy 64.77 72.39) (xy 64.77 137.16) (xy 62.23 137.16)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid 686638d3-bf25-4cfa-bd32-a6da7d93dc60)
 		)
 	)
 	(rule_area
@@ -9254,23 +9286,7 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid 6e584590-7a88-4c18-af92-c3eeb454206b)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 62.23 77.47) (xy 64.77 77.47) (xy 64.77 137.16) (xy 62.23 137.16)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type color)
-				(color 255 0 0 0.1)
-			)
-			(uuid 848b4571-abea-43eb-9b23-0e64167284a9)
+			(uuid 6ae14e09-1307-4cf3-a8bf-7c00b7b6917f)
 		)
 	)
 	(netclass_flag ""
@@ -9284,7 +9300,7 @@
 			(justify right bottom)
 		)
 		(uuid "0f846e0c-84a8-4fe4-aad3-e349cd7b6718")
-		(property "Netclass" "IO_DIFF_100"
+		(property "Netclass" "IO_50"
 			(at 62.8015 139.7 0)
 			(effects
 				(font
@@ -9306,6 +9322,36 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 120.65 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5005243b-8e42-42dd-9f8a-1974e8cf6df5")
+		(property "Netclass" "IO_DIFF_100"
+			(at 121.3485 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -128.27 -30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 237.49 49.53 0)
 		(effects
 			(font
@@ -9314,8 +9360,8 @@
 			(justify left bottom)
 		)
 		(uuid "bd142184-8304-4cdd-abaa-1648657aea1e")
-		(property "Netclass" "IO_DIFF_100"
-			(at 224.536 46.99 0)
+		(property "Netclass" "IO_50"
+			(at 230.632 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9344,8 +9390,8 @@
 			(justify right bottom)
 		)
 		(uuid "e13a300f-8799-43ab-b8b4-125219a7677b")
-		(property "Netclass" "IO_DIFF_100"
-			(at 134.112 135.89 0)
+		(property "Netclass" "IO50"
+			(at 126.746 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9374,8 +9420,8 @@
 			(justify left bottom)
 		)
 		(uuid "f725cbfc-7ffe-4939-9824-41be508ae8c2")
-		(property "Netclass" "IO_DIFF_100"
-			(at 167.386 49.53 0)
+		(property "Netclass" "IO_50"
+			(at 173.482 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
