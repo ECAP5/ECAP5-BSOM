@@ -1759,6 +1759,12 @@
 		(uuid "49290a7c-6544-4db9-bda6-6ab261a3e86a")
 	)
 	(junction
+		(at 191.77 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d5384da-f4cc-4985-8efa-fb97b7dfe38c")
+	)
+	(junction
 		(at 191.77 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1934,6 +1940,16 @@
 		)
 		(uuid "497e7233-56cc-447b-8cb6-a7185a37052a")
 	)
+	(bus
+		(pts
+			(xy 191.77 52.07) (xy 195.58 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b730289-e4d5-48a4-963f-4a0fb4f73d61")
+	)
 	(wire
 		(pts
 			(xy 214.63 118.11) (xy 227.33 118.11)
@@ -1943,6 +1959,16 @@
 			(type default)
 		)
 		(uuid "52dc2dd6-aa0a-4350-a4ac-cf6cf57fc0ce")
+	)
+	(bus
+		(pts
+			(xy 191.77 52.07) (xy 191.77 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5435b715-7dc8-4b60-90a2-8c961a453339")
 	)
 	(bus
 		(pts
@@ -2136,7 +2162,7 @@
 	)
 	(bus
 		(pts
-			(xy 191.77 36.83) (xy 191.77 63.5)
+			(xy 191.77 36.83) (xy 191.77 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3162,7 +3188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vio" "2.5V"
+		(property "Vio" "3.3V"
 			(at 212.09 58.42 0)
 			(effects
 				(font
@@ -3656,7 +3682,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3682,6 +3707,24 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(property "Vio" "3.3V"
+			(at 212.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "{IO}" input
+			(at 195.58 52.07 180)
+			(uuid "db514240-fc73-4af8-bb0e-35ce1f92e11a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

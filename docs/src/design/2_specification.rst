@@ -61,15 +61,12 @@ Specification
    * - JTAG_TMS
      - I
      - JTAG test mode select input
-   * - SE[0-130]
+   * - SE[0-67]
      - I/O
-     - Single-Ended general purpose input/output
-   * - RD[0-64][P/N]
-     - I
-     - General purpose input differencial pair
+     - Single-Ended general purpose 3v3 input/output
    * - RTD[0-64][P/N]
-     - I/O
-     - General purpose input/output differencial pair
+     - I
+     - General purpose input/output LVDS2V5
    * - RESET_I
      - I
      - Reset input
