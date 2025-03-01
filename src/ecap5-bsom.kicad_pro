@@ -25,7 +25,28 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "no_connect_connected|1549400|1308100|4dd8bf21-d988-4735-acd8-383892e55345|b34be1e3-abb8-4b78-aa51-0e1e6161f644|/c5fd18a3-9aa0-4151-b6e0-94da3d606686/492906df-f838-4d8b-b74b-2c5ce24fa298||",
+        "Stacked NC pins"
+      ],
+      [
+        "no_connect_connected|1574800|1333500|f31230da-e508-4d26-8843-ef379f362205|b58ff5c5-0ba2-46a3-a296-36c5c80981f1|/c5fd18a3-9aa0-4151-b6e0-94da3d606686/0481f44a-3ae5-4dda-99d2-682482abdf58||",
+        "Stacked NC pins"
+      ],
+      [
+        "no_connect_connected|1663700|952500|6f276602-fda3-484d-a85b-0fefa97211da|99ed6a2f-9843-4686-b3fe-35d0c0f31d06|/c5fd18a3-9aa0-4151-b6e0-94da3d606686/7a27c590-818b-482a-bf10-a3edba6d1e5d||",
+        "Stacked NC pins"
+      ],
+      [
+        "no_connect_connected|2032000|965200|cf38fe98-ea50-4538-9a37-efd49f2ed1ec|876b5118-e6e1-4e0d-a138-d081165691a3|/c5fd18a3-9aa0-4151-b6e0-94da3d606686/9ec64d27-698a-408d-bb9c-7e381193a80d||",
+        "Stacked RESERVED pins"
+      ],
+      [
+        "no_connect_connected|2057400|965200|97e47111-e6f0-4aea-9e37-ae2e836c3510|c675911d-61e7-4837-bb15-109d3636bf47|/c5fd18a3-9aa0-4151-b6e0-94da3d606686/9ec64d27-698a-408d-bb9c-7e381193a80d||",
+        "Stacked NC pins"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -274,6 +295,48 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "DDR2_50",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR2_DIFF_100",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "EMMC_50",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "IO_50",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "IO_DIFF_100",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "SDRAM_50",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "SRAM_50",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -581,6 +644,207 @@
       "/FPGA Bank 1/~{WE}": [
         "SRAM_50"
       ],
+      "/FPGA Bank 2/RD25N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RD25P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RD27N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RD27P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RD29N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RD29P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RD31N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RD31P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD0N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD0P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD10N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD10P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD11N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD11P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD12N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD12P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD13N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD13P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD14N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD14P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD15N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD15P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD16N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD16P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD17N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD17P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD18N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD18P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD19N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD19P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD1N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD1P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD20N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD20P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD21N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD21P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD22N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD22P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD23N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD23P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD24N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD24P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD26N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD26P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD28N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD28P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD2N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD2P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD30N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD30P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD3N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD3P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD4N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD4P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD5N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD5P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD6N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD6P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD7N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD7P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD8N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD8P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD9N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD9P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE0": [
+        "IO_50"
+      ],
+      "/FPGA Bank 2/SE1": [
+        "IO_50"
+      ],
+      "/FPGA Bank 2/SE10": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE100{slash}RTD50P+": [
         "IO_DIFF_100"
       ],
@@ -610,6 +874,9 @@
       ],
       "/FPGA Bank 2/SE109{slash}RTD54N-": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE11": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE110{slash}RD55P+": [
         "IO_DIFF_100"
@@ -641,6 +908,9 @@
       "/FPGA Bank 2/SE119{slash}RD59N-": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE12": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE120{slash}RTD60P+": [
         "IO_DIFF_100"
       ],
@@ -671,155 +941,332 @@
       "/FPGA Bank 2/SE129{slash}RTD64N-": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE13": [
+        "IO_50"
+      ],
+      "/FPGA Bank 2/SE14": [
+        "IO_50"
+      ],
+      "/FPGA Bank 2/SE15": [
+        "IO_50"
+      ],
+      "/FPGA Bank 2/SE16": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE16{slash}RTD8P+": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE17": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE17{slash}RTD8N-": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE18": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE18{slash}RD9P+": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE19": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE19{slash}RD9N-": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE2": [
+        "IO_50"
+      ],
+      "/FPGA Bank 2/SE20": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE20{slash}RTD10P+": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE21": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE21{slash}RTD10N-": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE22": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE22{slash}RD11P+": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE23": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE23{slash}RD11N-": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE24": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE24{slash}RTD12P+": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE25": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE25{slash}RTD12N-": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE26": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE26{slash}RD13P+": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE27": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE27{slash}RD13N-": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE28": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE28{slash}RTD14P+": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE29": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE29{slash}RTD14N-": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE3": [
+        "IO_50"
+      ],
+      "/FPGA Bank 2/SE30": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE30{slash}RD15P+": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE31": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE31{slash}RD15N-": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE32": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE32{slash}RTD16P+": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE33": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE33{slash}RTD16N-": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE34": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE34{slash}RD17P+": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE35": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE35{slash}RD17N-": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE36": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE36{slash}RTD18P+": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE37": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE37{slash}RTD18N-": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE38": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE38{slash}RD19P+": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE39": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE39{slash}RD19N-": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE4": [
+        "IO_50"
+      ],
+      "/FPGA Bank 2/SE40": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE40{slash}RTD20P+": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE41": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE41{slash}RTD20N-": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE42": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE42{slash}RD21P+": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE43": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE43{slash}RD21N-": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE44": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE44{slash}RTD22P+": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE45": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE45{slash}RTD22N-": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE46": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE46{slash}RD23P+": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE47": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE47{slash}RD23N-": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE48": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE48{slash}RTD24P+": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE49": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE49{slash}RTD24N-": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE5": [
+        "IO_50"
+      ],
+      "/FPGA Bank 2/SE50": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE50{slash}RD25P+": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE51": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE51{slash}RD25N-": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE52": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE52{slash}RTD26P+": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE53": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE53{slash}RTD26N-": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE54": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE54{slash}RD27P+": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE55": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE55{slash}RD27N-": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE56": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE56{slash}RTD28P+": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE57": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE57{slash}RTD28N-": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE58": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE58{slash}RD29P+": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE59": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE59{slash}RD29N-": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE6": [
+        "IO_50"
+      ],
+      "/FPGA Bank 2/SE60": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE60{slash}RTD30P+": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE61": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE61{slash}RTD30N-": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE62": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE62{slash}RD31P+": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE63": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE63{slash}RD31N-": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE64": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE64{slash}RTD32P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE65": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE65{slash}RTD32N-": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE66": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE66{slash}RD33P+": [
         "IO_DIFF_100"
@@ -832,6 +1279,9 @@
       ],
       "/FPGA Bank 2/SE69{slash}RTD34N-": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE7": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE70{slash}RD35P+": [
         "IO_DIFF_100"
@@ -863,6 +1313,9 @@
       "/FPGA Bank 2/SE79{slash}RD39N-": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/SE8": [
+        "IO_50"
+      ],
       "/FPGA Bank 2/SE80{slash}RTD40P+": [
         "IO_DIFF_100"
       ],
@@ -892,6 +1345,9 @@
       ],
       "/FPGA Bank 2/SE89{slash}RTD44N-": [
         "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/SE9": [
+        "IO_50"
       ],
       "/FPGA Bank 2/SE90{slash}RD45P+": [
         "IO_DIFF_100"
@@ -936,7 +1392,7 @@
         "DDR2_50"
       ],
       "/FPGA Bank 7/DQS": [
-        "DDR2_50"
+        "DDR2_DIFF_100"
       ],
       "/FPGA Bank 7/DS": [
         "EMMC_50"
@@ -978,7 +1434,7 @@
         "DDR2_50"
       ],
       "/FPGA Bank 7/~{DQS}": [
-        "DDR2_50"
+        "DDR2_DIFF_100"
       ],
       "/FPGA Bank 7/~{RAS}": [
         "DDR2_50"
