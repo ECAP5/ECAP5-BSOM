@@ -1999,12 +1999,6 @@
 		(uuid "2b0e6efc-1e8e-46a9-8f2e-ce19661767c6")
 	)
 	(junction
-		(at 261.62 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e4a0d71-f2cc-46fa-9d61-30d76b469e90")
-	)
-	(junction
 		(at 213.36 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2263,6 +2257,12 @@
 		(uuid "df0ecbd9-efd7-4813-964e-0090e79762a1")
 	)
 	(junction
+		(at 262.89 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfcbbc31-6c32-4579-b826-6ce49f5361ae")
+	)
+	(junction
 		(at 250.19 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2320,7 +2320,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 34.29) (xy 261.62 34.29)
+			(xy 255.27 34.29) (xy 262.89 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2670,7 +2670,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 55.88) (xy 250.19 55.88)
+			(xy 250.19 55.88) (xy 262.89 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2710,7 +2710,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 34.29) (xy 261.62 34.29)
+			(xy 266.7 34.29) (xy 262.89 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3960,7 +3960,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 41.91) (xy 261.62 34.29)
+			(xy 262.89 41.91) (xy 262.89 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4060,7 +4060,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 46.99) (xy 261.62 55.88)
+			(xy 262.89 46.99) (xy 262.89 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4484,7 +4484,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 43.18 48.26 0)
 			(effects
 				(font
@@ -4503,6 +4503,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 43.18 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component" "GRM319R61E106KA12D"
 			(at 43.18 48.26 0)
 			(effects
 				(font
@@ -4607,7 +4616,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1cdff1a2-1850-4b92-bbe7-8c821fe9a778")
 		(property "Reference" "R5"
 			(at 113.03 88.8999 0)
@@ -4618,7 +4626,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8.2k"
+		(property "Value" "8.2k 1%"
 			(at 113.03 91.4399 0)
 			(effects
 				(font
@@ -4696,7 +4704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 171.45 99.06 0)
 			(effects
 				(font
@@ -4715,6 +4723,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 171.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component" "GRM319R61E106KA12D"
 			(at 171.45 99.06 0)
 			(effects
 				(font
@@ -4959,7 +4976,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "91k"
+		(property "Value" "91k 1%"
 			(at 252.73 91.4399 0)
 			(effects
 				(font
@@ -5256,7 +5273,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "22k 1%"
 			(at 113.03 101.5999 0)
 			(effects
 				(font
@@ -5400,7 +5417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 171.45 48.26 0)
 			(effects
 				(font
@@ -5419,6 +5436,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 171.45 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component" "GRM319R61E106KA12D"
 			(at 171.45 48.26 0)
 			(effects
 				(font
@@ -5868,7 +5894,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "82.5k"
+		(property "Value" "82.5k 1%"
 			(at 252.73 50.7999 0)
 			(effects
 				(font
@@ -7080,6 +7106,15 @@
 				(hide yes)
 			)
 		)
+		(property "Component" "744770127"
+			(at 111.76 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "33400fe5-7722-41b7-876e-12723f5f865b")
 		)
@@ -7180,7 +7215,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "82k"
+		(property "Value" "82k 1%"
 			(at 124.46 50.7999 0)
 			(effects
 				(font
@@ -7431,6 +7466,15 @@
 		)
 		(property "Description" "Inductor, small symbol"
 			(at 240.03 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component" "ETQ-P5M220YFC"
+			(at 240.03 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7950,7 +7994,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "237k"
+		(property "Value" "237k 1%"
 			(at 124.46 40.6399 0)
 			(effects
 				(font
@@ -8120,6 +8164,15 @@
 				(hide yes)
 			)
 		)
+		(property "Component" "ETQ-P3M2R2KVP"
+			(at 104.14 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c12f6afa-80dd-4902-8c9e-e74b694cbe3a")
 		)
@@ -8154,7 +8207,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "160k"
+		(property "Value" "160k 1%"
 			(at 252.73 40.6399 0)
 			(effects
 				(font
@@ -8303,7 +8356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 261.62 95.25 0)
 			(effects
 				(font
@@ -8322,6 +8375,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 261.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component" "GRM32ER60J107ME20L"
 			(at 261.62 95.25 0)
 			(effects
 				(font
@@ -8373,7 +8435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 121.92 95.25 0)
 			(effects
 				(font
@@ -8392,6 +8454,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 121.92 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component" "12106D476MAT2A"
 			(at 121.92 95.25 0)
 			(effects
 				(font
@@ -8486,7 +8557,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 261.62 44.45 0)
+		(at 262.89 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8495,7 +8566,7 @@
 		(fields_autoplaced yes)
 		(uuid "d601b3cc-c22b-43bb-81f0-33a6d722629a")
 		(property "Reference" "C6"
-			(at 264.16 43.1862 0)
+			(at 265.43 43.1862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8504,7 +8575,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 264.16 45.7262 0)
+			(at 265.43 45.7262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8512,8 +8583,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 261.62 44.45 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 262.89 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8522,7 +8593,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 44.45 0)
+			(at 262.89 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8531,7 +8602,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 261.62 44.45 0)
+			(at 262.89 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component" "GRM32ER60J107ME20L"
+			(at 262.89 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8655,7 +8735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 133.35 44.45 0)
 			(effects
 				(font
@@ -8674,6 +8754,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 133.35 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component" "12106D476MAT2A"
 			(at 133.35 44.45 0)
 			(effects
 				(font
@@ -8724,7 +8813,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 46.99 95.25 0)
 			(effects
 				(font
@@ -8743,6 +8832,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 46.99 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component" "GRM319R61E106KA12D"
 			(at 46.99 95.25 0)
 			(effects
 				(font
@@ -8986,7 +9084,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "82k"
+		(property "Value" "82k 1%"
 			(at 252.73 101.5999 0)
 			(effects
 				(font
@@ -9083,6 +9181,15 @@
 		)
 		(property "Description" "Inductor, small symbol"
 			(at 240.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component" "ETQ-P5M220YFC"
+			(at 240.03 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
