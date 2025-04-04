@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 1.55 -6.35 0)
+		(at 0.05 -3.85 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "ab790925-44ae-4916-9a11-25881cc79023")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "L6981"
-		(at 1.55 -3.2 0)
+		(at 0.05 -0.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "bb967691-8221-4923-9923-859669963c67")
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Datasheet" "https://www.st.com/resource/en/datasheet/l6981.pdf"
-		(at 14.05 -0.05 0)
+		(at 12.55 2.45 0)
 		(unlocked yes)
 		(layer "User.1")
 		(hide yes)
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 4.15 -4.405 270)
+		(at 2.65 -1.905 270)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -55,8 +55,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start 3.5 -5.05)
-		(end -0.5 -5.05)
+		(start 2 -2.55)
+		(end -2 -2.55)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -65,8 +65,8 @@
 		(uuid "ceb5e61d-f9f3-4c63-890d-b7680d6daf9c")
 	)
 	(fp_line
-		(start 3.5 0.05)
-		(end -0.5 0.05)
+		(start 2 2.55)
+		(end -2 2.55)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -76,7 +76,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -1.15 -5.11) (xy -1.39 -5.44) (xy -0.91 -5.44) (xy -1.15 -5.11)
+			(xy -2.65 -2.61) (xy -2.89 -2.94) (xy -2.41 -2.94) (xy -2.65 -2.61)
 		)
 		(stroke
 			(width 0.12)
@@ -87,8 +87,8 @@
 		(uuid "bc1fbcb8-3cca-48ae-a9d4-769aba9f85d9")
 	)
 	(fp_rect
-		(start -2.13 -5.36)
-		(end 5.13 0.38)
+		(start -3.63 -2.86)
+		(end 3.63 2.88)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -98,8 +98,8 @@
 		(uuid "3f26be69-d6e1-4cb5-8b08-5066cf0ec418")
 	)
 	(fp_rect
-		(start -0.45 -4.95)
-		(end 3.45 -0.05)
+		(start -1.95 -2.45)
+		(end 1.95 2.45)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -109,7 +109,7 @@
 		(uuid "b5170c87-c0b7-4d40-ad37-2b1643592a98")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 1.55 -1.7 0)
+		(at 0.05 0.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "4fc4c563-e2a2-4497-93c9-9929b86b08e9")
@@ -125,7 +125,7 @@
 		(layer "User.1")
 		(uuid "1cbc0088-2023-4b83-99a4-2eb91a90d70c")
 		(pts
-			(xy 4.85 -0.295) (xy -1.85 -0.295)
+			(xy 3.35 2.205) (xy -3.35 2.205)
 		)
 		(height 4.89)
 		(orientation 0)
@@ -147,7 +147,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "6.7"
-			(at 1.5 4.245 0)
+			(at 0 6.745 0)
 			(layer "User.1")
 			(uuid "1cbc0088-2023-4b83-99a4-2eb91a90d70c")
 			(effects
@@ -163,7 +163,7 @@
 		(layer "User.1")
 		(uuid "9b9561f6-3411-4505-9fb5-71b175ebe572")
 		(pts
-			(xy -1.85 -3.135) (xy -1.85 -1.865)
+			(xy -3.35 -0.635) (xy -3.35 0.635)
 		)
 		(height -3)
 		(orientation 1)
@@ -185,7 +185,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "1.27"
-			(at -5.2 -2.5 90)
+			(at -6.7 0 90)
 			(layer "User.1")
 			(uuid "9b9561f6-3411-4505-9fb5-71b175ebe572")
 			(effects
@@ -202,7 +202,7 @@
 		(layer "User.1")
 		(uuid "b011006e-932d-4698-a713-39f5b88dea6f")
 		(pts
-			(xy 3.45 -0.295) (xy -0.45 -0.295)
+			(xy 1.95 2.205) (xy -1.95 2.205)
 		)
 		(height 2.89)
 		(orientation 0)
@@ -224,7 +224,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "3.9"
-			(at 1.5 2.235 0)
+			(at 0 4.735 0)
 			(layer "User.1")
 			(uuid "b011006e-932d-4698-a713-39f5b88dea6f")
 			(effects
@@ -241,7 +241,7 @@
 		(layer "User.1")
 		(uuid "c89777e4-5dc6-4d1c-ad48-7f33a1e59ff4")
 		(pts
-			(xy 4.85 -4.705) (xy 4.85 -4.105)
+			(xy 3.35 -2.205) (xy 3.35 -1.605)
 		)
 		(height 1.3)
 		(orientation 1)
@@ -263,7 +263,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "0.6"
-			(at 7.15 -4.405 90)
+			(at 5.65 -1.905 90)
 			(layer "User.1")
 			(uuid "c89777e4-5dc6-4d1c-ad48-7f33a1e59ff4")
 			(effects
@@ -276,60 +276,71 @@
 		)
 	)
 	(pad "1" smd rect
-		(at -1.15 -4.405 270)
+		(at -2.65 -1.905 270)
 		(size 0.6 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "2b58ab81-079c-4818-9fd7-6a44ccaf7f68")
 	)
 	(pad "2" smd rect
-		(at -1.15 -3.135 270)
+		(at -2.65 -0.635 270)
 		(size 0.6 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "23c64ae1-05b9-4364-a11f-b523abb3e75c")
 	)
 	(pad "3" smd rect
-		(at -1.15 -1.865 270)
+		(at -2.65 0.635 270)
 		(size 0.6 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "c1f9ecd5-825d-43f3-8e0b-335c0c1df144")
 	)
 	(pad "4" smd rect
-		(at -1.15 -0.595 270)
+		(at -2.65 1.905 270)
 		(size 0.6 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "ba116302-92ca-490f-bb6e-22d06276f5d7")
 	)
 	(pad "5" smd rect
-		(at 4.15 -0.595 270)
+		(at 2.65 1.905 270)
 		(size 0.6 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "cca3b475-7dad-4128-8b6f-3fad0deafbe1")
 	)
 	(pad "6" smd rect
-		(at 4.15 -1.865 90)
+		(at 2.65 0.635 90)
 		(size 0.6 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "4be4f13c-91f2-4849-aef1-55eb1e10ea7c")
 	)
 	(pad "7" smd rect
-		(at 4.15 -3.135 270)
+		(at 2.65 -0.635 270)
 		(size 0.6 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "ad1197df-98ae-45a2-abc6-b40a7510b3e3")
 	)
 	(pad "8" smd rect
-		(at 4.15 -4.405 270)
+		(at 2.65 -1.905 270)
 		(size 0.6 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "c2df18bb-b8f0-4302-aa32-f25010e97a2b")
 	)
 	(embedded_fonts no)
+	(model "/Users/cchaine/Desktop/Documents/projects/ecap5/boards/som/src/footprints.pretty/models/L6981.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
