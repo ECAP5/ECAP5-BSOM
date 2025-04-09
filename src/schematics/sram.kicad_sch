@@ -715,30 +715,10 @@
 						)
 					)
 				)
-				(pin no_connect non_logic
-					(at 2.54 -35.56 90)
-					(length 2.54)
-					(hide yes)
-					(name "NC[5]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin no_connect line
 					(at 2.54 -35.56 90)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "NC[5]"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2972,22 +2952,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 165.1 74.93) (xy 165.1 115.57) (xy 167.64 115.57) (xy 167.64 74.93)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type color)
-				(color 255 0 0 0.1)
-			)
-			(uuid 912effe2-b667-4dda-b9c4-b9ffc3ac73bb)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 135.89 64.77) (xy 135.89 124.46) (xy 138.43 124.46) (xy 138.43 64.77)
 			)
 			(stroke
@@ -2998,7 +2962,23 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid e5ab90de-b2ee-47c7-b834-0ddb54d5a94d)
+			(uuid 00ebd0b8-1678-4420-921b-9e75517754be)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 165.1 74.93) (xy 165.1 115.57) (xy 167.64 115.57) (xy 167.64 74.93)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid e2feaea2-9f26-4182-b366-5af882509a2c)
 		)
 	)
 	(netclass_flag ""
@@ -3578,9 +3558,6 @@
 		)
 		(pin "G5"
 			(uuid "78949514-4ecd-4961-ada7-68cc47a8f9fd")
-		)
-		(pin ""
-			(uuid "6ac89d98-0a33-428f-a0ea-d0f961301edc")
 		)
 		(pin "C1"
 			(uuid "90f19ced-9b06-472c-a1c0-eff74a12f834")
