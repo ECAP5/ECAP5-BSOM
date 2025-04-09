@@ -17,7 +17,7 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "J"
 				(at -16.51 45.72 0)
 				(effects
 					(font
@@ -25,7 +25,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "DDR4_SODIMM_Board"
 				(at -19.05 36.83 0)
 				(effects
 					(font
@@ -2265,7 +2265,7 @@
 				(pin passive line
 					(at 17.78 -6.35 180)
 					(length 2.54)
-					(name "RTD25P"
+					(name "RD25P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2283,7 +2283,7 @@
 				(pin passive line
 					(at 17.78 -8.89 180)
 					(length 2.54)
-					(name "RTD25N"
+					(name "RD25N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2373,7 +2373,7 @@
 				(pin passive line
 					(at 17.78 -21.59 180)
 					(length 2.54)
-					(name "RTD27P"
+					(name "RD27P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2391,7 +2391,7 @@
 				(pin passive line
 					(at 17.78 -24.13 180)
 					(length 2.54)
-					(name "RTD27N"
+					(name "RD27N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2481,7 +2481,7 @@
 				(pin passive line
 					(at 17.78 -36.83 180)
 					(length 2.54)
-					(name "RTD29P"
+					(name "RD29P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2499,7 +2499,7 @@
 				(pin passive line
 					(at 17.78 -39.37 180)
 					(length 2.54)
-					(name "RTD29N"
+					(name "RD29N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3126,7 +3126,7 @@
 				(pin passive line
 					(at 17.78 16.51 180)
 					(length 2.54)
-					(name "RTD31P"
+					(name "RD31P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3144,7 +3144,7 @@
 				(pin passive line
 					(at 17.78 13.97 180)
 					(length 2.54)
-					(name "RTD31N"
+					(name "RD31N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9212,7 +9212,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 236.22 49.53) (xy 238.76 49.53) (xy 238.76 115.57) (xy 236.22 115.57)
+				(xy 179.07 52.07) (xy 181.61 52.07) (xy 181.61 118.11) (xy 179.07 118.11)
 			)
 			(stroke
 				(width 0)
@@ -9222,39 +9222,7 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid 04f55f3f-25be-4e04-a175-222c2591ecad)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 62.23 72.39) (xy 64.77 72.39) (xy 64.77 137.16) (xy 62.23 137.16)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type color)
-				(color 255 0 0 0.1)
-			)
-			(uuid 1adaed69-2080-4a1f-862e-78f1d5197f15)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 119.38 82.55) (xy 121.92 82.55) (xy 121.92 133.35) (xy 119.38 133.35)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type color)
-				(color 255 0 0 0.1)
-			)
-			(uuid 6e8dbf60-92eb-44d8-88d7-6cc501df2f1e)
+			(uuid 05feacdc-59a2-44c4-bd1a-9da3742c7860)
 		)
 	)
 	(rule_area
@@ -9270,13 +9238,13 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid 92736125-00ed-4917-849e-fd8cc838892b)
+			(uuid 29c551a2-f9b5-40b2-af33-1bfcc12e342d)
 		)
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 179.07 52.07) (xy 181.61 52.07) (xy 181.61 118.11) (xy 179.07 118.11)
+				(xy 119.38 82.55) (xy 121.92 82.55) (xy 121.92 133.35) (xy 119.38 133.35)
 			)
 			(stroke
 				(width 0)
@@ -9286,7 +9254,39 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid a66a9339-8186-426e-99d1-ee86700c41ee)
+			(uuid 56a1330f-6c18-4a9d-ae30-b529b025e21c)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 236.22 49.53) (xy 238.76 49.53) (xy 238.76 115.57) (xy 236.22 115.57)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid c6690d86-b99f-4a78-9533-9f33c7917283)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 62.23 72.39) (xy 64.77 72.39) (xy 64.77 137.16) (xy 62.23 137.16)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid d7000a71-93a9-4cda-b797-1cde5077f679)
 		)
 	)
 	(netclass_flag ""
@@ -9449,7 +9449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "543265fd-805f-4ddb-a80e-c794d531c62a")
-		(property "Reference" "U13"
+		(property "Reference" "J13"
 			(at 208.915 44.45 0)
 			(effects
 				(font
@@ -9457,7 +9457,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DDR4_SODIMM_Board"
 			(at 208.915 46.99 0)
 			(effects
 				(font
@@ -9465,7 +9465,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ECAP5-DPROC:DDR4_SODIMM_Board"
 			(at 190.5 55.88 0)
 			(effects
 				(font
@@ -10275,7 +10275,7 @@
 		(instances
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686/25311f3d-42bc-4bc6-b069-9a914cc16127/b8034c88-bc29-48fe-94a3-92f685be2030"
-					(reference "U13")
+					(reference "J13")
 					(unit 4)
 				)
 			)
@@ -10422,7 +10422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f70572e-b4a0-4961-b864-4c70c1cd23bf")
-		(property "Reference" "U13"
+		(property "Reference" "J13"
 			(at 92.075 44.45 0)
 			(effects
 				(font
@@ -10430,7 +10430,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DDR4_SODIMM_Board"
 			(at 92.075 46.99 0)
 			(effects
 				(font
@@ -10438,7 +10438,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ECAP5-DPROC:DDR4_SODIMM_Board"
 			(at 73.66 55.88 0)
 			(effects
 				(font
@@ -11248,7 +11248,7 @@
 		(instances
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686/25311f3d-42bc-4bc6-b069-9a914cc16127/b8034c88-bc29-48fe-94a3-92f685be2030"
-					(reference "U13")
+					(reference "J13")
 					(unit 3)
 				)
 			)

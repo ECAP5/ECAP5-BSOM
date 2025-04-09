@@ -30,7 +30,7 @@
 	(property "Datasheet" "https://www.st.com/resource/en/datasheet/l6981.pdf"
 		(at 12.55 2.45 0)
 		(unlocked yes)
-		(layer "User.1")
+		(layer "User.2")
 		(hide yes)
 		(uuid "e79b46cf-7579-4f22-82fc-046411437a2c")
 		(effects
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(private_layers "User.2")
 	(fp_line
 		(start 2 -2.55)
 		(end -2 -2.55)
@@ -122,7 +123,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "User.2")
 		(uuid "1cbc0088-2023-4b83-99a4-2eb91a90d70c")
 		(pts
 			(xy 3.35 2.205) (xy -3.35 2.205)
@@ -148,7 +149,7 @@
 		)
 		(gr_text "6.7"
 			(at 0 6.745 0)
-			(layer "User.1")
+			(layer "User.2")
 			(uuid "1cbc0088-2023-4b83-99a4-2eb91a90d70c")
 			(effects
 				(font
@@ -160,7 +161,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "User.2")
 		(uuid "9b9561f6-3411-4505-9fb5-71b175ebe572")
 		(pts
 			(xy -3.35 -0.635) (xy -3.35 0.635)
@@ -186,7 +187,7 @@
 		)
 		(gr_text "1.27"
 			(at -6.7 0 90)
-			(layer "User.1")
+			(layer "User.2")
 			(uuid "9b9561f6-3411-4505-9fb5-71b175ebe572")
 			(effects
 				(font
@@ -199,7 +200,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "User.2")
 		(uuid "b011006e-932d-4698-a713-39f5b88dea6f")
 		(pts
 			(xy 1.95 2.205) (xy -1.95 2.205)
@@ -225,7 +226,7 @@
 		)
 		(gr_text "3.9"
 			(at 0 4.735 0)
-			(layer "User.1")
+			(layer "User.2")
 			(uuid "b011006e-932d-4698-a713-39f5b88dea6f")
 			(effects
 				(font
@@ -238,7 +239,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "User.2")
 		(uuid "c89777e4-5dc6-4d1c-ad48-7f33a1e59ff4")
 		(pts
 			(xy 3.35 -2.205) (xy 3.35 -1.605)
@@ -264,7 +265,7 @@
 		)
 		(gr_text "0.6"
 			(at 5.65 -1.905 90)
-			(layer "User.1")
+			(layer "User.2")
 			(uuid "c89777e4-5dc6-4d1c-ad48-7f33a1e59ff4")
 			(effects
 				(font
