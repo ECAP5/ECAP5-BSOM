@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(private_layers "User.2")
 	(fp_line
 		(start -6.25 -6.25)
 		(end -6.25 6.25)
@@ -150,7 +151,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "User.2")
 		(uuid "0bd7aa90-655d-47ff-8d4c-d0320cbea650")
 		(pts
 			(xy 2.7 -6.4) (xy 2.7 6.4)
@@ -176,7 +177,7 @@
 		)
 		(gr_text "12.8"
 			(at 13.99 0 90)
-			(layer "User.1")
+			(layer "User.2")
 			(uuid "0bd7aa90-655d-47ff-8d4c-d0320cbea650")
 			(effects
 				(font
@@ -188,7 +189,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "User.2")
 		(uuid "381a1d39-3045-4bb8-9c82-45152c1a140c")
 		(pts
 			(xy 2.7 -3.5) (xy 2.7 -6.4)
@@ -214,7 +215,7 @@
 		)
 		(gr_text "2.9"
 			(at 9.4 -4.95 90)
-			(layer "User.1")
+			(layer "User.2")
 			(uuid "381a1d39-3045-4bb8-9c82-45152c1a140c")
 			(effects
 				(font
@@ -226,7 +227,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "User.2")
 		(uuid "4b9390d0-7649-4010-b2aa-642f723b21ee")
 		(pts
 			(xy -2.7 -6.4) (xy 2.7 -6.4)
@@ -252,7 +253,7 @@
 		)
 		(gr_text "5.4"
 			(at 0 -9.51 0)
-			(layer "User.1")
+			(layer "User.2")
 			(uuid "4b9390d0-7649-4010-b2aa-642f723b21ee")
 			(effects
 				(font
@@ -264,7 +265,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "User.1")
+		(layer "User.2")
 		(uuid "884f0979-f83b-4863-8c55-f9a1c9afd92f")
 		(pts
 			(xy 2.7 -3.5) (xy 2.7 3.5)
@@ -290,7 +291,7 @@
 		)
 		(gr_text "7"
 			(at 9.4 0 90)
-			(layer "User.1")
+			(layer "User.2")
 			(uuid "884f0979-f83b-4863-8c55-f9a1c9afd92f")
 			(effects
 				(font
