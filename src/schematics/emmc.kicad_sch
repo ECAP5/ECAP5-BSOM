@@ -1931,22 +1931,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 161.29 90.17) (xy 161.29 110.49) (xy 163.83 110.49) (xy 163.83 90.17)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type color)
-				(color 255 0 0 0.1)
-			)
-			(uuid 75bd91de-78ea-4605-b70d-e064d2ee641f)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 130.81 105.41) (xy 130.81 96.52) (xy 128.27 96.52) (xy 128.27 105.41)
 			)
 			(stroke
@@ -1957,7 +1941,23 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid ac1a02f8-e4d1-442b-a15b-120469850863)
+			(uuid 545ba713-192f-4fc7-a1ef-1d8d3f2ab176)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 161.29 90.17) (xy 161.29 110.49) (xy 163.83 110.49) (xy 163.83 90.17)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid 85a3c002-ebf5-46df-ac12-1e9715bea2ff)
 		)
 	)
 	(netclass_flag ""
@@ -2313,7 +2313,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.7 64.77 0)
 			(effects
 				(font
@@ -2383,7 +2383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 166.37 72.39 0)
 			(effects
 				(font
@@ -2587,7 +2587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 129.54 64.77 0)
 			(effects
 				(font
@@ -2822,7 +2822,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0504_1310Metric"
 			(at 127 81.28 0)
 			(effects
 				(font
@@ -3023,7 +3023,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 116.84 81.28 0)
 			(effects
 				(font
@@ -3159,7 +3159,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 156.21 72.39 0)
 			(effects
 				(font
