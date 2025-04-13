@@ -49,15 +49,15 @@ Circuit diagram
    :width: 100%
 
    * - IC
-     - ST1S41PHR
+     - TPS565242DRLR
    * - Topology
      - Buck
    * - Input Voltage
      - 9-15V
    * - Output Voltage
-     - 1.1V (2% ripple) - 4A max
+     - 1.1V - 4A max
 
-.. image:: ../assets/buck-1V1.svg
+.. image:: ../assets/buck-1V1.png
    :width: 70%
    :align: center
 
@@ -72,38 +72,38 @@ Circuit diagram
 
    * - IC
      - 
-     - ST1S41PHR
-     - ST1S41PHR - Power SO 8 - STMicroelectronics
+     - TPS565242DRLR
+     - TPS56524x 3-V to 16-V Input Voltage, 5-A Synchronous Buck Converter 
    
    * - Capacitor
      - Cin
      - 10uF
-     - 25 V - 10% - muRata - GRM31CR61E106KA12L
+     - GRM21BR61E106MA73L
 
    * - Capacitor
-     - Cout
-     - 47uF
-     - 6.3 V - 20% - AVX - 12106D476MAT2A
+     - Cinx
+     - 100nF
+     - GRM188R71H104KA93D
 
    * - Inductor
      - L
-     - 2.2uH
-     - 10.1 A - Panasonic - ETQP3M2R2KVP
+     - 1uH
+     - SRN8040-1R0Y
 
    * - Resistor
-     - Rh
-     - 8.2kOhms
+     - Rfbt
+     - 8.25kOhms
      - 1% tolerance
 
    * - Resistor
-     - Rl
-     - 22kOhms
+     - Rfbb
+     - 10kOhms
      - 1% tolerance
 
    * - Capacitor
-     - Cin_A
-     - 1uF
-     - 
+     - Cout
+     - 22uF
+     - GRM21BR61A226ME44L
 
 2.5V regulator
 ``````````````
