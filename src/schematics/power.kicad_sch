@@ -329,21 +329,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -819,7 +817,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -8.89 11.43 0)
+				(at -7.62 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -828,7 +826,7 @@
 				)
 			)
 			(property "Value" "TPS565242DRDR"
-				(at 1.524 11.43 0)
+				(at 2.794 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -837,7 +835,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 5.715 -6.35 0)
+				(at 6.985 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -848,7 +846,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm3880.pdf"
-				(at 0 -25.4 0)
+				(at 1.27 -26.67 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -857,7 +855,7 @@
 				)
 			)
 			(property "Description" "Three-Rail Simple Power Supply Sequencer"
-				(at 0 -22.86 0)
+				(at 1.27 -24.13 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -876,8 +874,8 @@
 			)
 			(symbol "TPS565242DRDR_0_1"
 				(rectangle
-					(start -8.89 10.16)
-					(end 6.35 -8.89)
+					(start -7.62 8.89)
+					(end 7.62 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -889,7 +887,7 @@
 			)
 			(symbol "TPS565242DRDR_1_1"
 				(pin power_in line
-					(at -11.43 7.62 0)
+					(at -10.16 6.35 0)
 					(length 2.54)
 					(name "VIN"
 						(effects
@@ -907,7 +905,7 @@
 					)
 				)
 				(pin input line
-					(at -11.43 -2.54 0)
+					(at -10.16 -3.81 0)
 					(length 2.54)
 					(name "EN"
 						(effects
@@ -925,7 +923,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 -11.43 90)
+					(at -1.27 -12.7 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -943,7 +941,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -11.43 90)
+					(at 1.27 -12.7 90)
 					(length 2.54)
 					(name "AGND"
 						(effects
@@ -961,7 +959,7 @@
 					)
 				)
 				(pin output line
-					(at 8.89 7.62 180)
+					(at 10.16 6.35 180)
 					(length 2.54)
 					(name "SW"
 						(effects
@@ -979,7 +977,7 @@
 					)
 				)
 				(pin input line
-					(at 8.89 -2.54 180)
+					(at 10.16 -3.81 180)
 					(length 2.54)
 					(name "FB"
 						(effects
@@ -4467,7 +4465,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ECAP5-DPROC:Bourns_SRN8040"
 			(at 95.25 85.09 0)
 			(effects
 				(font
@@ -6549,7 +6547,7 @@
 	)
 	(symbol
 		(lib_id "ECAP5-BSOM:TPS565242DRDR")
-		(at 77.47 92.71 0)
+		(at 76.2 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6558,7 +6556,7 @@
 		(fields_autoplaced yes)
 		(uuid "946a2fe2-6858-41e6-8b1a-9ff2f49b5cc7")
 		(property "Reference" "U1"
-			(at 77.47 77.47 0)
+			(at 76.2 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6566,7 +6564,7 @@
 			)
 		)
 		(property "Value" "TPS565242DRDR"
-			(at 77.47 80.01 0)
+			(at 76.2 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6574,7 +6572,7 @@
 			)
 		)
 		(property "Footprint" "ECAP5-DPROC:TI_DRL0006A"
-			(at 83.185 99.06 0)
+			(at 81.915 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6585,7 +6583,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm3880.pdf"
-			(at 77.47 118.11 0)
+			(at 76.2 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6594,7 +6592,7 @@
 			)
 		)
 		(property "Description" "Three-Rail Simple Power Supply Sequencer"
-			(at 77.47 115.57 0)
+			(at 76.2 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6720,7 +6718,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ECAP5-DPROC:Bourns_SRN6045"
 			(at 106.68 34.29 0)
 			(effects
 				(font
@@ -7935,7 +7933,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ECAP5-DPROC:Bourns_SRN6045"
 			(at 234.95 52.07 0)
 			(effects
 				(font
@@ -8296,7 +8294,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ECAP5-DPROC:Bourns_SRN6045"
 			(at 234.95 102.87 0)
 			(effects
 				(font
