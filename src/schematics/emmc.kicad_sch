@@ -1194,16 +1194,186 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "EMMC_50 nets shall be routed as single-ended 50 ohm transmission lines"
+	(text_box "Decoupling capacitors shall be placed as closed as possible to the IC power pins."
 		(exclude_from_sim no)
-		(at 29.21 159.512 0)
+		(at 203.2 162.56 0)
+		(size 76.2 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
+				(color 0 0 0 1)
 			)
 			(justify left)
 		)
-		(uuid "bfae92d9-3e99-404c-9f54-465dfa7cee28")
+		(uuid "0c99016c-d0d8-4369-8dd4-5c3b5328af87")
+	)
+	(text_box "Details"
+		(exclude_from_sim no)
+		(at 203.2 160.02 0)
+		(size 76.2 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "134de24f-7642-47ca-beff-9b9d9e0319ee")
+	)
+	(text_box "1"
+		(exclude_from_sim no)
+		(at 193.04 162.56 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "35b413c0-17c4-4c1c-8cca-06298b4e312b")
+	)
+	(text_box "Note #"
+		(exclude_from_sim no)
+		(at 193.04 160.02 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "5986fe86-1699-4ed9-86a0-27f4870e9735")
+	)
+	(text_box "2"
+		(exclude_from_sim no)
+		(at 193.04 165.1 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "6c3ccc5a-ea5c-4a94-8120-0055b375f326")
+	)
+	(text_box "3"
+		(exclude_from_sim no)
+		(at 193.04 167.64 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "93089240-0c40-42f5-b13a-cce6904362ff")
+	)
+	(text_box "Decoupling capacitors shall all be X7R"
+		(exclude_from_sim no)
+		(at 203.2 165.1 0)
+		(size 76.2 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "a7fa2f50-eb42-43ef-9904-c53976ad84b7")
+	)
+	(text_box "EMMC_50 nets shall be routed as single-ended 50 ohm transmission lines"
+		(exclude_from_sim no)
+		(at 203.2 167.64 0)
+		(size 76.2 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "de07139d-30d2-41a7-b534-f9ffcb323924")
 	)
 	(junction
 		(at 129.54 59.69)
@@ -1941,7 +2111,7 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid eade5740-44d7-4787-99eb-d323d18bbe14)
+			(uuid a51176f5-758c-45fa-9d36-b759939b5caf)
 		)
 	)
 	(rule_area
@@ -1957,7 +2127,7 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid f251852d-b19b-40f8-9334-34c967dd5efa)
+			(uuid ff35fba0-fe5c-4f44-9dff-3b765eb8a6b8)
 		)
 	)
 	(netclass_flag ""

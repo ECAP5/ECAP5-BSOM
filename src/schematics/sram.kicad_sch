@@ -1327,16 +1327,186 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "SRAM_50 shall be routed as single-ended 50 ohm transmission lines"
+	(text_box "Decoupling capacitors shall all be X7R"
 		(exclude_from_sim no)
-		(at 28.702 160.528 0)
+		(at 203.2 165.1 0)
+		(size 76.2 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
+				(color 0 0 0 1)
 			)
 			(justify left)
 		)
-		(uuid "176d0d12-72d5-4953-b8a6-697ed9e8f055")
+		(uuid "09f1c02f-e7d0-4187-9e99-330f7f4174ad")
+	)
+	(text_box "Note #"
+		(exclude_from_sim no)
+		(at 193.04 160.02 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "440672dc-d4f3-4bb7-bf23-b9d5198d0ee5")
+	)
+	(text_box "2"
+		(exclude_from_sim no)
+		(at 193.04 165.1 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "7cf0ddd4-f623-441d-8ee8-9c20eb0f25d5")
+	)
+	(text_box "SRAM_50 shall be routed as single-ended 50 ohm transmission lines"
+		(exclude_from_sim no)
+		(at 203.2 167.64 0)
+		(size 76.2 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "8218f8a9-80e5-4b9f-8da7-925918ef328d")
+	)
+	(text_box "3"
+		(exclude_from_sim no)
+		(at 193.04 167.64 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "86087c07-96fd-46b2-9495-6cdc7f3a9cd7")
+	)
+	(text_box "Decoupling capacitors shall be placed as closed as possible to the IC power pins."
+		(exclude_from_sim no)
+		(at 203.2 162.56 0)
+		(size 76.2 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "8bcbcb6c-86aa-499c-8deb-ff8c5b5f74db")
+	)
+	(text_box "1"
+		(exclude_from_sim no)
+		(at 193.04 162.56 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "bf511e91-9ba7-41c2-a6b9-c0689a20574e")
+	)
+	(text_box "Details"
+		(exclude_from_sim no)
+		(at 203.2 160.02 0)
+		(size 76.2 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "d83a77cf-3af0-410c-9c71-34638da4f3ff")
 	)
 	(junction
 		(at 186.69 48.26)
@@ -2952,22 +3122,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 165.1 74.93) (xy 165.1 115.57) (xy 167.64 115.57) (xy 167.64 74.93)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type color)
-				(color 255 0 0 0.1)
-			)
-			(uuid 37e7f60a-acd5-4944-892a-ee2ff3a50846)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 135.89 64.77) (xy 135.89 124.46) (xy 138.43 124.46) (xy 138.43 64.77)
 			)
 			(stroke
@@ -2978,7 +3132,23 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid 7dc62c4f-cd77-46ce-8d62-4c981f462a89)
+			(uuid 6c5792a6-9ec7-4255-94ff-eb6d361f97c4)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 165.1 74.93) (xy 165.1 115.57) (xy 167.64 115.57) (xy 167.64 74.93)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid 734717ad-8c33-4906-93bc-a9178d523ae7)
 		)
 	)
 	(netclass_flag ""
