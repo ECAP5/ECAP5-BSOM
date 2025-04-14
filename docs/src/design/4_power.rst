@@ -44,303 +44,39 @@ Circuit diagram
 1.1V regulator
 ``````````````
 
-.. flat-table:: Characteristics Requirements
-   :stub-columns: 1
-   :width: 100%
-
-   * - IC
-     - TPS565242DRLR
-   * - Topology
-     - Buck
-   * - Input Voltage
-     - 9-15V
-   * - Output Voltage
-     - 1.1V - 4A max
 
 .. image:: ../assets/buck-1V1.png
    :width: 70%
    :align: center
 
-.. flat-table:: Component Selection
-   :header-rows: 1
-   :width: 100%
-  
-   * - Type
-     - Ref
-     - Value
-     - Description
-
-   * - IC
-     - 
-     - TPS565242DRLR
-     - TPS56524x 3-V to 16-V Input Voltage, 5-A Synchronous Buck Converter 
-   
-   * - Capacitor
-     - Cin
-     - 10uF
-     - GRM21BR61E106MA73L
-
-   * - Capacitor
-     - Cinx
-     - 100nF
-     - GRM188R71H104KA93D
-
-   * - Inductor
-     - L
-     - 1uH
-     - SRN8040-1R0Y
-
-   * - Resistor
-     - Rfbt
-     - 8.25kOhms
-     - 1% tolerance
-
-   * - Resistor
-     - Rfbb
-     - 10kOhms
-     - 1% tolerance
-
-   * - Capacitor
-     - Cout
-     - 22uF
-     - GRM21BR61A226ME44L
-
-2.5V regulator
-``````````````
-
-.. flat-table:: Characteristics Requirements
-   :stub-columns: 1
-   :width: 100%
-
-   * - IC
-     - L6981NDR
-   * - Topology
-     - Buck
-   * - Input Voltage
-     - 9-15V
-   * - Output Voltage
-     - 2.5V (2% ripple) - 1A max
-
-.. image:: ../assets/buck-2V5.svg
-   :width: 70%
-   :align: center
-
-.. flat-table:: Component Selection
-   :header-rows: 1
-   :width: 100%
-  
-   * - Type
-     - Ref
-     - Value
-     - Description
-
-   * - IC
-     - 
-     - L6981NDR
-     - L6981NDR - SO 8 - STMicroelectronics
-   
-   * - Capacitor
-     - Cin
-     - 10uF
-     - 25 V - 10% - muRata - GRM31CR61E106KA12L
-
-   * - Capacitor
-     - Cout
-     - 100uF
-     - 6.3 V - 20% - muRata - GRM32ER60J107ME20L
-
-   * - Inductor
-     - L
-     - 22uH
-     - 8.8 A - Panasonic - ETQP5M220YFC
-
-   * - Resistor
-     - Rh
-     - 160kOhms
-     - 1% tolerance
-
-   * - Resistor
-     - Rl
-     - 82.5kOhms
-     - 1% tolerance
-
-   * - Capacitor
-     - Cvcc
-     - 1uF
-     - 
-
-   * - Capacitor
-     - Cru
-     - 30pF
-     - 
-
-   * - Capacitor
-     - Cboot
-     - 100nF
-     - 
-
-   * - Capacitor
-     - CinA
-     - 1uF
-     - 
-
-3.3V regulator
-``````````````
-
-.. flat-table:: Characteristics Requirements
-   :stub-columns: 1
-   :width: 100%
-
-   * - IC
-     - L6981NDR
-   * - Topology
-     - Buck
-   * - Input Voltage
-     - 9-15V
-   * - Output Voltage
-     - 3.3V (2% ripple) - 1A max
-
-.. image:: ../assets/buck-3V3.svg
-   :width: 70%
-   :align: center
-
-.. flat-table:: Component Selection
-   :header-rows: 1
-   :width: 100%
-  
-   * - Type
-     - Ref
-     - Value
-     - Description
-
-   * - IC
-     - 
-     - L6981NDR
-     - L6981NDR - SO 8 - STMicroelectronics
-   
-   * - Capacitor
-     - Cin
-     - 10uF
-     - 25 V - 10% - muRata - GRM31CR61E106KA12L
-
-   * - Capacitor
-     - Cout
-     - 47uF
-     - 6.3 V - 20% - AVX - 12106D476MAT2A
-
-   * - Inductor
-     - L
-     - 27uH
-     - 3.8 A - Würth Elektronik - 744770127
-
-   * - Resistor
-     - Rh
-     - 237kOhms
-     - 1% tolerance
-
-   * - Resistor
-     - Rl
-     - 82kOhms
-     - 1% tolerance
-
-   * - Capacitor
-     - Cvcc
-     - 1uF
-     - 
-
-   * - Capacitor
-     - Cru
-     - 18pF
-     - 
-
-   * - Capacitor
-     - Cboot
-     - 100nF
-     - 
-
-   * - Capacitor
-     - CinA
-     - 1uF
-     - 
+Refer to the following document for full details : `buck-1.1-report.pdf <../_static/buck-1.1-report.pdf>`_.
 
 1.8V regulator
 ``````````````
 
-.. flat-table:: Characteristics Requirements
-   :stub-columns: 1
-   :width: 100%
-
-   * - IC
-     - L6981NDR
-   * - Topology
-     - Buck
-   * - Input Voltage
-     - 9-15V
-   * - Output Voltage
-     - 1.8V (2% ripple) - 1A max
-
-.. image:: ../assets/buck-1V8.svg
+.. image:: ../assets/buck-1V8.png
    :width: 70%
    :align: center
 
-.. flat-table:: Component Selection
-   :header-rows: 1
-   :width: 100%
-  
-   * - Type
-     - Ref
-     - Value
-     - Description
+Refer to the following document for full details : `buck-1.8-report.pdf <../_static/buck-1.8-report.pdf>`_.
 
-   * - IC
-     - 
-     - L6981NDR
-     - L6981NDR - SO 8 - STMicroelectronics
-   
-   * - Capacitor
-     - Cin
-     - 10uF
-     - 25 V - 10% - muRata - GRM31CR61E106KA12L
+2.5V regulator
+``````````````
 
-   * - Capacitor
-     - Cout
-     - 100uF
-     - 6.3 V - 20% - muRata - GRM32ER60J107ME20L
+.. image:: ../assets/buck-2V5.png
+   :width: 70%
+   :align: center
 
-   * - Inductor
-     - L
-     - 22uH
-     - 8.8 A - Panasonic - ETQP5M220YFC
+Refer to the following document for full details : `buck-2.5-report.pdf <../_static/buck-2.5-report.pdf>`_.
 
-   * - Resistor
-     - Rh
-     - 91kOhms
-     - 1% tolerance
+3.3V regulator
+``````````````
 
-   * - Resistor
-     - Rl
-     - 82kOhms
-     - 1% tolerance
+.. image:: ../assets/buck-3V3.png
+   :width: 70%
+   :align: center
 
-   * - Capacitor
-     - Cvcc
-     - 1uF
-     - 
-
-   * - Capacitor
-     - Cru
-     - 62pF
-     - 
-
-   * - Capacitor
-     - Cboot
-     - 100nF
-     - 
-
-   * - Capacitor
-     - CinA
-     - 1uF
-     - 
+Refer to the following document for full details : `buck-3.3-report.pdf <../_static/buck-3.3-report.pdf>`_.
 
 Power sequencing
 ````````````````
@@ -507,192 +243,22 @@ Simulation results
 1.1V Core
 `````````
 
-.. flat-table:: Simulation Results
-   :header-rows: 1
-   :stub-columns: 1
-   :width: 100%
-
-   * - 
-     - Value
-     - Constraint
-  
-   * - Vout
-     - 1.1V
-     - ±1% 
-   * - Ripple
-     - 11mv - 0.96%
-     - <2%
-   * - IL ripple
-     - 702mA - 17.54% of 4A
-     - <1.2A
-   * - Fws
-     - 850kHz
-     - 
-   * - Ton
-     - 115.47ns
-     - >= 90ns
-   * - Vin ripple
-     - 1.01%
-     - 
-   * - Bandwidth
-     - 118.98kHz
-     - < 141.68kHz
-   * - Phase Margin
-     - 60.96°
-     - >= 45°
-   * - IC Tj
-     - 113.7°C
-     - < 125°C
-   * - ΔTj
-     - 88.7°C
-     - 
-
-.. image:: ../assets/buck-1V1-eff.png
-   :width: 90%
-   :align: center
-
-.. note:: The converter's efficiency is rather low at the operating limit of 15Vin - 4A but is acceptable in most behaviors. Proper power dissipation shall be put in place to handle the 2.5W of dissipated power at the operating limit.
-
-2.5V
-````
-
-.. flat-table:: Simulation Results
-   :header-rows: 1
-   :stub-columns: 1
-   :width: 100%
-
-   * - 
-     - Value
-     - Constraint
-  
-   * - Vout
-     - 2.5V
-     - ±1% 
-   * - Ripple
-     - 2mv - 0.07%
-     - <2%
-   * - IL ripple
-     - 246mA - 24.61% of 1A
-     - <300mA
-   * - Fws
-     - 400kHz
-     - 
-   * - Ton
-     - 440.13ns
-     - >= 85ns
-   * - Vin ripple
-     - 0.69%
-     - 
-   * - Bandwidth
-     - 34.6kHz
-     - 
-   * - Phase Margin
-     - 63.47°
-     - >= 45°
-   * - IC Tj
-     - 40.6°C
-     - < 150°C
-   * - ΔTj
-     - 15.6°C
-     - 
-
-.. image:: ../assets/buck-2V5-eff.png
-   :width: 90%
-   :align: center
-
-3.3V
-````
-
-.. flat-table:: Simulation Results
-   :header-rows: 1
-   :stub-columns: 1
-   :width: 100%
-
-   * - 
-     - Value
-     - Constraint
-  
-   * - Vout
-     - 3.31V
-     - ±1% 
-   * - Ripple
-     - 5mv - 0.15%
-     - <2%
-   * - IL ripple
-     - 244mA - 24.45% of 1A
-     - <300mA
-   * - Fws
-     - 400kHz
-     - 
-   * - Ton
-     - 573.80ns
-     - >= 85ns
-   * - Vin ripple
-     - 0.83%
-     - 
-   * - Bandwidth
-     - 47.31kHz
-     - 
-   * - Phase Margin
-     - 54.84°
-     - >= 45°
-   * - IC Tj
-     - 40.9°C
-     - < 150°C
-   * - ΔTj
-     - 15.9°C
-     - 
-
-.. image:: ../assets/buck-3V3-eff.png
-   :width: 90%
-   :align: center
+Refer to the following document for full details : `buck-1.1-report.pdf <../_static/buck-1.1-report.pdf>`_.
 
 1.8V
 ````
 
-.. flat-table:: Simulation Results
-   :header-rows: 1
-   :stub-columns: 1
-   :width: 100%
+Refer to the following document for full details : `buck-1.8-report.pdf <../_static/buck-1.8-report.pdf>`_.
 
-   * - 
-     - Value
-     - Constraint
-  
-   * - Vout
-     - 1.79V
-     - ±1% 
-   * - Ripple
-     - 2mv - 0.09%
-     - <2%
-   * - IL ripple
-     - 190mA - 19.04% of 1A
-     - <300mA
-   * - Fws
-     - 400kHz
-     - 
-   * - Ton
-     - 322.05ns
-     - >= 85ns
-   * - Vin ripple
-     - 0.55%
-     - 
-   * - Bandwidth
-     - 36.23kHz
-     - 
-   * - Phase Margin
-     - 53.66°
-     - >= 45°
-   * - IC Tj
-     - 40.4°C
-     - < 150°C
-   * - ΔTj
-     - 15.4°C
-     - 
+2.5V
+````
 
-.. image:: ../assets/buck-3V3-eff.png
-   :width: 90%
-   :align: center
+Refer to the following document for full details : `buck-2.5-report.pdf <../_static/buck-2.5-report.pdf>`_.
+
+3.3V
+````
+
+Refer to the following document for full details : `buck-3.3-report.pdf <../_static/buck-3.3-report.pdf>`_.
 
 Power sequencing
 ````````````````
