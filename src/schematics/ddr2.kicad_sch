@@ -1681,16 +1681,231 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "DDR2_50 nets shall be routed as single-ended 50 ohm transmission lines\nDDR2_CLK_100 nets shall be routed as differencial 100 ohm transmission lines"
+	(text_box "Decoupling capacitors shall be placed as closed as possible to the IC power pins."
 		(exclude_from_sim no)
-		(at 29.21 159.512 0)
+		(at 203.2 160.02 0)
+		(size 76.2 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
+				(color 0 0 0 1)
 			)
 			(justify left)
 		)
-		(uuid "70b24750-a050-448b-a5ff-bcaa222d960c")
+		(uuid "05444cbb-1b67-4a2b-8742-d3b60b8b07a5")
+	)
+	(text_box "DDR2_50 nets shall be routed as single-ended 50 ohm transmission lines"
+		(exclude_from_sim no)
+		(at 203.2 165.1 0)
+		(size 76.2 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "264d12a6-d2b4-4ddc-918b-a2402f6a455f")
+	)
+	(text_box "Note #"
+		(exclude_from_sim no)
+		(at 193.04 157.48 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "414378cf-46d7-4f8d-bd2f-463f93d68da4")
+	)
+	(text_box "2"
+		(exclude_from_sim no)
+		(at 193.04 162.56 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "49a3fbda-d9e0-42e8-89fb-406b5a54d6e1")
+	)
+	(text_box "3"
+		(exclude_from_sim no)
+		(at 193.04 165.1 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "5f9588ea-4c24-4334-9b7f-5d359b1fd461")
+	)
+	(text_box "4"
+		(exclude_from_sim no)
+		(at 193.04 167.64 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "653e82aa-040d-43a7-a8f1-a37768371db1")
+	)
+	(text_box "Details"
+		(exclude_from_sim no)
+		(at 203.2 157.48 0)
+		(size 76.2 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "8dd7203d-3d08-42bc-93a7-ced4393606af")
+	)
+	(text_box "DDR2_CLK_100 nets shall be routed as differencial 100 ohm transmission lines"
+		(exclude_from_sim no)
+		(at 203.2 167.64 0)
+		(size 76.2 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "db05f58d-1085-4f6a-8fc4-7c792149c0b1")
+	)
+	(text_box "Decoupling capacitors shall all be X7R"
+		(exclude_from_sim no)
+		(at 203.2 162.56 0)
+		(size 76.2 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "e0e83f21-de0a-4c92-9a26-3d4bce435f07")
+	)
+	(text_box "1"
+		(exclude_from_sim no)
+		(at 193.04 160.02 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "ffa209d1-59b0-40bc-905f-ca62a8635c96")
 	)
 	(junction
 		(at 115.57 48.26)
@@ -3851,22 +4066,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 166.37 76.2) (xy 166.37 96.52) (xy 168.91 96.52) (xy 168.91 76.2)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type color)
-				(color 255 0 0 0.1)
-			)
-			(uuid 08f912e8-6c69-4bc6-8bc1-00ff07c25e89)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 130.81 73.66) (xy 130.81 115.57) (xy 133.35 115.57) (xy 133.35 73.66)
 			)
 			(stroke
@@ -3877,39 +4076,7 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid 4b320584-4d8c-4bf3-8b0a-24803529d85f)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 118.11 118.11) (xy 118.11 123.19) (xy 120.65 123.19) (xy 120.65 118.11)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type color)
-				(color 255 0 0 0.1)
-			)
-			(uuid 74319ef5-87b7-488f-a910-2b95d1c5c6b0)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 177.8 102.87) (xy 177.8 97.79) (xy 180.34 97.79) (xy 180.34 102.87)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type color)
-				(color 255 0 0 0.1)
-			)
-			(uuid e41e5d66-0cd6-4d75-8456-830931b134db)
+			(uuid 106bccbc-226c-43cd-b270-cc72e3e747b1)
 		)
 	)
 	(rule_area
@@ -3925,7 +4092,55 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid ff2d6773-98ec-40e0-8033-a4071ba13770)
+			(uuid 44aa07e4-2c07-4c91-b131-6c469045972f)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 118.11 118.11) (xy 118.11 123.19) (xy 120.65 123.19) (xy 120.65 118.11)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid b6f0ab84-35d5-4d62-9727-4fd1c09516eb)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 166.37 76.2) (xy 166.37 96.52) (xy 168.91 96.52) (xy 168.91 76.2)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid c9c4a22b-e17d-478a-a1f4-1fcd169a8911)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 177.8 102.87) (xy 177.8 97.79) (xy 180.34 97.79) (xy 180.34 102.87)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid e9e131a2-9182-4c70-bd84-cbc91afd6ef6)
 		)
 	)
 	(netclass_flag ""
