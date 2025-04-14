@@ -1,0 +1,255 @@
+(footprint "Bourns_SRN8040"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.25 -5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8b54ff1f-5a1f-486c-9c32-e73c1119eeb4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Bourns_SRN8040"
+		(at 0 5.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fcc80875-55ef-446d-a55d-ad5515bed3c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38291ae7-6d55-4d7b-b38b-32aa3c8430ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fdf51e97-ebb0-499a-826e-b7d00bb9f5c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(private_layers "User.2")
+	(fp_line
+		(start -4.2 -3.8)
+		(end -4.2 3.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d00fcb33-e955-4a04-9f51-6dc9d67a14eb")
+	)
+	(fp_line
+		(start 4.2 -3.8)
+		(end 4.2 3.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "efc23b17-7b2b-4141-88f3-4b4d68a47e1e")
+	)
+	(fp_rect
+		(start -4.75 -4.75)
+		(end 4.75 4.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6e333f3e-16d9-481b-b2dd-582ab6ad00bf")
+	)
+	(fp_rect
+		(start -4 -4)
+		(end 4 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "97494f83-e859-4d55-814f-281a8f85e50a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 7.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2edb9f2b-1ccb-42cc-ba5d-7975b600ceb0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.2")
+		(uuid "11c99f7e-9395-4a59-922d-e3fdb763c0cc")
+		(pts
+			(xy -3.3 -4.25) (xy -3.3 4.25)
+		)
+		(height -4.45)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 0.2)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "8.5"
+			(at -8.11 0 90)
+			(layer "User.2")
+			(uuid "11c99f7e-9395-4a59-922d-e3fdb763c0cc")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.06)
+					(bold yes)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.2")
+		(uuid "92d95162-6512-4fdd-8b3b-82f2a5e45357")
+		(pts
+			(xy 3.3 -1.4) (xy 3.3 1.4)
+		)
+		(height 4.45)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 0.2)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "2.8"
+			(at 7.39 0 90)
+			(layer "User.2")
+			(uuid "92d95162-6512-4fdd-8b3b-82f2a5e45357")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.06)
+					(bold yes)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.2")
+		(uuid "944be1a9-10d0-4762-b4b3-4691d7eba7f0")
+		(pts
+			(xy -3.3 4.25) (xy 3.3 4.25)
+		)
+		(height 5)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 0.2)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "6.6"
+			(at 0 8.89 0)
+			(layer "User.2")
+			(uuid "944be1a9-10d0-4762-b4b3-4691d7eba7f0")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.06)
+					(bold yes)
+				)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -2.825)
+		(size 6.6 2.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "ba2ed6dc-7014-4d8c-9a06-fe945dde32ae")
+	)
+	(pad "2" smd rect
+		(at 0 2.825)
+		(size 6.6 2.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "8755059c-4550-4115-9de4-e5458bff00c2")
+	)
+	(embedded_fonts no)
+	(model "/Users/cchaine/Desktop/Documents/projects/ecap5/boards/som/src/footprints.pretty/models/Bourns_SRN8040.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

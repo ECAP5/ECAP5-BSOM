@@ -8308,30 +8308,10 @@
 					)
 				)
 			)
-			(pin no_connect non_logic
-				(at 2.54 -35.56 90)
-				(length 2.54)
-				(hide yes)
-				(name "NC[5]"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin no_connect line
 				(at 2.54 -35.56 90)
 				(length 2.54)
-				(hide yes)
-				(name "NC"
+				(name "NC[5]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8703,227 +8683,6 @@
 					)
 				)
 				(number "G1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "L6981NDR"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at -10.16 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "L6981NDR"
-			(at 0.254 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 6.985 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/l6981.pdf"
-			(at 0 -27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "38 V, 1.5 A synchronous step-down converter with 20 μA quiescent curre"
-			(at 0 -25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "38 V, 1.5 A synchronous step-down converter with 20 μA quiescent curre"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "L6981NDR_0_1"
-			(rectangle
-				(start -10.16 7.62)
-				(end 10.16 -12.7)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "L6981NDR_1_1"
-			(pin power_in line
-				(at -12.7 5.08 0)
-				(length 2.54)
-				(name "VIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -12.7 0 0)
-				(length 2.54)
-				(name "EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -12.7 -5.08 0)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -1.27 -15.24 90)
-				(length 2.54)
-				(name "AGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 1.27 -15.24 90)
-				(length 2.54)
-				(name "PGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 12.7 5.08 180)
-				(length 2.54)
-				(name "SW"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 12.7 2.54 180)
-				(length 2.54)
-				(name "BOOT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 -5.08 180)
-				(length 2.54)
-				(name "VOUT/FB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -23303,12 +23062,12 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "ST1S41PHR"
+	(symbol "TPS562202DRLR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -10.16 5.715 0)
+			(at -7.62 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23316,8 +23075,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ST1S41PHR"
-			(at -0.635 5.715 0)
+		(property "Value" "TPS562202DRLR"
+			(at 5.334 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23326,7 +23085,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 3.175 -13.97 0)
+			(at 6.985 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23336,8 +23095,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/st1s41.pdf"
-			(at 0 -30.48 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm3880.pdf"
+			(at 1.27 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23345,8 +23104,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4 A step-down switching regulator"
-			(at 0 -27.94 0)
+		(property "Description" "Three-Rail Simple Power Supply Sequencer"
+			(at 1.27 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23354,7 +23113,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "4 A step-down switching regulator"
+		(property "ki_keywords" "Three-Rail Simple Power Supply Sequencer"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23363,10 +23122,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "ST1S41PHR_0_1"
+		(symbol "TPS562202DRLR_0_1"
 			(rectangle
-				(start -10.16 4.445)
-				(end 10.16 -15.24)
+				(start -7.62 10.16)
+				(end 7.62 -11.43)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -23376,50 +23135,11 @@
 				)
 			)
 		)
-		(symbol "ST1S41PHR_1_0"
-			(pin no_connect line
-				(at 7.62 -17.78 90)
-				(length 2.54)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "ST1S41PHR_1_1"
+		(symbol "TPS562202DRLR_1_1"
 			(pin power_in line
-				(at -12.7 1.27 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
-				(name "VINSW"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -12.7 -1.27 0)
-				(length 2.54)
-				(name "VINA"
+				(name "VIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -23435,9 +23155,63 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -8.89 0)
+				(at -10.16 -5.08 0)
 				(length 2.54)
 				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -13.97 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 7.62 180)
+				(length 2.54)
+				(name "BST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 5.08 180)
+				(length 2.54)
+				(name "SW"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -23452,17 +23226,130 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -17.78 90)
+			(pin input line
+				(at 10.16 -5.08 180)
 				(length 2.54)
-				(name "ePAD"
+				(name "FB"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TPS565242DRDR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -7.62 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPS565242DRDR"
+			(at 2.794 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 6.985 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm3880.pdf"
+			(at 1.27 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Three-Rail Simple Power Supply Sequencer"
+			(at 1.27 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Three-Rail Simple Power Supply Sequencer"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TPS565242DRDR_0_1"
+			(rectangle
+				(start -7.62 8.89)
+				(end 7.62 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "TPS565242DRDR_1_1"
+			(pin power_in line
+				(at -10.16 6.35 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -3.81 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -23471,7 +23358,25 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -17.78 90)
+				(at -1.27 -12.7 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 1.27 -12.7 90)
 				(length 2.54)
 				(name "AGND"
 					(effects
@@ -23488,26 +23393,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 2.54 -17.78 90)
-				(length 2.54)
-				(name "PGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin output line
-				(at 12.7 1.27 180)
+				(at 10.16 6.35 180)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -23516,7 +23403,7 @@
 						)
 					)
 				)
-				(number "7"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -23525,7 +23412,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -8.89 180)
+				(at 10.16 -3.81 180)
 				(length 2.54)
 				(name "FB"
 					(effects
@@ -23534,7 +23421,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
