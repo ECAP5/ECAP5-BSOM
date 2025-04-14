@@ -14564,6 +14564,142 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "1"
+		(exclude_from_sim no)
+		(at 193.04 165.1 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "7094f891-25ea-4006-9f31-377f3721469a")
+	)
+	(text_box "Note #"
+		(exclude_from_sim no)
+		(at 193.04 162.56 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "9aeb435e-fae3-4302-9d83-3ca3637acd33")
+	)
+	(text_box "Decoupling capacitors shall be placed as closed as possible to the FPGA power pins."
+		(exclude_from_sim no)
+		(at 203.2 165.1 0)
+		(size 76.2 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "b9e5018a-a3a6-43b1-86f4-f80c0f6dd3f6")
+	)
+	(text_box "Details"
+		(exclude_from_sim no)
+		(at 203.2 162.56 0)
+		(size 76.2 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "d2fe003f-f7a0-45ab-9075-dee8fdd1b77e")
+	)
+	(text_box "Decoupling capacitors shall all be X7R"
+		(exclude_from_sim no)
+		(at 203.2 167.64 0)
+		(size 76.2 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "d31b85e3-3ea4-4421-a0fd-69ae673444ae")
+	)
+	(text_box "2"
+		(exclude_from_sim no)
+		(at 193.04 167.64 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "e0820080-5df6-45b0-b4b8-71cd0378718e")
+	)
 	(junction
 		(at 161.29 31.75)
 		(diameter 0)

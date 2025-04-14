@@ -14564,6 +14564,142 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "Note #"
+		(exclude_from_sim no)
+		(at 193.04 162.56 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "23d44ad1-e598-4786-9c44-6b245d8e1029")
+	)
+	(text_box "Details"
+		(exclude_from_sim no)
+		(at 203.2 162.56 0)
+		(size 76.2 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "60b31a60-6b84-4111-8c72-a9f477446f66")
+	)
+	(text_box "Decoupling capacitors shall be placed as closed as possible to the FPGA power pins."
+		(exclude_from_sim no)
+		(at 203.2 165.1 0)
+		(size 76.2 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "78f88be9-e798-4049-9ca3-348a6fd88ec5")
+	)
+	(text_box "Decoupling capacitors shall all be X7R"
+		(exclude_from_sim no)
+		(at 203.2 167.64 0)
+		(size 76.2 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "84790ccf-22d9-445a-aad3-1ac81747ee6c")
+	)
+	(text_box "1"
+		(exclude_from_sim no)
+		(at 193.04 165.1 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "ad040c74-ca9c-46ef-aa20-4d8bc2ce6f5a")
+	)
+	(text_box "2"
+		(exclude_from_sim no)
+		(at 193.04 167.64 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "c74c1b94-0450-4f7c-aeaf-118ce3d739f1")
+	)
 	(junction
 		(at 105.41 31.75)
 		(diameter 0)
@@ -16920,7 +17056,7 @@
 			)
 		)
 		(property "Value" "LFE5U-85F-*BG756*"
-			(at 167.64 133.35 0)
+			(at 139.446 67.818 0)
 			(effects
 				(font
 					(size 1.27 1.27)

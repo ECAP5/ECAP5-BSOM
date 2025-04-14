@@ -14689,6 +14689,142 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "Decoupling capacitors shall all be X7R"
+		(exclude_from_sim no)
+		(at 203.2 167.64 0)
+		(size 76.2 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "0e9f4031-4260-4ffa-8187-c4e180a0da06")
+	)
+	(text_box "Details"
+		(exclude_from_sim no)
+		(at 203.2 162.56 0)
+		(size 76.2 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "20b857e3-7cba-4235-b8a2-b5b34719a436")
+	)
+	(text_box "1"
+		(exclude_from_sim no)
+		(at 193.04 165.1 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "2340165b-94f3-43d3-9e3d-0c6d950c8057")
+	)
+	(text_box "Decoupling capacitors shall be placed as closed as possible to the FPGA power pins."
+		(exclude_from_sim no)
+		(at 203.2 165.1 0)
+		(size 76.2 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "2add26fa-f2c1-4592-add7-bd8f4279784d")
+	)
+	(text_box "2"
+		(exclude_from_sim no)
+		(at 193.04 167.64 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "4b58f6e7-2bd2-4f89-88c5-99ae5f53f9f0")
+	)
+	(text_box "Note #"
+		(exclude_from_sim no)
+		(at 193.04 162.56 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "ec552213-8923-4e5c-b0ee-ca131cc2a070")
+	)
 	(junction
 		(at 154.94 92.71)
 		(diameter 0)

@@ -1442,16 +1442,186 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "SDRAM_50 shall be routed as single-ended 50 ohm transmission lines"
+	(text_box "2"
 		(exclude_from_sim no)
-		(at 29.464 159.766 0)
+		(at 193.04 165.1 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "18ce0723-94ba-4164-a7b1-3005aabe9bfc")
+	)
+	(text_box "Decoupling capacitors shall be placed as closed as possible to the IC power pins."
+		(exclude_from_sim no)
+		(at 203.2 162.56 0)
+		(size 76.2 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
 			)
 			(justify left)
 		)
-		(uuid "d0c125a6-460a-465c-aa2d-1ec3d4e8983e")
+		(uuid "3b898720-f364-4b40-a89d-774d275b78e6")
+	)
+	(text_box "Decoupling capacitors shall all be X7R"
+		(exclude_from_sim no)
+		(at 203.2 165.1 0)
+		(size 76.2 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "48052e80-e276-4352-aa30-e5231dadca42")
+	)
+	(text_box "Details"
+		(exclude_from_sim no)
+		(at 203.2 160.02 0)
+		(size 76.2 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "59e23fe5-c973-4f3a-910b-d66d75c1da8e")
+	)
+	(text_box "Note #"
+		(exclude_from_sim no)
+		(at 193.04 160.02 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "5b8c2d9e-b7c0-4785-b146-8b9ade0c5c5f")
+	)
+	(text_box "3"
+		(exclude_from_sim no)
+		(at 193.04 167.64 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "8c1373f2-4327-4416-985e-4cc66ac20e36")
+	)
+	(text_box "SDRAM_50 shall be routed as single-ended 50 ohm transmission lines"
+		(exclude_from_sim no)
+		(at 203.2 167.64 0)
+		(size 76.2 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "c005a14d-0c90-4b2f-8a42-75aee2f89c47")
+	)
+	(text_box "1"
+		(exclude_from_sim no)
+		(at 193.04 162.56 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "fd2a0b0c-0a6d-482f-a062-2494f6d72085")
 	)
 	(junction
 		(at 97.79 44.45)
@@ -3414,22 +3584,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 129.54 69.85) (xy 129.54 116.84) (xy 132.08 116.84) (xy 132.08 69.85)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type color)
-				(color 255 0 0 0.1)
-			)
-			(uuid a576a4c1-0d82-40c2-b8e5-008a332aab9b)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 163.83 69.85) (xy 163.83 124.46) (xy 166.37 124.46) (xy 166.37 69.85)
 			)
 			(stroke
@@ -3440,7 +3594,23 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid f2d2f71f-b657-44b4-ba35-544166c64065)
+			(uuid 67d3d2b5-3828-4299-9e85-7de2b7d33679)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 129.54 69.85) (xy 129.54 116.84) (xy 132.08 116.84) (xy 132.08 69.85)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid 9c96dad0-433a-4646-9c8e-46e2a25064c8)
 		)
 	)
 	(netclass_flag ""
