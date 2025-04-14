@@ -165,21 +165,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -3853,7 +3851,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 166.37 120.65) (xy 166.37 105.41) (xy 168.91 105.41) (xy 168.91 120.65)
+				(xy 166.37 76.2) (xy 166.37 96.52) (xy 168.91 96.52) (xy 168.91 76.2)
 			)
 			(stroke
 				(width 0)
@@ -3863,23 +3861,7 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid 29b57a17-9d0e-429b-8de3-6f9438be2562)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 177.8 102.87) (xy 177.8 97.79) (xy 180.34 97.79) (xy 180.34 102.87)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type color)
-				(color 255 0 0 0.1)
-			)
-			(uuid 69b23706-1143-4855-b51c-6405ac7e2c5c)
+			(uuid 08f912e8-6c69-4bc6-8bc1-00ff07c25e89)
 		)
 	)
 	(rule_area
@@ -3895,7 +3877,7 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid a9775ea9-7496-4260-8250-9cd277e40dee)
+			(uuid 4b320584-4d8c-4bf3-8b0a-24803529d85f)
 		)
 	)
 	(rule_area
@@ -3911,13 +3893,13 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid bf50c168-f0e1-4358-905f-f7105ee32219)
+			(uuid 74319ef5-87b7-488f-a910-2b95d1c5c6b0)
 		)
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 166.37 76.2) (xy 166.37 96.52) (xy 168.91 96.52) (xy 168.91 76.2)
+				(xy 177.8 102.87) (xy 177.8 97.79) (xy 180.34 97.79) (xy 180.34 102.87)
 			)
 			(stroke
 				(width 0)
@@ -3927,7 +3909,23 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid f6a580d7-fd6a-4f8f-8a6d-b2898e39bcc3)
+			(uuid e41e5d66-0cd6-4d75-8456-830931b134db)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 166.37 120.65) (xy 166.37 105.41) (xy 168.91 105.41) (xy 168.91 120.65)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid ff2d6773-98ec-40e0-8033-a4071ba13770)
 		)
 	)
 	(netclass_flag ""

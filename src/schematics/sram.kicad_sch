@@ -715,30 +715,10 @@
 						)
 					)
 				)
-				(pin no_connect non_logic
-					(at 2.54 -35.56 90)
-					(length 2.54)
-					(hide yes)
-					(name "NC[5]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin no_connect line
 					(at 2.54 -35.56 90)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "NC[5]"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2982,7 +2962,7 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid 912effe2-b667-4dda-b9c4-b9ffc3ac73bb)
+			(uuid 37e7f60a-acd5-4944-892a-ee2ff3a50846)
 		)
 	)
 	(rule_area
@@ -2998,7 +2978,7 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid e5ab90de-b2ee-47c7-b834-0ddb54d5a94d)
+			(uuid 7dc62c4f-cd77-46ce-8d62-4c981f462a89)
 		)
 	)
 	(netclass_flag ""
@@ -3578,9 +3558,6 @@
 		)
 		(pin "G5"
 			(uuid "78949514-4ecd-4961-ada7-68cc47a8f9fd")
-		)
-		(pin ""
-			(uuid "6ac89d98-0a33-428f-a0ea-d0f961301edc")
 		)
 		(pin "C1"
 			(uuid "90f19ced-9b06-472c-a1c0-eff74a12f834")
