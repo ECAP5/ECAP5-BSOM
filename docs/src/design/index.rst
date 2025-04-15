@@ -23,7 +23,8 @@ Design Document
    12_io
    13_misc
    14_mechanical
-   15_analysis
+   15_routing
+   16_analysis
 
 .. container:: custom-title
    
