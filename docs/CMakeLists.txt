@@ -28,6 +28,7 @@ if(Sphinx_FOUND)
       "${CMAKE_CURRENT_LIST_DIR}/src/assets/buck-1V8.png"
       "${CMAKE_CURRENT_LIST_DIR}/src/assets/buck-2V5.png"
       "${CMAKE_CURRENT_LIST_DIR}/src/assets/buck-3V3.png"
+      "${CMAKE_CURRENT_LIST_DIR}/src/assets/stackup.png"
       "${CMAKE_CURRENT_LIST_DIR}/src/assets/diagram-power-sequencing.svg"
       "${CMAKE_CURRENT_LIST_DIR}/src/index.rst"
       "${CMAKE_CURRENT_LIST_DIR}/src/design/index.rst"
@@ -45,7 +46,8 @@ if(Sphinx_FOUND)
       "${CMAKE_CURRENT_LIST_DIR}/src/design/12_io.rst"
       "${CMAKE_CURRENT_LIST_DIR}/src/design/13_misc.rst"
       "${CMAKE_CURRENT_LIST_DIR}/src/design/14_mechanical.rst"
-      "${CMAKE_CURRENT_LIST_DIR}/src/design/15_analysis.rst"
+      "${CMAKE_CURRENT_LIST_DIR}/src/design/15_routing.rst"
+      "${CMAKE_CURRENT_LIST_DIR}/src/design/16_analysis.rst"
     )
 else()
   message(WARNING "No Sphinx found. Documentation target not available.")
