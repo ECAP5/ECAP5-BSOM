@@ -14712,12 +14712,6 @@
 		(color 0 0 0 0)
 		(uuid "8e6c3622-5ef5-41e7-ba28-a32a9295a0bb")
 	)
-	(junction
-		(at 156.21 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc93aec9-103f-44bf-937f-805ed7a4f956")
-	)
 	(bus_entry
 		(at 111.76 91.44)
 		(size 2.54 2.54)
@@ -14966,27 +14960,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 46.99) (xy 156.21 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0551f645-75e2-4b7c-8e32-4d2dbef07137")
-	)
-	(wire
-		(pts
-			(xy 156.21 53.34) (xy 156.21 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "062689eb-ff43-4845-8d5b-d354b6a3c954")
-	)
-	(wire
-		(pts
-			(xy 167.64 46.99) (xy 156.21 46.99)
+			(xy 146.05 46.99) (xy 167.64 46.99)
 		)
 		(stroke
 			(width 0)
@@ -15293,16 +15267,6 @@
 			(type default)
 		)
 		(uuid "86dcbf12-d32f-4bbd-8dd6-a21cc5d9ccc3")
-	)
-	(wire
-		(pts
-			(xy 156.21 46.99) (xy 156.21 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a1c29d5-292a-476a-a8ea-b23cf4dc6acd")
 	)
 	(bus
 		(pts
@@ -18185,72 +18149,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62678b5f-81bd-4148-8537-a033f705b7d3")
-		(property "Reference" "#PWR0163"
-			(at 156.21 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "839c42b3-9a00-4252-9c0f-3d39afeec597")
-		)
-		(instances
-			(project "ecap5-bsom"
-				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686/cf7b4afe-be2f-4770-95a4-78e3e4d23437"
-					(reference "#PWR0163")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 135.89 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18409,7 +18307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 135.89 50.8 0)
 			(effects
 				(font
@@ -18453,76 +18351,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 156.21 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9966772-07bf-4ec3-abd9-7a0af5bb11ee")
-		(property "Reference" "C131"
-			(at 158.75 49.5362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 158.75 52.0762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 156.21 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 156.21 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d719bb2-bc39-4679-8cdf-cd9745adebb8")
-		)
-		(pin "2"
-			(uuid "5774d661-9ec9-4a23-8237-1e5c04da1d2b")
-		)
-		(instances
-			(project "ecap5-bsom"
-				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686/cf7b4afe-be2f-4770-95a4-78e3e4d23437"
-					(reference "C131")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 146.05 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18549,7 +18377,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 146.05 50.8 0)
 			(effects
 				(font
