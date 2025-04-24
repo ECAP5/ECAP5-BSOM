@@ -2101,22 +2101,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 130.81 105.41) (xy 130.81 96.52) (xy 128.27 96.52) (xy 128.27 105.41)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type color)
-				(color 255 0 0 0.1)
-			)
-			(uuid 5d17e3c7-f48f-434d-9d34-40b2ee7bc907)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 161.29 90.17) (xy 161.29 110.49) (xy 163.83 110.49) (xy 163.83 90.17)
 			)
 			(stroke
@@ -2127,7 +2111,23 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid c693d19c-9515-433a-90aa-2871b8c7e77f)
+			(uuid 5463f24a-3bd1-4cb3-b970-262d0d2db817)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 130.81 105.41) (xy 130.81 96.52) (xy 128.27 96.52) (xy 128.27 105.41)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid efba6eff-619d-47fa-b972-7767724ef393)
 		)
 	)
 	(netclass_flag ""
@@ -2483,7 +2483,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 139.7 64.77 0)
 			(effects
 				(font
@@ -2553,7 +2553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 166.37 72.39 0)
 			(effects
 				(font
@@ -2757,7 +2757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 129.54 64.77 0)
 			(effects
 				(font
@@ -2992,7 +2992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0504_1310Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 127 81.28 0)
 			(effects
 				(font
@@ -3193,7 +3193,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 116.84 81.28 0)
 			(effects
 				(font
@@ -3329,7 +3329,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 156.21 72.39 0)
 			(effects
 				(font
