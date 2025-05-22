@@ -566,7 +566,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.24,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -703,6 +703,9 @@
       "/DDR2/BA1": [
         "DDR2_50"
       ],
+      "/DDR2/DM": [
+        "DDR2_50"
+      ],
       "/DDR2/DQ0": [
         "DDR2_50"
       ],
@@ -726,6 +729,12 @@
       ],
       "/DDR2/DQ7": [
         "DDR2_50"
+      ],
+      "/DDR2/DQS": [
+        "DDR2_DIFF_100"
+      ],
+      "/DDR2/~{DQS}": [
+        "DDR2_DIFF_100"
       ],
       "/FPGA Bank 0/CLK": [
         "SDRAM_50"
