@@ -549,7 +549,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.381,
         "diff_pair_gap": 0.2,
         "diff_pair_width": 0.12,
         "line_style": 0,
@@ -733,8 +733,23 @@
       "/DDR2/DQS": [
         "DDR2_DIFF_100"
       ],
+      "/DDR2/ODT": [
+        "DDR2_50"
+      ],
+      "/DDR2/~{CAS}": [
+        "DDR2_50"
+      ],
+      "/DDR2/~{CS}": [
+        "DDR2_50"
+      ],
       "/DDR2/~{DQS}": [
         "DDR2_DIFF_100"
+      ],
+      "/DDR2/~{RAS}": [
+        "DDR2_50"
+      ],
+      "/DDR2/~{WE}": [
+        "DDR2_50"
       ],
       "/FPGA Bank 0/CLK": [
         "SDRAM_50"
@@ -1375,6 +1390,21 @@
       "/FPGA Bank 7/CMD": [
         "EMMC_50"
       ],
+      "/FPGA Bank 7/DDR2.CK+": [
+        "DDR2_DIFF_100"
+      ],
+      "/FPGA Bank 7/DDR2.CK-": [
+        "DDR2_DIFF_100"
+      ],
+      "/FPGA Bank 7/DDR2.DM": [
+        "DDR2_50"
+      ],
+      "/FPGA Bank 7/DDR2.DQS+": [
+        "DDR2_DIFF_100"
+      ],
+      "/FPGA Bank 7/DDR2.DQS-": [
+        "DDR2_DIFF_100"
+      ],
       "/FPGA Bank 7/DM": [
         "DDR2_50"
       ],
@@ -1382,6 +1412,15 @@
         "DDR2_DIFF_100"
       ],
       "/FPGA Bank 7/DS": [
+        "EMMC_50"
+      ],
+      "/FPGA Bank 7/EMMC.CLK": [
+        "EMMC_50"
+      ],
+      "/FPGA Bank 7/EMMC.CMD": [
+        "EMMC_50"
+      ],
+      "/FPGA Bank 7/EMMC.DS": [
         "EMMC_50"
       ],
       "/FPGA Bank 7/EMMC.IO0": [
