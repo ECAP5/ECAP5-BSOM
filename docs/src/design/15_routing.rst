@@ -118,7 +118,7 @@ EMMC
      - N/A
 
    * - CMD
-     - 6.3060mm + 14.0359mm = 20.3419mm
+     - 20.1820mm
      - N/A
      - N/A
      - Yes
@@ -127,7 +127,7 @@ EMMC
      - N/A
 
    * - RST_N
-     - 5.5110mm + 12.2321mm = 17.7431mm
+     - 17.5826mm
      - N/A
      - N/A
      - N/A
@@ -136,7 +136,7 @@ EMMC
      - N/A
 
    * - DS
-     - 6.8913mm + 11.8773mm = 18.7686
+     - 18.5682mm
      - Yes
      - Yes
      - N/A
@@ -145,16 +145,16 @@ EMMC
      - N/A
 
    * - DAT0
-     - 11.9839mm
+     - 12.1040mm
      - No
      - No
      - N/A
      - N/A
      - 17.1522mm
-     - 17.1092mm
+     - 17.1522mm
 
    * - DAT1
-     - 13.8076mm
+     - 13.8282mm
      - No
      - No
      - N/A
@@ -172,26 +172,26 @@ EMMC
      - 17.1522mm
 
    * - DAT3
-     - 14.1856mm
+     - 14.3638mm
      - No
      - No
      - N/A
      - N/A
      - 17.1522mm
-     - 17.0792mm
+     - 17.1522mm
 
    * - DAT4
-     - 13.2395mm
+     - 13.2754mm
      - No
      - No
      - N/A
      - N/A
      - 17.1522mm
-     - 17.0578mm
+     - 17.1522mm
 
    * - DAT5
-     - 7.7123mm + 11.7709mm = 21.8832mm
-     - Longest
+     - 18.2756mm
+     - Yes
      - Yes
      - N/A
      - N/A
@@ -199,8 +199,8 @@ EMMC
      - N/A 
 
    * - DAT6
-     - 7.2509mm + 12.8758mm = 20.1268mm
-     - Yes
+     - 18.9753mm
+     - Longest
      - Yes
      - N/A
      - N/A
@@ -208,7 +208,7 @@ EMMC
      - N/A
 
    * - DAT7
-     - 15.6162mm
+     - 15.6105mm
      - No
      - No
      - N/A
@@ -219,3 +219,5 @@ EMMC
 .. note:: The length target is the CLK trace length minus half of the tolerance. This is done to leave a margin for any delays within the emmc package itself.
 
 .. note:: Vias are added to signals routed on the top layer to have an equal number of vias for all signals, to ease length matching.
+
+.. todo:: Perform signal integrity simulation to check if stub from parallel termination is a problem.
