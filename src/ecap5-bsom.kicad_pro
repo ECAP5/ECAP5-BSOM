@@ -140,7 +140,7 @@
         "min_via_annular_width": 0.2,
         "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
-        "use_height_for_length_calcs": true
+        "use_height_for_length_calcs": false
       },
       "teardrop_options": [
         {
@@ -257,28 +257,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "no_connect_connected|1549400|1308100|4dd8bf21-d988-4735-acd8-383892e55345|b34be1e3-abb8-4b78-aa51-0e1e6161f644|/c5fd18a3-9aa0-4151-b6e0-94da3d606686/492906df-f838-4d8b-b74b-2c5ce24fa298||",
-        "Stacked NC pins"
-      ],
-      [
-        "no_connect_connected|1574800|1333500|f31230da-e508-4d26-8843-ef379f362205|b58ff5c5-0ba2-46a3-a296-36c5c80981f1|/c5fd18a3-9aa0-4151-b6e0-94da3d606686/0481f44a-3ae5-4dda-99d2-682482abdf58||",
-        "Stacked NC pins"
-      ],
-      [
-        "no_connect_connected|1663700|952500|6f276602-fda3-484d-a85b-0fefa97211da|99ed6a2f-9843-4686-b3fe-35d0c0f31d06|/c5fd18a3-9aa0-4151-b6e0-94da3d606686/7a27c590-818b-482a-bf10-a3edba6d1e5d||",
-        "Stacked NC pins"
-      ],
-      [
-        "no_connect_connected|2032000|965200|cf38fe98-ea50-4538-9a37-efd49f2ed1ec|876b5118-e6e1-4e0d-a138-d081165691a3|/c5fd18a3-9aa0-4151-b6e0-94da3d606686/9ec64d27-698a-408d-bb9c-7e381193a80d||",
-        "Stacked RESERVED pins"
-      ],
-      [
-        "no_connect_connected|2057400|965200|97e47111-e6f0-4aea-9e37-ae2e836c3510|c675911d-61e7-4837-bb15-109d3636bf47|/c5fd18a3-9aa0-4151-b6e0-94da3d606686/9ec64d27-698a-408d-bb9c-7e381193a80d||",
-        "Stacked NC pins"
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
