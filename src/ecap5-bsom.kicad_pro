@@ -511,7 +511,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.24,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -528,7 +528,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.381,
+        "clearance": 0.1,
         "diff_pair_gap": 0.2,
         "diff_pair_width": 0.12,
         "line_style": 0,
@@ -545,7 +545,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.24,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -596,7 +596,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.24,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -1391,6 +1391,9 @@
         "DDR2_50"
       ],
       "/FPGA Bank 7/DDR2.~{CS}": [
+        "DDR2_50"
+      ],
+      "/FPGA Bank 7/DDR2.~{RAS}": [
         "DDR2_50"
       ],
       "/FPGA Bank 7/DDR2.~{WE}": [
