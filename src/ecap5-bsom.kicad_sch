@@ -3500,6 +3500,49 @@
 		)
 	)
 	(sheet
+		(at 224.79 25.4)
+		(size 17.78 7.62)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7deaac15-7d18-4113-8f9c-2951609f7e3d")
+		(property "Sheetname" "Mechanical"
+			(at 224.79 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/mechanical.kicad_sch"
+			(at 224.79 33.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 168.91 121.92)
 		(size 19.05 7.62)
 		(exclude_from_sim no)
