@@ -4722,6 +4722,14 @@
 		(pin "1"
 			(uuid "d6cb0b74-2ed1-4300-896b-0963adeee8d0")
 		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686/75c84b0f-c428-4bdf-a9d0-2de4281daa69"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -6400,6 +6408,14 @@
 		(pin "6"
 			(uuid "4ccba80d-dc0e-422b-b983-264ae5c1a91d")
 		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686/75c84b0f-c428-4bdf-a9d0-2de4281daa69"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -6753,7 +6769,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "946a2fe2-6858-41e6-8b1a-9ff2f49b5cc7")
 		(property "Reference" "U1"
 			(at 76.2 76.2 0)
@@ -6817,6 +6832,14 @@
 		)
 		(pin "4"
 			(uuid "ce819c4c-b9ba-42e6-9fda-9dc17270662c")
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686/75c84b0f-c428-4bdf-a9d0-2de4281daa69"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7680,6 +7703,14 @@
 		)
 		(pin "1"
 			(uuid "8e4b4876-9d1e-47bd-8d99-2f670a5d5c94")
+		)
+		(instances
+			(project "ecap5-bsom"
+				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686/75c84b0f-c428-4bdf-a9d0-2de4281daa69"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
