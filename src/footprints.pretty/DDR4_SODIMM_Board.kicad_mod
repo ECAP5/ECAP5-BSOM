@@ -56,6 +56,48 @@
 	)
 	(attr smd)
 	(private_layers "User.2" "User.3" "User.4")
+	(fp_rect
+		(start -1.425 -1.125)
+		(end 68.175 1.425)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "cb3dda44-35f0-4ece-99be-747fd804f401")
+	)
+	(fp_rect
+		(start -1.425 -1.125)
+		(end 68.175 1.425)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "ca419793-562a-4d98-8491-6d0359e7ee2e")
+	)
+	(fp_line
+		(start -1.425 -2.575)
+		(end 68.175 -2.575)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cd1ca4b8-e96f-4bae-b114-964c1cfc5054")
+	)
+	(fp_line
+		(start -1.425 -2.575)
+		(end 68.175 -2.575)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "7009e4c0-c029-4340-a618-6c6b6887c718")
+	)
 	(fp_line
 		(start -1.425 -20.575)
 		(end -1.425 -28.575)

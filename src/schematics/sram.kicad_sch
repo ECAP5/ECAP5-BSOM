@@ -1509,6 +1509,12 @@
 		(uuid "d83a77cf-3af0-410c-9c71-34638da4f3ff")
 	)
 	(junction
+		(at 152.4 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57c18abc-c195-4878-b292-f042b651f117")
+	)
+	(junction
 		(at 186.69 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1982,6 +1988,16 @@
 		)
 		(uuid "2686f136-26ba-43f1-9a96-8ebbb9c0ed28")
 	)
+	(wire
+		(pts
+			(xy 139.7 125.73) (xy 139.7 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "274dcfa3-82c8-47fd-b406-da64ea5e54f0")
+	)
 	(bus
 		(pts
 			(xy 123.19 72.39) (xy 123.19 69.85)
@@ -2422,6 +2438,16 @@
 		)
 		(uuid "c527fa52-2684-4f24-83e4-c4562956b854")
 	)
+	(wire
+		(pts
+			(xy 139.7 133.35) (xy 152.4 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c67ea660-8022-4827-ad91-358f32a91b84")
+	)
 	(bus
 		(pts
 			(xy 123.19 87.63) (xy 123.19 85.09)
@@ -2564,6 +2590,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 133.35) (xy 152.4 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddddefda-acec-4387-a6fa-293ddc12f0cc")
+	)
+	(wire
+		(pts
 			(xy 162.56 114.3) (xy 179.07 114.3)
 		)
 		(stroke
@@ -2594,7 +2630,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 125.73) (xy 142.24 125.73)
+			(xy 139.7 125.73) (xy 142.24 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2604,7 +2640,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 130.81) (xy 152.4 134.62)
+			(xy 152.4 130.81) (xy 152.4 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3064,17 +3100,6 @@
 		)
 		(uuid "64ba54f0-8308-47f1-85ad-0c1eca07453d")
 	)
-	(hierarchical_label "~{CE}"
-		(shape input)
-		(at 134.62 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "67a24174-d939-4f1c-a737-389a5db43b28")
-	)
 	(hierarchical_label "IO[0..15]"
 		(shape input)
 		(at 189.23 121.92 0)
@@ -3132,7 +3157,7 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid 6c5792a6-9ec7-4255-94ff-eb6d361f97c4)
+			(uuid 006dff07-483e-4d5d-b6f5-1db4daaedc29)
 		)
 	)
 	(rule_area
@@ -3148,7 +3173,7 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid 734717ad-8c33-4906-93bc-a9178d523ae7)
+			(uuid 4dca5e34-3f94-4007-9c42-cbd3425ded8a)
 		)
 	)
 	(netclass_flag ""
@@ -3305,7 +3330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 166.37 53.34 0)
 			(effects
 				(font
@@ -3375,7 +3400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 176.53 53.34 0)
 			(effects
 				(font
@@ -3511,7 +3536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 186.69 53.34 0)
 			(effects
 				(font
