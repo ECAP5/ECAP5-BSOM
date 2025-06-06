@@ -1,13 +1,13 @@
-(footprint "Bourns_SRN8040"
+(footprint "Coilcraft_XAL4020"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -2.25 -5.5 0)
+		(at -0.1 -2.8 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "8b54ff1f-5a1f-486c-9c32-e73c1119eeb4")
+		(uuid "69b0bd7b-88a5-45fc-802a-a671836ec7ba")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "Bourns_SRN8040"
-		(at 0 5.75 0)
+	(property "Value" "Coilcraft_XAL4020"
+		(at 0 3.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "fcc80875-55ef-446d-a55d-ad5515bed3c5")
+		(uuid "167270f3-4930-4f82-8c13-73a10110084d")
 		(effects
 			(font
 				(size 1 1)
@@ -28,11 +28,11 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at -9 -8.25 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "38291ae7-6d55-4d7b-b38b-32aa3c8430ce")
+		(uuid "69db7204-4d2f-4628-b864-11812858a86d")
 		(effects
 			(font
 				(size 1 1)
@@ -41,11 +41,11 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at -9 -8.25 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fdf51e97-ebb0-499a-826e-b7d00bb9f5c5")
+		(uuid "01e5ba00-08a8-4a3c-9a60-8d322399c3c8")
 		(effects
 			(font
 				(size 1 1)
@@ -56,52 +56,112 @@
 	(attr smd)
 	(private_layers "User.2")
 	(fp_line
-		(start -4.2 -3.8)
-		(end -4.2 3.8)
+		(start -2.1 -2.1)
+		(end -2.1 2.1)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "d00fcb33-e955-4a04-9f51-6dc9d67a14eb")
+		(uuid "124e4824-2d77-42b3-a42a-b1fcf5d0640c")
 	)
 	(fp_line
-		(start 4.2 -3.8)
-		(end 4.2 3.8)
+		(start -2.1 2.1)
+		(end -1.9 2.1)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "efc23b17-7b2b-4141-88f3-4b4d68a47e1e")
+		(uuid "6d4d64bc-2617-4341-ab4c-e8d77fc5cfeb")
+	)
+	(fp_line
+		(start -1.9 -2.1)
+		(end -2.1 -2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "17064171-b187-43c7-ac3f-dd6b4628197a")
+	)
+	(fp_line
+		(start -1.9 -2.1)
+		(end 1.9 -2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "17835cb6-c027-41e1-90ed-9b769f38a1de")
+	)
+	(fp_line
+		(start -1.9 2.1)
+		(end 1.9 2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4f33f16f-3929-4eda-9a91-2a1fa039465b")
+	)
+	(fp_line
+		(start 1.9 -2.1)
+		(end 2.1 -2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5c5b3d64-7874-493f-bcee-9d7bf164a32e")
+	)
+	(fp_line
+		(start 2.1 -2.1)
+		(end 2.1 2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e76e43e5-1c83-47d8-8d37-21a7474dd90d")
+	)
+	(fp_line
+		(start 2.1 2.1)
+		(end 1.9 2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ee4e0ebb-1b8c-4fe9-8a37-4830ac558a5e")
 	)
 	(fp_rect
-		(start -4.75 -4.75)
-		(end 4.75 4.75)
+		(start -2.75 -2.75)
+		(end 2.75 2.75)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "6e333f3e-16d9-481b-b2dd-582ab6ad00bf")
+		(uuid "ba2b3746-4b64-4453-8cd7-877d9aa602fd")
 	)
 	(fp_rect
-		(start -4 -4)
-		(end 4 4)
+		(start -2 -2)
+		(end 2 2)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill no)
-		(layer "User.1")
-		(uuid "97494f83-e859-4d55-814f-281a8f85e50a")
+		(layer "F.Fab")
+		(uuid "286be4c3-6193-40a1-9671-c68bde82731c")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 7.25 0)
+		(at 0 4.9 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "2edb9f2b-1ccb-42cc-ba5d-7975b600ceb0")
+		(uuid "b89482f2-c933-4062-a7a3-57945a77bc93")
 		(effects
 			(font
 				(size 1 1)
@@ -112,11 +172,11 @@
 	(dimension
 		(type orthogonal)
 		(layer "User.2")
-		(uuid "11c99f7e-9395-4a59-922d-e3fdb763c0cc")
+		(uuid "74ddac7d-fd89-4b16-a8cb-5c04be30af7e")
 		(pts
-			(xy -3.3 -4.25) (xy -3.3 4.25)
+			(xy -1.675 -1.7) (xy -1.675 1.7)
 		)
-		(height -4.45)
+		(height -1.575)
 		(orientation 1)
 		(format
 			(prefix "")
@@ -135,10 +195,10 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "8.5"
-			(at -8.11 0 90)
+		(gr_text "3.4"
+			(at -3.61 0 90)
 			(layer "User.2")
-			(uuid "11c99f7e-9395-4a59-922d-e3fdb763c0cc")
+			(uuid "74ddac7d-fd89-4b16-a8cb-5c04be30af7e")
 			(effects
 				(font
 					(size 0.3 0.3)
@@ -151,50 +211,11 @@
 	(dimension
 		(type orthogonal)
 		(layer "User.2")
-		(uuid "92d95162-6512-4fdd-8b3b-82f2a5e45357")
+		(uuid "86655c07-f71f-4437-b44b-0a8c89cf3033")
 		(pts
-			(xy 3.3 -1.4) (xy 3.3 1.4)
+			(xy -1.675 1.7) (xy -0.695 1.7)
 		)
-		(height 4.45)
-		(orientation 1)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.05)
-			(arrow_length 0.2)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "2.8"
-			(at 7.39 0 90)
-			(layer "User.2")
-			(uuid "92d95162-6512-4fdd-8b3b-82f2a5e45357")
-			(effects
-				(font
-					(size 0.3 0.3)
-					(thickness 0.06)
-					(bold yes)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "User.2")
-		(uuid "944be1a9-10d0-4762-b4b3-4691d7eba7f0")
-		(pts
-			(xy -3.3 4.25) (xy 3.3 4.25)
-		)
-		(height 5)
+		(height 1.8)
 		(orientation 0)
 		(format
 			(prefix "")
@@ -213,10 +234,49 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "6.6"
-			(at 0 8.89 0)
+		(gr_text "0.98"
+			(at -1.185 3.14 0)
 			(layer "User.2")
-			(uuid "944be1a9-10d0-4762-b4b3-4691d7eba7f0")
+			(uuid "86655c07-f71f-4437-b44b-0a8c89cf3033")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.06)
+					(bold yes)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.2")
+		(uuid "bb026a85-b747-4d82-998c-6f730eb683f9")
+		(pts
+			(xy -1.185 -1.7) (xy 1.185 -1.7)
+		)
+		(height -1.55)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 0.2)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "2.37"
+			(at 0 -3.61 0)
+			(layer "User.2")
+			(uuid "bb026a85-b747-4d82-998c-6f730eb683f9")
 			(effects
 				(font
 					(size 0.3 0.3)
@@ -227,21 +287,21 @@
 		)
 	)
 	(pad "1" smd rect
-		(at 0 -2.825)
-		(size 6.6 2.85)
+		(at -1.185 0)
+		(size 0.98 3.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
-		(uuid "ba2ed6dc-7014-4d8c-9a06-fe945dde32ae")
+		(uuid "2d71fee7-b4c3-4316-a078-0b6ddbf3a891")
 	)
 	(pad "2" smd rect
-		(at 0 2.825)
-		(size 6.6 2.85)
+		(at 1.185 0)
+		(size 0.98 3.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
-		(uuid "8755059c-4550-4115-9de4-e5458bff00c2")
+		(uuid "af3442f7-6cc0-45c6-a4b5-db423eee3fdb")
 	)
 	(embedded_fonts no)
-	(model "/Users/cchaine/Desktop/Documents/projects/ecap5/boards/som/src/footprints.pretty/models/Bourns_SRN8040.stp"
+	(model "/Users/cchaine/Desktop/Documents/projects/ecap5/boards/som/src/footprints.pretty/models/Coilcraft_XAL4020.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -249,7 +309,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 -0)
+			(xyz 0 0 0)
 		)
 	)
 )

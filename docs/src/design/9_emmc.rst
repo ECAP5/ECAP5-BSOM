@@ -87,3 +87,156 @@ Eye Diagram
 
 Crosstalk
 ^^^^^^^^^
+
+Routing
+-------
+
+Length matching
+```````````````
+
+.. flat-table:: Signal trace length delay constraints
+   :header-rows: 1
+   :width: 100%
+
+   * - Constraint
+     - Description
+
+   * - LC1
+     - Mismatch within DAT0~DAT7+DS <= 41ps
+
+   * - LC2
+     - CLK to DAT0~7+DS mismatch <= 41ps
+
+   * - LC3
+     - CLK to CMD mismatch <= 41ps
+
+   * - LC4
+     - CLK to RST_N mismatch <= 166ps
+
+.. note:: Signals applicable to LC1 will be matched to the longest one of them
+
+All signals are routed on layers L1/L6 which share the same propagation speed, and the number of vias has been matched so the signals are length matched with 41ps leading to <= 7.246mm and 166ps leading to <= 29.337mm.
+
+.. flat-table:: Length matching implementation
+   :header-rows: 1
+   :width: 100%
+
+   * - Signal
+     - Pre-matching Length
+     - LC1
+     - LC2
+     - LC3
+     - LC4
+     - Matching target  
+     - Post-matching length
+
+   * - CLK
+     - 17.8451mm
+     - N/A
+     - N/A
+     - N/A
+     - N/A
+     - N/A
+     - N/A
+
+   * - CMD
+     - 17.9620mm
+     - N/A
+     - N/A
+     - Yes
+     - N/A
+     - N/A
+     - N/A
+
+   * - RST_N
+     - 15.2397mm
+     - N/A
+     - N/A
+     - N/A
+     - Yes
+     - N/A
+     - N/A
+
+   * - DS
+     - 15.9327mm
+     - Yes
+     - Yes
+     - N/A
+     - N/A
+     - N/A
+     - N/A
+
+   * - DAT0
+     - 9.7788mm
+     - Yes
+     - No
+     - N/A
+     - N/A
+     - 14.223mm (Clk-Tol/2)
+     - 14.223mm
+
+   * - DAT1
+     - 11.6159mm
+     - Yes
+     - Yes
+     - N/A
+     - N/A
+     - 14.223mm (Clk-Tol/2)
+     - 14.223mm
+
+   * - DAT2
+     - 10.6077mm
+     - Yes
+     - Yes
+     - N/A
+     - N/A
+     - 14.223mm (Clk-Tol/2)
+     - 14.223mm
+
+   * - DAT3
+     - 10.9396mm
+     - Yes
+     - Yes
+     - N/A
+     - N/A
+     - 14.223mm (Clk-Tol/2)
+     - 14.223mm
+
+   * - DAT4
+     - 9.8626mm
+     - Yes
+     - No
+     - N/A
+     - N/A
+     - 14.223mm (Clk-Tol/2)
+     - 14.223mm
+
+   * - DAT5
+     - 16.0556mm
+     - Yes
+     - Yes
+     - N/A
+     - N/A
+     - N/A
+     - N/A 
+
+   * - DAT6
+     - 16.7553mm
+     - Longest
+     - Yes
+     - N/A
+     - N/A
+     - N/A
+     - N/A
+
+   * - DAT7
+     - 13.4568mm
+     - Yes
+     - Yes
+     - N/A
+     - N/A
+     - 14.223mm (Clk-Tol/2)
+     - 14.223mm
+       
+.. todo:: Perform signal integrity simulation to check if stub from parallel termination is a problem.
+

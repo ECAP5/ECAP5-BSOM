@@ -5893,24 +5893,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -1.27 31.75 270)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at -1.27 31.75 270)
 				(length 2.54)
@@ -6513,6 +6495,24 @@
 			)
 		)
 		(symbol "IS42S16160J-*BL_1_0"
+			(pin power_in line
+				(at -1.27 31.75 270)
+				(length 2.54)
+				(name "VDD[3]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
 				(at -1.27 -30.48 90)
 				(length 2.54)

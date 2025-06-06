@@ -96,3 +96,35 @@ Eye Diagram
 
 Crosstalk
 ^^^^^^^^^
+
+Routing
+-------
+
+Length matching
+```````````````
+
+.. flat-table:: Signal trace length delay constraints
+   :header-rows: 1
+   :width: 100%
+
+   * - Constraint
+     - Description
+
+   * - LC1
+     - All data, address and command signals must be followed within +- 50ps
+
+   * - LC2
+     - Intra-pair mismatch +- 2ps
+
+   * - LC3
+     - Inter-pair mismatch +- 5ps
+
+   * - LC4
+     - Intra-byte-group mismatch +- 10ps
+
+For signals that are routed on the same layer, a delay matching within the provided tolerances is performed using the signal velocity.
+
+For signals that are routed on different layers, an exact length matching is performed.
+
+.. note:: There is no need to take into account differencies in propagation speed for the routing of CK/CK# and DQS/DQS# pairs as there are routed on layers L1/L6 which have the same propagation speed.
+
