@@ -27,12 +27,18 @@ The stackup used is JLCPCB's JLC06121H-3313 1.2mm pcb stackup with a dielectric 
      - Power
 
    * - Inner Layer L4
-     - High-Speed signals (if routed under the power plane)
+     - Power
 
    * - Inner Layer L5
      - GND
 
    * - Bottom layer L6
+     - High-Speed signals
+
+   * - Bottom layer L7
+     - GND
+
+   * - Bottom layer L8
      - High-Speed signals
 
 Trace impedance
