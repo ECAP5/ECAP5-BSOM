@@ -17567,7 +17567,7 @@
 		)
 		(uuid "0b5c70e8-98b6-47f7-a98f-cf6ed3096a94")
 	)
-	(label "DQMH"
+	(label "SDRAM0.DQMH"
 		(at 182.88 102.87 180)
 		(effects
 			(font
@@ -17587,7 +17587,7 @@
 		)
 		(uuid "0e1680ba-2c14-4f0a-8cb4-1464e7200311")
 	)
-	(label "~{RAS}"
+	(label "SDRAM0.~{RAS}"
 		(at 114.3 105.41 0)
 		(effects
 			(font
@@ -17607,7 +17607,7 @@
 		)
 		(uuid "1cdf8160-0cac-405d-bd32-c0b77c7d1db6")
 	)
-	(label "CLK"
+	(label "SDRAM.CLK"
 		(at 114.3 143.51 0)
 		(effects
 			(font
@@ -17637,7 +17637,7 @@
 		)
 		(uuid "32f0d9e6-cc9a-4ff0-84de-3aeb0756e7a2")
 	)
-	(label "~{CAS}"
+	(label "SDRAM0.~{CAS}"
 		(at 114.3 115.57 0)
 		(effects
 			(font
@@ -17687,7 +17687,7 @@
 		)
 		(uuid "5651139a-cc46-40af-9e14-f4645dd6d6b5")
 	)
-	(label "CLKE"
+	(label "SDRAM0.CLKE"
 		(at 114.3 128.27 0)
 		(effects
 			(font
@@ -17747,7 +17747,7 @@
 		)
 		(uuid "871d15ce-abec-44fc-b10e-611119af95a1")
 	)
-	(label "~{WE}"
+	(label "SDRAM0.~{WE}"
 		(at 114.3 102.87 0)
 		(effects
 			(font
@@ -17807,7 +17807,7 @@
 		)
 		(uuid "b8e4ad7d-1fc3-4c20-afe2-da3f0c126067")
 	)
-	(label "DQML"
+	(label "SDRAM0.DQML"
 		(at 114.3 87.63 0)
 		(effects
 			(font
@@ -17917,6 +17917,17 @@
 		)
 		(uuid "ff603655-4da8-440c-96ad-61e40f058068")
 	)
+	(hierarchical_label "SDRAM0.~{CS}"
+		(shape input)
+		(at 63.5 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ad2903a-d45d-42cc-8910-58e92613231d")
+	)
 	(hierarchical_label "SDRAM.A[0..12]"
 		(shape input)
 		(at 87.63 55.88 180)
@@ -17928,18 +17939,7 @@
 		)
 		(uuid "2c7c2089-3081-4d51-a4f4-a54c15711036")
 	)
-	(hierarchical_label "PCLK_40MHZ"
-		(shape input)
-		(at 29.21 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2cd869b8-ec00-49b5-9f3f-ddac5a3ec669")
-	)
-	(hierarchical_label "SDRAM.DQ[0..15]"
+	(hierarchical_label "SDRAM.DQ[0..31]"
 		(shape input)
 		(at 87.63 63.5 180)
 		(effects
@@ -17961,7 +17961,7 @@
 		)
 		(uuid "601b4d05-11bd-4638-bb90-aea32114b325")
 	)
-	(hierarchical_label "SDRAM.~{WE}"
+	(hierarchical_label "SDRAM0.~{WE}"
 		(shape input)
 		(at 92.71 102.87 180)
 		(effects
@@ -17983,7 +17983,7 @@
 		)
 		(uuid "7ba670eb-797a-4d01-96f1-21a63b128f31")
 	)
-	(hierarchical_label "SDRAM.~{RAS}"
+	(hierarchical_label "SDRAM0.~{RAS}"
 		(shape input)
 		(at 92.71 105.41 180)
 		(effects
@@ -17994,7 +17994,7 @@
 		)
 		(uuid "d41ea326-faed-4c83-a37b-efd3345cf6fd")
 	)
-	(hierarchical_label "SDRAM.~{CAS}"
+	(hierarchical_label "SDRAM0.~{CAS}"
 		(shape input)
 		(at 92.71 115.57 180)
 		(effects
@@ -18005,7 +18005,7 @@
 		)
 		(uuid "e3282aae-4212-40e8-903e-90fe728c2c77")
 	)
-	(hierarchical_label "SDRAM.DQML"
+	(hierarchical_label "SDRAM0.DQML"
 		(shape input)
 		(at 92.71 87.63 180)
 		(effects
@@ -18016,7 +18016,7 @@
 		)
 		(uuid "e36747a7-887a-47ec-9944-436c70a8e67e")
 	)
-	(hierarchical_label "SDRAM.CKE"
+	(hierarchical_label "SDRAM0.CKE"
 		(shape input)
 		(at 92.71 128.27 180)
 		(effects
@@ -18027,7 +18027,7 @@
 		)
 		(uuid "e9b90f3b-1220-46a4-a5c0-f1083a3f975e")
 	)
-	(hierarchical_label "SDRAM.DQMH"
+	(hierarchical_label "SDRAM0.DQMH"
 		(shape input)
 		(at 195.58 102.87 0)
 		(effects

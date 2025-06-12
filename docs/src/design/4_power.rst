@@ -11,7 +11,7 @@ The power sub-circuit is in charge of converting the supply voltage from the IO 
    :width: 100%
 
    * - Voltage
-     - Current capacity
+     - Current capacity requirement
 
    * - 1.1V ±5%
      - 3.5A
@@ -159,16 +159,16 @@ The following table outlines the voltage requirements of the specified component
      - 3.3V ±5%
      - 50mA
      - Supply Voltage
-   * - :rspan:`1` IS42S16160J
+   * - :rspan:`1` IS42S16160J x2
      - VDD
      - 3.3V ±10%
-     - 140mA
+     - 140mA x2
      - Supply Voltage
    * - VDDQ
      - 3.3V ±10%
      - *included in VDD*
      - I/O Supply Voltage
-   * - :rspan:`2` IS43DR16320E
+   * - :rspan:`2` IS43DR86400E
      - VDD
      - 1.8V ±5%
      - 185mA

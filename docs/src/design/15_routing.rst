@@ -8,7 +8,7 @@ Stackup
    :width: 70%
    :align: center
 
-The stackup used is JLCPCB's JLC06121H-3313 1.2mm pcb stackup with a dielectric constant of 4.6.
+The stackup used is JLCPCB's JLC08121H-3313 1.2mm pcb stackup.
 
 .. flat-table:: Layer allocation
    :header-rows: 1
@@ -24,13 +24,13 @@ The stackup used is JLCPCB's JLC06121H-3313 1.2mm pcb stackup with a dielectric 
      - GND
 
    * - Inner Layer L3
-     - Power
+     - High-Speed signals
 
    * - Inner Layer L4
      - Power
 
    * - Inner Layer L5
-     - GND
+     - Power
 
    * - Bottom layer L6
      - High-Speed signals
@@ -65,17 +65,13 @@ Trace impedance
 
    * - Single-ended 50ohms
      - L4
-     - 5.29mil (0,134366mm)
+     - 4.57mil (0,116mm)
      - N/A
 
    * - Differencial 100ohm
      - L4
-     - 4.37mil (0,110998mm)
+     - 4.04mil (0,102616mm)
      - 8.0mil (0,2032mm)
-
-.. note:: A 0.12mm single-ended trace will result in a 56ohm impedance on L1/L6 layers and a 53ohm impedance on L4.
-
-.. note:: A 0.12mm differencial trace will result in a 101ohm impedance on L1/L6 layers and a 97ohm impedance on L4.
 
 Signal propagation
 ------------------
@@ -102,11 +98,11 @@ where Dkeff for a 0.12mm microstrip with a Dk of 4.6 is 2.87749 and the speed of
 
    * - L1/L6
      - Single-Ended
-     - 5.6583ps/mm
+     - 
 
    * - L4
      - Single-Ended
-     - 6.6713ps/mm
+     - 
 
    * - L1/L6
      - Differencial

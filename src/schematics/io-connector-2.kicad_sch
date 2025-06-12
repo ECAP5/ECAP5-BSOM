@@ -9356,38 +9356,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 236.22 52.07) (xy 238.76 52.07) (xy 238.76 118.11) (xy 236.22 118.11)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type color)
-				(color 255 0 0 0.1)
-			)
-			(uuid 27be59f6-26a4-4e69-892c-232505a73e13)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 119.38 137.16) (xy 121.92 137.16) (xy 121.92 92.71) (xy 119.38 92.71)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type color)
-				(color 255 0 0 0.1)
-			)
-			(uuid 66120fc0-c704-46d1-a272-c9df54586efd)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 179.07 52.07) (xy 181.61 52.07) (xy 181.61 118.11) (xy 179.07 118.11)
 			)
 			(stroke
@@ -9398,13 +9366,13 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid 6a5c4e4e-88cd-43d0-801f-f6d0ee0b3b04)
+			(uuid 0306c070-db8a-4811-8f9c-836b040d36c7)
 		)
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 119.38 48.26) (xy 121.92 48.26) (xy 121.92 90.17) (xy 119.38 90.17)
+				(xy 236.22 52.07) (xy 238.76 52.07) (xy 238.76 118.11) (xy 236.22 118.11)
 			)
 			(stroke
 				(width 0)
@@ -9414,7 +9382,7 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid 77b7d39d-fc95-4088-9907-09dd32ce4e70)
+			(uuid 25e238c4-f2e3-465c-9305-306368be6b4f)
 		)
 	)
 	(rule_area
@@ -9430,7 +9398,39 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid ab8f183c-620f-4525-9c9b-5ed0e797cbbb)
+			(uuid babd9df2-94d2-421c-8a42-0e819ba25921)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 119.38 48.26) (xy 121.92 48.26) (xy 121.92 90.17) (xy 119.38 90.17)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid dbcf7a88-ba94-489f-a39f-a314e56ddadb)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 119.38 137.16) (xy 121.92 137.16) (xy 121.92 92.71) (xy 119.38 92.71)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid e3ee2172-2d35-4a7b-a7e1-734e75e75196)
 		)
 	)
 	(netclass_flag ""
