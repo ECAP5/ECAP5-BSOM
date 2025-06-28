@@ -32,6 +32,26 @@ The sub-circuit enables the voltage regulators in the following sequence, with a
 
 .. note:: The 3.3V voltage regulator is enabled by default so it can power the power sequencing IC.
 
+The power sub-circuit also includes power monitoring ICs (IN219) to measure both voltage and current over an I2C bus. The following I2C addresses are used :
+
+.. flat-table:: Supply monitoring I2C addresses
+   :header-rows: 1
+   :width: 100%
+
+   * - Supply
+     - I2C address
+
+   * - 1.1V
+     - 0x85
+   * - 1.8V
+     - 0x84
+   * - 2.5V
+     - 0x81
+   * - 3.3V
+     - 0x80
+
+Power monitors are powered by a separate 5V LDO.
+
 Design constraints
 ------------------
 
@@ -236,6 +256,39 @@ The following formula is used to compute the value of :math:`C_{\text{en}}` whic
 .. math::
 
   C_{\text{en}} = 56nF \implies t_{\text{enable_delay}} = 10ms
+
+Power monitoring
+````````````````
+
+In order to minimize the voltage drop induced by the shunt resistor, the following values have been chosen, considering a full range shunt resistor voltage of 40mV :
+
+.. flat-table:: Power monitoring shunt resistor
+   :header-rows: 1
+   :width: 100%
+
+   * - Supply
+     - Max current
+     - Shunt resistor
+     - Max voltage drop
+
+   * - 1.1V
+     - 4A
+     - 2.2mOhms
+     - 8.8mV
+   * - 1.8V
+     - 1A
+     - 22mOhms
+     - 22mV
+   * - 2.5V
+     - 1A
+     - 39mOhms
+     - 39mV
+   * - 3.3V
+     - 1A
+     - 39mOhms
+     - 39mV
+
+.. note:: The smaller shunt resistors on 1.1V and 1.8V supplies will result in a lower power measurement precision but allows for a greater voltage margin.
 
 Simulation results
 ------------------

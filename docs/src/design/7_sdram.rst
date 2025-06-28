@@ -43,6 +43,10 @@ Pre-layout
 
 The goal of the pre-layout simulation is to adjust the high-speed bus termination.
 
+The address and command trace stubs associated to the fly-by routing topology shall be smaller than 0.3/0.1Gbps = 3inch so no terminating resistors are needed.
+
+.. todo:: perform the pre-layout simulation to confirm the formula.
+
 Transient behavior
 ^^^^^^^^^^^^^^^^^^
 
