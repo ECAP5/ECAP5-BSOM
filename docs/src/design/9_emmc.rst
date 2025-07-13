@@ -237,6 +237,4 @@ All signals are routed on layers L1/L6 which share the same propagation speed, a
      - N/A
      - 14.223mm (Clk-Tol/2)
      - 14.223mm
-       
-.. todo:: Perform signal integrity simulation to check if stub from parallel termination is a problem.
 

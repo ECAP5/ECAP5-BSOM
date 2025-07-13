@@ -86,7 +86,7 @@ The propagation speed is computed with the following formulas :
 
    v_{\text{stripline}} = \frac{c_{\text{vacuum}}}{\sqrt{Dk}}
 
-where Dkeff for a 0.12mm microstrip with a Dk of 4.6 is 2.87749 and the speed of light in vacuum is 299792458m/s.
+where Dkeff for a 0.15mm stripline with a Dk of 4.6 is 2.87749 and the speed of light in vacuum is 299792458m/s.
 
 .. flat-table:: Trace propagation on stackup layers
    :header-rows: 1
@@ -98,11 +98,11 @@ where Dkeff for a 0.12mm microstrip with a Dk of 4.6 is 2.87749 and the speed of
 
    * - L1/L6
      - Single-Ended
-     - 
+     - ~5ps/mm
 
    * - L4
      - Single-Ended
-     - 
+     - ~7ps/mm
 
    * - L1/L6
      - Differencial
@@ -111,5 +111,3 @@ where Dkeff for a 0.12mm microstrip with a Dk of 4.6 is 2.87749 and the speed of
    * - L4
      - Differencial
      - 
-
-.. note:: A maximum via delay of 20ps will be used.

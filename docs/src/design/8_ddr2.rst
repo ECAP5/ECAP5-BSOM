@@ -122,9 +122,10 @@ Length matching
    * - LC4
      - Intra-byte-group mismatch +- 10ps
 
-For signals that are routed on the same layer, a delay matching within the provided tolerances is performed using the signal velocity.
+CLK and DQS intra-pair and inter-pair mismatches are ignored as they are exactly length matched.
 
-For signals that are routed on different layers, an exact length matching is performed.
+CLK, DQS, Data and DM signals are routed on the same layer (L6) and are length matched to 0.03mm (2.1ps<10ps).
 
-.. note:: There is no need to take into account differencies in propagation speed for the routing of CK/CK# and DQS/DQS# pairs as there are routed on layers L1/L6 which have the same propagation speed.
+Signals on L3 shall be matched to 23.9150mm +- 5mm (35ps<50ps))
 
+Signals on L8 shall be matched to 23.9150mm +- 7mm (35ps<50ps))
