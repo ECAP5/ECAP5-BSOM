@@ -126,6 +126,6 @@ CLK and DQS intra-pair and inter-pair mismatches are ignored as they are exactly
 
 CLK, DQS, Data and DM signals are routed on the same layer (L6) and are length matched to 0.03mm (2.1ps<10ps).
 
-Signals on L3 shall be matched to 23.9150mm +- 5mm (35ps<50ps))
+Signals on L3/L6 shall be matched to 23.9150mm +- 5mm (35ps<50ps))
 
 Signals on L8 shall be matched to 23.9150mm +- 7mm (35ps<50ps))
