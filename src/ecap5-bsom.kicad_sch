@@ -2760,8 +2760,8 @@
 		)
 	)
 	(sheet
-		(at 168.91 77.47)
-		(size 19.05 48.26)
+		(at 168.91 101.6)
+		(size 19.05 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2775,7 +2775,7 @@
 		)
 		(uuid "32883292-2146-4067-bcec-7b9e760c81f8")
 		(property "Sheetname" "FPGA Bank 1"
-			(at 168.91 76.7584 0)
+			(at 168.91 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2784,7 +2784,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/fpga-bank1.kicad_sch"
-			(at 168.91 104.7246 0)
+			(at 168.91 128.8546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2794,7 +2794,7 @@
 			)
 		)
 		(property "Vio" "3.3V"
-			(at 185.166 76.2 0)
+			(at 185.166 100.33 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2875,76 +2875,6 @@
 		(pin "SRAM.IO[0..15]" input
 			(at 168.91 106.68 180)
 			(uuid "1b207f82-52ad-43b7-84a2-3bf4f6f8f8c5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDRAM1.CKE" input
-			(at 168.91 82.55 180)
-			(uuid "df7f53a8-fbba-4ba1-942f-9cdb82d2d3ec")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDRAM1.DQMH" input
-			(at 168.91 85.09 180)
-			(uuid "32408829-a0aa-43e8-b9ca-018a554745db")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDRAM1.DQML" input
-			(at 168.91 87.63 180)
-			(uuid "aaa6739b-b4ef-4448-a0fc-69f3b5af7832")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDRAM1.~{CAS}" input
-			(at 168.91 90.17 180)
-			(uuid "54d209c9-40b3-4fc0-8a36-12777953d712")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDRAM1.~{RAS}" input
-			(at 168.91 92.71 180)
-			(uuid "224be9fa-e22c-45ae-bd6b-bb59902a916f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDRAM1.~{WE}" input
-			(at 168.91 95.25 180)
-			(uuid "d980fb33-ef30-4216-a46e-1a3e822909cd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDRAM1.~{CS}" input
-			(at 168.91 80.01 180)
-			(uuid "0b590cd9-5cc6-4667-87dc-4c624bc52438")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3447,7 +3377,7 @@
 	)
 	(sheet
 		(at 168.91 39.37)
-		(size 19.05 34.29)
+		(size 19.05 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3590,6 +3520,76 @@
 		(pin "SDRAM.A[0..12]" input
 			(at 168.91 44.45 180)
 			(uuid "b1826433-70c1-4d41-bd18-c9b3cea89b52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDRAM1.CKE" input
+			(at 168.91 82.55 180)
+			(uuid "e5e3acfe-ab16-4bf1-add2-963d82dff46a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDRAM1.DQMH" input
+			(at 168.91 85.09 180)
+			(uuid "0f9bbef9-2cc6-4fcb-95c7-983c8fc8122b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDRAM1.DQML" input
+			(at 168.91 87.63 180)
+			(uuid "8d2b1c24-b5b1-4f9c-b3b3-73b9f963ce99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDRAM1.~{CAS}" input
+			(at 168.91 90.17 180)
+			(uuid "76532257-3bd6-44fe-a4fe-d0156596c4d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDRAM1.~{CS}" input
+			(at 168.91 80.01 180)
+			(uuid "10ad7c69-38eb-42bd-95fd-adc46551804a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDRAM1.~{RAS}" input
+			(at 168.91 92.71 180)
+			(uuid "3774163c-185b-40ec-915d-40f6c9ba92b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDRAM1.~{WE}" input
+			(at 168.91 95.25 180)
+			(uuid "a0d39d90-e113-46aa-8215-4bbfcb018da4")
 			(effects
 				(font
 					(size 1.27 1.27)
