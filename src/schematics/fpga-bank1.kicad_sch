@@ -17180,6 +17180,16 @@
 		)
 		(uuid "15a283e7-fe07-4025-8476-34ce33d08007")
 	)
+	(label "SDRAM.DQ16"
+		(at 119.38 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29624b97-4d55-4bf3-a782-b592b2dca16e")
+	)
 	(label "SRAM.IO13"
 		(at 186.69 107.95 180)
 		(effects
@@ -17360,6 +17370,16 @@
 		)
 		(uuid "b1a47e32-088f-47e1-8270-f6a46fac0498")
 	)
+	(label "SDRAM.DQ19"
+		(at 119.38 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6f1ccdd-f3da-433a-96fd-05a4490d6205")
+	)
 	(label "SRAM.IO7"
 		(at 186.69 123.19 180)
 		(effects
@@ -17370,6 +17390,16 @@
 		)
 		(uuid "b9e2ee0b-33ca-4a9d-9e6b-4a7aaab81304")
 	)
+	(label "SDRAM.DQ29"
+		(at 119.38 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3ae806f-3696-454a-9897-b56d77e8c1e8")
+	)
 	(label "SRAM.IO6"
 		(at 186.69 133.35 180)
 		(effects
@@ -17379,6 +17409,16 @@
 			(justify right bottom)
 		)
 		(uuid "c75ef4c6-5332-455a-b730-862e019ee24a")
+	)
+	(label "SDRAM.DQ31"
+		(at 119.38 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbc2b9b4-603a-4eea-9a18-a6bad7dec704")
 	)
 	(label "SRAM.A0"
 		(at 129.54 140.97 180)
@@ -17637,6 +17677,17 @@
 			(justify right)
 		)
 		(uuid "8f599334-6ebc-43d2-a2bb-e09810a6d539")
+	)
+	(hierarchical_label "SDRAM.DQ[0..31]"
+		(shape input)
+		(at 60.96 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a3cdf9ff-ad9a-40df-bba6-9ff5f6921883")
 	)
 	(hierarchical_label "SRAM.A[0..17]"
 		(shape input)
