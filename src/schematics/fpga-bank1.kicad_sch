@@ -17151,7 +17151,7 @@
 		(uuid "ff8f526d-a8cc-4744-b013-07711394fc05")
 	)
 	(label "SRAM.A4"
-		(at 186.69 118.11 180)
+		(at 53.34 13.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17161,7 +17161,7 @@
 		(uuid "0e098490-e211-4f70-922d-9f1214bc5a15")
 	)
 	(label "SRAM.IO9"
-		(at 121.92 115.57 0)
+		(at -11.43 11.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17171,7 +17171,7 @@
 		(uuid "12ae323b-0e16-4bff-9c85-0a89617fb8ba")
 	)
 	(label "SRAM.A10"
-		(at 186.69 102.87 180)
+		(at 53.34 -1.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17191,7 +17191,7 @@
 		(uuid "29624b97-4d55-4bf3-a782-b592b2dca16e")
 	)
 	(label "SRAM.IO13"
-		(at 186.69 107.95 180)
+		(at 53.34 3.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17201,7 +17201,7 @@
 		(uuid "2ae1f79c-0c70-4f28-95e3-44e81b01e29d")
 	)
 	(label "SRAM.IO5"
-		(at 186.69 125.73 180)
+		(at 53.34 21.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17211,7 +17211,7 @@
 		(uuid "2d6f6673-9e32-45ed-a674-9d289e477d66")
 	)
 	(label "SRAM.A2"
-		(at 186.69 120.65 180)
+		(at 53.34 16.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17220,8 +17220,18 @@
 		)
 		(uuid "2d9ed9e2-f083-4d1e-b951-806890fa1d46")
 	)
+	(label "SDRAM.DQ18"
+		(at 119.38 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "328ab5ec-be70-4834-a282-f5cce786ae2c")
+	)
 	(label "~{UB}"
-		(at 121.92 123.19 0)
+		(at -11.43 19.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17231,7 +17241,7 @@
 		(uuid "4518c94b-9000-4349-9495-7480b6f13e44")
 	)
 	(label "SRAM.IO2"
-		(at 186.69 138.43 180)
+		(at 53.34 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17241,7 +17251,7 @@
 		(uuid "4760d451-ae1d-4cc0-9269-21e317505b89")
 	)
 	(label "SRAM.A8"
-		(at 121.92 120.65 0)
+		(at -11.43 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17251,7 +17261,7 @@
 		(uuid "4896d0ef-abb7-47e1-88f1-0dc05fae248d")
 	)
 	(label "SRAM.A12"
-		(at 121.92 118.11 0)
+		(at -11.43 13.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17261,7 +17271,7 @@
 		(uuid "4c2af8d8-945e-41f3-8526-895387c43d9b")
 	)
 	(label "SRAM.IO12"
-		(at 121.92 130.81 0)
+		(at -11.43 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17271,7 +17281,7 @@
 		(uuid "4fd2b94c-b3c7-4744-b061-fcc6d922fc30")
 	)
 	(label "SRAM.A13"
-		(at 186.69 113.03 180)
+		(at 53.34 8.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17291,7 +17301,7 @@
 		(uuid "63891729-9153-49fe-8758-ab12bb0cae62")
 	)
 	(label "SRAM.A9"
-		(at 121.92 135.89 0)
+		(at -11.43 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17301,7 +17311,7 @@
 		(uuid "6650965d-325e-41ab-a50a-a71af0166676")
 	)
 	(label "SRAM.IO3"
-		(at 186.69 143.51 180)
+		(at 53.34 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17310,8 +17320,18 @@
 		)
 		(uuid "69875ab0-4534-4aa2-a644-c030678e925b")
 	)
+	(label "SDRAM.DQ17"
+		(at 119.38 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d11ed6d-ff47-4aca-b204-460694f50997")
+	)
 	(label "SRAM.IO15"
-		(at 186.69 110.49 180)
+		(at 53.34 6.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17321,7 +17341,7 @@
 		(uuid "6e89987f-c5a6-4ce8-8214-407d6428d6b8")
 	)
 	(label "SRAM.A7"
-		(at 186.69 128.27 180)
+		(at 53.34 24.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17331,7 +17351,7 @@
 		(uuid "7a7baddb-fb08-4324-aa46-85b3ca4ff55a")
 	)
 	(label "SRAM.IO14"
-		(at 121.92 143.51 0)
+		(at -11.43 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17341,7 +17361,7 @@
 		(uuid "8e217a9c-8441-42df-b923-019adc4644be")
 	)
 	(label "SRAM.A6"
-		(at 186.69 130.81 180)
+		(at 53.34 26.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17351,7 +17371,7 @@
 		(uuid "90ac3442-e458-47f1-98e1-494ce652e314")
 	)
 	(label "SRAM.IO0"
-		(at 186.69 140.97 180)
+		(at 53.34 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17361,7 +17381,7 @@
 		(uuid "9a0ffd90-7964-4077-ac15-2dd9eae245a5")
 	)
 	(label "SRAM.A1"
-		(at 186.69 105.41 180)
+		(at 53.34 1.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17381,7 +17401,7 @@
 		(uuid "b6f1ccdd-f3da-433a-96fd-05a4490d6205")
 	)
 	(label "SRAM.IO7"
-		(at 186.69 123.19 180)
+		(at 53.34 19.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17389,6 +17409,16 @@
 			(justify right bottom)
 		)
 		(uuid "b9e2ee0b-33ca-4a9d-9e6b-4a7aaab81304")
+	)
+	(label "SDRAM.DQ20"
+		(at 119.38 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2d17672-d432-4240-b170-9bb8a8b9c60a")
 	)
 	(label "SDRAM.DQ29"
 		(at 119.38 82.55 0)
@@ -17401,7 +17431,7 @@
 		(uuid "c3ae806f-3696-454a-9897-b56d77e8c1e8")
 	)
 	(label "SRAM.IO6"
-		(at 186.69 133.35 180)
+		(at 53.34 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17409,6 +17439,16 @@
 			(justify right bottom)
 		)
 		(uuid "c75ef4c6-5332-455a-b730-862e019ee24a")
+	)
+	(label "SDRAM.DQ23"
+		(at 119.38 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca513095-f50e-40f8-b961-f6cdf98b0da4")
 	)
 	(label "SDRAM.DQ31"
 		(at 119.38 72.39 0)
@@ -17421,7 +17461,7 @@
 		(uuid "cbc2b9b4-603a-4eea-9a18-a6bad7dec704")
 	)
 	(label "SRAM.A0"
-		(at 129.54 140.97 180)
+		(at -3.81 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17431,7 +17471,7 @@
 		(uuid "cc7f3d25-f81c-42f3-941d-dc7bb9f190cd")
 	)
 	(label "SRAM.A11"
-		(at 186.69 115.57 180)
+		(at 53.34 11.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17441,7 +17481,7 @@
 		(uuid "d4d8836b-4526-49de-87da-8674d12bf7dd")
 	)
 	(label "SRAM.A17"
-		(at 121.92 100.33 0)
+		(at -11.43 -3.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17451,7 +17491,7 @@
 		(uuid "d69689f3-f4a2-4c08-8faf-c47e82920bd7")
 	)
 	(label "SRAM.A5"
-		(at 121.92 107.95 0)
+		(at -11.43 3.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17461,7 +17501,7 @@
 		(uuid "d7d7c15f-bcb6-40f4-a099-a9f2d42386c5")
 	)
 	(label "SRAM.A15"
-		(at 121.92 146.05 0)
+		(at -11.43 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17471,7 +17511,7 @@
 		(uuid "dae5a70f-4a5d-4fe9-a6b8-058757b7217f")
 	)
 	(label "~{WE}"
-		(at 121.92 138.43 0)
+		(at -11.43 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17481,7 +17521,7 @@
 		(uuid "df573ef1-1aca-4868-9e7d-927710a8e9fa")
 	)
 	(label "~{LB}"
-		(at 121.92 97.79 0)
+		(at -11.43 -6.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17491,7 +17531,7 @@
 		(uuid "e2f9425a-be47-44ac-b7ea-006e41db09fe")
 	)
 	(label "SRAM.IO4"
-		(at 186.69 135.89 180)
+		(at 53.34 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17501,7 +17541,7 @@
 		(uuid "e41becf3-affa-49ea-8d55-001b68fc3488")
 	)
 	(label "SRAM.A3"
-		(at 121.92 110.49 0)
+		(at -11.43 6.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17511,7 +17551,7 @@
 		(uuid "ea786b30-773c-4d73-8d1d-19313874d09e")
 	)
 	(label "SRAM.IO8"
-		(at 121.92 102.87 0)
+		(at -11.43 -1.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17521,7 +17561,7 @@
 		(uuid "ee5e273e-d615-492a-8c2a-8c7a59e5c5fe")
 	)
 	(label "SRAM.A14"
-		(at 121.92 105.41 0)
+		(at -11.43 1.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17531,7 +17571,7 @@
 		(uuid "f06bf322-08e0-4795-b5ab-0ed9b8970686")
 	)
 	(label "SRAM.A16"
-		(at 121.92 133.35 0)
+		(at -11.43 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17551,7 +17591,7 @@
 		(uuid "f4325aa3-8554-4d57-95dd-eb8643a37539")
 	)
 	(label "SRAM.IO1"
-		(at 186.69 146.05 180)
+		(at 53.34 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17561,7 +17601,7 @@
 		(uuid "f4386760-9ec4-4938-b9db-bfb0c8ad345f")
 	)
 	(label "~{OE}"
-		(at 121.92 125.73 0)
+		(at -11.43 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17571,7 +17611,7 @@
 		(uuid "f4f087a2-d4d4-4ca5-9322-86dac1d614b9")
 	)
 	(label "SRAM.IO11"
-		(at 121.92 128.27 0)
+		(at -11.43 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17581,7 +17621,7 @@
 		(uuid "f86bd88b-e9e6-45e2-abdc-64271a3176d2")
 	)
 	(label "SRAM.IO10"
-		(at 121.92 113.03 0)
+		(at -11.43 8.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17614,7 +17654,7 @@
 	)
 	(hierarchical_label "SRAM.~{UB}"
 		(shape input)
-		(at 97.79 123.19 180)
+		(at -35.56 19.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17658,7 +17698,7 @@
 	)
 	(hierarchical_label "SRAM.~{OE}"
 		(shape input)
-		(at 97.79 125.73 180)
+		(at -35.56 21.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17746,7 +17786,7 @@
 	)
 	(hierarchical_label "SRAM.~{LB}"
 		(shape input)
-		(at 97.79 97.79 180)
+		(at -35.56 -6.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17757,7 +17797,7 @@
 	)
 	(hierarchical_label "SRAM.~{WE}"
 		(shape input)
-		(at 97.79 138.43 180)
+		(at -35.56 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
