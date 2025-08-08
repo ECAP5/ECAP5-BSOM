@@ -7454,16 +7454,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 53.34) (xy 110.49 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ecde48e-71d8-4bf5-bdc0-c91cda09b500")
-	)
-	(wire
-		(pts
 			(xy 227.33 78.74) (xy 260.35 78.74)
 		)
 		(stroke
@@ -8552,6 +8542,16 @@
 		)
 		(uuid "f53264b1-40d4-4f79-a498-d7d81199a2e9")
 	)
+	(wire
+		(pts
+			(xy 110.49 53.34) (xy 115.57 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f54cd32e-8a36-46f3-8485-715fd4276b02")
+	)
 	(bus
 		(pts
 			(xy 146.05 116.84) (xy 146.05 121.92)
@@ -8753,7 +8753,7 @@
 		(uuid "1235f1e2-3c97-46c3-850e-c22accb86204")
 	)
 	(label "RTD7N"
-		(at 43.18 134.62 0)
+		(at 43.18 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8803,7 +8803,7 @@
 		(uuid "3063b8e4-95ef-49ed-91d7-8203c8e93f77")
 	)
 	(label "RTD20P"
-		(at 140.97 116.84 180)
+		(at 140.97 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8853,7 +8853,7 @@
 		(uuid "3e6e919e-5545-44c7-9e64-fba5cc0c97fc")
 	)
 	(label "RTD21N"
-		(at 140.97 127 180)
+		(at 140.97 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8893,7 +8893,7 @@
 		(uuid "51c3ecbf-639b-4d3e-9568-3c9847f54929")
 	)
 	(label "RTD6P"
-		(at 43.18 124.46 0)
+		(at 43.18 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8903,7 +8903,7 @@
 		(uuid "5474dd55-8b08-4154-847e-fe87daee6edf")
 	)
 	(label "RTD5N"
-		(at 43.18 119.38 0)
+		(at 43.18 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8913,7 +8913,7 @@
 		(uuid "64408f5c-1549-4b40-af5b-f7a138fc8d5f")
 	)
 	(label "RTD22N"
-		(at 140.97 134.62 180)
+		(at 140.97 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9093,7 +9093,7 @@
 		(uuid "afacfb12-f312-4936-811b-f838d13f6a85")
 	)
 	(label "RTD20N"
-		(at 140.97 119.38 180)
+		(at 140.97 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9123,7 +9123,7 @@
 		(uuid "b4f6dc91-c53c-4e62-9113-fd89a0534441")
 	)
 	(label "RTD6N"
-		(at 43.18 127 0)
+		(at 43.18 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9183,7 +9183,7 @@
 		(uuid "ce7c4627-c5fb-459b-a270-55f72efccbac")
 	)
 	(label "RTD21P"
-		(at 140.97 124.46 180)
+		(at 140.97 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9253,7 +9253,7 @@
 		(uuid "da3055c0-60c9-434c-aa16-df2b7b989dca")
 	)
 	(label "RTD7P"
-		(at 43.18 132.08 0)
+		(at 43.18 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9283,7 +9283,7 @@
 		(uuid "ed2adaf7-fb2c-4678-927f-b46e1a589ea8")
 	)
 	(label "RTD5P"
-		(at 43.18 116.84 0)
+		(at 43.18 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9333,7 +9333,7 @@
 		(uuid "fbf1c5dd-6197-4fd9-92f9-2de112c664e6")
 	)
 	(label "RTD22P"
-		(at 140.97 132.08 180)
+		(at 140.97 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10565,7 +10565,6 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7f70572e-b4a0-4961-b864-4c70c1cd23bf")
 		(property "Reference" "J13"
 			(at 92.075 44.45 0)
