@@ -1858,16 +1858,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 52.07) (xy 222.25 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25e75041-c8d7-4208-a280-b2be2edd05ba")
-	)
-	(wire
-		(pts
 			(xy 214.63 124.46) (xy 227.33 124.46)
 		)
 		(stroke
@@ -1875,6 +1865,16 @@
 			(type default)
 		)
 		(uuid "274c45e6-499d-4b23-a46e-4d0bf3edcbd7")
+	)
+	(wire
+		(pts
+			(xy 214.63 63.5) (xy 227.33 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b11507c-6665-401f-afb0-ff55813b4b59")
 	)
 	(wire
 		(pts
@@ -3413,6 +3413,16 @@
 				(justify left)
 			)
 		)
+		(pin "CLK_40MHZ" input
+			(at 214.63 63.5 0)
+			(uuid "bf9f85a5-fdec-40ed-8527-690afbf4d2af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "ecap5-bsom"
 				(path "/c5fd18a3-9aa0-4151-b6e0-94da3d606686"
@@ -3695,7 +3705,7 @@
 		)
 	)
 	(sheet
-		(at 227.33 48.26)
+		(at 227.33 59.69)
 		(size 15.24 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3710,7 +3720,7 @@
 		)
 		(uuid "7a27c590-818b-482a-bf10-a3edba6d1e5d")
 		(property "Sheetname" "Clock"
-			(at 227.1264 47.498 0)
+			(at 227.1264 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3719,7 +3729,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/clock.kicad_sch"
-			(at 240.6146 63.5 90)
+			(at 240.6146 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3729,7 +3739,7 @@
 			)
 		)
 		(pin "CLK_40MHZ" input
-			(at 227.33 52.07 180)
+			(at 227.33 63.5 180)
 			(uuid "4d2c3141-cf00-4b97-8725-0a7720763003")
 			(effects
 				(font
