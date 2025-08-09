@@ -15052,24 +15052,6 @@
 		(uuid "d69859e8-ef35-4d51-8d4d-fa3c3d2175c4")
 	)
 	(bus_entry
-		(at 55.88 134.62)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6fa47ac-18e2-473f-9657-798c2fbe594c")
-	)
-	(bus_entry
-		(at 55.88 137.16)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da9afba9-d190-47a4-9cda-75c10b2e05e0")
-	)
-	(bus_entry
 		(at 194.31 115.57)
 		(size -2.54 2.54)
 		(stroke
@@ -15344,16 +15326,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 134.62) (xy 53.34 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "130de129-1d9f-4a79-862d-39ba5783b5fd")
-	)
-	(wire
-		(pts
 			(xy 114.3 77.47) (xy 133.35 77.47)
 		)
 		(stroke
@@ -15611,16 +15583,6 @@
 			(type default)
 		)
 		(uuid "33256d28-3d89-4d46-bca2-935e91c03e37")
-	)
-	(bus
-		(pts
-			(xy 55.88 137.16) (xy 55.88 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33d53948-b6c2-4709-983f-5db32bbb9721")
 	)
 	(wire
 		(pts
@@ -15962,16 +15924,6 @@
 		)
 		(uuid "53a53aac-e746-4689-85c0-57a35b24c0ca")
 	)
-	(bus
-		(pts
-			(xy 59.69 139.7) (xy 55.88 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55b20b64-d484-4d5d-912b-c9d46e99552b")
-	)
 	(wire
 		(pts
 			(xy 200.66 133.35) (xy 200.66 132.08)
@@ -16021,16 +15973,6 @@
 			(type default)
 		)
 		(uuid "5e466331-c9fb-4099-b7fa-7a19253a2ed8")
-	)
-	(bus
-		(pts
-			(xy 55.88 139.7) (xy 55.88 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ea22844-d8a2-4347-ba4e-063ca7f9a6e6")
 	)
 	(wire
 		(pts
@@ -16331,16 +16273,6 @@
 			(type default)
 		)
 		(uuid "83c2a208-331a-4604-b3af-a10733568246")
-	)
-	(wire
-		(pts
-			(xy 40.64 132.08) (xy 53.34 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8407cb65-bef6-4bda-bde8-c9c504e6daec")
 	)
 	(wire
 		(pts
@@ -17462,16 +17394,6 @@
 		)
 		(uuid "5559c00c-d0b5-4668-9ad1-4f07d9db42e7")
 	)
-	(label "LED1"
-		(at 52.07 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "63891729-9153-49fe-8758-ab12bb0cae62")
-	)
 	(label "SRAM.A9"
 		(at 119.38 113.03 0)
 		(effects
@@ -17752,16 +17674,6 @@
 		)
 		(uuid "f2ebce7d-ead2-43dd-ab3a-7d7ad29a3cad")
 	)
-	(label "LED0"
-		(at 52.07 132.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f4325aa3-8554-4d57-95dd-eb8643a37539")
-	)
 	(label "SRAM.IO1"
 		(at 189.23 128.27 180)
 		(effects
@@ -17812,17 +17724,6 @@
 			(justify right)
 		)
 		(uuid "202dcb4a-962d-47ac-84a3-2be2c6056383")
-	)
-	(hierarchical_label "LED[0..1]"
-		(shape input)
-		(at 59.69 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6e3359d4-368f-4525-93d2-c30a1eb6d1a8")
 	)
 	(hierarchical_label "SRAM.~{OE}"
 		(shape input)
