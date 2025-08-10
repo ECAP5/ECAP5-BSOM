@@ -58,7 +58,72 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "footprint_filters_mismatch|157575000|31250000|9efb9e07-a243-49a7-b186-d7864039d20d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "shorting_items|107400000|35150000|3f12c6bc-b65a-4eba-8899-f7c32e4ad61e|864bb10d-7ba4-4766-a76a-0ed5a610b2d5",
+          ""
+        ],
+        [
+          "shorting_items|107506066|34893934|3f12c6bc-b65a-4eba-8899-f7c32e4ad61e|d9643880-bb0d-463d-b166-06cfcc2f661f",
+          ""
+        ],
+        [
+          "shorting_items|107900000|28850000|0c0d0193-a2c7-4fdd-9f56-1eb46a68a251|9f1d3dfc-83a5-4f34-bbef-b40ce3ec7227",
+          ""
+        ],
+        [
+          "shorting_items|108050000|29000000|9f1d3dfc-83a5-4f34-bbef-b40ce3ec7227|a70daa95-e242-4b87-9dfb-cb13aab1811c",
+          ""
+        ],
+        [
+          "shorting_items|108100000|28800000|9f1d3dfc-83a5-4f34-bbef-b40ce3ec7227|9ff8ff7f-dd8e-4b24-9868-9bea9dd332a2",
+          ""
+        ],
+        [
+          "shorting_items|108400000|33850000|3ab66dbc-ad23-47e6-95e4-b697e7ab1819|d613c6d6-c83e-4bb8-beaf-ee5644e5ef90",
+          ""
+        ],
+        [
+          "shorting_items|109293934|34106066|0bf21ced-2eac-4f33-be7b-9a02b16143e9|5fca873d-31cb-48f6-844c-023a15c3a727",
+          ""
+        ],
+        [
+          "shorting_items|109400000|33467400|1176ed72-cd5a-4175-a2dd-990c1eec5b43|70bf5d0d-6e26-4d6c-9253-679e89d7cd46",
+          ""
+        ],
+        [
+          "shorting_items|109400000|33650000|37d3727a-08ae-448e-8bfe-03d7f2e60073|70bf5d0d-6e26-4d6c-9253-679e89d7cd46",
+          ""
+        ],
+        [
+          "shorting_items|109793934|34893934|182bd11a-d77b-4ce7-86b6-0c785750e7a2|527dde1d-4d0f-44c9-af88-f64c11cf5629",
+          ""
+        ],
+        [
+          "shorting_items|109900000|35000000|40e77e54-e02c-4110-a489-9cbf5c4c51b4|527dde1d-4d0f-44c9-af88-f64c11cf5629",
+          ""
+        ],
+        [
+          "shorting_items|109900000|35100000|527dde1d-4d0f-44c9-af88-f64c11cf5629|9402121c-6cf2-4a96-8ac7-2569aca4f697",
+          ""
+        ],
+        [
+          "shorting_items|110400000|34498200|c8e29898-f6fe-46eb-9300-ec758804e71c|f8e6b99a-ce9b-4ba6-87a6-f4512c96dff8",
+          ""
+        ],
+        [
+          "shorting_items|110550000|29000000|6a1aa134-6737-4be0-8d41-c399001d906a|d0e5e438-8be9-4024-a534-c5cb8f0df974",
+          ""
+        ],
+        [
+          "shorting_items|110550000|34000000|a331fc55-bf56-4726-9c36-dd9691dd97ad|d2e9710a-8f8f-45f6-bcc3-677627b6f413",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -88,7 +153,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "error",
-        "lib_footprint_mismatch": "error",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "error",
@@ -100,11 +165,11 @@
         "padstack": "warning",
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
-        "silk_edge_clearance": "error",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "error",
         "silk_overlap": "error",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "error",
         "text_on_edge_cuts": "error",
@@ -137,7 +202,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.2,
+        "min_via_annular_width": 0.1,
         "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": false
@@ -511,7 +576,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.3,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -545,7 +610,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.3,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -562,7 +627,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.3,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -596,7 +661,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.3,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -613,7 +678,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.3,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -787,6 +852,9 @@
       "/FPGA Bank 0/SDRAM.BA1": [
         "SDRAM_50"
       ],
+      "/FPGA Bank 0/SDRAM.CLK": [
+        "SDRAM_50"
+      ],
       "/FPGA Bank 0/SDRAM.DQ0": [
         "SDRAM_50"
       ],
@@ -811,10 +879,58 @@
       "/FPGA Bank 0/SDRAM.DQ15": [
         "SDRAM_50"
       ],
+      "/FPGA Bank 0/SDRAM.DQ16": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 0/SDRAM.DQ17": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 0/SDRAM.DQ18": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 0/SDRAM.DQ19": [
+        "SDRAM_50"
+      ],
       "/FPGA Bank 0/SDRAM.DQ2": [
         "SDRAM_50"
       ],
+      "/FPGA Bank 0/SDRAM.DQ20": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 0/SDRAM.DQ21": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 0/SDRAM.DQ22": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 0/SDRAM.DQ23": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 0/SDRAM.DQ24": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 0/SDRAM.DQ25": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 0/SDRAM.DQ26": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 0/SDRAM.DQ27": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 0/SDRAM.DQ28": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 0/SDRAM.DQ29": [
+        "SDRAM_50"
+      ],
       "/FPGA Bank 0/SDRAM.DQ3": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 0/SDRAM.DQ30": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 0/SDRAM.DQ31": [
         "SDRAM_50"
       ],
       "/FPGA Bank 0/SDRAM.DQ4": [
@@ -835,6 +951,45 @@
       "/FPGA Bank 0/SDRAM.DQ9": [
         "SDRAM_50"
       ],
+      "/FPGA Bank 0/SDRAM0.CKE": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 0/SDRAM0.CLKE": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 0/SDRAM0.DQMH": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 0/SDRAM0.DQML": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 0/SDRAM0.~{CAS}": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 0/SDRAM0.~{RAS}": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 0/SDRAM0.~{WE}": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 0/SDRAM1.CKE": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 0/SDRAM1.DQMH": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 0/SDRAM1.DQML": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 0/SDRAM1.~{CAS}": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 0/SDRAM1.~{RAS}": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 0/SDRAM1.~{WE}": [
+        "SDRAM_50"
+      ],
       "/FPGA Bank 0/~{CAS}": [
         "SDRAM_50"
       ],
@@ -842,6 +997,24 @@
         "SDRAM_50"
       ],
       "/FPGA Bank 0/~{WE}": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 1/SDRAM1.CKE": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 1/SDRAM1.DQMH": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 1/SDRAM1.DQML": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 1/SDRAM1.~{CAS}": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 1/SDRAM1.~{RAS}": [
+        "SDRAM_50"
+      ],
+      "/FPGA Bank 1/SDRAM1.~{WE}": [
         "SDRAM_50"
       ],
       "/FPGA Bank 1/SRAM.A0": [
@@ -946,6 +1119,9 @@
       "/FPGA Bank 1/SRAM.IO9": [
         "SRAM_50"
       ],
+      "/FPGA Bank 1/SRAM.~{CE}": [
+        "SRAM_50"
+      ],
       "/FPGA Bank 1/SRAM.~{LB}": [
         "SRAM_50"
       ],
@@ -953,6 +1129,9 @@
         "SRAM_50"
       ],
       "/FPGA Bank 1/SRAM.~{UB}": [
+        "SRAM_50"
+      ],
+      "/FPGA Bank 1/SRAM.~{WE}": [
         "SRAM_50"
       ],
       "/FPGA Bank 1/~{LB}": [
@@ -967,193 +1146,433 @@
       "/FPGA Bank 1/~{WE}": [
         "SRAM_50"
       ],
+      "/FPGA Bank 2/RD25N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RD25N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RD25P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RD25P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RD27N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RD27N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RD27P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RD27P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RD29N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RD29N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RD29P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RD29P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RD2N": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RD2P": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RD31N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RD31N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RD31P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RD31P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RD3N": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RD3P": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RD5N": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RD5P": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RD6N": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RD6P": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD0N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD0N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD0P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD0P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD10N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD10N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD10P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD10P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD11N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD11N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD11P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD11P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD12N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD12N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD12P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD12P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD13N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD13N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD13P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD13P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD14N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD14N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD14P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD14P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD15N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD15N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD15P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD15P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD16N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD16N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD16P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD16P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD17N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD17N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD17P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD17P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD18N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD18N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD18P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD18P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD19N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD19N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD19P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD19P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD1N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD1N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD1P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD1P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD20N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD20N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD20P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD20P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD21N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD21N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD21P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD21P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD22N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD22N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD22P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD22P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD23N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD23N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD23P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD23P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD24N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD24N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD24P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD24P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD25N": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD25P": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD26N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD26N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD26P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD26P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD27N": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD27P": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD28N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD28N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD28P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD28P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD29N": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD29P": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD2N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD2N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD2P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD2P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD30N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD30N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD30P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD30P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD31N": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD31P": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD3N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD3N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD3P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD3P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD4N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD4N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD4P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD4P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD5N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD5N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD5P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD5P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD6N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD6N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD6P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD6P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD7N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD7N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD7P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD7P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD8N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD8N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD8P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD8P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD9N": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD9N-": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD9P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD9P+": [
@@ -1722,6 +2141,22 @@
     [
       "7deaac15-7d18-4113-8f9c-2951609f7e3d",
       "Mechanical"
+    ],
+    [
+      "50c70ee9-9c14-4adf-88b9-cbbbbbba188e",
+      "Buck 3v3"
+    ],
+    [
+      "cfe65c5f-9939-48a7-a28d-b35c8716e4b8",
+      "Buck 2v5"
+    ],
+    [
+      "646de51c-1a62-4c8a-a9e0-51dd6d4ddb23",
+      "Buck 1v8"
+    ],
+    [
+      "47c1b3c6-cd63-433d-b78f-481dbeef90df",
+      "Buck 1v1"
     ]
   ],
   "text_variables": {

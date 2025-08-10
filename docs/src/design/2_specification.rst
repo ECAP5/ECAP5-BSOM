@@ -16,7 +16,7 @@ Specification
 
 .. requirement:: U_MEMORY_02
 
-   The board shall include a 16-bit SDRAM memory IC.
+   The board shall include two 16-bit SDRAM memory ICs to form a 32-bit data bus (shared address bus, separate data/ctrl buses).
 
 .. requirement:: U_MEMORY_03
 

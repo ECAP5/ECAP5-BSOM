@@ -8,7 +8,7 @@ Stackup
    :width: 70%
    :align: center
 
-The stackup used is JLCPCB's JLC06121H-3313 1.2mm pcb stackup with a dielectric constant of 4.6.
+The stackup used is JLCPCB's JLC08121H-3313 1.2mm pcb stackup.
 
 .. flat-table:: Layer allocation
    :header-rows: 1
@@ -24,15 +24,21 @@ The stackup used is JLCPCB's JLC06121H-3313 1.2mm pcb stackup with a dielectric 
      - GND
 
    * - Inner Layer L3
-     - Power
+     - High-Speed signals
 
    * - Inner Layer L4
-     - High-Speed signals (if routed under the power plane)
+     - Power
 
    * - Inner Layer L5
-     - GND
+     - Power
 
    * - Bottom layer L6
+     - High-Speed signals
+
+   * - Bottom layer L7
+     - GND
+
+   * - Bottom layer L8
      - High-Speed signals
 
 Trace impedance
@@ -59,17 +65,13 @@ Trace impedance
 
    * - Single-ended 50ohms
      - L4
-     - 5.29mil (0,134366mm)
+     - 4.57mil (0,116mm)
      - N/A
 
    * - Differencial 100ohm
      - L4
-     - 4.37mil (0,110998mm)
+     - 4.04mil (0,102616mm)
      - 8.0mil (0,2032mm)
-
-.. note:: A 0.12mm single-ended trace will result in a 56ohm impedance on L1/L6 layers and a 53ohm impedance on L4.
-
-.. note:: A 0.12mm differencial trace will result in a 101ohm impedance on L1/L6 layers and a 97ohm impedance on L4.
 
 Signal propagation
 ------------------
@@ -84,7 +86,7 @@ The propagation speed is computed with the following formulas :
 
    v_{\text{stripline}} = \frac{c_{\text{vacuum}}}{\sqrt{Dk}}
 
-where Dkeff for a 0.12mm microstrip with a Dk of 4.6 is 2.87749 and the speed of light in vacuum is 299792458m/s.
+where Dkeff for a 0.15mm stripline with a Dk of 4.6 is 2.87749 and the speed of light in vacuum is 299792458m/s.
 
 .. flat-table:: Trace propagation on stackup layers
    :header-rows: 1
@@ -96,11 +98,11 @@ where Dkeff for a 0.12mm microstrip with a Dk of 4.6 is 2.87749 and the speed of
 
    * - L1/L6
      - Single-Ended
-     - 5.6583ps/mm
+     - ~5ps/mm
 
    * - L4
      - Single-Ended
-     - 6.6713ps/mm
+     - ~7ps/mm
 
    * - L1/L6
      - Differencial
@@ -109,5 +111,3 @@ where Dkeff for a 0.12mm microstrip with a Dk of 4.6 is 2.87749 and the speed of
    * - L4
      - Differencial
      - 
-
-.. note:: A maximum via delay of 20ps will be used.
