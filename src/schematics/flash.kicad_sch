@@ -165,19 +165,21 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 1.778 0 90)
+				(at 0.762 0.508 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -1396,15 +1398,15 @@
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 199.39 86.36 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "18ed6ed6-550d-47ff-b59d-355e0306119e")
 		(property "Reference" "C89"
-			(at 201.93 85.0962 0)
+			(at 196.85 85.0962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1413,7 +1415,7 @@
 			)
 		)
 		(property "Value" "0.47u"
-			(at 201.93 87.6362 0)
+			(at 196.85 87.6362 0)
 			(effects
 				(font
 					(size 1.27 1.27)

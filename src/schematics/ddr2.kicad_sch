@@ -165,19 +165,21 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 1.778 0 90)
+				(at 0.762 0.508 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -4025,38 +4027,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 177.8 102.87) (xy 177.8 97.79) (xy 180.34 97.79) (xy 180.34 102.87)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type color)
-				(color 255 0 0 0.1)
-			)
-			(uuid 508f669e-4cd7-4b27-be67-959e1c0eef41)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 166.37 76.2) (xy 166.37 96.52) (xy 168.91 96.52) (xy 168.91 76.2)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type color)
-				(color 255 0 0 0.1)
-			)
-			(uuid 53167f84-02d2-4e01-adf7-c4ac374ced10)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 130.81 73.66) (xy 130.81 115.57) (xy 133.35 115.57) (xy 133.35 73.66)
 			)
 			(stroke
@@ -4067,23 +4037,7 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid 6bd3f2c2-99c3-4d2c-afb3-e43f129fb903)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 166.37 120.65) (xy 166.37 105.41) (xy 168.91 105.41) (xy 168.91 120.65)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type color)
-				(color 255 0 0 0.1)
-			)
-			(uuid 9ae17455-795f-424e-8288-7c53e0f9bfc8)
+			(uuid 59cabf1d-10ce-44fc-9f3c-2ec9cb6ba1d6)
 		)
 	)
 	(rule_area
@@ -4099,7 +4053,55 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid d0363527-7545-45b4-9e6f-c12d1638e313)
+			(uuid bd87fee3-6c02-4cec-bc5c-fbfa28c48d54)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 166.37 120.65) (xy 166.37 105.41) (xy 168.91 105.41) (xy 168.91 120.65)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid bf5fa49f-6681-4130-a65a-2459dda16f00)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 166.37 76.2) (xy 166.37 96.52) (xy 168.91 96.52) (xy 168.91 76.2)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid cd809368-c072-4a3a-86e6-ca4bdbaa7f96)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 177.8 102.87) (xy 177.8 97.79) (xy 180.34 97.79) (xy 180.34 102.87)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid e7c9ac8f-05ba-482c-b8ed-c92c82fa542d)
 		)
 	)
 	(netclass_flag ""
@@ -4765,7 +4767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 138.43 35.56 0)
 			(effects
 				(font
@@ -5167,7 +5169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 138.43 52.07 0)
 			(effects
 				(font
@@ -5304,7 +5306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 163.83 52.07 0)
 			(effects
 				(font
@@ -6644,7 +6646,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 128.27 35.56 0)
 			(effects
 				(font
@@ -6918,7 +6920,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 128.27 52.07 0)
 			(effects
 				(font
