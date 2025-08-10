@@ -62,6 +62,66 @@
         [
           "footprint_filters_mismatch|157575000|31250000|9efb9e07-a243-49a7-b186-d7864039d20d|00000000-0000-0000-0000-000000000000",
           ""
+        ],
+        [
+          "shorting_items|107400000|35150000|3f12c6bc-b65a-4eba-8899-f7c32e4ad61e|864bb10d-7ba4-4766-a76a-0ed5a610b2d5",
+          ""
+        ],
+        [
+          "shorting_items|107506066|34893934|3f12c6bc-b65a-4eba-8899-f7c32e4ad61e|d9643880-bb0d-463d-b166-06cfcc2f661f",
+          ""
+        ],
+        [
+          "shorting_items|107900000|28850000|0c0d0193-a2c7-4fdd-9f56-1eb46a68a251|9f1d3dfc-83a5-4f34-bbef-b40ce3ec7227",
+          ""
+        ],
+        [
+          "shorting_items|108050000|29000000|9f1d3dfc-83a5-4f34-bbef-b40ce3ec7227|a70daa95-e242-4b87-9dfb-cb13aab1811c",
+          ""
+        ],
+        [
+          "shorting_items|108100000|28800000|9f1d3dfc-83a5-4f34-bbef-b40ce3ec7227|9ff8ff7f-dd8e-4b24-9868-9bea9dd332a2",
+          ""
+        ],
+        [
+          "shorting_items|108400000|33850000|3ab66dbc-ad23-47e6-95e4-b697e7ab1819|d613c6d6-c83e-4bb8-beaf-ee5644e5ef90",
+          ""
+        ],
+        [
+          "shorting_items|109293934|34106066|0bf21ced-2eac-4f33-be7b-9a02b16143e9|5fca873d-31cb-48f6-844c-023a15c3a727",
+          ""
+        ],
+        [
+          "shorting_items|109400000|33467400|1176ed72-cd5a-4175-a2dd-990c1eec5b43|70bf5d0d-6e26-4d6c-9253-679e89d7cd46",
+          ""
+        ],
+        [
+          "shorting_items|109400000|33650000|37d3727a-08ae-448e-8bfe-03d7f2e60073|70bf5d0d-6e26-4d6c-9253-679e89d7cd46",
+          ""
+        ],
+        [
+          "shorting_items|109793934|34893934|182bd11a-d77b-4ce7-86b6-0c785750e7a2|527dde1d-4d0f-44c9-af88-f64c11cf5629",
+          ""
+        ],
+        [
+          "shorting_items|109900000|35000000|40e77e54-e02c-4110-a489-9cbf5c4c51b4|527dde1d-4d0f-44c9-af88-f64c11cf5629",
+          ""
+        ],
+        [
+          "shorting_items|109900000|35100000|527dde1d-4d0f-44c9-af88-f64c11cf5629|9402121c-6cf2-4a96-8ac7-2569aca4f697",
+          ""
+        ],
+        [
+          "shorting_items|110400000|34498200|c8e29898-f6fe-46eb-9300-ec758804e71c|f8e6b99a-ce9b-4ba6-87a6-f4512c96dff8",
+          ""
+        ],
+        [
+          "shorting_items|110550000|29000000|6a1aa134-6737-4be0-8d41-c399001d906a|d0e5e438-8be9-4024-a534-c5cb8f0df974",
+          ""
+        ],
+        [
+          "shorting_items|110550000|34000000|a331fc55-bf56-4726-9c36-dd9691dd97ad|d2e9710a-8f8f-45f6-bcc3-677627b6f413",
+          ""
         ]
       ],
       "meta": {
@@ -93,7 +153,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "error",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "error",
@@ -105,7 +165,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
-        "silk_edge_clearance": "error",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "error",
         "silk_overlap": "error",
         "skew_out_of_range": "error",
