@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "footprint_filters_mismatch|157575000|31250000|9efb9e07-a243-49a7-b186-d7864039d20d|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -1117,6 +1122,12 @@
       "/FPGA Bank 2/RD29P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RD2N": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RD2P": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RD31N": [
         "IO_DIFF_100"
       ],
@@ -1127,6 +1138,24 @@
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RD31P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RD3N": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RD3P": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RD5N": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RD5P": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RD6N": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RD6P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD0N": [
@@ -1333,6 +1362,12 @@
       "/FPGA Bank 2/RTD24P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD25N": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD25P": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD26N": [
         "IO_DIFF_100"
       ],
@@ -1345,6 +1380,12 @@
       "/FPGA Bank 2/RTD26P+": [
         "IO_DIFF_100"
       ],
+      "/FPGA Bank 2/RTD27N": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD27P": [
+        "IO_DIFF_100"
+      ],
       "/FPGA Bank 2/RTD28N": [
         "IO_DIFF_100"
       ],
@@ -1355,6 +1396,12 @@
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD28P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD29N": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD29P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD2N": [
@@ -1379,6 +1426,12 @@
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD30P+": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD31N": [
+        "IO_DIFF_100"
+      ],
+      "/FPGA Bank 2/RTD31P": [
         "IO_DIFF_100"
       ],
       "/FPGA Bank 2/RTD3N": [
