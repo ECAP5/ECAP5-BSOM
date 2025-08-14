@@ -49,8 +49,12 @@ The goal of the pre-layout simulation is to adjust the high-speed bus terminatio
 Transient behavior
 ^^^^^^^^^^^^^^^^^^
 
+.. note:: No signal-integrity simulations are performed for revision 1.0.0
+
 Eye Diagram
 ^^^^^^^^^^^
+
+.. note:: No signal-integrity simulations are performed for revision 1.0.0
 
 Post-layout
 ```````````
@@ -60,8 +64,14 @@ The goal of the post-layout simulation is to simulate the high-speed bus taking 
 Transient behavior
 ^^^^^^^^^^^^^^^^^^
 
+.. note:: No signal-integrity simulations are performed for revision 1.0.0
+
 Eye Diagram
 ^^^^^^^^^^^
 
+.. note:: No signal-integrity simulations are performed for revision 1.0.0
+
 Crosstalk
 ^^^^^^^^^
+
+.. note:: No signal-integrity simulations are performed for revision 1.0.0
