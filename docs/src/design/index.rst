@@ -24,7 +24,6 @@ Design Document
    13_misc
    14_mechanical
    15_routing
-   16_analysis
 
 .. container:: custom-title
    

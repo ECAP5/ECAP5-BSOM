@@ -45,13 +45,15 @@ The goal of the pre-layout simulation is to adjust the high-speed bus terminatio
 
 The address and command trace stubs associated to the fly-by routing topology shall be smaller than 0.3/0.1Gbps = 3inch so no terminating resistors are needed.
 
-.. todo:: perform the pre-layout simulation to confirm the formula.
-
 Transient behavior
 ^^^^^^^^^^^^^^^^^^
 
+.. note:: No signal-integrity simulations are performed for revision 1.0.0
+
 Eye Diagram
 ^^^^^^^^^^^
+
+.. note:: No signal-integrity simulations are performed for revision 1.0.0
 
 Post-layout
 ```````````
@@ -61,11 +63,17 @@ The goal of the post-layout simulation is to simulate the high-speed bus taking 
 Transient behavior
 ^^^^^^^^^^^^^^^^^^
 
+.. note:: No signal-integrity simulations are performed for revision 1.0.0
+
 Eye Diagram
 ^^^^^^^^^^^
 
+.. note:: No signal-integrity simulations are performed for revision 1.0.0
+
 Crosstalk
 ^^^^^^^^^
+
+.. note:: No signal-integrity simulations are performed for revision 1.0.0
 
 Routing
 -------
