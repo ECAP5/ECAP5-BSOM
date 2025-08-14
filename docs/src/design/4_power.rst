@@ -317,3 +317,16 @@ Power sequencing
 ````````````````
 
 N/A
+
+Power integrity
+---------------
+
+A power integrity simulation was performed on the 1.1V rail as it is the most constrained. The voltage drop observed at 4A was 10mV which is within the range of the requirements.
+
+.. image:: ../assets/pi-voltage-drop.png
+   :width: 70%
+   :align: center
+
+.. image:: ../assets/pi-current-density.png
+   :width: 70%
+   :align: center
