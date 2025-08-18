@@ -1,0 +1,36 @@
+{
+    "tabs": {
+        "type": "annotation"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "drill": "0.6mm",
+        "spacing": "1mm",
+        "offset": "-0.4mm"
+    },
+    "framing": {
+        "type": "frame",
+        "chamferwidth": "1mm",
+        "chamferheight": "1mm"
+    },
+    "tooling": {
+        "type": "3hole",
+        "hoffset": "2.5mm",
+        "voffset": "2.5mm",
+        "size": "1.5mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "5mm",
+        "voffset": "2.5mm",
+        "coppersize": "2mm"
+    },
+    "copperfill": {
+        "type": "hatched",
+        "clearance": "2mm",
+        "width": "0.5mm"
+    },
+    "post": {
+        "millradius": "0.3mm"
+    }
+}
