@@ -9364,6 +9364,22 @@
 	(rule_area
 		(polyline
 			(pts
+				(xy 62.23 77.47) (xy 64.77 77.47) (xy 64.77 137.16) (xy 62.23 137.16)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid 27880879-c8a7-4fd4-946b-66fc3bd62235)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
 				(xy 119.38 137.16) (xy 121.92 137.16) (xy 121.92 92.71) (xy 119.38 92.71)
 			)
 			(stroke
@@ -9374,7 +9390,7 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid 38e0263e-0f82-4bc5-b40d-5c367c12ace2)
+			(uuid 97f60153-8be5-452f-9809-2abc3bd196d8)
 		)
 	)
 	(rule_area
@@ -9390,7 +9406,7 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid 4dca970d-925b-4253-a95f-ef529a38e562)
+			(uuid 9bd782f6-c165-4915-8f04-97e6252c4da6)
 		)
 	)
 	(rule_area
@@ -9406,23 +9422,7 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid 5c1a25cc-7de9-491a-8587-4374a74eae69)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 62.23 77.47) (xy 64.77 77.47) (xy 64.77 137.16) (xy 62.23 137.16)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type color)
-				(color 255 0 0 0.1)
-			)
-			(uuid 5ce9d5c4-33b2-451c-a5bb-35d64d556a20)
+			(uuid 9ce1ee6d-e115-48c3-bb3d-4620bf806864)
 		)
 	)
 	(rule_area
@@ -9438,7 +9438,7 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid 9238a079-7d56-45a9-8672-87ae7c98ec8f)
+			(uuid bf37ec5c-60f9-43b6-9d55-1c8ca222f8d0)
 		)
 	)
 	(netclass_flag ""
@@ -9651,6 +9651,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" ""
@@ -9659,6 +9660,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" ""
@@ -9667,6 +9669,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -9675,6 +9678,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Type" ""
@@ -9683,6 +9687,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouting Technology" ""
@@ -9691,6 +9696,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "5"
@@ -10671,6 +10677,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" ""
@@ -10679,6 +10686,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" ""
@@ -10687,6 +10695,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -10695,6 +10704,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Type" ""
@@ -10703,6 +10713,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouting Technology" ""
@@ -10711,6 +10722,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "5"
