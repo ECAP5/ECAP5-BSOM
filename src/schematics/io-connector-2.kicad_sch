@@ -9364,7 +9364,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 119.38 48.26) (xy 121.92 48.26) (xy 121.92 90.17) (xy 119.38 90.17)
+				(xy 119.38 137.16) (xy 121.92 137.16) (xy 121.92 92.71) (xy 119.38 92.71)
 			)
 			(stroke
 				(width 0)
@@ -9374,7 +9374,7 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid 1aceb84c-4a65-4234-83d3-6aa24479eb00)
+			(uuid 38e0263e-0f82-4bc5-b40d-5c367c12ace2)
 		)
 	)
 	(rule_area
@@ -9390,13 +9390,13 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid 39d93cc4-42d5-4d54-8738-69a7e6839b7c)
+			(uuid 4dca970d-925b-4253-a95f-ef529a38e562)
 		)
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 236.22 52.07) (xy 238.76 52.07) (xy 238.76 118.11) (xy 236.22 118.11)
+				(xy 119.38 48.26) (xy 121.92 48.26) (xy 121.92 90.17) (xy 119.38 90.17)
 			)
 			(stroke
 				(width 0)
@@ -9406,7 +9406,7 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid ada9fe84-5a85-48e9-9c46-4efb5976ee88)
+			(uuid 5c1a25cc-7de9-491a-8587-4374a74eae69)
 		)
 	)
 	(rule_area
@@ -9422,13 +9422,13 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid b8f62a5d-1a09-4649-8c07-1f32775d32e8)
+			(uuid 5ce9d5c4-33b2-451c-a5bb-35d64d556a20)
 		)
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 119.38 137.16) (xy 121.92 137.16) (xy 121.92 92.71) (xy 119.38 92.71)
+				(xy 236.22 52.07) (xy 238.76 52.07) (xy 238.76 118.11) (xy 236.22 118.11)
 			)
 			(stroke
 				(width 0)
@@ -9438,7 +9438,7 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid d310c79c-44a8-4036-bb78-7d862fb63c0f)
+			(uuid 9238a079-7d56-45a9-8672-87ae7c98ec8f)
 		)
 	)
 	(netclass_flag ""
@@ -9643,6 +9643,54 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Component" ""
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouting Technology" ""
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -10615,6 +10663,54 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Component" ""
+			(at 92.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 92.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 92.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 92.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 92.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouting Technology" ""
+			(at 92.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
