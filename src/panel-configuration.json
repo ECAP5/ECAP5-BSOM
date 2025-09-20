@@ -10,6 +10,8 @@
     },
     "framing": {
         "type": "frame",
+        "mintotalheight": "70mm",
+        "mintotalwidth": "70mm",
         "chamferwidth": "1mm",
         "chamferheight": "1mm"
     },
@@ -17,18 +19,14 @@
         "type": "3hole",
         "hoffset": "2.5mm",
         "voffset": "2.5mm",
-        "size": "1.5mm"
+        "size": "1.152mm",
+        "soldermaskmargin": "0.148mm"
     },
     "fiducials": {
         "type": "3fid",
         "hoffset": "5mm",
-        "voffset": "2.5mm",
-        "coppersize": "2mm"
-    },
-    "copperfill": {
-        "type": "hatched",
-        "clearance": "2mm",
-        "width": "0.5mm"
+        "voffset": "3.85mm",
+        "opening": "1mm"
     },
     "post": {
         "millradius": "0.3mm"
