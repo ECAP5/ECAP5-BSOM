@@ -60,6 +60,10 @@
       ],
       "drc_exclusions": [
         [
+          "clearance|107900000|28600000|01c79c67-52c4-4d3f-aef3-32a6d68f4e52|9f1d3dfc-83a5-4f34-bbef-b40ce3ec7227",
+          ""
+        ],
+        [
           "missing_courtyard|124779180|65170820|00c162a4-a181-493c-849b-031b8014abf5|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -213,8 +217,8 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.15,
-        "min_track_width": 0.1,
-        "min_via_annular_width": 0.1,
+        "min_track_width": 0.1016,
+        "min_via_annular_width": 0.1016,
         "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": false
@@ -309,6 +313,10 @@
         },
         {
           "diameter": 0.4,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.4032,
           "drill": 0.2
         },
         {
@@ -591,7 +599,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.1016,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -609,7 +617,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.1016,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -626,7 +634,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.1016,
         "diff_pair_gap": 0.2,
         "diff_pair_width": 0.12,
         "line_style": 0,
@@ -643,7 +651,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.1016,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -660,7 +668,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.1016,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -677,7 +685,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.1016,
         "diff_pair_gap": 0.2,
         "diff_pair_width": 0.12,
         "line_style": 0,
@@ -694,7 +702,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.1016,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -711,7 +719,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.1016,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
