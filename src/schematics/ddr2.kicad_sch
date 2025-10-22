@@ -362,14 +362,14 @@
 				(pin input line
 					(at -12.7 21.59 0)
 					(length 2.54)
-					(name "A2"
+					(name "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "H7"
+					(number "H3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -380,14 +380,14 @@
 				(pin input line
 					(at -12.7 19.05 0)
 					(length 2.54)
-					(name "A1"
+					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "H3"
+					(number "H7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4027,38 +4027,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 166.37 76.2) (xy 166.37 96.52) (xy 168.91 96.52) (xy 168.91 76.2)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type color)
-				(color 255 0 0 0.1)
-			)
-			(uuid 08a4ecd4-dff5-4d8c-91a2-401a3b907551)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 130.81 73.66) (xy 130.81 115.57) (xy 133.35 115.57) (xy 133.35 73.66)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type color)
-				(color 255 0 0 0.1)
-			)
-			(uuid 267b9321-6b96-48c3-baed-70b8477dd4b9)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 177.8 102.87) (xy 177.8 97.79) (xy 180.34 97.79) (xy 180.34 102.87)
 			)
 			(stroke
@@ -4069,7 +4037,7 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid 3f718aff-d6e0-41fc-b94c-2386f6ae4125)
+			(uuid 1287be4e-3734-4d84-ae0c-a510e652cb30)
 		)
 	)
 	(rule_area
@@ -4085,7 +4053,23 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid 4f5579ef-19ff-4da8-b28b-58a1e2dacf02)
+			(uuid 6fe8dd0b-a532-4adf-9bf4-a3ab07191d76)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 130.81 73.66) (xy 130.81 115.57) (xy 133.35 115.57) (xy 133.35 73.66)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid 889dc34a-051a-4f30-a7e5-9b5b94b81b1a)
 		)
 	)
 	(rule_area
@@ -4101,7 +4085,23 @@
 				(type color)
 				(color 255 0 0 0.1)
 			)
-			(uuid c82a1bb0-8cf0-4154-8df0-005a7bf58ed2)
+			(uuid 97cec1f9-0303-469f-9d9f-91fddd6d773a)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 166.37 76.2) (xy 166.37 96.52) (xy 168.91 96.52) (xy 168.91 76.2)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid a2d4eef8-b767-4a05-8825-ab85822cc086)
 		)
 	)
 	(netclass_flag ""

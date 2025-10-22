@@ -16082,12 +16082,12 @@
 		(uuid "1806cafb-f999-4551-b8c1-9384a683a724")
 	)
 	(label "FLASH.IO2"
-		(at 130.81 78.74 180)
+		(at 152.4 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "1b1b853c-faf7-46db-8351-70e33c24eae7")
 	)
@@ -16172,22 +16172,22 @@
 		(uuid "78f19691-3841-4a86-8e25-af1006069125")
 	)
 	(label "FLASH.IO3"
-		(at 130.81 76.2 180)
+		(at 152.4 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "7b625f8f-892f-4f49-b11d-c30a7ac279ff")
 	)
 	(label "FLASH.IO1"
-		(at 130.81 81.28 180)
+		(at 152.4 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "7e243692-d4f7-420e-a049-c5fbc97b1c0b")
 	)
@@ -16212,12 +16212,12 @@
 		(uuid "82fb0a95-c89b-443f-ab04-f99be9c54007")
 	)
 	(label "FLASH.IO0"
-		(at 130.81 83.82 180)
+		(at 152.4 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "8893e8cf-99be-4503-83ca-f75b58ea9d64")
 	)
@@ -18859,7 +18859,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW04021K00FKEE"
+		(property "MPN" ""
 			(at 97.79 120.65 0)
 			(effects
 				(font
@@ -18868,7 +18868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay"
+		(property "Manufacturer" ""
 			(at 97.79 120.65 0)
 			(effects
 				(font
@@ -18937,7 +18937,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 34.036 122.936 0)
 			(effects
 				(font
@@ -18982,7 +18982,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW04021K00FKEE"
+		(property "MPN" ""
 			(at 31.75 120.65 0)
 			(effects
 				(font
@@ -18991,7 +18991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay"
+		(property "Manufacturer" ""
 			(at 31.75 120.65 0)
 			(effects
 				(font
@@ -19381,7 +19381,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "10k"
 			(at 64.516 122.936 0)
 			(effects
 				(font
@@ -19426,7 +19426,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRGCQ0402F470R"
+		(property "MPN" ""
 			(at 62.23 120.65 0)
 			(effects
 				(font
@@ -19435,7 +19435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TE Connectivity / Holsworthy"
+		(property "Manufacturer" ""
 			(at 62.23 120.65 0)
 			(effects
 				(font
