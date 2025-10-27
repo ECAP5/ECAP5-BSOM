@@ -17,6 +17,21 @@
 # PORT        "pmon_sda" IO_TYPE=LVCMOS25;
 # PORT        "pmon_scl" IO_TYPE=LVCMOS25;
 
+# Flash
+
+# LOCATE COMP "flash_cs_n"  SITE "AJ3";
+# The flash clk is accessed through a custom primitive
+# LOCATE COMP "flash_io[0]" SITE "AK2";
+# LOCATE COMP "flash_io[1]" SITE "AJ2";
+# LOCATE COMP "flash_io[2]" SITE "AM2";
+# LOCATE COMP "flash_io[3]" SITE "AL1";
+#
+# PORT        "flash_cs_n"  IO_TYPE=LVCMOS33;
+# PORT        "flash_io[0]" IO_TYPE=LVCMOS33;
+# PORT        "flash_io[1]" IO_TYPE=LVCMOS33;
+# PORT        "flash_io[2]" IO_TYPE=LVCMOS33;
+# PORT        "flash_io[3]" IO_TYPE=LVCMOS33;
+
 # SRAM - Address signals
 
 # LOCATE COMP "sram_a[0]"   SITE "F20";
@@ -573,5 +588,5 @@
 # LOCATE COMP "led[0]" SITE "F15";
 # LOCATE COMP "led[1]" SITE "F16";
 #
-# PORT        "led[0]" OPENDRAIN=ON DRIVE=4 IO_TYPE=LVCMOS33;
-# PORT        "led[1]" OPENDRAIN=ON DRIVE=4 IO_TYPE=LVCMOS33;
+# PORT        "led[0]" OPENDRAIN=ON DRIVE=4;
+# PORT        "led[1]" OPENDRAIN=ON DRIVE=4;
